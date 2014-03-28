@@ -1,0 +1,10 @@
+/vendor/
+/docs/
+/app/config/*-local.php
+/tests/codeception/_log
+
+nbproject
+.DS_Store
+.idea
+*.swp
+.vagrant
