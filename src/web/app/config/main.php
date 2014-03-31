@@ -297,21 +297,21 @@ return array(
         'db'            => array(
             'tablePrefix'      => '',
             // SQLite
-            'connectionString' => 'sqlite:' . $applicationDirectory . '/data/default.db',
+            //'connectionString' => 'sqlite:' . $applicationDirectory . '/data/default.db',
             #'initSQLs'=>array('PRAGMA foreign_keys = ON'),
             // MySQL
-            #'connectionString' => 'mysql:host=localhost;dbname=p3',
-            #'emulatePrepare' => true,
-            #'username' => 'test',
-            #'password' => 'test',
-            #'charset' => 'utf8',
+            'connectionString' => 'mysql:host=172.16.17.190;dbname=etelix_web',
+            'emulatePrepare' => true,
+            'username' => 'manuelz',
+            'password' => '123',
+            'charset' => 'utf8',
         ),
-        'dbTest'        => array(
+        /*'dbTest'        => array(
             // MySQL
             'class'            => 'CDbConnection',
             'tablePrefix'      => '',
             'connectionString' => 'sqlite:' . $applicationDirectory . '/data/test.db',
-        ),
+        ),*/
         'errorHandler'  => array(
             // use 'site/error' action to display errors
             'errorAction' => 'site/error',
