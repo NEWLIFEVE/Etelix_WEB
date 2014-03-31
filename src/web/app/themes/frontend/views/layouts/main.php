@@ -25,9 +25,24 @@
 <body>
 
 <div class="container">
-    <?php $this->renderFile(
-        Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php'
-    ) ?>
+    <?php 
+
+    $this->widget('zii.widgets.CMenu',array(
+     'htmlOptions'=>array('class' => 'span12 offset6'),   
+     'items'=>array(
+            array('label'=>'¿Quienes Somos?', 'url'=>array('/site/index'),),
+            array('label'=>'Nuestros Servicios', 'url'=>array('/site/categorias'),),
+            array('label'=>'Donde Estamos', 'url'=>array('/site/favoritos')),
+            array('label'=>'Clientes', 'url'=>array('/site/perfil-datospersonales')),
+            array('label'=>'Contactos', 'url'=>array('/site/perfil-datospersonales')),
+            ),
+    ));
+
+
+
+    //$this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
+
+    ?>
     <div class="subwrapper">
         <?php echo $content; ?>
     </div>

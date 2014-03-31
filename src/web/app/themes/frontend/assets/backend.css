@@ -5486,7 +5486,7 @@
 }
 #backend .carousel-inner {
   overflow: hidden;
-  width: 100%;
+  width: 50%;
   position: relative;
 }
 #backend .carousel-inner > .item {
