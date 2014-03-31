@@ -23,23 +23,30 @@
 </head>
 
 <body>
-
 <div class="container">
+
     <?php 
+    echo '<div id="slideContainer">';
+    $this->widget('zii.widgets.CMenu', array(
+            'htmlOptions'=>array(
+                'class'=>'pull-left navlist',
+                ),
+        'items'=>Controller::getLanguageMenuItems()
+    ));
+    echo '</div>
+          <div>';
 
     $this->widget('zii.widgets.CMenu',array(
-     'htmlOptions'=>array('class' => 'span12 offset6'),   
+     'htmlOptions'=>array('class' => 'span6 offset6 navlist'),   
      'items'=>array(
             array('label'=>'¿Quienes Somos?', 'url'=>array('/site/index'),),
-            array('label'=>'Nuestros Servicios', 'url'=>array('/site/categorias'),),
+            array('label'=>'Nuestros Servicios', 'url'=>array('/site/services'),),
             array('label'=>'Donde Estamos', 'url'=>array('/site/favoritos')),
             array('label'=>'Clientes', 'url'=>array('/site/perfil-datospersonales')),
             array('label'=>'Contactos', 'url'=>array('/site/perfil-datospersonales')),
             ),
     ));
-
-
-
+    echo '</div>';
     //$this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
 
     ?>
