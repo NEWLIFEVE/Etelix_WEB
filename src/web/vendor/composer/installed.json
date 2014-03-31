@@ -313,7 +313,7 @@
         },
         "time": "2013-05-22 22:21:41",
         "type": "yii-extension",
-        "installation-source": "dist",
+        "installation-source": "source",
         "description": "IntroJs Widget for Yii php framework",
         "homepage": "https://github.com/moein7tl/Yii-IntroJS"
     },
@@ -1305,6 +1305,52 @@
         "homepage": "https://github.com/Crisu83/yii-less"
     },
     {
+        "name": "phundament/gii-template-collection",
+        "version": "dev-develop",
+        "version_normalized": "dev-develop",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/schmunk42/gii-template-collection.git",
+            "reference": "8eac214dbc57784db52f1ece8fde01277502ff5c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/schmunk42/gii-template-collection/zipball/8eac214dbc57784db52f1ece8fde01277502ff5c",
+            "reference": "8eac214dbc57784db52f1ece8fde01277502ff5c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "schmunk42/relation": "Yii Framework active record relation components"
+        },
+        "time": "2014-03-15 17:47:11",
+        "type": "library",
+        "installation-source": "source",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Tobias Munk",
+                "email": "schmunk@usrbin.de",
+                "homepage": "http://www.usrbin.de"
+            }
+        ],
+        "description": "Gii Template Collection, Model and CRUD templates with Boostrap UI",
+        "homepage": "http://phundament.com/",
+        "keywords": [
+            "autoload",
+            "dependency",
+            "package"
+        ],
+        "support": {
+            "source": "https://github.com/schmunk42/gii-template-collection/tree/develop",
+            "issues": "https://github.com/schmunk42/gii-template-collection/issues"
+        }
+    },
+    {
         "name": "phundament/lessii",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -1476,51 +1522,5 @@
         "installation-source": "dist",
         "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
         "homepage": "https://github.com/twbs/bootstrap"
-    },
-    {
-        "name": "phundament/gii-template-collection",
-        "version": "dev-develop",
-        "version_normalized": "dev-develop",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/schmunk42/gii-template-collection.git",
-            "reference": "661385cccddbe86d4752ba936b661c109d0eba40"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/schmunk42/gii-template-collection/zipball/661385cccddbe86d4752ba936b661c109d0eba40",
-            "reference": "661385cccddbe86d4752ba936b661c109d0eba40",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0"
-        },
-        "suggest": {
-            "schmunk42/relation": "Yii Framework active record relation components"
-        },
-        "time": "2014-03-28 16:24:16",
-        "type": "library",
-        "installation-source": "source",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Tobias Munk",
-                "email": "schmunk@usrbin.de",
-                "homepage": "http://www.usrbin.de"
-            }
-        ],
-        "description": "Gii Template Collection, Model and CRUD templates with Boostrap UI",
-        "homepage": "http://phundament.com/",
-        "keywords": [
-            "autoload",
-            "dependency",
-            "package"
-        ],
-        "support": {
-            "source": "https://github.com/schmunk42/gii-template-collection/tree/develop",
-            "issues": "https://github.com/schmunk42/gii-template-collection/issues"
-        }
     }
 ]

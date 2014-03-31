@@ -14,7 +14,7 @@ if (defined('YII_DEBUG') && YII_DEBUG)
 require_once(dirname(__FILE__).'/../web/vendor/autoload.php');
 
 // load Yii
-require_once('../../../yii/framework/yii.php');
+require_once(dirname(__FILE__).'/../web/vendor/yiisoft/yii/framework/yii.php');
 
 // merge configurations
 $config = CMap::mergeArray($main,$env,$local);
