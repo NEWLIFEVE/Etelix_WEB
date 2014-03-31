@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('America/Caracas');
 // config files
 $dir = realpath(dirname(__FILE__).'/..').'/';
 $main   = require($dir.'/web/app/config/main.php');

@@ -17,10 +17,8 @@ $baseUrl              = (dirname($_SERVER['SCRIPT_NAME']) == '/' || dirname($_SE
     dirname($_SERVER['SCRIPT_NAME']);
 
 $languages = array(
-    'en' => 'English',
-    'de' => 'Deutsch',
-    'lv' => 'Latviešu',
-    'ru' => 'Русский',
+    'es'=>'Spanish',
+    'en'=>'English'
 );
 
 // main application configuration
@@ -406,7 +404,7 @@ return array(
                 // backend
                 'phundament' => 'p3admin/default/index',
                 // p3pages - SEO
-                '<lang:[a-z]{2}(_[a-z]{2})?>/<pageName:[a-zA-Z0-9-._]*>-<pageId:\d+>.html'
+                '<lang:[a-z]{2}(_[a-z]{2})?>/<pageName:[a-zA-Z0-9-._]*>-<pageId:\d+>'
                              => 'p3pages/default/page',
                 // p3media - SEO
                 '<lang:[a-z]{2}(_[a-z]{2})?>/img/<preset:[a-zA-Z0-9-._]+>/<title:.+>_<id:\d+><extension:.[a-zA-Z0-9]{1,}+>'
