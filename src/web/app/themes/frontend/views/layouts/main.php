@@ -34,10 +34,11 @@
         'items'=>Controller::getLanguageMenuItems()
     ));
     echo '</div>
-          <div>';
+          <div><img src="/es/img/icon-32/logo_twitter.png_41.png">
+          <img src="/es/img/icon-32/logo_linkedin.png_39.png">';
 
-    $this->widget('zii.widgets.CMenu',array(
-     'htmlOptions'=>array('class' => 'span6 offset6 navlist'),   
+    /*$this->widget('zii.widgets.CMenu',array(
+     'htmlOptions'=>array('class' => 'span5 offset5 navlist'),   
      'items'=>array(
             array('label'=>'¿Quienes Somos?', 'url'=>array('/site/index'),),
             array('label'=>'Nuestros Servicios', 'url'=>array('/site/services'),),
@@ -45,9 +46,10 @@
             array('label'=>'Clientes', 'url'=>array('/site/perfil-datospersonales')),
             array('label'=>'Contactos', 'url'=>array('/site/perfil-datospersonales')),
             ),
-    ));
-    echo '</div>';
-    //$this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
+    ));*/
+    echo '</div><br><br><br><br>';
+
+    $this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
 
     ?>
     <div class="subwrapper">

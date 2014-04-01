@@ -24,7 +24,7 @@ $languages = array(
 // main application configuration
 return array(
     'basePath'   => $applicationDirectory,
-    'name'       => 'Phundament',
+    'name'       => 'Etelix Web',
     'theme'      => 'frontend', // theme is copied eg. from vendor/p3bootstrap
     'language'   => 'en', // default language, see also components.langHandler
     'preload'    => array(
