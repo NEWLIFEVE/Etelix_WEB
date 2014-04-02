@@ -26,7 +26,7 @@
 <div class="container">
 
     <?php 
-    echo '<div id="slideContainer">';
+    echo '<br><div id="slideContainer">';
     $this->widget('zii.widgets.CMenu', array(
             'htmlOptions'=>array(
                 'class'=>'pull-left navlist',
@@ -34,8 +34,9 @@
         'items'=>Controller::getLanguageMenuItems()
     ));
     echo '</div>
-          <div><img src="/es/img/icon-32/logo_twitter.png_41.png">
-          <img src="/es/img/icon-32/logo_linkedin.png_39.png">';
+          <div id="inbox">
+          <a href="#"><img src="/../images/logo_linkedin.png" hspace="10"></a>
+          <a href="#"><img src="/../images/logo_twitter.png" vspace="2"></a>';
 
     /*$this->widget('zii.widgets.CMenu',array(
      'htmlOptions'=>array('class' => 'span5 offset5 navlist'),   
@@ -47,9 +48,9 @@
             array('label'=>'Contactos', 'url'=>array('/site/perfil-datospersonales')),
             ),
     ));*/
-    echo '</div><br><br><br><br>';
+    echo '</div><br><br>';
 
-    $this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
+    //$this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
 
     ?>
     <div class="subwrapper">
@@ -81,6 +82,20 @@ if (Yii::app()->user->checkAccess('Editor')) {
 
 ?>
 </div>
+
+
+        <script src="/../js/jquery.menuSlider.min.js"></script>
+        <script>
+
+            $("#slideContainer2").menuSlider({thickness:"2px", speed:0.5, tStyle:"ease-out"});
+        </script>
+        <script>
+            var _gaq=[['_setAccount','UA-42261367-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
 
 </body>
 </html>

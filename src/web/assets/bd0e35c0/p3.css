@@ -11,6 +11,22 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 /* import bootrap */
+/* Carousel */
+#yw7 img
+{
+  width: 80%;
+}
+
+#yw7 a img
+{
+  width: 100%;
+}
+/* Carousel */
+.span4 a, .span4 a:hover
+{
+  color: #0a71b8;
+}
+
 .navlist li
 {
 display: inline;
@@ -23,7 +39,7 @@ padding-right: 10px;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover;
-  background-image:url('/es/img/medium/building_background-01.png_27.png');
+  background-image:url('../../../../images/building_background-01.png');
 
 }
 
@@ -36,13 +52,60 @@ padding-right: 10px;
   height: 310px;
 }
 
-#yw21{
+#yw21
+{
   font-size: 0.4em;
 }
 
 #menu{
   font-size: 1.3em;
   height: 30%;
+  color: #000000 important;
+}
+
+#menulist
+{
+  display: block;
+  margin: auto;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+}
+
+#menulist li
+{
+  display: block;
+  float: left;
+  margin-right: 45px;
+  margin-top: 10px;
+  font-size: 17.6px;
+  font-size: 1.2rem;
+  text-align: right;
+  cursor: pointer;
+  height:100%;
+  color: #000000;
+}
+
+.uptext
+{
+  position: relative;
+  top: -13px;
+}
+
+li.selectedMenuItem pre
+{
+  color: #f39322;
+}
+
+#menulist li:hover, #menulist li:hover pre
+{
+
+  color: #f39322;
+}
+
+pre:hover
+{
+  color: #f39322;
 }
 
 #colums
@@ -50,6 +113,12 @@ padding-right: 10px;
   margin-left: 0px;
 }
 
+#inbox img
+{
+  width: 16px;
+  height: 16px;
+  float: right;
+}
 
 .clearfix {
   *zoom: 1;
@@ -267,7 +336,7 @@ body {
   background-color: #fff6e7;
 }
 a {
-  color: #0088cc;
+  color: #000000;
   text-decoration: none;
 }
 a:hover,
@@ -1621,10 +1690,10 @@ address {
 }
 code,
 pre {
-  padding: 0 3px 2px;
+  padding: 0 0px 15px;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  color: #333333;
+  color: #000000;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1637,21 +1706,11 @@ code {
   white-space: nowrap;
 }
 pre {
-  display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
-  line-height: 20px;
-  word-break: break-all;
-  word-wrap: break-word;
-  white-space: pre;
-  white-space: pre-wrap;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  display: inline;
+  font-size: 17.6px;
+  font-size: 1.2rem;
+  text-align: right;
+  padding-bottom: 15px;
 }
 pre.prettyprint {
   margin-bottom: 20px;
@@ -6417,13 +6476,7 @@ a.badge:focus {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #222222;
-  border: 3px solid #ffffff;
-  -webkit-border-radius: 23px;
-  -moz-border-radius: 23px;
-  border-radius: 23px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  
 }
 .carousel-control.right {
   left: auto;
