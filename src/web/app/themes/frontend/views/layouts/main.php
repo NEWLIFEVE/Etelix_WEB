@@ -24,16 +24,16 @@
 
 <body>
 <div class="container">
-
+    <div style="background-color:#fff6e7;" id="">
     <?php 
-    echo '<br><div id="slideContainer">';
+    echo '<br>';
     $this->widget('zii.widgets.CMenu', array(
             'htmlOptions'=>array(
                 'class'=>'pull-left navlist',
                 ),
         'items'=>Controller::getLanguageMenuItems()
     ));
-    echo '</div>
+    echo '
           <div id="inbox">
           <a href="#"><img src="/../images/logo_linkedin.png" hspace="10"></a>
           <a href="#"><img src="/../images/logo_twitter.png" vspace="2"></a>';
@@ -53,6 +53,7 @@
     //$this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
 
     ?>
+    </div>
     <div class="subwrapper">
         <?php echo $content; ?>
     </div>
@@ -85,9 +86,14 @@ if (Yii::app()->user->checkAccess('Editor')) {
 
 
         <script src="/../js/jquery.menuSlider.min.js"></script>
+        <script src="/../js/web.js"></script>
+        <script type="text/javascript" src="/../js/jquery.ui.core.js"></script>
+        <script type="text/javascript" src="/../js/jquery.ui.widget.js"></script>
+        <script type="text/javascript" src="/../js/jquery.ui.rcarousel.js"></script>
         <script>
 
             $("#slideContainer2").menuSlider({thickness:"2px", speed:0.5, tStyle:"ease-out"});
+
         </script>
         <script>
             var _gaq=[['_setAccount','UA-42261367-1'],['_trackPageview']];
