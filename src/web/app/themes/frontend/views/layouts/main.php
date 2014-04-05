@@ -23,35 +23,37 @@
 </head>
 
 <body>
-
 <div class="container">
-<?php
-/*$lang=Controller::getLanguageMenuItems();
-foreach ($lang as $key => $value){
-
-//echo "<a href=''>".$value['label']."</a>";
-var_dump($value);
-}*/
-?>
-
-<!-- <div class='span12 offset6'>
-    <a href="/"></a>
-    <a href="#">Quienes Somos?</a>
-    <a href="#">Nuestros Servicios</a>
-    <a href="#">Donde Estamos</a>
-    <a href="#">Clientes</a>
-    <a href="#">Contacto</a>
-</div> -->
+    <div style="background-color:#fff6e7;" id="">
     <?php 
+    echo '<br>';
     $this->widget('zii.widgets.CMenu', array(
-        'htmlOptions'=>array(
-            'class'=>'pull-right'
+            'htmlOptions'=>array(
+                'class'=>'pull-left navlist',
+                ),
+        'items'=>Controller::getLanguageMenuItems()
+    ));
+    echo '
+          <div id="inbox">
+          <a href="#"><img src="/../images/logo_linkedin.png" hspace="10"></a>
+          <a href="#"><img src="/../images/logo_twitter.png" vspace="2"></a>';
+
+    /*$this->widget('zii.widgets.CMenu',array(
+     'htmlOptions'=>array('class' => 'span5 offset5 navlist'),   
+     'items'=>array(
+            array('label'=>'¿Quienes Somos?', 'url'=>array('/site/index'),),
+            array('label'=>'Nuestros Servicios', 'url'=>array('/site/services'),),
+            array('label'=>'Donde Estamos', 'url'=>array('/site/favoritos')),
+            array('label'=>'Clientes', 'url'=>array('/site/perfil-datospersonales')),
+            array('label'=>'Contactos', 'url'=>array('/site/perfil-datospersonales')),
             ),
-    'items'=>Controller::getLanguageMenuItems()
-));
-    /*$this->renderFile(
-        Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php'
-    )*/ ?>
+    ));*/
+    echo '</div><br><br>';
+
+    //$this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
+
+    ?>
+    </div>
     <div class="subwrapper">
         <?php echo $content; ?>
     </div>
@@ -81,6 +83,25 @@ if (Yii::app()->user->checkAccess('Editor')) {
 
 ?>
 </div>
+
+
+        <script src="/../js/jquery.menuSlider.min.js"></script>
+        <script src="/../js/web.js"></script>
+        <script type="text/javascript" src="/../js/jquery.ui.core.js"></script>
+        <script type="text/javascript" src="/../js/jquery.ui.widget.js"></script>
+        <script type="text/javascript" src="/../js/jquery.ui.rcarousel.js"></script>
+        <script>
+
+            $("#slideContainer2").menuSlider({thickness:"2px", speed:0.5, tStyle:"ease-out"});
+
+        </script>
+        <script>
+            var _gaq=[['_setAccount','UA-42261367-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
 
 </body>
 </html>
