@@ -1,0 +1,16 @@
+{
+    "name": "schmunk42/adjacency-list-behavior",
+    "description": "Yii Framework Active Record Behavior for tree structures",
+    "authors": [
+        {
+            "name": "Tobias Munk",
+            "email": "schmunk@usrbin.de"
+        }
+    ],
+    "autoload": {
+        "classmap": ["/"]
+    },
+    "require": {
+
+    }
+}

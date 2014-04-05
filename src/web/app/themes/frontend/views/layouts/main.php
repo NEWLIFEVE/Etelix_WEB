@@ -25,15 +25,38 @@
 <body>
 
 <div class="container">
-    <?php $this->renderFile(
+<?php
+/*$lang=Controller::getLanguageMenuItems();
+foreach ($lang as $key => $value){
+
+//echo "<a href=''>".$value['label']."</a>";
+var_dump($value);
+}*/
+?>
+
+<!-- <div class='span12 offset6'>
+    <a href="/"></a>
+    <a href="#">Quienes Somos?</a>
+    <a href="#">Nuestros Servicios</a>
+    <a href="#">Donde Estamos</a>
+    <a href="#">Clientes</a>
+    <a href="#">Contacto</a>
+</div> -->
+    <?php 
+    $this->widget('zii.widgets.CMenu', array(
+        'htmlOptions'=>array(
+            'class'=>'pull-right'
+            ),
+    'items'=>Controller::getLanguageMenuItems()
+));
+    /*$this->renderFile(
         Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php'
-    ) ?>
+    )*/ ?>
     <div class="subwrapper">
         <?php echo $content; ?>
     </div>
     <hr>
     <footer>
-        Powered by <a href="http://phundament.com">Phundament</a>
     </footer>
 </div>
 <!-- /container -->

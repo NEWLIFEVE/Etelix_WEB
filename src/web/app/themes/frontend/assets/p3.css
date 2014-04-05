@@ -8,6 +8,7 @@
  * paths are adjustes to work from ./www/themes/THEMENAME
  */
 /* import bootrap */
+
 .clearfix {
   *zoom: 1;
 }
@@ -210,7 +211,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fff6e7;
 }
 a {
   color: #0088cc;
@@ -4801,7 +4802,7 @@ input[type="submit"].btn.btn-mini {
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
-  color: #777777;
+  color: black;
   text-shadow: 0 1px 0 #ffffff;
 }
 .navbar .brand:hover,

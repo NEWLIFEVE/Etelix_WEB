@@ -17,10 +17,8 @@ $baseUrl              = (dirname($_SERVER['SCRIPT_NAME']) == '/' || dirname($_SE
     dirname($_SERVER['SCRIPT_NAME']);
 
 $languages = array(
-    'en' => 'English',
-    'de' => 'Deutsch',
-    'lv' => 'Latviešu',
-    'ru' => 'Русский',
+    'es'=>'Spanish',
+    'en'=>'English'
 );
 
 // main application configuration
@@ -297,21 +295,21 @@ return array(
         'db'            => array(
             'tablePrefix'      => '',
             // SQLite
-            'connectionString' => 'sqlite:' . $applicationDirectory . '/data/default.db',
+            //'connectionString' => 'sqlite:' . $applicationDirectory . '/data/default.db',
             #'initSQLs'=>array('PRAGMA foreign_keys = ON'),
             // MySQL
-            #'connectionString' => 'mysql:host=localhost;dbname=p3',
-            #'emulatePrepare' => true,
-            #'username' => 'test',
-            #'password' => 'test',
-            #'charset' => 'utf8',
+            'connectionString' => 'mysql:host=172.16.17.190;dbname=etelix_web',
+            'emulatePrepare' => true,
+            'username' => 'manuelz',
+            'password' => '123',
+            'charset' => 'utf8',
         ),
-        'dbTest'        => array(
+        /*'dbTest'        => array(
             // MySQL
             'class'            => 'CDbConnection',
             'tablePrefix'      => '',
             'connectionString' => 'sqlite:' . $applicationDirectory . '/data/test.db',
-        ),
+        ),*/
         'errorHandler'  => array(
             // use 'site/error' action to display errors
             'errorAction' => 'site/error',
@@ -406,7 +404,7 @@ return array(
                 // backend
                 'phundament' => 'p3admin/default/index',
                 // p3pages - SEO
-                '<lang:[a-z]{2}(_[a-z]{2})?>/<pageName:[a-zA-Z0-9-._]*>-<pageId:\d+>.html'
+                '<lang:[a-z]{2}(_[a-z]{2})?>/<pageName:[a-zA-Z0-9-._]*>-<pageId:\d+>'
                              => 'p3pages/default/page',
                 // p3media - SEO
                 '<lang:[a-z]{2}(_[a-z]{2})?>/img/<preset:[a-zA-Z0-9-._]+>/<title:.+>_<id:\d+><extension:.[a-zA-Z0-9]{1,}+>'

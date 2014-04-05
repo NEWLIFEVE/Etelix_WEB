@@ -66,7 +66,8 @@
         "yiiext/migrate-command":"dev-master#35f315b as 0.7.2.1",
         "yiisoft/yii":"1.1.14",
         "nordsoftware/yii-utils": "@dev",
-        "mikehaertl/translatable": "~1.1.0"
+        "mikehaertl/translatable": "~1.1.0",
+        "phundament/gii-template-collection": "3"
     },
     "require-dev":{
         "cloudhead/less.js":"1.3.*",
