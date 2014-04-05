@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `etelix_web` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `etelix_web`;
+CREATE DATABASE  IF NOT EXISTS `etel7527_web_phundament` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `etel7527_web_phundament`;
 -- MySQL dump 10.13  Distrib 5.5.35, for debian-linux-gnu (x86_64)
 --
 -- Host: 172.16.17.190    Database: etelix_web
