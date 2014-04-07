@@ -300,7 +300,7 @@ return array(
             // MySQL
             'connectionString' => 'mysql:host=localhost;dbname=etel7527_web_phundament',
             'emulatePrepare' => true,
-            'username' => 'etel7527_web',
+            'username' => 'root',
             'password' => 'Nsusfd8263',
             'charset' => 'utf8',
         ),
