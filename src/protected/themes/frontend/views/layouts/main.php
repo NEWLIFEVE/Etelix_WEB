@@ -39,7 +39,7 @@
             </header>
             <!--Contenido-->
             <div>
-                <?php //echo $content; ?>
+                <?php echo $content; ?>
             </div>
             <!--Contenido-->
             <footer>
