@@ -132,6 +132,7 @@ class CAssetManager extends CApplicationComponent
 	 */
 	public function setBasePath($value)
 	{
+		
 		if(($basePath=realpath($value))!==false && is_dir($basePath) && is_writable($basePath))
 			$this->_basePath=$basePath;
 		else

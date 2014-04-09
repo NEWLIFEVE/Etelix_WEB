@@ -10,7 +10,72 @@
 /* Fonts */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+/* Estilos de Resolucion */
+
+
+@import url(desktop.css);
+@import url(tablet.css);
+@import url(movile.css);
+
 /* import bootrap */
+/*Imagenes de redes sociales*/
+div.inbox img
+{
+  width: 16px;
+}
+
+.menu
+{
+    margin-top: 1.5em;
+}
+    /*Logo de etelix en el menu*/
+    #logo
+    {
+        padding: 1em 2em;
+        width: 200px;
+    }
+    /*Modificaciones para cabecera*/
+    ul.list_menu li
+    {
+        display: inline-block;
+        max-width: 109px;
+        min-height: 46px;
+        padding-top: 1.7em;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    ul.list_menu li a:hover
+    {
+        color: #f39322;
+    }
+    ul.list_menu li a:hover img
+    {
+        display: none;
+    }
+    ul.list_menu li a:hover img.oculta
+    {
+        display: inline;
+    }
+
+    /*imagenes en el menu*/
+    img.img_menu
+    {
+        width: 16px;
+    }
+     ul.list_menu li p
+    {
+        width: 100px;
+        padding-left: 27px;
+        margin-top: -29px;
+        font-size: 1.5em;
+        vertical-align: 
+    }
+    #ima_1 p, #ima_5 p, #ima_6 p
+    {
+        padding-top: 9px;
+    }
+
+
 
 .ui-carousel {
   width:100% important;
@@ -242,13 +307,6 @@ pre:hover a, pre a:hover
     margin-left: 15px !important;
 }
 
-#inbox img
-{
-  width: 16px;
-  height: 16px;
-  float: right;
-}
-
 .clearfix {
   *zoom: 1;
 }
@@ -464,7 +522,7 @@ textarea {
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.7em;
   line-height: 20px;
   color: #333333;
   background-image:url('../../../../images/gradient-01.png');
@@ -6794,6 +6852,11 @@ a.badge:focus {
   .hidden-phone {
     display: none !important;
   }
+    #inbox a img
+    {
+        float: right;
+        padding-left: 0.5em;
+    }
 }
 .visible-print {
   display: none !important;
@@ -9213,10 +9276,15 @@ a.badge:focus {
     height: 120px !important;
   }
 
-  #menu_image
+/*  .menu_image
   {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    margin-left: 0px;
+    text-align: center;
     width: 100% !important;
-  }
+  }*/
 
   #slider_oculto p
   {
@@ -10222,6 +10290,7 @@ div.form INPUT[type="submit"] .caret {
   .navbar-fixed-bottom .container {
     max-width: 1020px;
   }
+
   .span12 {
     max-width: 1020px;
   }
@@ -12930,4 +12999,29 @@ img {
 
   height: auto !important;
   
+}
+
+.container
+{
+  padding-top: 1em;
+  background-color:#fff6e7;
+}
+.oculta
+{
+    display: none;
+}
+.body
+{
+    width: 100%;
+}
+div.contenedor
+{
+    text-align: center;
+    background-color: #fff6e7;
+}
+div.contenedor header
+{
+    margin: 0 auto;
+    text-align: left;
+    max-width: 1020px;
 }

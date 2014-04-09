@@ -1,0 +1,16 @@
+
+.row_scroller {
+  width: 100%; 	
+  display: table;
+  content: "";
+  line-height: 1;
+}
+
+.menu_scroller {
+  width: 200px;
+  float: left;
+  min-height: 1px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
