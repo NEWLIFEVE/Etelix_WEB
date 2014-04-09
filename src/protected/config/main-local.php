@@ -10,10 +10,10 @@ return array(
         // MySQL
         /*'db'            => array(
             'tablePrefix'      => '',
-            'connectionString' => 'mysql:host=172.16.17.190;dbname=etel7527_web_phundament',
+            'connectionString' => 'mysql:host=localhost;dbname=etel7527_web_phundament',
             'emulatePrepare' => true,
-            'username' => 'manuelz',
-            'password' => '123',
+            'username' => 'root',
+            'password' => '1234',
             'charset' => 'utf8',
         ),*/
     )

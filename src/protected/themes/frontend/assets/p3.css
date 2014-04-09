@@ -29,20 +29,28 @@ div.inbox img
     margin-top: 1.5em;
 }
     /*Logo de etelix en el menu*/
-    #logo
+    /*#logo
     {
         padding: 1em 2em;
         width: 200px;
-    }
+    }*/
     /*Modificaciones para cabecera*/
+    ul.list_menu
+    {
+        padding-left: 10px;
+    }
     ul.list_menu li
     {
-        display: inline-block;
-        max-width: 109px;
-        min-height: 46px;
-        padding-top: 1.7em;
-        margin-right: 10px;
+        margin-top: 40px;
+        display: inline-table;
+        min-height: 20px;
         vertical-align: middle;
+        margin-right: 10px;
+        width: 100px;
+    }
+    ul.list_menu li a
+    {
+        padding-left: 2%;
     }
     ul.list_menu li a:hover
     {
@@ -64,16 +72,19 @@ div.inbox img
     }
      ul.list_menu li p
     {
-        width: 100px;
-        padding-left: 27px;
+        max-width: 74px;
+        padding-left: 25px;
         margin-top: -29px;
-        font-size: 1.5em;
-        vertical-align: 
+        font-size: 1.7em;
     }
     #ima_1 p, #ima_5 p, #ima_6 p
     {
         padding-top: 9px;
     }
+    li#ima_1
+    {
+        width: 76px;
+    } 
 
 
 
@@ -13004,6 +13015,7 @@ img {
 .container
 {
   padding-top: 1em;
+  padding-left: 20px;
   background-color:#fff6e7;
 }
 .oculta
@@ -13024,4 +13036,9 @@ div.contenedor header
     margin: 0 auto;
     text-align: left;
     max-width: 1020px;
+}
+.pie
+{
+  background-color:#343434;
+  color: white;
 }
