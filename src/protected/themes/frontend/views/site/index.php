@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="span12">
-        <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'top')) ?>
+        <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'header')) ?>
 	</div>
 </div>
 <div class="row">
