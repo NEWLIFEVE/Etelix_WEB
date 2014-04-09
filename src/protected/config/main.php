@@ -18,8 +18,8 @@ $baseUrl              = (dirname($_SERVER['SCRIPT_NAME']) == '/' || dirname($_SE
     dirname($_SERVER['SCRIPT_NAME']);
 
 $languages = array(
-    'es'=>'Spanish',
-    'en'=>'English'
+    'es'=>'Espanol',
+    'en'=>'Ingles'
 );
 
 // main application configuration
