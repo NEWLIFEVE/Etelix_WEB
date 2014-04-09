@@ -13030,3 +13030,8 @@ div.contenedor header
     text-align: left;
     max-width: 1020px;
 }
+.pie
+{
+  background-color:#343434;
+  color: white;
+}

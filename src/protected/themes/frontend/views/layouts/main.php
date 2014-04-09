@@ -21,79 +21,81 @@
     </head>
     <body>
         <div class="container">
-            <?php
-                $this->widget('zii.widgets.CMenu', array(
-                    'htmlOptions'=>array(
-                        'class'=>'pull-left navlist',
-                        ),
-                    'items'=>Controller::getLanguageMenuItems()
-                    )
-                );
-            ?>
-            <div class="span2 offset9 inbox">
-                <a href='#'><img src='/../images/logo_linkedin.png' hspace='10'></a>
-                <a href='#'><img src='/../images/logo_twitter.png' vspace='2'></a>
-            </div>
-            <!--va para el widget-->
-            <div class="row-fluid">
-                <div class="span3">
-                    <img alt="etelix" id="logo" src="/images/logo_etelix.png" />
+            <header>
+                <?php
+                    $this->widget('zii.widgets.CMenu', array(
+                        'htmlOptions'=>array(
+                            'class'=>'pull-left navlist',
+                            ),
+                        'items'=>Controller::getLanguageMenuItems()
+                        )
+                    );
+                ?>
+                <div class="span2 offset9 inbox">
+                    <a href='#'><img src='/../images/logo_linkedin.png' hspace='10'></a>
+                    <a href='#'><img src='/../images/logo_twitter.png' vspace='2'></a>
                 </div>
-                <div class="span9">
-                    <ul class="list_menu">
-                        <li class="selectedMenuItem" id="ima_1">
-                            <a class="fancybox" href="#">
-                                <img class="img_menu" src="/images/icn_inicio_gris.png" />
-                                <img class="img_menu oculta" src="/images/icn_inicio_orange.png" />
-                                <p>Inicio</p>
-                            </a>
-                        </li>
-                        <li id="ima_2">
-                            <a class="fancybox" href="#">
-                                <img class="img_menu" src="/images/icn_quienes_somos_gris.png" />
-                                <img class="img_menu oculta" src="/images/icn_quienes_somos_orange.png" />
-                                <p>&iquest;Qui&eacute;nes Somos?</p>
-                            </a>
-                        </li>
-                        <li id="ima_3">
-                            <a class="fancybox" href="#">
-                                <img class="img_menu" src="/images/icn_nuestros_servicios_gris.png" />
-                                <img class="img_menu oculta" src="/images/icn_nuestros_servicios_orange.png" />
-                                <p>Nuestros Servicios</p>
-                            </a>
-                        </li>
-                        <li id="ima_4">
-                            <a class="fancybox" href="#">
-                                <img class="img_menu" src="/images/icn_donde_estamos_gris.png" />
-                                <img class="img_menu oculta" src="/images/icn_donde_estamos_orange.png" />
-                                <p>D&oacute;nde Estamos?</p>
-                            </a>
-                        </li>
-                        <li id="ima_5">
-                            <a class="fancybox" href="#">
-                                <img class="img_menu" src="/images/icn_clientes_gris.png" />
-                                <img class="img_menu oculta" src="/images/icn_clientes_orange.png" />
-                                <p>Clientes</p>
-                            </a>
-                        </li>
-                        <li id="ima_6">
-                            <a class="fancybox" href="#">
-                                <img class="img_menu" src="/images/icn_contacto_gris.png" />
-                                <img class="img_menu oculta" src="/images/icn_contacto_orange.png" />
-                                <p>Contacto</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <?php //$this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'header')) ?>
-            <!--va para el widget-->
+                <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'header')) ?>            
+            </header>
             <!--Contenido-->
             <div>
-                <?php echo $content; ?>
+                <?php //echo $content; ?>
             </div>
             <!--Contenido-->
-            <div class="row">
+            <footer>
+                <div class="container pie">
+                    <div class="span4">
+                            <strong>Cont&aacute;ctanos</strong>
+                            <img src="/images/usa_flag.png"/>
+                            <img src="/images/peru_flag.png"/>
+                            <img src="/images/venezuela_fñag.png"/>
+                            <p> Av. Francisco de Miranda, Torre Delta, piso 10,&nbsp;of. 10 A-B, Altamira, Caracas, Venezuela. Tel&eacute;fono: +58 (212) 740-1112 Fax: +58 (212) 740-1117&nbsp;</p>
+                            <div>
+                                <a class="fancybox" href="#">
+                                    Escr&iacute;benos 
+                                    <img alt="" src="/images/white_sobre.png"/>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="span4">
+                        <div class="row-fluid">
+                            <ul>
+                                <li><strong>Qui&eacute;nes Somos</strong></li>
+                                <li>Nuestra Organizaci&oacute;n</li>
+                                <li>Misi&oacute;n</li>
+                                <li>Visi&oacute;n</li>
+                                <li></li>
+                                <li><strong>D&oacute;nde Estamos</strong></li>
+                                <li>Mapa Interactivo</li>
+                            </ul>
+                            <ul>
+                                <li><strong>Nuestros Servicios</strong></li>
+                                <li>Servicios de Interconexi&oacute;n Internacional de Voz</li>
+                                <li>SMS</li>
+                                <li>Conectividad Internacional</li>
+                                <li>Contact Center</li>
+                                <li>Plataforma de Pagos</li>
+                                <li>Puntos de Venta Integrales</li>
+                                <li>Servicios de Hosting</li>
+                                <li>Desarrollo de Software</li>
+                                <li>Servicios Profesionales</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <ul>
+                            <li><strong>Clientes</strong></li>
+                            <li>Nuestros Clientes</li>
+                            <li><strong>Cont&aacute;ctanos</strong></li>
+                            <li>E-mail</li>
+                            <li>USA</li>
+                            <li>Per&uacute;</li>
+                            <li>Venezuela</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!-- <div class="row">
                 <div class="span3">
                     
                 </div>
@@ -104,7 +106,7 @@
                     </div>
                 </div>
                 <div class="span3"></div>
-            </div>
+            </div> -->
         </div>
         <!-- /container -->
         <!-- <header>
