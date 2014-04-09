@@ -1,5 +1,5 @@
 src/vendor/
-src/web/assets/
+src/web/assets/*
 /docs/
 /app/config/*-local.php
 /tests/codeception/_log
