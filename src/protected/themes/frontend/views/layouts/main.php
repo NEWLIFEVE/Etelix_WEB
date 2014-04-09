@@ -42,7 +42,7 @@
                 <?php echo $content; ?>
             </div>
             <!--Contenido-->
-            <footer>
+            <!--<footer>
                 <div class="container pie">
                     <div class="span4">
                             <strong>Cont&aacute;ctanos</strong>
@@ -94,7 +94,7 @@
                         </ul>
                     </div>
                 </div>
-            </footer>
+            </footer>--> 
             <!-- <div class="row">
                 <div class="span3">
                     
