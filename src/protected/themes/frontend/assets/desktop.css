@@ -42,60 +42,89 @@
   height: 30px;
 }
 
-.long_text p{
-  width: 160px;
+.container_services {
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-image: url("../../../../images/background_servicios-01.png"); 
+  background-size: cover; 
+  width: 100%; 
+  margin: 0 auto;
+  height: 4159px;
 }
 
 .serv_1 {
-	background: url(../../../../images/serv_1_voz-01.png) center center no-repeat;
 	height: 462px;
+  clear:both;
 }
 
 .serv_2 {
-	background: url(../../../../images/serv_5-01.png) center center no-repeat;
 	height: 462px;
+  clear:both;
 }
 
 .serv_3 {
-	background: url(../../../../images/serv_3-01.png) center center no-repeat;
 	height: 462px;
+  clear:both;
 }
 
 .serv_4 {
-	background: url(../../../../images/serv_4-01.png) center center no-repeat;
 	height: 462px;
+  clear:both;
 }
 
 .serv_5 {
-	background: url(../../../../images/serv_5-01.png) center center no-repeat;
 	height: 462px;
+  clear:both;
 }
 
 .serv_6 {
-	background: url(../../../../images/serv_3-01.png) center center no-repeat;
 	height: 462px;
+  clear:both;
 }
 
 .serv_7 {
-	background: url(../../../../images/serv_7-01.png) center center no-repeat;
 	height: 462px;
+  clear:both;
 }
 
 .serv_8 {
-	background: url(../../../../images/serv_8-01.png) center center no-repeat;
 	height: 462px;
+  clear:both;
 }
 
 .serv_9 {
-	background: url(../../../../images/serv_4-01.png) center center no-repeat;
 	height: 462px;
-}
-
-.serv_1 p, .serv_2 p, .serv_3 p, .serv_4 p, .serv_5 p, .serv_6 p, .serv_7 p , .serv_8 p, .serv_9 p{
-	color: #FFFFFF;
-	font-size: 2em;
-	padding: 5%;
-	font-weight: bold;
+  clear:both;
 }
 
 
+.long_text p {
+  width: 160px;
+}
+
+.serv_1 p.text_title, .serv_2 p.text_title, .serv_3 p.text_title, .serv_4 p.text_title, .serv_5 p.text_title, 
+.serv_6 p.text_title, .serv_7 p.text_title, .serv_8 p.text_title, .serv_9 p.text_title {
+  font-size: 2.3em !important;
+  color: #FFFFFF;
+  padding: 5%;
+  font-weight: bold;
+}
+
+.serv_1 p.text_title img, .serv_2 p.text_title img, .serv_3 p.text_title img, .serv_4 p.text_title img, 
+.serv_5 p.text_title img, .serv_6 p.text_title img, .serv_7 p.text_title img, .serv_8 p.text_title img,
+.serv_9 p.text_title img {
+  float: right;
+}
+
+.serv_1 p.text_content, .serv_2 p.text_content, .serv_3 p.text_content, .serv_4 p.text_content, .serv_5 p.text_content,
+.serv_6 p.text_content, .serv_7 p.text_content, .serv_8 p.text_content, .serv_9 p.text_content{
+  font-size: 1.5em !important;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 27%;
+  height:auto; 
+  word-wrap: break-word; 
+  vertical-align:middle;
+}
