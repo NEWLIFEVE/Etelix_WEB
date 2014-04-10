@@ -52,15 +52,15 @@ div.inbox img
     {
         padding-left: 2%;
     }
-    ul.list_menu li a:hover
+    ul.list_menu li:hover a p
     {
         color: #f39322;
     }
-    ul.list_menu li a:hover img
+    ul.list_menu li:hover a img
     {
         display: none;
     }
-    ul.list_menu li a:hover img.oculta
+    ul.list_menu li:hover a img.oculta
     {
         display: inline;
     }

@@ -27,7 +27,7 @@ return array(
     'basePath'   => $applicationDirectory,
     'name'       => 'Etelix Web',
     'theme'      => 'frontend', // theme is copied eg. from vendor/p3bootstrap
-    'language'   => 'en', // default language, see also components.langHandler
+    'language'   => 'es', // default language, see also components.langHandler
     'preload'    => array(
         'log',
         'langHandler',
@@ -299,10 +299,10 @@ return array(
             //'connectionString' => 'sqlite:' . $applicationDirectory . '/data/default.db',
             #'initSQLs'=>array('PRAGMA foreign_keys = ON'),
             // MySQL
-            'connectionString' => 'mysql:host=172.16.17.190;dbname=etel7527_web_phundament',
+            'connectionString' => 'mysql:host=localhost;dbname=etel7527_web_phundament',
             'emulatePrepare' => true,
-            'username' => 'manuelz',
-            'password' => '123',
+            'username' => 'root',
+            'password' => '1234',
             'charset' => 'utf8',
         ),
         /*'dbTest'        => array(
