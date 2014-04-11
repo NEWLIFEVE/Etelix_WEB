@@ -34,21 +34,16 @@
         'items'=>Controller::getLanguageMenuItems()
     ));
     echo '
+          <div id="inbox">';
+
+    echo '</div><br><br>';
+    /*echo '
           <div id="inbox">
           <a href="#"><img src="/../images/logo_linkedin.png" hspace="10"></a>
           <a href="#"><img src="/../images/logo_twitter.png" vspace="2"></a>';
 
-    /*$this->widget('zii.widgets.CMenu',array(
-     'htmlOptions'=>array('class' => 'span5 offset5 navlist'),   
-     'items'=>array(
-            array('label'=>'¿Quienes Somos?', 'url'=>array('/site/index'),),
-            array('label'=>'Nuestros Servicios', 'url'=>array('/site/services'),),
-            array('label'=>'Donde Estamos', 'url'=>array('/site/favoritos')),
-            array('label'=>'Clientes', 'url'=>array('/site/perfil-datospersonales')),
-            array('label'=>'Contactos', 'url'=>array('/site/perfil-datospersonales')),
-            ),
-    ));*/
-    echo '</div><br><br>';
+    echo '</div><br><br>';*/
+
 
     //$this->renderFile(Yii::getPathOfAlias('application.themes.frontend.views.layouts') . DIRECTORY_SEPARATOR . '_menu.php') 
 
