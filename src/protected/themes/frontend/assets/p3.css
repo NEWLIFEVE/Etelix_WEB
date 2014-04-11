@@ -536,7 +536,8 @@ body {
   font-size: 0.7em;
   line-height: 20px;
   color: #333333;
-  background-image:url('../../../../images/gradient-01.png');
+  /*background-image:url('../../../../images/gradient-01.png');*/
+  background-color: #5a6f82;
 }
 a {
   color: #000000;
