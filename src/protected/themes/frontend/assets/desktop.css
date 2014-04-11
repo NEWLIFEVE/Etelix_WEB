@@ -1,4 +1,8 @@
 
+header {
+  background-color: #fff6e7;
+}
+
 .container {
   padding-left: -20px !important;
 }
@@ -10,10 +14,6 @@
   padding-right: 5%;
   display: table;
   background-color: #fff6e7;
-}
-
-.content-panel {
-	background-color: #fff6e7;
 }
 
 .menu_scroller {
@@ -136,4 +136,31 @@
   height:auto; 
   word-wrap: break-word; 
   vertical-align:middle;
+}
+
+.paragraph_title {
+  height: 35px;
+  font-size: 1.3em;
+}
+
+.paragraph {
+  margin-top: 15px;
+  height: 90px;
+}
+
+img.pais {
+  cursor: pointer;
+}
+
+p.direction {
+  margin-right: 65px !important;
+}
+
+.correo {
+  float:right;
+  background-color:#eb5c29;
+  width: 83%;
+  color: #FFFFFF;
+  font-size: 1.7em;
+  padding:10px;
 }

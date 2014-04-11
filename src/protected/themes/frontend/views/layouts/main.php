@@ -32,8 +32,8 @@
                     );
                 ?>
                 <div class="span2 offset9 inbox">
-                    <a href='#'><img src='/../images/logo_linkedin.png' hspace='10'></a>
-                    <a href='#'><img src='/../images/logo_twitter.png' vspace='2'></a>
+                    <!-- <a href='#'><img src='/../images/logo_linkedin.png' hspace='10'></a>
+                    <a href='#'><img src='/../images/logo_twitter.png' vspace='2'></a> -->
                 </div>
                 <br>
                 <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'header')) ?>            
@@ -45,10 +45,10 @@
             </div>
 
             <div class="row">
-    <div class="span12">
-        <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'footer')) ?>
-    </div>
-</div> 
+                <div class="span12">
+                    <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'footer')) ?>
+                </div>
+            </div> 
  
 
             

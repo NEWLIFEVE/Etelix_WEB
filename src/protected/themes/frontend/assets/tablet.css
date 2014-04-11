@@ -2,7 +2,7 @@
 
 	.row_scroller {
 		line-height: 1;
-		display: table;
+		display: table-cell;
 		background-color: #fff6e7;
 		width: 95%;
 		padding-left: 5%;

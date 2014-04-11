@@ -301,13 +301,8 @@ return array(
             // MySQL
             'connectionString' => 'mysql:host=172.16.17.190;dbname=etel7527_web_phundament',
             'emulatePrepare' => true,
-<<<<<<< HEAD
-            'username' => 'root',
-            'password' => 'Nsusfd8263',
-=======
             'username' => 'manuelz',
             'password' => '123',
->>>>>>> 93d625d05867c3e9015f261f2dca0b5205c0f679
             'charset' => 'utf8',
         ),
         /*'dbTest'        => array(
