@@ -13,6 +13,7 @@ $localConfigFile = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'main-local.php';
 
 // convenience variables
 $applicationDirectory = realpath(dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR);
+
 $baseUrl              = (dirname($_SERVER['SCRIPT_NAME']) == '/' || dirname($_SERVER['SCRIPT_NAME']) == '\\') ? '' :
     dirname($_SERVER['SCRIPT_NAME']);
 
