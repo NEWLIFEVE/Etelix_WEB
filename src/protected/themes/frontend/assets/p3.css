@@ -12931,3 +12931,17 @@ img {
   height: auto !important;
   
 }
+
+.separator1 
+{
+    background: #556879;
+}
+.separator2 
+{
+    background: #596e81;
+    width:100%;
+}
+.separator3 
+{
+    background: #5d7388;
+}
