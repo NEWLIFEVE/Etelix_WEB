@@ -299,10 +299,10 @@ return array(
             //'connectionString' => 'sqlite:' . $applicationDirectory . '/data/default.db',
             #'initSQLs'=>array('PRAGMA foreign_keys = ON'),
             // MySQL
-            'connectionString' => 'mysql:host=172.16.17.190;dbname=etel7527_web_phundament',
+            'connectionString' => 'mysql:host=localhost;dbname=etel7527_web_phundament',
             'emulatePrepare' => true,
-            'username' => 'manuelz',
-            'password' => '123',
+            'username' => 'root',
+            'password' => 'Nsusfd8263',
             'charset' => 'utf8',
         ),
         /*'dbTest'        => array(
