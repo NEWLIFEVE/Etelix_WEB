@@ -1,4 +1,4 @@
-src/vendor/*
+src/vendor/
 src/web/assets/*
 /docs/
 /app/config/*-local.php
