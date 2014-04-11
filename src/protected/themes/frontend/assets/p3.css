@@ -13013,6 +13013,20 @@ img {
   
 }
 
+<<<<<<< HEAD
+.separator1 
+{
+    background: #556879;
+}
+.separator2 
+{
+    background: #596e81;
+    width:100%;
+}
+.separator3 
+{
+    background: #5d7388;
+=======
 .container
 {
   padding-top: 1em;
@@ -13042,4 +13056,5 @@ div.contenedor header
 {
   background-color:#343434;
   color: white;
+>>>>>>> 93d625d05867c3e9015f261f2dca0b5205c0f679
 }
