@@ -13,12 +13,13 @@ $localConfigFile = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'main-local.php';
 
 // convenience variables
 $applicationDirectory = realpath(dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR);
+
 $baseUrl              = (dirname($_SERVER['SCRIPT_NAME']) == '/' || dirname($_SERVER['SCRIPT_NAME']) == '\\') ? '' :
     dirname($_SERVER['SCRIPT_NAME']);
 
 $languages = array(
-    'es'=>'Spanish',
-    'en'=>'English'
+    'es'=>'Espanol',
+    'en'=>'Ingles'
 );
 
 // main application configuration
@@ -26,7 +27,7 @@ return array(
     'basePath'   => $applicationDirectory,
     'name'       => 'Etelix Web',
     'theme'      => 'frontend', // theme is copied eg. from vendor/p3bootstrap
-    'language'   => 'en', // default language, see also components.langHandler
+    'language'   => 'es', // default language, see also components.langHandler
     'preload'    => array(
         'log',
         'langHandler',
@@ -298,10 +299,15 @@ return array(
             //'connectionString' => 'sqlite:' . $applicationDirectory . '/data/default.db',
             #'initSQLs'=>array('PRAGMA foreign_keys = ON'),
             // MySQL
-            'connectionString' => 'mysql:host=localhost;dbname=etel7527_web_phundament',
+            'connectionString' => 'mysql:host=172.16.17.190;dbname=etel7527_web_phundament',
             'emulatePrepare' => true,
+<<<<<<< HEAD
             'username' => 'root',
             'password' => 'Nsusfd8263',
+=======
+            'username' => 'manuelz',
+            'password' => '123',
+>>>>>>> 93d625d05867c3e9015f261f2dca0b5205c0f679
             'charset' => 'utf8',
         ),
         /*'dbTest'        => array(
