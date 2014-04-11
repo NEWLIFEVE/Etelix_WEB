@@ -8,7 +8,7 @@
   line-height: 1;
   padding-left: 5%;
   padding-right: 5%;
-  display: inline-block;
+  display: table;
   background-color: #fff6e7;
 }
 
@@ -114,7 +114,7 @@
 
 .serv_1 p.text_title, .serv_2 p.text_title, .serv_3 p.text_title, .serv_4 p.text_title, .serv_5 p.text_title, 
 .serv_6 p.text_title, .serv_7 p.text_title, .serv_8 p.text_title, .serv_9 p.text_title {
-  font-size: 2.3em !important;
+  font-size: 2.0em !important;
   color: #FFFFFF;
   padding: 5%;
   font-weight: bold;

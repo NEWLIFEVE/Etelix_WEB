@@ -2,7 +2,7 @@
 
 	.row_scroller {
 		line-height: 1;
-		display: inline-block;
+		display: table;
 		background-color: #fff6e7;
 		width: 95%;
 		padding-left: 5%;
@@ -26,7 +26,7 @@
 	 }
 	.row_scroller {
 		line-height: 1;
-		display: inline-block;
+		display: table;
 		width: 95%;
 		padding-left: 5%;
         padding-right: 0%;
@@ -49,7 +49,7 @@
 	 }
 	.row_scroller {
 		line-height: 1;
-		display: inline-block;
+		display: table;
 		width: 100%;
 		padding-left: 0%;
         padding-right: 0%;
@@ -72,7 +72,7 @@
 	 }
 	.row_scroller {
 		line-height: 1;
-		display: inline-block;
+		display: table;
 		width: 100%;
 		padding-left: 0%;
         padding-right: 0%;
@@ -107,7 +107,7 @@
 	 }
 	.row_scroller {
 		line-height: 1;
-		display: inline-block;
+		display: table;
 		width: 100%;
 		padding-left: 0%;
         padding-right: 0%;
@@ -130,7 +130,7 @@
 	 }
 	.row_scroller {
 		line-height: 1;
-		display: inline-block;
+		display: table;
 		width: 100%;
 		padding-left: 0%;
         padding-right: 0%;
@@ -151,7 +151,7 @@
 
 	.row_scroller {
 		line-height: 1;
-		display: inline-block;
+		display: table;
 		width: 100%;
 		padding-left: 0%;
         padding-right: 0%;
@@ -172,7 +172,7 @@
 
 	.row_scroller {
 		line-height: 1;
-		display: inline-block;
+		display: table;
 		width: 100%;
 		padding-left: 0%;
         padding-right: 0%;
