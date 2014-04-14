@@ -17,6 +17,10 @@
 @import url(tablet.css);
 @import url(movile.css);
 
+@import url(demo.css);
+@import url(elastislide.css);
+@import url(custom.css);
+
 /* import bootrap */
 /*Imagenes de redes sociales*/
 div.inbox img
@@ -37,7 +41,8 @@ div.inbox img
     /*Modificaciones para cabecera*/
     ul.list_menu
     {
-        padding-left: 10px;
+        width: 96%;
+        margin-left: 3%;
     }
     ul.list_menu li
     {
@@ -92,7 +97,7 @@ div.inbox img
     li#ima_1
     {
         width: 76px;
-    } 
+    }
 
 
 
@@ -253,11 +258,10 @@ margin-left: 15px;
 
 #div_center
 {
+  width: 33.138%;
   border: solid 1px;
   border-left-color: #FFFFFF;
   border-right-color: #FFFFFF;
-  width: 338px;
-  height: 310px;
 }
 
 #yw21
@@ -6892,7 +6896,7 @@ a.badge:focus {
 @media (max-width: 1200px) {
   p
   {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
   }
 
 } 
@@ -9330,7 +9334,7 @@ a.badge:focus {
   }
 
   .carousel{
-    display: none;
+    display: block;
   }
 
   #carousel_oculto{
@@ -9342,7 +9346,7 @@ a.badge:focus {
   }
 
   #slider_visto{
-    display: none;
+    display: block;
   }
 
   .nav-collapse {

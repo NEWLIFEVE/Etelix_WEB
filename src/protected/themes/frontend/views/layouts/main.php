@@ -7,6 +7,8 @@
         <meta name="keywords" content="<?php echo (P3Page::getActivePage()) ? P3Page::getActivePage()->keywords : '' ?>">
         <meta name="author" content="">
 
+        <script src="/../js/modernizr.custom.17475.js"></script>
+
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,11 +43,9 @@
             <!--Contenido-->
             <div>
                 <?php echo $content; ?>
-                
-            </div>
 
-            <div class="row">
-                <div class="span12">
+            <div class="row-fluid">
+                <div class="">
                     <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'footer')) ?>
                 </div>
             </div> 
@@ -166,6 +166,15 @@
         <script type="text/javascript" src="/../js/jquery.ui.core.js"></script>
         <script type="text/javascript" src="/../js/jquery.ui.widget.js"></script>
         <script type="text/javascript" src="/../js/jquery.ui.rcarousel.js"></script>
+        <script type="text/javascript" src="/../js/jquerypp.custom.js"></script>
+        <script type="text/javascript" src="/../js/jquery.elastislide.js"></script>
+        <script type="text/javascript">
+            
+            $( '#carousel' ).elastislide( {
+                minItems : 2
+            } );
+            
+        </script>
         <script>
             $("#slideContainer2").menuSlider({thickness:"2px", speed:0.5, tStyle:"ease-out"});
         </script>
