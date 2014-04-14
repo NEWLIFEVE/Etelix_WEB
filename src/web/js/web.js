@@ -4,41 +4,69 @@ $( document ).ready(function() {
     cambioDireccion();
 
 	//IMAGEN: ¿QUIENES SOMOS?
-	chageIcon(1,'/images/icn_quienes_somos');
+	changeIcon(1,'/images/icn_quienes_somos');
     //IMAGEN: NUESTROS SERVICIOS
-    chageIcon(2,'/images/icn_nuestros_servicios');
+    changeIcon(2,'/images/icn_nuestros_servicios');
     //IMAGEN: DONDE ESTAMOS
-    chageIcon(3,'/images/icn_donde_estamos');
+    changeIcon(3,'/images/icn_donde_estamos');
     //IMAGEN: CLIENTES
-    chageIcon(4,'/images/icn_clientes');
+    changeIcon(4,'/images/icn_clientes');
     //IMAGEN: CONTACTO
-    chageIcon(5,'/images/icn_contacto');
+    changeIcon(5,'/images/icn_contacto');
 
-    $(".fancybox").on("click", function () {
-        $.fancybox({
-            href: '/images/pagina_construccion.png'
-        });
-    });
+    fancybox_window();
 
-    $(".fancybox_ingles").on("click", function () {
-        $.fancybox({
-            href: '/images/pagina_construccion_ingles.jpg'
-        });
-    });
+    changeCarousel();
+    sliderImage(7,7);
+    paginaConstruccion();
 
-    $("#colums p a").on("click", function () {
-        $.fancybox({
-            href: '/images/pagina_construccion.png'
-        });
-    }); 
-
-     
-
-
+    //captureWidth();
 
 });
 
-function chageIcon(image,ruta)
+function captureWidth()
+{
+    var resolucion = '';
+    resolucion = $(window).width();
+
+    if(resolucion < '768')
+    {
+        sliderImage(2,2);             
+    }
+    else
+    {
+        sliderImage(7,7);
+    }
+
+    $(window).resize(function() {
+
+        var resolucion = '';
+        resolucion = $(window).width();
+
+        if(resolucion < '768')
+        {
+            sliderImage(2,2);             
+        }
+        else
+        {
+            sliderImage(7,7);
+        }
+
+    });
+}
+
+function changeCarousel()
+{
+    $('#yw0').addClass('slide');
+
+    $('#yw0').prepend('<ol class="carousel-indicators">'+
+        '<li data-target="#yw0" data-slide-to="0" class=""></li>'+
+        '<li data-target="#yw0" data-slide-to="1" class=""></li>'+
+        '<li data-target="#yw0" data-slide-to="2" class=""></li>'+
+      '</ol>');
+}
+
+function changeIcon(image,ruta)
 {
 	//ESTILO APLICADO AL PRIMER ELEMENTO QUE CONTIENE LA CLASE 'selectedMenuItem'
 	if($('li#ima_'+image).hasClass('selectedMenuItem'))
@@ -106,11 +134,34 @@ function cambioDireccion()
     });
 }
 
+function fancybox_window() 
+{
 
-jQuery(function( $ ) {
+    $(".fancybox").on("click", function () {
+        $.fancybox({
+            href: '/images/pagina_construccion.png'
+        });
+    });
+
+    $(".fancybox_ingles").on("click", function () {
+        $.fancybox({
+            href: '/images/pagina_construccion_ingles.jpg'
+        });
+    });
+
+    $("#colums p a").on("click", function () {
+        $.fancybox({
+            href: '/images/pagina_construccion.png'
+        });
+    }); 
+}
+
+function sliderImage(cantidad,pasos)
+{
+
                 $( "#slider" ).rcarousel({
-                    visible: 7,
-                    step: 7
+                    visible: cantidad,
+                    step: pasos
                 });
                 
                 $( "#ui-carousel-next" )
@@ -123,9 +174,7 @@ jQuery(function( $ ) {
                             $( this ).css( "opacity", 1.0 );
                         }
                     );              
-            });
-
-jQuery(function($) {
+                
                 $("#slider_small").rcarousel({
                     visible: 2,
                     step: 2,
@@ -145,10 +194,10 @@ jQuery(function($) {
                         function() {
                             $( this ).css( "opacity", 1.0 );
                         }
-                    );                  
-            });
+                    );
+}
 
-$(function() {
+function paginaConstruccion() {
   $('a[href*=#]:not([href=#]).paralax').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -161,4 +210,4 @@ $(function() {
       }
     }
   });
-});
+}

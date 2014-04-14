@@ -41,11 +41,9 @@
             <!--Contenido-->
             <div>
                 <?php echo $content; ?>
-                
-            </div>
 
-            <div class="row">
-                <div class="span12">
+            <div class="row-fluid">
+                <div class="">
                     <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'footer')) ?>
                 </div>
             </div> 

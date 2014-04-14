@@ -37,7 +37,8 @@ div.inbox img
     /*Modificaciones para cabecera*/
     ul.list_menu
     {
-        padding-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     ul.list_menu li
     {
@@ -253,11 +254,10 @@ margin-left: 15px;
 
 #div_center
 {
+  width: 33.138%;
   border: solid 1px;
   border-left-color: #FFFFFF;
   border-right-color: #FFFFFF;
-  width: 338px;
-  height: 310px;
 }
 
 #yw21
@@ -9330,7 +9330,7 @@ a.badge:focus {
   }
 
   .carousel{
-    display: none;
+    display: block;
   }
 
   #carousel_oculto{
@@ -9342,7 +9342,7 @@ a.badge:focus {
   }
 
   #slider_visto{
-    display: none;
+    display: inline-block;
   }
 
   .nav-collapse {
