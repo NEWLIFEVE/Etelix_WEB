@@ -1,0 +1,16 @@
+@media (max-width: 767px){
+  .container {
+    padding-top: 0 !important;
+  }
+
+  .cols {
+    width: 100%;
+  }
+
+  .row-fluid .cols {
+    display: inline;
+    min-height: 30px;
+    float: left;
+    margin-left: 0%;
+  }
+}
