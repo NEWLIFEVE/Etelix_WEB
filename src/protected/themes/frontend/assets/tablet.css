@@ -18,7 +18,7 @@
 @media (min-width: 257px) and (max-width: 767px){
   .paragraph {
 	margin-top: 15px;
-	height: 90px;
+	height: 100px;
   }
   img.logo {
 	width: 90%;
@@ -216,6 +216,18 @@
 		margin-bottom: 20px;
 		margin-top: 20px;
 		color: #000000 !important;
+	}
+}
+
+@media (max-width: 320px){
+	.cliente {
+	  font-size: 1.5em;
+	}
+}
+
+@media (max-width: 400px){
+	.carousel a img {
+	  width: 65% !important;
 	}
 }
 

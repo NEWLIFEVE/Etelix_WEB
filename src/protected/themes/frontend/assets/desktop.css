@@ -190,10 +190,17 @@ p.direction {
 
 .footer p {
   margin-left: 15px;
+  font-size: 1em !important;
 }
 
 img.logo {
   width: 100%;
   margin-left: 10%;
+}
+
+.cliente {
+  color:#ec6b18;
+  font-size: 2em;
+  margin-left: 20px;
 }
 

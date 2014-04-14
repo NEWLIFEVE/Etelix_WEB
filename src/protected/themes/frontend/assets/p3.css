@@ -17,6 +17,10 @@
 @import url(tablet.css);
 @import url(movile.css);
 
+@import url(demo.css);
+@import url(elastislide.css);
+@import url(custom.css);
+
 /* import bootrap */
 /*Imagenes de redes sociales*/
 div.inbox img
@@ -6892,7 +6896,7 @@ a.badge:focus {
 @media (max-width: 1200px) {
   p
   {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
   }
 
 } 
@@ -9342,7 +9346,7 @@ a.badge:focus {
   }
 
   #slider_visto{
-    display: inline-block;
+    display: block;
   }
 
   .nav-collapse {
