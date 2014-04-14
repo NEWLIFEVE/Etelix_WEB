@@ -41,8 +41,8 @@ div.inbox img
     /*Modificaciones para cabecera*/
     ul.list_menu
     {
-        width: 90%;
-        margin-left: 5%;
+        width: 96%;
+        margin-left: 3%;
     }
     ul.list_menu li
     {
@@ -97,7 +97,7 @@ div.inbox img
     li#ima_1
     {
         width: 76px;
-    } 
+    }
 
 
 

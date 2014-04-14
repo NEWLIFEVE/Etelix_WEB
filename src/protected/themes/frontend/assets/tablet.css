@@ -26,6 +26,26 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 910px){
+    li#ima_6
+    {
+        margin-top: 0px !important;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+
+	.row-fluid .span9 {
+		width: 74.30939226519337% !important;
+		float: right !important;
+		margin-top: -100px !important;
+	}
+	.row-fluid .span3 {
+		width: 22.92817679558011% !important;
+		float: none !important;
+	}
+}
+
 
 
 @media (min-width: 980px) and (max-width: 1020px){
