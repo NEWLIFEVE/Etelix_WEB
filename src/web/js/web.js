@@ -17,12 +17,33 @@ $( document ).ready(function() {
     fancybox_window();
 
     changeCarousel();
-    sliderImage(7,7);
+    //sliderImage(7,7);
     paginaConstruccion();
 
     //captureWidth();
 
+    changeLanguageName();
+
 });
+
+
+function changeLanguageName()
+{
+    var language = '';
+    language = $('ul.pull-left.navlist li.active').text();
+
+    if(language == 'Ingles')
+    {
+        $('ul.pull-left.navlist li a').text('Spanish');
+        $('ul.pull-left.navlist li.active a').text('English');
+    }
+    else
+    {
+        $('ul.pull-left.navlist li a').text('Ingles');
+        $('ul.pull-left.navlist li.active a').text('Español');
+    }
+
+}
 
 function captureWidth()
 {
@@ -31,7 +52,7 @@ function captureWidth()
 
     if(resolucion < '768')
     {
-        sliderImage(2,2);             
+        sliderImage(2,2);         
     }
     else
     {
@@ -51,8 +72,10 @@ function captureWidth()
         {
             sliderImage(7,7);
         }
+        console.log(resolucion);
 
     });
+    
 }
 
 function changeCarousel()
