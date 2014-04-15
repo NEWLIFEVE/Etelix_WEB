@@ -13,12 +13,13 @@ $localConfigFile = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'main-local.php';
 
 // convenience variables
 $applicationDirectory = realpath(dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR);
+
 $baseUrl              = (dirname($_SERVER['SCRIPT_NAME']) == '/' || dirname($_SERVER['SCRIPT_NAME']) == '\\') ? '' :
     dirname($_SERVER['SCRIPT_NAME']);
 
 $languages = array(
-    'es'=>'Spanish',
-    'en'=>'English'
+    'es'=>'Español',
+    'en'=>'Ingles'
 );
 
 // main application configuration
@@ -26,7 +27,7 @@ return array(
     'basePath'   => $applicationDirectory,
     'name'       => 'Etelix Web',
     'theme'      => 'frontend', // theme is copied eg. from vendor/p3bootstrap
-    'language'   => 'en', // default language, see also components.langHandler
+    'language'   => 'es', // default language, see also components.langHandler
     'preload'    => array(
         'log',
         'langHandler',

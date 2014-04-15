@@ -8,6 +8,7 @@ return array(
     ),
     'components' => array(
         // MySQL
+
 //        'db'            => array(
 //            'tablePrefix'      => '',
 //            'connectionString' => 'mysql:host=172.16.17.190;dbname=etel7527_web_phundament',
@@ -16,5 +17,6 @@ return array(
 //            'password' => '123',
 //            'charset' => 'utf8',
 //        ),
+
     )
 );
