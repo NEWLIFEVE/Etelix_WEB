@@ -7,6 +7,8 @@
         <meta name="keywords" content="<?php echo (P3Page::getActivePage()) ? P3Page::getActivePage()->keywords : '' ?>">
         <meta name="author" content="">
 
+        <script src="/../js/modernizr.custom.17475.js"></script>
+
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,15 +34,24 @@
                     );
                 ?>
                 <div class="span2 offset9 inbox">
-                    <a href='#'><img src='/../images/logo_linkedin.png' hspace='10'></a>
-                    <a href='#'><img src='/../images/logo_twitter.png' vspace='2'></a>
+                    <!-- <a href='#'><img src='/../images/logo_linkedin.png' hspace='10'></a>
+                    <a href='#'><img src='/../images/logo_twitter.png' vspace='2'></a> -->
                 </div>
+                <br>
                 <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'header')) ?>            
             </header>
             <!--Contenido-->
             <div>
                 <?php echo $content; ?>
-            </div>
+
+            <div class="row-fluid">
+                <div class="">
+                    <?php $this->widget('p3widgets.components.P3WidgetContainer', array('id' => 'footer')) ?>
+                </div>
+            </div> 
+ 
+
+            
             <!--Contenido-->
             <!--<footer>
                 <div class="container pie">
@@ -155,6 +166,15 @@
         <script type="text/javascript" src="/../js/jquery.ui.core.js"></script>
         <script type="text/javascript" src="/../js/jquery.ui.widget.js"></script>
         <script type="text/javascript" src="/../js/jquery.ui.rcarousel.js"></script>
+        <script type="text/javascript" src="/../js/jquerypp.custom.js"></script>
+        <script type="text/javascript" src="/../js/jquery.elastislide.js"></script>
+        <script type="text/javascript">
+            
+            $( '#carousel' ).elastislide( {
+                minItems : 2
+            } );
+            
+        </script>
         <script>
             $("#slideContainer2").menuSlider({thickness:"2px", speed:0.5, tStyle:"ease-out"});
         </script>

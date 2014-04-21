@@ -17,6 +17,10 @@
 @import url(tablet.css);
 @import url(movile.css);
 
+@import url(demo.css);
+@import url(elastislide.css);
+@import url(custom.css);
+
 /* import bootrap */
 /*Imagenes de redes sociales*/
 div.inbox img
@@ -37,7 +41,8 @@ div.inbox img
     /*Modificaciones para cabecera*/
     ul.list_menu
     {
-        padding-left: 10px;
+        width: 96%;
+        margin-left: 3%;
     }
     ul.list_menu li
     {
@@ -75,21 +80,29 @@ div.inbox img
         max-width: 74px;
         padding-left: 25px;
         margin-top: -29px;
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     #ima_1 p, #ima_5 p, #ima_6 p
     {
         padding-top: 9px;
     }
+    #ima_3, #ima_4
+    {
+        width: 85px;
+    }
+    #ima_5
+    {
+        width: 100px;
+    }
     li#ima_1
     {
         width: 76px;
-    } 
+    }
 
 
 
 .ui-carousel {
-  width:100% important;
+  width:100% !important;
   height: 330px;
   position: relative;
 }
@@ -149,7 +162,7 @@ div.inbox img
   width: 60px;
   height: 60px;
   background: url(../../../../images/arrow-left.png) center center no-repeat;
-  display: block;
+  display: none;
   position: absolute;
   top: 145%;
   z-index: 100;
@@ -245,11 +258,10 @@ margin-left: 15px;
 
 #div_center
 {
+  width: 33.138%;
   border: solid 1px;
   border-left-color: #FFFFFF;
   border-right-color: #FFFFFF;
-  width: 338px;
-  height: 310px;
 }
 
 #yw21
@@ -536,7 +548,8 @@ body {
   font-size: 0.7em;
   line-height: 20px;
   color: #333333;
-  background-image:url('../../../../images/gradient-01.png');
+  /*background-image:url('../../../../images/gradient-01.png');*/
+  background-color: #5a6f82;
 }
 a {
   color: #000000;
@@ -6883,7 +6896,7 @@ a.badge:focus {
 @media (max-width: 1200px) {
   p
   {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
   }
 
 } 
@@ -9321,7 +9334,7 @@ a.badge:focus {
   }
 
   .carousel{
-    display: none;
+    display: block;
   }
 
   #carousel_oculto{
@@ -9333,7 +9346,7 @@ a.badge:focus {
   }
 
   #slider_visto{
-    display: none;
+    display: block;
   }
 
   .nav-collapse {
@@ -13012,6 +13025,24 @@ img {
   
 }
 
+
+.separator0 
+{
+    background: #fff6e7;
+}
+.separator1 
+{
+    background: #556879;
+}
+.separator2 
+{
+    background: #596e81;
+    width:100%;
+}
+.separator3 
+{
+    background: #5d7388;
+}
 .container
 {
   padding-top: 1em;
@@ -13041,4 +13072,5 @@ div.contenedor header
 {
   background-color:#343434;
   color: white;
+
 }
