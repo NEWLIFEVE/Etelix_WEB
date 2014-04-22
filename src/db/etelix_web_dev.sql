@@ -475,6 +475,87 @@ INSERT INTO `_p3_widget_v0_16` VALUES (1,'CWidget',0,'top','','site','index','',
 UNLOCK TABLES;
 
 --
+-- Table structure for table `AuthAssignment`
+--
+
+DROP TABLE IF EXISTS `AuthAssignment`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `AuthAssignment` (
+  `itemname` varchar(64) NOT NULL,
+  `userid` varchar(64) NOT NULL,
+  `bizrule` text,
+  `data` text,
+  KEY `fk_authitem_itemname` (`itemname`),
+  CONSTRAINT `fk_authitem_itemname` FOREIGN KEY (`itemname`) REFERENCES `AuthItem` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `AuthAssignment`
+--
+
+LOCK TABLES `AuthAssignment` WRITE;
+/*!40000 ALTER TABLE `AuthAssignment` DISABLE KEYS */;
+INSERT INTO `AuthAssignment` VALUES ('Editor','1',NULL,'N;'),('Admin','1',NULL,'N;');
+/*!40000 ALTER TABLE `AuthAssignment` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `AuthItem`
+--
+
+DROP TABLE IF EXISTS `AuthItem`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `AuthItem` (
+  `name` varchar(64) NOT NULL,
+  `type` int(11) NOT NULL,
+  `description` text,
+  `bizrule` text,
+  `data` text,
+  PRIMARY KEY (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `AuthItem`
+--
+
+LOCK TABLES `AuthItem` WRITE;
+/*!40000 ALTER TABLE `AuthItem` DISABLE KEYS */;
+INSERT INTO `AuthItem` VALUES ('Admin',2,NULL,NULL,'N;'),('Authenticated',2,'All user accounts','return !Yii::app()->user->isGuest;','N;'),('Editor',2,'Content Editor (Widgets, Media Files)',NULL,'N;'),('Guest',2,NULL,'return Yii::app()->user->isGuest;','N;'),('P3admin.Default.*',1,NULL,NULL,'N;'),('P3admin.Default.Index',0,NULL,NULL,'N;'),('P3admin.Default.Settings',0,NULL,NULL,'N;'),('P3admin.Module.*',1,NULL,NULL,'N;'),('P3media.Ckeditor.*',1,NULL,NULL,'N;'),('P3media.Default.*',1,NULL,NULL,'N;'),('P3media.File.*',1,NULL,NULL,'N;'),('P3media.Import.*',1,NULL,NULL,'N;'),('P3media.P3Media.*',1,NULL,NULL,'N;'),('P3media.P3Media.Create',0,NULL,NULL,'N;'),('P3media.P3Media.Delete',0,NULL,NULL,'N;'),('P3media.P3Media.Update',0,NULL,NULL,'N;'),('P3media.P3Media.View',0,NULL,NULL,'N;'),('P3media.P3MediaMeta.*',1,NULL,NULL,'N;'),('P3media.P3MediaTranslation.Create',0,NULL,NULL,'N;'),('P3media.P3MediaTranslation.Delete',0,NULL,NULL,'N;'),('P3media.P3MediaTranslation.Update',0,NULL,NULL,'N;'),('P3media.P3MediaTranslation.View',0,NULL,NULL,'N;'),('P3pages.Default.*',1,NULL,NULL,'N;'),('P3pages.P3Page.*',1,NULL,NULL,'N;'),('P3pages.P3Page.Create',0,NULL,NULL,'N;'),('P3pages.P3Page.Delete',0,NULL,NULL,'N;'),('P3pages.P3Page.Update',0,NULL,NULL,'N;'),('P3pages.P3Page.View',0,NULL,NULL,'N;'),('P3pages.P3PageMeta.*',1,NULL,NULL,'N;'),('P3pages.P3PageTranslation.*',1,NULL,NULL,'N;'),('P3pages.P3PageTranslation.Create',0,NULL,NULL,'N;'),('P3pages.P3PageTranslation.Delete',0,NULL,NULL,'N;'),('P3pages.P3PageTranslation.Update',0,NULL,NULL,'N;'),('P3pages.P3PageTranslation.View',0,NULL,NULL,'N;'),('P3widgets.Default.*',1,NULL,NULL,'N;'),('P3widgets.P3Widget.*',1,NULL,NULL,'N;'),('P3widgets.P3Widget.Create',0,NULL,NULL,'N;'),('P3widgets.P3Widget.Delete',0,NULL,NULL,'N;'),('P3widgets.P3Widget.Update',0,NULL,NULL,'N;'),('P3widgets.P3Widget.View',0,NULL,NULL,'N;'),('P3widgets.P3WidgetMeta.*',1,NULL,NULL,'N;'),('P3widgets.P3WidgetTranslation.*',1,NULL,NULL,'N;'),('P3widgets.P3WidgetTranslation.Create',0,NULL,NULL,'N;'),('P3widgets.P3WidgetTranslation.Delete',0,NULL,NULL,'N;'),('P3widgets.P3WidgetTranslation.Update',0,NULL,NULL,'N;'),('P3widgets.P3WidgetTranslation.View',0,NULL,NULL,'N;'),('P3widgets.Widget.*',1,'Frontend Editor',NULL,'N;');
+/*!40000 ALTER TABLE `AuthItem` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `AuthItemChild`
+--
+
+DROP TABLE IF EXISTS `AuthItemChild`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `AuthItemChild` (
+  `parent` varchar(64) NOT NULL,
+  `child` varchar(64) NOT NULL,
+  KEY `fk_authitem_parent` (`parent`),
+  KEY `fk_authitem_child` (`child`),
+  CONSTRAINT `fk_authitem_child` FOREIGN KEY (`child`) REFERENCES `AuthItem` (`name`),
+  CONSTRAINT `fk_authitem_parent` FOREIGN KEY (`parent`) REFERENCES `AuthItem` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `AuthItemChild`
+--
+
+LOCK TABLES `AuthItemChild` WRITE;
+/*!40000 ALTER TABLE `AuthItemChild` DISABLE KEYS */;
+INSERT INTO `AuthItemChild` VALUES ('Editor','P3media.Ckeditor.*'),('Editor','P3media.Default.*'),('Editor','P3media.Import.*'),('Editor','P3media.P3Media.*'),('Editor','P3media.P3MediaMeta.*'),('Editor','P3widgets.Default.*'),('Editor','P3widgets.Widget.*'),('Editor','P3widgets.P3Widget.*'),('Editor','P3widgets.P3WidgetMeta.*'),('Editor','P3widgets.P3WidgetTranslation.*'),('Editor','P3pages.Default.*'),('Editor','P3pages.P3Page.*'),('Editor','P3pages.P3PageMeta.*'),('Editor','P3pages.P3PageTranslation.*'),('Editor','P3admin.Default.Index'),('Editor','P3widgets.P3Widget.Create'),('Editor','P3widgets.P3Widget.View'),('Editor','P3widgets.P3Widget.Update'),('Editor','P3widgets.P3Widget.Delete'),('Editor','P3widgets.P3WidgetTranslation.Create'),('Editor','P3widgets.P3WidgetTranslation.View'),('Editor','P3widgets.P3WidgetTranslation.Update'),('Editor','P3widgets.P3WidgetTranslation.Delete'),('Editor','P3pages.P3Page.Create'),('Editor','P3pages.P3Page.View'),('Editor','P3pages.P3Page.Update'),('Editor','P3pages.P3Page.Delete'),('Editor','P3pages.P3PageTranslation.Create'),('Editor','P3pages.P3PageTranslation.View'),('Editor','P3pages.P3PageTranslation.Update'),('Editor','P3pages.P3PageTranslation.Delete'),('Editor','P3media.P3Media.Create'),('Editor','P3media.P3Media.View'),('Editor','P3media.P3Media.Update'),('Editor','P3media.P3Media.Delete'),('Editor','P3media.P3MediaTranslation.Create'),('Editor','P3media.P3MediaTranslation.View'),('Editor','P3media.P3MediaTranslation.Update'),('Editor','P3media.P3MediaTranslation.Delete');
+/*!40000 ALTER TABLE `AuthItemChild` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `ckeditor_style`
 --
 
@@ -524,6 +605,32 @@ CREATE TABLE `ckeditor_template` (
 LOCK TABLES `ckeditor_template` WRITE;
 /*!40000 ALTER TABLE `ckeditor_template` DISABLE KEYS */;
 /*!40000 ALTER TABLE `ckeditor_template` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Message`
+--
+
+DROP TABLE IF EXISTS `Message`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Message` (
+  `id` int(11) NOT NULL DEFAULT '0',
+  `language` varchar(16) NOT NULL DEFAULT '',
+  `translation` text,
+  PRIMARY KEY (`id`,`language`),
+  CONSTRAINT `FK_Message_SourceMessage` FOREIGN KEY (`id`) REFERENCES `SourceMessage` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Message`
+--
+
+LOCK TABLES `Message` WRITE;
+/*!40000 ALTER TABLE `Message` DISABLE KEYS */;
+INSERT INTO `Message` VALUES (1,'es','Nombre de usuario incorrecto (entre 4 y 20 caracteres).'),(2,'es','Contraseña incorrecta (mínimo 4 caracteres).'),(3,'es','Este nombre de usuario ya existe.'),(4,'es','El dirección de email ya existe.'),(8,'de','Benutzer'),(9,'de','Profil'),(10,'de','Liste'),(11,'de','Abmelden'),(12,'de','Anmelden'),(150,'es','Inicio de Sesión'),(151,'es','Por favor llene el siguiente formulario con sus datos de inicio de sesión:'),(152,'es','Los campos con <span class=\"required\"> * </span> son obligatorios.'),(153,'es','Recordarme más tarde'),(154,'es','Nombre de Usuario o Email'),(155,'es','Contraseña'),(156,'es','Registrar'),(157,'es','¿Olvidó su contraseña?'),(397,'es','Asignar'),(398,'es','Revocar'),(399,'es','Objeto'),(400,'es','Permisos'),(402,'es','Roles'),(403,'es','Tareas'),(404,'es','Operaciones'),(407,'es','No se encontraron objetos de autorización'),(408,'es','Pase el ratón para ver desde donde el permiso se hereda.'),(410,'es','Asignaciones'),(414,'es','No se encontraron usuarios'),(415,'es','Nombre'),(476,'es','Crear un nuevo rol'),(477,'es','No se encontraron roles.'),(478,'es','Descripción'),(479,'es','Reglas de negocio'),(480,'es','Datos'),(481,'es','Eliminar'),(482,'es','¿Está seguro que desea eliminar este rol?'),(483,'es','Los valores entre corchetes dicen cuantos hijos tiene cada objeto.'),(486,'es','Crear una nueva tarea'),(487,'es','No se encontraron tareas.'),(488,'es','¿Está seguro que desea eliminar esta tarea?'),(491,'es','Crear una nueva operación'),(492,'es','No se encontraron operaciones.'),(493,'es','¿Está seguro que desea eliminar esta operación?');
+/*!40000 ALTER TABLE `Message` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -867,6 +974,56 @@ LOCK TABLES `profiles_fields` WRITE;
 /*!40000 ALTER TABLE `profiles_fields` DISABLE KEYS */;
 INSERT INTO `profiles_fields` VALUES (1,'first_name','First Name','VARCHAR',255,3,2,'','','Incorrect First Name (length between 3 and 50 characters).','','','','',1,3),(2,'last_name','Last Name','VARCHAR',255,3,2,'','','Incorrect Last Name (length between 3 and 50 characters).','','','','',2,3);
 /*!40000 ALTER TABLE `profiles_fields` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Rights`
+--
+
+DROP TABLE IF EXISTS `Rights`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Rights` (
+  `itemname` varchar(64) NOT NULL,
+  `type` int(11) NOT NULL,
+  `weight` int(11) NOT NULL,
+  KEY `fk_rights_authitem_itemname` (`itemname`),
+  CONSTRAINT `fk_rights_authitem_itemname` FOREIGN KEY (`itemname`) REFERENCES `AuthItem` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Rights`
+--
+
+LOCK TABLES `Rights` WRITE;
+/*!40000 ALTER TABLE `Rights` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Rights` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `SourceMessage`
+--
+
+DROP TABLE IF EXISTS `SourceMessage`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `SourceMessage` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `category` varchar(32) DEFAULT NULL,
+  `message` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=494 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `SourceMessage`
+--
+
+LOCK TABLES `SourceMessage` WRITE;
+/*!40000 ALTER TABLE `SourceMessage` DISABLE KEYS */;
+INSERT INTO `SourceMessage` VALUES (1,'UserModule.user','Incorrect username (length between 3 and 20 characters).'),(2,'UserModule.user','Incorrect password (minimal length 4 symbols).'),(3,'UserModule.user','This user\'s name already exists.'),(4,'UserModule.user','This user\'s email address already exists.'),(5,'UserModule.user','Incorrect symbols (A-z0-9).'),(6,'P3PagesModule.module','Page not found'),(7,'app','Error'),(8,'app','User'),(9,'app','Profile'),(10,'app','List'),(11,'app','Logout'),(12,'app','Login'),(13,'app','User List'),(14,'app','Accounts'),(15,'app','Media'),(16,'app','Upload'),(17,'app','Browse'),(18,'app','Pages'),(19,'app','Sitemap'),(20,'app','Append Sibling'),(21,'app','Append Child'),(22,'app','Update Translation'),(23,'app','Create Translation'),(24,'app','Update'),(25,'app','Application'),(26,'app','Overview'),(27,'app','Dashboard'),(28,'YiiDebug.yii-debug-toolbar','TOOLBAR'),(29,'YiiDebug.yii-debug-toolbar','Request'),(30,'YiiDebug.yii-debug-toolbar','ON'),(31,'YiiDebug.yii-debug-toolbar','Settings'),(32,'YiiDebug.yii-debug-toolbar','Views Rendering'),(33,'YiiDebug.yii-debug-toolbar','SQL'),(34,'YiiDebug.yii-debug-toolbar','Logging'),(35,'YiiDebug.yii-debug-toolbar','Request Server Parameters'),(36,'YiiDebug.yii-debug-toolbar','Request Cookies'),(37,'YiiDebug.yii-debug-toolbar','Session Attributes'),(38,'YiiDebug.yii-debug-toolbar','Request GET Parameters'),(39,'YiiDebug.yii-debug-toolbar','Request POST Parameters'),(40,'YiiDebug.yii-debug-toolbar','Request FILES'),(41,'YiiDebug.yii-debug-toolbar','Application Settings'),(42,'YiiDebug.yii-debug-toolbar','Application Properties'),(43,'YiiDebug.yii-debug-toolbar','Modules'),(44,'YiiDebug.yii-debug-toolbar','Application Params'),(45,'YiiDebug.yii-debug-toolbar','Components'),(46,'YiiDebug.yii-debug-toolbar','Context'),(47,'YiiDebug.yii-debug-toolbar','SQL Queries from {n} connection|SQL Queries from {n} connections'),(48,'yii-debug-toolbar','Summary'),(49,'yii-debug-toolbar','Callstack'),(50,'yii-debug-toolbar','Servers'),(51,'yii-debug-toolbar','Connection ID'),(52,'YiiDebug.yii-debug-toolbar','Driver'),(53,'YiiDebug.yii-debug-toolbar','Server Version'),(54,'YiiDebug.yii-debug-toolbar','Uptime'),(55,'YiiDebug.yii-debug-toolbar','Threads'),(56,'YiiDebug.yii-debug-toolbar','Questions'),(57,'YiiDebug.yii-debug-toolbar','Slow queries'),(58,'YiiDebug.yii-debug-toolbar','Opens'),(59,'YiiDebug.yii-debug-toolbar','Flush tables'),(60,'YiiDebug.yii-debug-toolbar','Open tables'),(61,'YiiDebug.yii-debug-toolbar','Queries per second avg'),(62,'yii-debug-toolbar','No SQL queries were recorded during this request or profiling the SQL is DISABLED.'),(63,'YiiDebug.yii-debug-toolbar','Log Messages'),(64,'YiiDebug.yii-debug-toolbar','Message (details)'),(65,'YiiDebug.yii-debug-toolbar','Level'),(66,'YiiDebug.yii-debug-toolbar','Category'),(67,'YiiDebug.yii-debug-toolbar','Time'),(68,'P3PagesModule.module','Pages'),(69,'P3PagesModule.module','Sitemap'),(70,'P3PagesModule.crud','Create'),(71,'P3PagesModule.crud','Copy'),(72,'P3PagesModule.crud','Manage'),(73,'crud','Delete'),(74,'crud','Do you want to delete this item?'),(75,'crud','Layout & View'),(76,'TbEditableField.editable','Enter'),(77,'P3PagesModule.model','ID'),(78,'P3PagesModule.model','Default Menu Name'),(79,'P3PagesModule.model','Status'),(80,'P3PagesModule.model','Tree Parent'),(81,'P3PagesModule.model','Tree Position'),(82,'P3PagesModule.model','Name'),(83,'P3PagesModule.model','Default Url Param'),(84,'P3PagesModule.model','Default Page Title'),(85,'P3PagesModule.model','Layout'),(86,'P3PagesModule.model','View'),(87,'P3PagesModule.model','Url Json'),(88,'P3PagesModule.model','Default Keywords'),(89,'P3PagesModule.model','Default Description'),(90,'P3PagesModule.model','Custom Data Json'),(91,'P3PagesModule.model','Access Owner'),(92,'P3PagesModule.model','Access Domain'),(93,'P3PagesModule.model','Access Read'),(94,'P3PagesModule.model','Access Update'),(95,'P3PagesModule.model','Access Delete'),(96,'P3PagesModule.model','Access Append'),(97,'P3PagesModule.model','Copied From'),(98,'P3PagesModule.model','Created At'),(99,'P3PagesModule.model','Updated At'),(100,'app','Home'),(101,'app','Browser'),(102,'app','Local File Scan'),(103,'app','Widgets'),(104,'app','Registry'),(105,'app','Translations'),(106,'app','Dictionaries'),(107,'app','Translate Missing'),(108,'app','Users'),(109,'app','Rights'),(110,'app','Assignments'),(111,'app','Permissions'),(112,'app','Roles'),(113,'P3PagesModule.model','P3 Page'),(114,'P3PagesModule.model','P3 Pages'),(115,'P3PagesModule.model','relation.P3PageTranslations'),(116,'P3PagesModule.crud','Cancel'),(117,'P3PagesModule.crud','Delete'),(118,'P3PagesModule.crud','Do you want to delete this item?'),(119,'P3PagesModule.crud','View Mode'),(120,'P3PagesModule.crud','Save'),(121,'P3PagesModule.crud','Data'),(122,'P3PagesModule.model','tooltip.id'),(123,'P3PagesModule.model','tooltip.default_menu_name'),(124,'P3PagesModule.model','tooltip.status'),(125,'P3PagesModule.model','tooltip.name_id'),(126,'P3PagesModule.model','tooltip.tree_parent_id'),(127,'app','None'),(128,'P3PagesModule.model','tooltip.tree_position'),(129,'P3PagesModule.model','tooltip.default_page_title'),(130,'P3PagesModule.model','tooltip.layout'),(131,'P3PagesModule.model','tooltip.view'),(132,'P3PagesModule.model','tooltip.url_json'),(133,'P3PagesModule.model','tooltip.default_url_param'),(134,'P3PagesModule.model','tooltip.default_keywords'),(135,'P3PagesModule.model','tooltip.default_description'),(136,'P3PagesModule.model','tooltip.custom_data_json'),(137,'P3PagesModule.model','tooltip.access_owner'),(138,'P3PagesModule.model','tooltip.access_domain'),(139,'P3PagesModule.model','tooltip.access_read'),(140,'P3PagesModule.model','tooltip.access_update'),(141,'P3PagesModule.model','tooltip.access_delete'),(142,'P3PagesModule.model','tooltip.access_append'),(143,'P3PagesModule.model','tooltip.copied_from_id'),(144,'P3PagesModule.model','tooltip.created_at'),(145,'P3PagesModule.model','tooltip.updated_at'),(146,'P3PagesModule.crud','Relations'),(147,'P3PagesModule.model','relation.P3Pages'),(148,'P3PagesModule.crud','Switch to view mode to edit related records.'),(149,'P3PagesModule.crud','Fields with <span class=\"required\">*</span> are required.'),(150,'UserModule.user','Login'),(151,'UserModule.user','Please fill out the following form with your login credentials:'),(152,'UserModule.user','Fields with <span class=\"required\">*</span> are required.'),(153,'UserModule.user','Remember me next time'),(154,'UserModule.user','username or email'),(155,'UserModule.user','password'),(156,'UserModule.user','Register'),(157,'UserModule.user','Lost Password?'),(158,'P3PagesModule.module','No view file in database'),(159,'P3PagesModule.model','Language'),(160,'P3PagesModule.model','Menu Name'),(161,'P3PagesModule.model','Page Title'),(162,'P3PagesModule.model','Url Param'),(163,'P3PagesModule.model','Keywords'),(164,'P3PagesModule.model','Description'),(165,'P3PagesModule.crud','View'),(166,'TbEditableField.editable','Select'),(167,'P3PagesModule.crud','Advanced Search'),(168,'P3PagesModule.crud','Clear Search'),(169,'P3PagesModule.crud','Search'),(170,'P3PagesModule.crud','Update'),(171,'P3WidgetsModule.model','P3 Widget'),(172,'P3WidgetsModule.crud','View'),(173,'P3WidgetsModule.model','P3 Widgets'),(174,'P3WidgetsModule.model','relation.P3WidgetTranslations'),(175,'P3WidgetsModule.crud','Manage'),(176,'P3WidgetsModule.crud','Cancel'),(177,'P3WidgetsModule.crud','Create'),(178,'P3WidgetsModule.crud','Delete'),(179,'P3WidgetsModule.crud','Do you want to delete this item?'),(180,'P3WidgetsModule.crud','View Mode'),(181,'P3WidgetsModule.crud','Save'),(182,'P3WidgetsModule.crud','Data'),(183,'P3WidgetsModule.model','ID'),(184,'P3WidgetsModule.model','Name'),(185,'P3WidgetsModule.model','Status'),(186,'P3WidgetsModule.model','Default Properties Json'),(187,'P3WidgetsModule.model','Default Content Html'),(188,'P3WidgetsModule.model','Module'),(189,'P3WidgetsModule.model','Controller'),(190,'P3WidgetsModule.model','Action Name'),(191,'P3WidgetsModule.model','Request Param'),(192,'P3WidgetsModule.model','Session Param'),(193,'P3WidgetsModule.model','Container'),(194,'P3WidgetsModule.model','Rank'),(195,'P3WidgetsModule.model','Alias'),(196,'P3WidgetsModule.model','Access Owner'),(197,'P3WidgetsModule.model','Access Domain'),(198,'P3WidgetsModule.model','Access Read'),(199,'P3WidgetsModule.model','Access Update'),(200,'P3WidgetsModule.model','Access Delete'),(201,'P3WidgetsModule.model','Copied From'),(202,'P3WidgetsModule.model','Created At'),(203,'P3WidgetsModule.model','Updated At'),(204,'P3WidgetsModule.crud','Relations'),(205,'P3WidgetsModule.crud','Update'),(206,'P3WidgetsModule.model','tooltip.id'),(207,'P3WidgetsModule.model','tooltip.status'),(208,'P3WidgetsModule.model','tooltip.alias'),(209,'P3WidgetsModule.model','tooltip.default_properties_json'),(210,'P3WidgetsModule.crud','Reset'),(211,'P3WidgetsModule.crud','Reset all Properties?'),(212,'p3WidgetsModule.model','help.default_properties_json'),(213,'P3WidgetsModule.crud','Do not use double quotes (\") for keys and/or values!'),(214,'P3WidgetsModule.model','tooltip.default_content_html'),(215,'P3WidgetsModule.model','tooltip.name_id'),(216,'P3WidgetsModule.model','tooltip.container_id'),(217,'P3WidgetsModule.model','tooltip.rank'),(218,'P3WidgetsModule.model','tooltip.request_param'),(219,'P3WidgetsModule.model','tooltip.action_name'),(220,'P3WidgetsModule.model','tooltip.controller_id'),(221,'P3WidgetsModule.model','tooltip.module_id'),(222,'P3WidgetsModule.model','tooltip.session_param'),(223,'P3WidgetsModule.model','tooltip.access_owner'),(224,'P3WidgetsModule.model','tooltip.access_domain'),(225,'P3WidgetsModule.model','tooltip.access_read'),(226,'P3WidgetsModule.model','tooltip.access_update'),(227,'P3WidgetsModule.model','tooltip.access_delete'),(228,'P3WidgetsModule.model','tooltip.copied_from_id'),(229,'P3WidgetsModule.model','tooltip.created_at'),(230,'P3WidgetsModule.model','tooltip.updated_at'),(231,'P3WidgetsModule.crud','Switch to view mode to edit related records.'),(232,'P3WidgetsModule.crud','Fields with <span class=\"required\">*</span> are required.'),(233,'P3MediaModule.module','Media'),(234,'P3MediaModule.module','CKEditor Browser'),(235,'P3MediaModule.module','1. Choose Format'),(236,'P3MediaModule.module','Upload'),(237,'P3MediaModule.module','Reload'),(238,'P3MediaModule.model','ID'),(239,'P3MediaModule.model','Status'),(240,'P3MediaModule.model','Type'),(241,'P3MediaModule.model','Name'),(242,'P3MediaModule.model','Default Title'),(243,'P3MediaModule.model','Default Description'),(244,'P3MediaModule.model','Tree Parent'),(245,'P3MediaModule.model','Tree Position'),(246,'P3MediaModule.model','Custom Data Json'),(247,'P3MediaModule.model','Original Name'),(248,'P3MediaModule.model','Path'),(249,'P3MediaModule.model','Hash'),(250,'P3MediaModule.model','Mime Type'),(251,'P3MediaModule.model','Size'),(252,'P3MediaModule.model','Info Php Json'),(253,'P3MediaModule.model','Info Image Magick Json'),(254,'P3MediaModule.model','Access Owner'),(255,'P3MediaModule.model','Access Domain'),(256,'P3MediaModule.model','Access Read'),(257,'P3MediaModule.model','Access Update'),(258,'P3MediaModule.model','Access Delete'),(259,'P3MediaModule.model','Access Append'),(260,'P3MediaModule.model','Copied From'),(261,'P3MediaModule.model','Created At'),(262,'P3MediaModule.model','Updated At'),(263,'P3MediaModule.module','Search'),(264,'P3MediaModule.module','2. Choose File'),(265,'P3MediaModule.module','Please choose an image preset.'),(266,'P3MediaModule.module','Upload Session'),(267,'P3MediaModule.module','Browse'),(268,'P3MediaModule.module','Add files by drag & drop or by clicking the select button below'),(269,'P3MediaModule.module','Click Start upload'),(270,'P3MediaModule.module','When upload has been completed, manage your files with'),(271,'P3MediaModule.module','File Browser'),(272,'P3MediaModule.model','P3 Media'),(273,'P3MediaModule.model','Language'),(274,'P3MediaModule.model','Title'),(275,'P3MediaModule.model','Description'),(276,'P3WidgetsModule.model','P3 Widget Translation'),(277,'P3WidgetsModule.model','P3 Widget Translations'),(278,'P3WidgetsModule.model','relation.P3Widget'),(279,'P3WidgetsModule.model','Language'),(280,'P3WidgetsModule.model','Properties Json'),(281,'P3WidgetsModule.model','Content Html'),(282,'P3WidgetsModule.model','tooltip.p3_widget_id'),(283,'P3WidgetsModule.model','tooltip.language'),(284,'P3WidgetsModule.model','tooltip.properties_json'),(285,'P3WidgetsModule.model','tooltip.content_html'),(286,'P3WidgetsModule.crud','Advanced Search'),(287,'P3WidgetsModule.crud','Clear Search'),(288,'P3WidgetsModule.crud','Search'),(289,'UserModule.user','Password is incorrect.'),(290,'UserModule.user','Profile'),(291,'UserModule.user','Manage Users'),(292,'UserModule.user','List User'),(293,'UserModule.user','Edit'),(294,'UserModule.user','Change password'),(295,'UserModule.user','Logout'),(296,'UserModule.user','Your profile'),(297,'UserModule.user','Id'),(298,'UserModule.user','username'),(299,'UserModule.user','Retype Password'),(300,'UserModule.user','E-mail'),(301,'UserModule.user','Verification Code'),(302,'UserModule.user','activation key'),(303,'UserModule.user','Registration date'),(304,'UserModule.user','Last visit'),(305,'UserModule.user','Superuser'),(306,'UserModule.user','Status'),(307,'UserModule.user','First Name'),(308,'UserModule.user','Last Name'),(309,'UserModule.user','Not active'),(310,'UserModule.user','Active'),(311,'UserModule.user','Banned'),(312,'UserModule.user','No'),(313,'UserModule.user','Yes'),(314,'Translate','Translations'),(315,'Translate','Manage'),(316,'Translate','English'),(317,'Translate','Missing Translations'),(318,'P3PagesModule.model','P3 Page Translation'),(319,'P3PagesModule.model','P3 Page Translations'),(320,'P3PagesModule.model','relation.P3Page'),(321,'P3PagesModule.model','tooltip.p3_page_id'),(322,'P3PagesModule.model','tooltip.language'),(323,'P3PagesModule.model','tooltip.menu_name'),(324,'P3PagesModule.model','tooltip.page_title'),(325,'P3PagesModule.model','tooltip.url_param'),(326,'P3PagesModule.model','tooltip.keywords'),(327,'P3PagesModule.model','tooltip.description'),(328,'P3PagesModule.crud','Copy Page'),(329,'P3PagesModule.crud','Step 1 :'),(330,'P3PagesModule.crud','Select a language from which you want to copy a page'),(331,'P3PagesModule.crud','Step 2 :'),(332,'P3PagesModule.crud','Select the source page you want to copy'),(333,'P3PagesModule.crud','Step 3 :'),(334,'P3PagesModule.crud','Select a P3 parent page to put the copied page below this P3Page ID'),(335,'P3PagesModule.crud','Step 4 :'),(336,'P3PagesModule.crud','Set the page and widget status'),(337,'P3PagesModule.crud','Step 5 :'),(338,'P3PagesModule.crud','Select the access roles'),(339,'P3PagesModule.crud','Step 6 :'),(340,'P3PagesModule.crud','Start copy process'),(341,'P3PagesModule.crud','Step 7 :'),(342,'P3PagesModule.crud','Edit the new page'),(343,'P3PagesModule.crud','Step 1'),(344,'P3PagesModule.crud','Required'),(345,'P3PagesModule.crud','Source Language'),(346,'P3PagesModule.crud','Target Language'),(347,'P3PagesModule.crud','Source Page ID'),(348,'P3PagesModule.crud','Target Parent Page ID'),(349,'P3PagesModule.crud','Page'),(350,'P3PagesModule.crud','Page Translation'),(351,'P3PagesModule.crud','Widgets'),(352,'P3PagesModule.crud','Widget Translation'),(353,'P3PagesModule.crud','Page Access'),(354,'P3PagesModule.crud','Widget Access'),(355,'P3PagesModule.crud','Select language'),(356,'P3PagesModule.crud','Step 2'),(357,'P3PagesModule.crud','Select source page'),(358,'P3PagesModule.crud','Step 3'),(359,'P3PagesModule.crud','Select target parent'),(360,'P3PagesModule.crud','Step 4 - Status'),(361,'P3PagesModule.crud','All Published'),(362,'P3PagesModule.crud','All Draft'),(363,'P3PagesModule.crud','All Archived'),(364,'P3PagesModule.crud','Select status'),(365,'P3PagesModule.crud','Step 5 - Rights'),(366,'P3PagesModule.crud','Select Role'),(367,'P3PagesModule.crud','Step 6'),(368,'app','Copy Now'),(369,'P3AdminModule.module','Application'),(370,'P3AdminModule.module','Dashboard'),(371,'P3AdminModule.module','Overview'),(372,'P3AdminModule.module','Language'),(373,'P3AdminModule.module','Modules'),(374,'P3AdminModule.module','Controllers'),(375,'P3AdminModule.module','Packages'),(376,'P3AdminModule.module','User'),(377,'P3AdminModule.module','Configuration'),(378,'P3AdminModule.module','Settings'),(379,'P3AdminModule.module','Log'),(380,'P3WidgetsModule.crud','Overview'),(381,'P3WidgetsModule.crud','This module provides a control called P3WidgetManager, along with an administration interface.<br/>\n       The P3WidgetManager allows you to dynamically create any type of widget.'),(382,'P3WidgetsModule.crud','This module requires installation.'),(383,'P3WidgetsModule.crud','Widgets'),(384,'P3WidgetsModule.crud','Translations'),(385,'P3WidgetsModule.crud','Playground'),(386,'P3MediaModule.module','Browser'),(387,'P3MediaModule.module','Uploaded Files'),(388,'P3MediaModule.module','Folders'),(389,'P3MediaModule.module','Create File'),(390,'P3MediaModule.module','Create Folder'),(391,'P3MediaModule.module','Manage'),(392,'P3MediaModule.module','Title'),(393,'P3MediaModule.module','ID'),(394,'P3MediaModule.module','Do you want to delete this item?'),(395,'P3MediaModule.module','Select Folder'),(396,'P3MediaModule.module','Scan'),(397,'RightsModule.core','Assign'),(398,'RightsModule.core','Revoke'),(399,'RightsModule.core','Item'),(400,'RightsModule.core','Permissions'),(401,'RightsModule.core','Here you can view and manage the permissions assigned to each role.'),(402,'RightsModule.core','Roles'),(403,'RightsModule.core','Tasks'),(404,'RightsModule.core','Operations'),(405,'RightsModule.core','Authorization items can be managed under {roleLink}, {taskLink} and {operationLink}.'),(406,'RightsModule.core','Generate items for controller actions'),(407,'RightsModule.core','No authorization items found.'),(408,'RightsModule.core','Hover to see from where the permission is inherited.'),(409,'RightsModule.core','Source'),(410,'RightsModule.core','Assignments'),(411,'UserModule.user','Users'),(412,'UserModule.user','Manage Profile Field'),(413,'RightsModule.core','Here you can view which permissions has been assigned to each user.'),(414,'RightsModule.core','No users found.'),(415,'RightsModule.core','Name'),(416,'app','Contact Us'),(417,'app','If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.'),(418,'app','Fields with'),(419,'app','are required'),(420,'app','Verification Code'),(421,'app','Name'),(422,'app','Email'),(423,'app','Subject'),(424,'app','Body'),(425,'app','Please enter the letters as they are shown in the image above.<br/>Letters are not case-sensitive.'),(426,'app','Submit'),(427,'P3PagesModule.crud','The requested page does not exist.'),(428,'P3WidgetsModule.crud','Widget Playground'),(429,'P3MediaModule.crud','View'),(430,'p3MediaModule.model','P3 Medias'),(431,'p3MediaModule.model','relation.P3MediaTranslations'),(432,'P3MediaModule.crud','Manage'),(433,'P3MediaModule.crud','Cancel'),(434,'P3MediaModule.crud','Create'),(435,'P3MediaModule.crud','Delete'),(436,'P3MediaModule.crud','Do you want to delete this item?'),(437,'P3MediaModule.crud','View Mode'),(438,'P3MediaModule.crud','Save'),(439,'P3MediaModule.crud','Data'),(440,'P3MediaModule.crud','Relations'),(441,'p3MediaModule.model','relation.P3Medias'),(442,'P3WidgetsModule.crud','The requested page does not exist.'),(443,'P3MediaModule.crud','Update'),(444,'p3MediaModule.model','tooltip.id'),(445,'P3MediaModule.module','Download'),(446,'p3MediaModule.model','tooltip.status'),(447,'p3MediaModule.model','tooltip.type'),(448,'p3MediaModule.model','tooltip.name_id'),(449,'p3MediaModule.model','tooltip.default_title'),(450,'p3MediaModule.model','tooltip.default_description'),(451,'p3MediaModule.model','tooltip.tree_parent_id'),(452,'p3MediaModule.model','tooltip.tree_position'),(453,'p3MediaModule.model','tooltip.custom_data_json'),(454,'p3MediaModule.model','tooltip.original_name'),(455,'p3MediaModule.model','tooltip.path'),(456,'p3MediaModule.model','tooltip.hash'),(457,'p3MediaModule.model','tooltip.mime_type'),(458,'p3MediaModule.model','tooltip.size'),(459,'p3MediaModule.model','tooltip.info_php_json'),(460,'p3MediaModule.model','tooltip.info_image_magick_json'),(461,'p3MediaModule.model','tooltip.access_owner'),(462,'p3MediaModule.model','tooltip.access_domain'),(463,'p3MediaModule.model','tooltip.access_read'),(464,'p3MediaModule.model','tooltip.access_update'),(465,'p3MediaModule.model','tooltip.access_delete'),(466,'p3MediaModule.model','tooltip.access_append'),(467,'p3MediaModule.model','tooltip.copied_from_id'),(468,'p3MediaModule.model','tooltip.created_at'),(469,'p3MediaModule.model','tooltip.updated_at'),(470,'P3MediaModule.crud','Switch to view mode to edit related records.'),(471,'P3MediaModule.crud','Fields with <span class=\"required\">*</span> are required.'),(472,'YiiDebug.yii-debug-toolbar','No active connections'),(473,'P3WidgetsModule.crud','This module provides a control called P3WidgetManager, along with an administration interface.<br/>\r\n       The P3WidgetManager allows you to dynamically create any type of widget.'),(474,'RightsModule.core','A role is group of permissions to perform a variety of tasks and operations, for example the authenticated user.'),(475,'RightsModule.core','Roles exist at the top of the authorization hierarchy and can therefore inherit from other roles, tasks and/or operations.'),(476,'RightsModule.core','Create a new role'),(477,'RightsModule.core','No roles found.'),(478,'RightsModule.core','Description'),(479,'RightsModule.core','Business rule'),(480,'RightsModule.core','Data'),(481,'RightsModule.core','Delete'),(482,'RightsModule.core','Are you sure you want to delete this role?'),(483,'RightsModule.core','Values within square brackets tell how many children each item has.'),(484,'RightsModule.core','A task is a permission to perform multiple operations, for example accessing a group of controller action.'),(485,'RightsModule.core','Tasks exist below roles in the authorization hierarchy and can therefore only inherit from other tasks and/or operations.'),(486,'RightsModule.core','Create a new task'),(487,'RightsModule.core','No tasks found.'),(488,'RightsModule.core','Are you sure you want to delete this task?'),(489,'RightsModule.core','An operation is a permission to perform a single operation, for example accessing a certain controller action.'),(490,'RightsModule.core','Operations exist below tasks in the authorization hierarchy and can therefore only inherit from other operations.'),(491,'RightsModule.core','Create a new operation'),(492,'RightsModule.core','No operations found.'),(493,'RightsModule.core','Are you sure you want to delete this operation?');
+/*!40000 ALTER TABLE `SourceMessage` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
