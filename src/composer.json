@@ -67,7 +67,7 @@
         "yiisoft/yii":"1.1.14",
         "nordsoftware/yii-utils": "@dev",
         "mikehaertl/translatable": "~1.1.0",
-        "phundament/gii-template-collection": "3"
+        "phundament/gii-template-collection": "dev-master"
     },
     "require-dev":{
         "cloudhead/less.js":"1.3.*",
