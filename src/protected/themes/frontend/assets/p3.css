@@ -320,7 +320,7 @@ pre:hover a, pre a:hover
   color: #f39322;
 }
 
-#colums
+/*#colums
 {
   margin-left: 0px;
 }
@@ -328,7 +328,7 @@ pre:hover a, pre a:hover
 #colums p
 {
     margin-left: 15px !important;
-}
+}*/
 
 .clearfix {
   *zoom: 1;
@@ -10341,8 +10341,8 @@ div.form INPUT[type="submit"] .caret {
   }
   .span4 {
     margin-left: 0px;
-    width: 340px;
-    height: 312px;
+/*    width: 340px;
+    height: 312px;*/
   }
   .span3 {
     width: 270px;
