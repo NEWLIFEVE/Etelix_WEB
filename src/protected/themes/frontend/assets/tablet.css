@@ -174,14 +174,16 @@
 }
 
 
-@media (min-width: 400px) and (max-width: 603px){
+@media (min-width: 571px) and (max-width: 603px){
 	.mision_quienes_somos {
 	  top: 45%;
-	  font-size: 1em;
+	  font-size: 0.94em;
+	  width: 50%;
 	}
 	.vision_quienes_somos {
 	  top: 70%;
-	  font-size: 1em;
+	  font-size: 0.94em;
+	  width: 50%;
 	}
 }
 
@@ -193,6 +195,46 @@
 
 	}
 }
+
+@media (min-width: 481px) and (max-width: 570px){
+	.container_quienes_somos {
+	  display: none;
+
+	}
+	.container_quienes_somos_oculta {
+	  display: block;
+	  height: 500px;
+	}
+	.mision_quienes_somos {
+		position: absolute;
+		top: 48%;
+		width: 90%;
+		padding-left: 5%;
+		font-size: 1.2em;
+		line-height: 20px;
+		text-align: justify;
+	}
+	.vision_quienes_somos {
+		position: absolute;
+		top: 70%;
+		width: 90%;
+		padding-left: 5%;
+		font-size: 1.2em;
+		line-height: 20px;
+		text-align: justify;
+	}
+	.descripcion_quienes_somos {
+		width: 90%;
+		text-align: justify;
+		font-size: 1.2em !important;
+	}
+	.descripcion_quienes_somos p {
+		padding-bottom: 2%;	
+	}
+
+}
+
+
 
 @media (min-width: 741px) and (max-width: 770px){
 	.descripcion_quienes_somos {

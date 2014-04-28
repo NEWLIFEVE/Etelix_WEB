@@ -53,7 +53,7 @@ header {
   height: 4159px;
 }
 
-.container_quienes_somos {
+.container_quienes_somos, .container_quienes_somos_oculta {
   background-color: #fff6e7;
   /*
   -webkit-background-size: cover; 
@@ -65,6 +65,10 @@ header {
   margin: 0 auto;
   */
 
+}
+
+.container_quienes_somos_oculta {
+  display: none;
 }
 
 .container_quienes_somos img {
