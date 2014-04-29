@@ -23,6 +23,7 @@ $( document ).ready(function() {
     //captureWidth();
 
     changeLanguageName();
+    //horizontalLine();
 
 });
 
@@ -41,6 +42,8 @@ function changeLanguageName()
     {
         $('ul.pull-left.navlist li a').text('Ingles');
         $('ul.pull-left.navlist li.active a').text('Español');
+        //$("<li>-</li>").insertAfter("ul.pull-left.navlist li.active");
+
     }
 
 }
@@ -220,7 +223,8 @@ function sliderImage(cantidad,pasos)
                     );
 }
 
-function paginaConstruccion() {
+function paginaConstruccion() 
+{
   $('a[href*=#]:not([href=#]).paralax').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -233,4 +237,34 @@ function paginaConstruccion() {
       }
     }
   });
+}
+
+function horizontalLine()
+{
+    $(".list_menu_ingles").append("<li id='this-line'></li>");
+   
+    
+    var $this= $("#this-line");
+   
+    $thisLine
+        .width($(".selectedMenuItem").width())
+        .css("left", $(".selectedMenuItem a").position().left)
+        .data("origLeft", $thisLine.position().left)
+        .data("origWidth", $thisLine.width());
+       
+    $(".list_menu_ingles li").find("a").hover(function() {
+        $el = $(this);
+        leftPos = $el.position().left;
+        newWidth = $el.parent().width();
+       
+        $magicLine.stop().animate({
+            left: leftPos,
+            width: newWidth
+        });
+    }, function() {
+        $thisLine.stop().animate({
+            left: $thisLine.data("origLeft"),
+            width: $thisLine.data("origWidth")
+        });   
+    });
 }
