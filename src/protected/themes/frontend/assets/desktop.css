@@ -84,15 +84,17 @@ header {
   padding-left: 5%;
   font-size: 1.3em;
   line-height: 20px;
+  text-align: justify;
 }
 
 .mision_quienes_somos {
   position: absolute;
-  top: 50%;
+  top: 39%;
   width: 44%;
   padding-left: 5%;
   font-size: 1.3em;
   line-height: 20px;
+  text-align: justify;
 }
 
 .mision_title {
@@ -105,11 +107,12 @@ header {
 
 .vision_quienes_somos {
   position: absolute;
-  top: 72%;
+  top: 52%;
   width: 44%;
   padding-left: 5%;
   font-size: 1.3em;
   line-height: 20px;
+  text-align: justify;
 }
 
 .vision_title {
@@ -119,6 +122,9 @@ header {
   color: #f18e22;
   font-weight: bold;
 }
+
+
+
 
 .serv_1 {
 	height: 462px;
