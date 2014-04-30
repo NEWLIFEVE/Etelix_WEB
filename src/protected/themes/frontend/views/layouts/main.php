@@ -57,7 +57,7 @@
                 <div class="container pie">
                     <div class="span4">
                             <strong>Cont&aacute;ctanos</strong>
-                            <img src="/images/usa_flag.png"/>
+                            <img src="/images/usa_flag.png"/>Somos un grupo de empresas especializadas en prestar a nuestros clientes soluciones integrales de Telecomunicaciones y Tecnología a nivel global, con ventas superiores a 20 millones de dólares al año.
                             <img src="/images/peru_flag.png"/>
                             <img src="/images/venezuela_fñag.png"/>
                             <p> Av. Francisco de Miranda, Torre Delta, piso 10,&nbsp;of. 10 A-B, Altamira, Caracas, Venezuela. Tel&eacute;fono: +58 (212) 740-1112 Fax: +58 (212) 740-1117&nbsp;</p>
