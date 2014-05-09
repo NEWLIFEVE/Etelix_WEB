@@ -552,3 +552,7 @@ img.logo {
   border: 0px; 
 
 }
+
+#accordion div {
+    background: none !important;
+}
