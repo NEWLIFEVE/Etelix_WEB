@@ -20,6 +20,19 @@
 	.clientes {
 	  font-size: 1.8em;
 	}
+
+	ul.list_menu, ul.list_menu_ingles {
+		width: 95% !important;
+		margin-left: 11% !important;
+	}
+	ul.list_menu li, ul.list_menu_ingles li {
+		margin-top: 40px;
+		display: inline-table;
+		min-height: 20px;
+		vertical-align: middle;
+		margin-right: 65px !important;
+		width: 87px;
+	}
 }
 
 /*iphone  portrait*/
