@@ -15,7 +15,7 @@
 
 @import url(desktop.css);
 @import url(tablet.css);
-@import url(movile.css);
+@import url(mobile.css);
 
 @import url(demo.css);
 @import url(elastislide.css);
@@ -41,8 +41,8 @@ div.inbox img
     /*Modificaciones para cabecera*/
     ul.list_menu, ul.list_menu_ingles
     {
-        width: 92%;
-        margin-left: 8%;
+        width: 95%;
+        margin-left: 5%;
     }
     ul.list_menu li, ul.list_menu_ingles li
     {
@@ -50,7 +50,7 @@ div.inbox img
         display: inline-table;
         min-height: 20px;
         vertical-align: middle;
-        margin-right: 30px;
+        margin-right: 27px;
         width: 87px;
     }
     ul.list_menu_ingles li
@@ -9242,7 +9242,9 @@ a.badge:focus {
   }
 
   #div_center {
-    border: solid 1px;
+    border: solid 0px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
     height: auto;
     border-top-color: #FFFFFF;
     border-bottom-color: #FFFFFF;
@@ -13076,7 +13078,7 @@ div.form INPUT[type="submit"] .caret {
 @media (min-width: 989px) {
   body {
     margin-top: 0px;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
   }
 }
 /* use composer.phar require thomaspark/bootswatch */
@@ -13095,6 +13097,7 @@ img {
 .separator0 
 {
     background: #fff6e7;
+    height: 40px;
 }
 .separator1 
 {

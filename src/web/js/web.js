@@ -25,6 +25,12 @@ $( document ).ready(function() {
     changeLanguageName();
     //horizontalLine();
 
+    $("#accordion").accordion();
+
+    //$(".fancyzoom").on("click", function () {
+        //$("a.fancyzoom").fancyzoom();
+    //});
+
 });
 
 
@@ -268,3 +274,4 @@ function horizontalLine()
         });   
     });
 }
+

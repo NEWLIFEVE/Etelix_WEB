@@ -15,7 +15,15 @@
   }
 
 }
+
+@media (max-width: 370px) {
+	.clientes {
+	  font-size: 1.8em;
+	}
+}
+
 /*iphone  portrait*/
+/*
 @media (min-width: 312px) and (max-width: 569px){
 
 	
@@ -63,7 +71,7 @@
 		padding-bottom: 2%;	
 	}
 }
-
+*/
 /*iphone  landscape*/
 
 /*
@@ -128,3 +136,4 @@
 
 }
 */
+
