@@ -57,7 +57,7 @@
                 <div class="container pie">
                     <div class="span4">
                             <strong>Cont&aacute;ctanos</strong>
-                            <img src="/images/usa_flag.png"/>
+                            <img src="/images/usa_flag.png"/>Somos un grupo de empresas especializadas en prestar a nuestros clientes soluciones integrales de Telecomunicaciones y Tecnología a nivel global, con ventas superiores a 20 millones de dólares al año.
                             <img src="/images/peru_flag.png"/>
                             <img src="/images/venezuela_fñag.png"/>
                             <p> Av. Francisco de Miranda, Torre Delta, piso 10,&nbsp;of. 10 A-B, Altamira, Caracas, Venezuela. Tel&eacute;fono: +58 (212) 740-1112 Fax: +58 (212) 740-1117&nbsp;</p>
@@ -163,8 +163,10 @@
         </div>
         <script src="/../js/jquery.menuSlider.min.js"></script>
         <script src="/../js/web.js"></script>
+
         <script type="text/javascript" src="/../js/jquery.ui.core.js"></script>
-        <script type="text/javascript" src="/../js/jquery.ui.widget.js"></script>
+        
+        <!-- EFECTO DE CAROUSEL SLIDER IMAGE DEL HOME -->
         <script type="text/javascript" src="/../js/jquery.ui.rcarousel.js"></script>
         <script type="text/javascript" src="/../js/jquerypp.custom.js"></script>
         <script type="text/javascript" src="/../js/jquery.elastislide.js"></script>
@@ -174,7 +176,7 @@
                 minItems : 2
             } );
             
-        </script>
+        </script>   
         <script>
             $("#slideContainer2").menuSlider({thickness:"2px", speed:0.5, tStyle:"ease-out"});
         </script>

@@ -1,0 +1,152 @@
+@media (max-width: 767px){
+  .container {
+    padding-top: 0 !important;
+  }
+
+  .cols {
+    width: 100%;
+  }
+
+  .row-fluid .cols {
+    display: inline;
+    min-height: 30px;
+    float: left;
+    margin-left: 0%;
+  }
+
+}
+
+@media (max-width: 370px) {
+	.clientes {
+	  font-size: 1.8em;
+	}
+
+	ul.list_menu, ul.list_menu_ingles {
+		width: 95% !important;
+		margin-left: 11% !important;
+	}
+	ul.list_menu li, ul.list_menu_ingles li {
+		margin-top: 40px;
+		display: inline-table;
+		min-height: 20px;
+		vertical-align: middle;
+		margin-right: 65px !important;
+		width: 87px;
+	}
+}
+
+/*iphone  portrait*/
+/*
+@media (min-width: 312px) and (max-width: 569px){
+
+	
+	
+	 .mision_quienes_somos {
+	  position: absolute;
+	  top: 34%;
+	  width: 70%;
+	  padding-left: 5%;
+	  font-size: 0.6em;
+	  line-height: 9px;
+	  text-align: justify;
+	}
+	
+	.vision_quienes_somos {
+	  position: absolute;
+	  top: 39%;
+	  width: 70%;
+	  padding-left: 5%;
+	  font-size: 0.6em;
+	  line-height: 9px;
+	  text-align: justify;
+	}
+	
+	.descripcion_quienes_somos {
+		top:30% !important;
+		padding-left: 5%;
+		width: 70%;
+		text-align: justify;
+		font-size: 0.6em;
+		line-height: 9px;
+	}
+	.descripcion_quienes_somos img{
+		padding-top: 10%;
+	}
+	.descripcion_quienes_somos p {
+		padding-bottom: 2%;	
+	}
+}
+	}
+	.descripcion_quienes_somos img{
+		padding-top: 10%;
+	}
+	.descripcion_quienes_somos p {
+		padding-bottom: 2%;	
+	}
+}
+*/
+/*iphone  landscape*/
+
+/*
+@media (min-width: 568px){
+	*.container_quienes_somos {
+	 *display: none;
+
+	}
+	.container_quienes_somos_oculta {
+	  display: block;
+	  height: 500px;
+	}
+	.mision_quienes_somos {
+		position: absolute;
+		top: 50%;
+		width: 90%;
+		padding-left: 5%;
+		font-size: 1.2em !important;
+		line-height: 20px !important;
+		text-align: justify;
+	}
+	.mision_quienes_somos img{
+		width: 70%;
+		position: absolute;
+		top: 0%;
+		padding-left: 25%;
+	}
+	.mision_title {
+		font-size: 1.2em;
+		padding-bottom: 0%;
+		margin-left: 0%;
+		color: #f18e22;
+		font-weight: bold;
+	}
+	.vision_quienes_somos {
+		position: absolute; 
+		top: 42% !important;
+		width: 90%;
+		padding-left: 5%;
+		font-size: 1.2em !important;
+		line-height: 20px !important;
+		text-align: justify;
+	}
+	.vision_title {
+		font-size: 1.2em;
+		padding-bottom: 0%;
+		margin-left: 0%;
+		color: #f18e22;
+		font-weight: bold;
+	}
+	.descripcion_quienes_somos {
+		margin-top: 15% !important;
+		width: 90%;
+		text-align: justify;
+		font-size: 1.0em !important;
+		line-height: 20px !important;
+		
+	}
+	.descripcion_quienes_somos p {
+		padding-bottom: 2%;	
+	}
+
+}
+*/
+

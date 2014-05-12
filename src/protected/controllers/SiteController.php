@@ -38,6 +38,27 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('services');
 	}
+   
+    public function actionClient()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('client');
+	}
+
+	public function actionMap()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('map');
+	}
+
+	public function actionCountry()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('country');
+	}
 
 	public function actionOrganization()
 	{
