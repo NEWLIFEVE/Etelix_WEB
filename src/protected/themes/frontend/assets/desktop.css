@@ -123,9 +123,6 @@ header {
   font-weight: bold;
 }
 
-
-
-
 .serv_1 {
 	height: 462px;
   clear:both;
@@ -226,6 +223,10 @@ p.paragraph, p.paragraph_title, p.fancybox {
 }
 
 img.pais {
+
+
+
+
   cursor: pointer;
 }
 
@@ -560,3 +561,119 @@ img.logo {
 #accordion div {
     background: none !important;
 }
+
+.textarea{
+   max-width:350px;
+   min-width:350px;
+   max-height:200px;
+   min-height:200px;
+   margin-top: 0px;
+
+}
+
+
+.fondo{
+  width:100%; 
+  background-image: url('/images/background.png'); no-repeat; width:100%; 
+  height:1010px; /* poner aqui auto */ 
+  text-align: center;
+
+}
+
+.titulo
+{
+  padding-top: 1.5em;
+  padding-left: 1em;
+  text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 3em;
+}
+
+.cuadro{
+  background: rgba(61, 97, 167, 0.7);
+  max-width: 900px;
+  height: 500px;
+  /*margin: 20% 20% 20% 10%;*/
+  margin: auto;
+  margin-top: 100px;
+}
+
+.campos{
+  width: 100%;
+  color: white;
+  font-size: 200%;
+  display: inline-block;
+  line-height: 200%;
+}
+
+.divs{
+    width: 47%;
+}
+.display {
+    display: inline-block;
+}
+
+.boton_enviar {
+    width: 100%; 
+    height: 100px;
+}
+
+.div_submit{
+  background-color: #eb5c29;
+  width: 140px;
+  color: #FFFFFF;
+  font-size: 1.7em;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  margin-left: 100px;
+}
+
+.centrar{
+  margin-top: 41px;
+  margin-left: -50px;
+}
+.bajar{
+  padding-top: 0px;
+  text-align: left;
+}
+
+.izquierda{
+  text-align: left;
+}
+
+
+.mas{
+  width: 400px;
+}
+
+.msj{
+  /*width: 100%;*/
+  margin-top: 0px;
+  color: white;
+  font-size: 200%;
+  display: inline-block;
+  line-height: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
