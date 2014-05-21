@@ -12,15 +12,13 @@
 
 
 /* Estilos de Resolucion */
-
-
 @import url(desktop.css);
 @import url(tablet.css);
 @import url(mobile.css);
-
 @import url(demo.css);
 @import url(elastislide.css);
 @import url(custom.css);
+/*@import url(ipad.css); */
 
 /* import bootrap */
 /*Imagenes de redes sociales*/

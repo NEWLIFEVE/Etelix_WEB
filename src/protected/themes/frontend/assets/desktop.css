@@ -563,19 +563,18 @@ img.logo {
 }
 
 .textarea{
-   max-width:350px;
-   min-width:350px;
-   max-height:200px;
-   min-height:200px;
-   margin-top: 0px;
+   max-width:395px;
+   min-width:395px;
+   max-height:235px;
+   min-height:235px;
+   margin-top: none;
 
 }
 
-
 .fondo{
   width:100%; 
-  background-image: url('/images/background.png'); no-repeat; width:100%; 
-  height:1010px; /* poner aqui auto */ 
+  background-image: url('/images/background.png'); no-repeat;  
+  height:800px; /* poner aqui auto */ 
   text-align: center;
 
 }
@@ -596,7 +595,7 @@ img.logo {
   height: 500px;
   /*margin: 20% 20% 20% 10%;*/
   margin: auto;
-  margin-top: 100px;
+  margin-top: 100px; 
 }
 
 .campos{
@@ -609,10 +608,20 @@ img.logo {
 
 .divs{
     width: 47%;
+    margin-left: 15px; 
 }
+
+/*
 .display {
     display: inline-block;
 }
+*/
+
+.situar{
+    margin-top: -300px;
+    margin-left: 461px;
+}
+
 
 .boton_enviar {
     width: 100%; 
@@ -627,53 +636,29 @@ img.logo {
   padding: 5px;
   text-align: center;
   border: none;
-  margin-left: 100px;
+  margin-left: -100px;
+  margin-top: -200px;
 }
 
 .centrar{
-  margin-top: 41px;
+  margin-top: 45px;
   margin-left: -50px;
 }
+
 .bajar{
-  padding-top: 0px;
-  text-align: left;
-}
+  padding-top: 40px;
+  /*text-align: left;*/
+
+ } 
 
 .izquierda{
   text-align: left;
 }
 
-
 .mas{
   width: 400px;
 }
 
-.msj{
-  /*width: 100%;*/
-  margin-top: 0px;
-  color: white;
-  font-size: 200%;
-  display: inline-block;
-  line-height: 200%;
+.izquierda2{
+  margin-left: -290px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

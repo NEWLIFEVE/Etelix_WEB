@@ -13,6 +13,31 @@
     float: left;
     margin-left: 0%;
   }
+
+ .fondo{
+	width: 100%;
+	}
+
+.textarea{
+   max-width:300px;
+   min-width:300px;
+   max-height:300px;
+   min-height:200px;
+   margin-top: none;
+
+}
+.mas{
+	width: 95%;
+}
+
+.izquierda2{
+  margin-left: -230px;
+}
+
+.situar{
+	margin-top: -265px;
+	margin-left: 399px;
+}
 }
 
 @media (min-width: 257px) and (max-width: 767px){
