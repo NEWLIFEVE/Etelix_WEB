@@ -74,13 +74,15 @@ class SiteController extends Controller
 		$this->render('organization');
 
 		//var_dump($_POST);
+	    // $html = "This is my Plain Text Content for those with cheap emailclients ;-)\nThis is my second row of text";
 
-		//Yii::import('ext.swiftMailer.SwiftMailer');
-
-		//$SM = Yii::app()->swiftMailer;
-
-
-
+	    // if(Yii::app()->mail->enviar($html, 'edwing@sacet.biz', 'Prueba',null))
+	    // {
+	    // 	echo "exito";
+	    // }else
+	    // {
+	    // 	echo "fallo";
+	    // }
 	}
 
 
