@@ -38,12 +38,6 @@
 			break;
 			case 'panama_map':
 					$direccion = '<div class="address map_4">
-									<p>Diana Mirakyan</p>
-									<p>Business Manager, Asia & CIS</p>
-									<p>dianam@etelix.com</p>
-									<p>+507 (6) 683-7924</p>
-									</div>
-									<div class="address map_8">
 									<p>Carlos Piñango</p>
 									<p>Business Development Director</p>
 									<p>carlosp@etelix.com</p>
