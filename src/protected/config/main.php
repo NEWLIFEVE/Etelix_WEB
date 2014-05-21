@@ -1,28 +1,4 @@
 <?php
-$server=$_SERVER['SERVER_NAME'];
-switch ($server)
-{
-    case SERVER_NAME_PROD:
-        $server_db='localhost';
-        $etelix_web_db='etelix_web';
-        $user_db='root';
-        $pass_db='Nsusfd8263';
-        break;
-    case SERVER_NAME_PRE_PROD:
-        $server_db='localhost';
-        $etelix_web_db='dev_etelix_web';
-        $user_db='root';
-        $pass_db='Nsusfd8263';
-        break;
-    case SERVER_NAME_DEV:
-    default:
-        $server_db='172.16.17.190';
-        $etelix_web_db='etelix_web';
-        $user_db='manuelz';
-        $pass_db='123';
-        break;
-}
-
 /**
  * Phundament 3 Application Config File
  * All modules and components have to be declared before installing a new package via composer.
@@ -51,6 +27,7 @@ return array(
     'name'       => 'Etelix Web',
     'theme'      => 'frontend', // theme is copied eg. from vendor/p3bootstrap
     'language'   => 'es', // default language, see also components.langHandler
+    'timeZone'   =>'America/Caracas',
     'preload'    => array(
         'log',
         'langHandler',
@@ -316,24 +293,6 @@ return array(
                 ),
             )
         ),
-        'db'            => array(
-            'tablePrefix'      => '',
-            // SQLite
-            //'connectionString' => 'sqlite:' . $applicationDirectory . '/data/default.db',
-            #'initSQLs'=>array('PRAGMA foreign_keys = ON'),
-            // MySQL
-            'connectionString' => 'mysql:host='.$server_db.';dbname='.$etelix_web_db,
-            'emulatePrepare' => true,
-            'username' => $user_db,
-            'password' => $pass_db,
-            'charset' => 'utf8',
-        ),
-        /*'dbTest'        => array(
-            // MySQL
-            'class'            => 'CDbConnection',
-            'tablePrefix'      => '',
-            'connectionString' => 'sqlite:' . $applicationDirectory . '/data/test.db',
-        ),*/
         'errorHandler'  => array(
             // use 'site/error' action to display errors
             'errorAction' => 'site/error',
