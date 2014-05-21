@@ -1,7 +1,8 @@
 src/vendor/
 src/web/assets/*
 /docs/
-/app/config/*-local.php
+src/protected/config/db.php
+src/protected/config/gii.php
 /tests/codeception/_log
 composer.phar
 composer.lock
