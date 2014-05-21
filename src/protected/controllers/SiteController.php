@@ -75,7 +75,7 @@ class SiteController extends Controller
 
 		//var_dump($_POST);
 
-		Yii::import('ext.swiftMailer.SwiftMailer');
+		//Yii::import('ext.swiftMailer.SwiftMailer');
 
 		//$SM = Yii::app()->swiftMailer;
 
