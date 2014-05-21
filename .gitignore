@@ -3,6 +3,8 @@ src/web/assets/*
 /docs/
 /app/config/*-local.php
 /tests/codeception/_log
+composer.phar
+composer.lock
 
 nbproject
 .DS_Store
