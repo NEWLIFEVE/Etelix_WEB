@@ -226,6 +226,9 @@ return array(
     ),
     // application components
     'components' => array(
+        'mail'=>array(
+            'class'=>"application.components.EnviarEmail",
+            ),
         'authManager'   => array(
             'class'        => 'RDbAuthManager',
             // Provides support authorization item sorting.
