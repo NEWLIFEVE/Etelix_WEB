@@ -166,10 +166,14 @@
 
         <script type="text/javascript" src="/../js/jquery.ui.core.js"></script>
         
+
+
         <!-- EFECTO DE CAROUSEL SLIDER IMAGE DEL HOME -->
         <script type="text/javascript" src="/../js/jquery.ui.rcarousel.js"></script>
         <script type="text/javascript" src="/../js/jquerypp.custom.js"></script>
         <script type="text/javascript" src="/../js/jquery.elastislide.js"></script>
+
+
         <script type="text/javascript">
             
             $( '#carousel' ).elastislide( {
