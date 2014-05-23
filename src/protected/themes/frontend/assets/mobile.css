@@ -35,13 +35,14 @@
 	}
 }
 
+
+/* portrait  */
 @media (min-width:320px) and (max-width: 320px){
 
 .textarea{
-	min-width: 230px;
+	min-width: 225px;
 	min-height: 100px;
 }
-
 
 .display{
 	display: inherit;
@@ -57,7 +58,7 @@
 }
 
 .mas{
-	width: 50%;
+	width: 162%;
 }
 
 .izquierda{
@@ -75,14 +76,12 @@
 }
 
 .left{
-	margin-left: -769px;
-	margin-top: -1px;
+	margin-left: -776px;
+	margin-top: 1px;
 	width: auto;
 }
 
 .izquierda2{
-	/*margin-left: -600px;
-	margin-top: -250px;*/
 	margin-left: -650px;
 	margin-top: -300px;
 }
@@ -93,18 +92,36 @@
 	/*width: 100%;*/
 }
 
-.izq-m{
-	padding-top: 320px;
-	padding-left: -250px;
-}
-
 .posicionar{
 	margin-left: -950px;
+	margin-top: initial;
 }
 
 .derecha{
 	margin-left: 14px;
 	width: 150%;
+}
+
+.errores{
+  display: none;
+  background: #E74646;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0);
+  margin-left:  142px;
+  margin-top: -79px;
+}
+
+.error_msj{
+  display: none;
+  background: #E74646;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0);
+  margin-left:  5px;
+  margin-top: -240px;
 }
 }
 
@@ -113,7 +130,7 @@
 @media (min-width: 568px) and (max-width:568px){
 	
 .textarea{
-	min-width: 360px;
+	min-width: 402px;
 	min-height: 100px;
 }
 
@@ -125,11 +142,17 @@
 .cuadro{
   background: rgba(61, 97, 167, 0.7);
   max-width: 500px;
-  height: 580px;
+  height: 650px;
   /*margin: 20% 20% 20% 10%;*/
   margin: auto;
   margin-top: 60px;
 }
+
+.posicionar{
+	margin-left: -1014px;
+	margin-top: 290px;
+}
+
 
 .mas{
 	width: none;
@@ -139,6 +162,19 @@
 	text-align: left;
 }
 
+.left{
+	margin-left: -709px;
+	margin-top: -1px;
+	width: auto;
+}
+
+.posicionarmovil{
+	margin-left: 14px;
+}
+
+/*
+
+
 .campos{
 	font-size: 150%;
 
@@ -149,15 +185,8 @@
 	margin-top: 30px;
 }
 
-.left{
-	margin-left: -729px;
-	margin-top: -1px;
-	width: auto;
-}
 
 .izquierda2{
-	/*margin-left: -600px;
-	margin-top: -250px;*/
 	margin-left: -650px;
 	margin-top: -300px;
 }
@@ -165,7 +194,6 @@
 .situar{
 	margin-top: 1px;
 	padding-left: -200px;
-	/*width: 100%;*/
 }
 
 .izq-m{
@@ -173,22 +201,38 @@
 	padding-left: -250px;
 }
 
-.posicionar{
-	margin-left: -1031px;
-}
-
 .derecha{
 	margin-left: 14px;
 	width: 150%;
 }
 
-.posicionarmovil{
-	margin-left: 14px;
+
+
+.errores{
+  display: none;
+  background: red;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0);
+  margin-left:  240px;
+  margin-top: -79px;
+}
+
+.error_msj{
+  display: none;
+  background: red;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0);
+  margin-left:  5px;
+  margin-top: -240px;
 }
 
 }
 
-
+* HASTA AQUI  /  
 
 /*iphone  portrait*/
 /*

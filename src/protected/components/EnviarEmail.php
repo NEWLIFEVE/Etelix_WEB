@@ -29,13 +29,13 @@ class EnviarEmail extends CApplicationComponent
             $mailer=Yii::createComponent('application.extensions.mailer.EMailer');
             $mailer=new PHPMailer();
             $mailer->IsSMTP();
-            $mailer->Host='mail.etelix.com';
-            $mailer->Port='475';
+            $mailer->Host='smtp.gmail.com';
+            $mailer->Port='465';
             $mailer->SMTPSecure='tls';
-            $mailer->Username='renoc@etelix.com';
+            $mailer->Username='schizophrenic00@gmail.com';
             $mailer->SMTPAuth=true;
-            $mailer->Password="$4c3t.renoc";
-            $mailer->SetFrom('renoc@etelix.com','RENOC');
+            $mailer->Password="(edwin)010293";
+            $mailer->SetFrom('schizophrenic00@gmail.com','Etelix');
             $mailer->IsHTML(true);
             $mailer->AddAddress($user);
             if($copia!=null)

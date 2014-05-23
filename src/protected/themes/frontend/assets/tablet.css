@@ -12,6 +12,7 @@
     min-height: 30px;
     float: left;
     margin-left: 0%;
+    width: 245px;
   }
 
  .fondo{
@@ -38,6 +39,35 @@
 	margin-top: -265px;
 	margin-left: 399px;
 }
+
+.errores{
+  display: none;
+  background: #E74646;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0);
+  margin-left:  200px;
+  margin-top: -80px;
+}
+
+.error_msj{
+  display: none;
+  background: #E74646;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0);
+  margin-left:  187px;
+  margin-top: -260px;
+}
+
+
+
+
+
+
+
 }
 
 @media (min-width: 257px) and (max-width: 767px){

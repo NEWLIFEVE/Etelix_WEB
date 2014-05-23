@@ -50,7 +50,7 @@
                 </div>
             </div> 
  
-
+            
             
             <!--Contenido-->
             <!--<footer>
@@ -162,7 +162,7 @@
         ?>
         </div>
         <script src="/../js/jquery.menuSlider.min.js"></script>
-        <script src="/../js/web.js"></script>
+        
 
         <script type="text/javascript" src="/../js/jquery.ui.core.js"></script>
         
@@ -172,7 +172,8 @@
         <script type="text/javascript" src="/../js/jquery.ui.rcarousel.js"></script>
         <script type="text/javascript" src="/../js/jquerypp.custom.js"></script>
         <script type="text/javascript" src="/../js/jquery.elastislide.js"></script>
-
+       <!--  JS DESARROLLADO  -->
+        <script src="/../js/web.js"></script>
 
         <script type="text/javascript">
             

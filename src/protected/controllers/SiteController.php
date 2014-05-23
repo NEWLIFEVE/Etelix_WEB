@@ -87,6 +87,31 @@ class SiteController extends Controller
 
 
 
+	public function actionEmail()
+	{
+		//echo $_POST['correo'];
+		$nombre=$_POST['nombre'];
+		$apellido=$_POST['apellido'];
+		$telefono=$_POST['telefono'];
+		$correo=$_POST['correo'];
+		$msj=$_POST['msj'];
+		$texto=$msj.".<br><br>Datos Personales:<br> Nombre y Apellido: ".$nombre." ".$apellido."<br> Télefono: ".$telefono."<br> Correo: ".$correo;
+
+		/*Parametros
+		$texto=Texto a enviar;
+		$destinatario=$correo;
+		Asunto="Titulo del Correo";	
+		Null
+		*/
+		/*  PONER EN CORREO EL CORREO DESTINATARIO DE LA EMPRESA */			
+	     if(Yii::app()->mail->enviar($texto, $correo, 'Nuevo Mensaje',null))
+	     {
+	     	echo "1";
+	     }else
+	     {
+	     	echo "0";
+	     }
+	}
 
 	/**
 	 * This is the action to handle external exceptions.

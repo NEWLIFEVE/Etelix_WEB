@@ -41,7 +41,7 @@ div.inbox img
     ul.list_menu, ul.list_menu_ingles
     {
         width: 95%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
     ul.list_menu li, ul.list_menu_ingles li
     {
@@ -59,6 +59,7 @@ div.inbox img
     ul.list_menu li a, ul.list_menu_ingles li a
     {
         padding-left: 2%;
+        font-size: 11px;
     }
     ul.list_menu li:hover a p, ul.list_menu_ingles li:hover a p
     {
