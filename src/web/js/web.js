@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$( document ).on('ready',function() {
 
     //CAMBIA LA DIRECCION DE CONTACTO EN HOME
     cambioDireccion();
@@ -27,6 +27,11 @@ $( document ).ready(function() {
 
     $("#accordion").accordion();
 
+
+
+    //validar_form();
+   
+
     //$(".fancyzoom").on("click", function () {
         //$("a.fancyzoom").fancyzoom();
     //});
@@ -49,9 +54,7 @@ function changeLanguageName()
         $('ul.pull-left.navlist li a').text('Ingles');
         $('ul.pull-left.navlist li.active a').text('Español');
         //$("<li>-</li>").insertAfter("ul.pull-left.navlist li.active");
-
     }
-
 }
 
 function captureWidth()
@@ -190,59 +193,61 @@ function fancybox_window()
 
 function sliderImage(cantidad,pasos)
 {
-
-                $( "#slider" ).rcarousel({
-                    visible: cantidad,
-                    step: pasos
-                });
-                
-                $( "#ui-carousel-next" )
-                    .add( "#ui-carousel-prev" )
-                    .hover(
-                        function() {
-                            $( this ).css( "opacity", 0.7 );
-                        },
-                        function() {
-                            $( this ).css( "opacity", 1.0 );
-                        }
-                    );              
-                
-                $("#slider_small").rcarousel({
-                    visible: 2,
-                    step: 2,
-                    margin: 5,
-                    navigation:{
-                        next: "#ui-carousel-next2",
-                        prev: "#ui-carousel-prev2"
-                    }
-                });
-                
-                $( "#ui-carousel-next2" )
-                    .add( "#ui-carousel-prev2" )
-                    .hover(
-                        function() {
-                            $( this ).css( "opacity", 0.7 );
-                        },
-                        function() {
-                            $( this ).css( "opacity", 1.0 );
-                        }
-                    );
+    $( "#slider" ).rcarousel({
+        visible: cantidad,
+        step: pasos
+    });
+    
+    $( "#ui-carousel-next" )
+        .add( "#ui-carousel-prev" )
+        .hover(
+            function() {
+                $( this ).css( "opacity", 0.7 );
+            },
+            function() {
+                $( this ).css( "opacity", 1.0 );
+            }
+        );              
+    
+    $("#slider_small").rcarousel({
+        visible: 2,
+        step: 2,
+        margin: 5,
+        navigation:{
+            next: "#ui-carousel-next2",
+            prev: "#ui-carousel-prev2"
+        }
+    });
+    
+    $( "#ui-carousel-next2" )
+        .add( "#ui-carousel-prev2" )
+        .hover(
+            function() {
+                $( this ).css( "opacity", 0.7 );
+            },
+            function() {
+                $( this ).css( "opacity", 1.0 );
+            }
+        );
 }
 
 function paginaConstruccion() 
 {
-  $('a[href*=#]:not([href=#]).paralax').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
+    $('a[href*=#]:not([href=#]).paralax').click(function()
+    {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname)
+        {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) 
+            {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
 }
 
 function horizontalLine()
@@ -275,3 +280,157 @@ function horizontalLine()
     });
 }
 
+function pasar()
+{
+        var url = "/site/email";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#formulario").serialize(),
+            success: function(data)
+            {
+               // alert(data);
+                if(data){
+                    $('#ok').modal('show');
+                }else
+                {
+                    alert(data);
+                }
+            }
+        });
+}
+
+
+
+
+/*
+function validar_campo_texto(campo,num)
+{
+    var letras=/^([0-9])*$/;
+    
+    //alert(campo+msj);
+    if(campo=="" || letras.test(campo))
+    {
+        $("#mensaje+num").fadeIn();
+        //return false;
+    }else
+        {
+            //alert('hay algo');
+            $("#mensaje+num").fadeOut();
+        }
+}
+
+
+function validar_campo_numero(campo,num)
+{
+     var num=/^[a-zA-Z]*$/;
+    if(campo==" " || num.test(campo))
+    {
+        $("#num").fadeIn();
+        return false;
+    }else
+        {
+            $("#num").fadeOut();
+        }
+  }
+
+
+function validar_form()
+{
+    $("#boton_enviar").on('click',function()
+    {
+        
+        var nombre=$("#nombre").val();
+        var apellido=$("#apellido").val();
+        var telefono=$("#telefono").val();
+        var correo=$("#correo").val();
+        var msj=$("#msj").val();
+
+        validar_campo_texto($("#nombre").val(),'1');
+   
+    
+    });
+             
+            nombre=null;
+            apellidoval=null;
+            telefonoval=null;
+            correol=null;
+            msj=null;
+
+}
+
+*/
+
+
+
+
+
+
+function validar_form()
+{
+    $("#boton_enviar").on('click',function()
+    {
+        var letras=/^([0-9])*$/;
+        var num=/^[a-zA-Z]*$/;
+        var nombre=$("#nombre").val();
+        var apellido=$("#apellido").val();
+        var telefono=$("#telefono").val();
+        var correo=$("#correo").val();
+        var msj=$("#msj").val();
+
+        //alert(nombre);
+
+        if (nombre =="" || letras.test(nombre)){
+            //alert("VACIO");
+            $("#mensaje1").fadeIn();
+            //return false;
+        }else
+        {
+            $("#mensaje1").fadeOut();
+            if(apellido== "" || letras.test(apellido))
+            {   
+               $("#mensaje2").fadeIn();
+                //return false;    
+            }else
+            {
+                $("#mensaje2").fadeOut();
+                if(telefono=="" || num.test(telefono) || telefono.length<11)
+                {
+                    $("#mensaje3").fadeIn();
+                    //return false;       
+                }else
+                {
+                    $("#mensaje3").fadeOut();
+                    if(correo=="" || letras.test(correo))
+                    {
+                        $("#mensaje4").fadeIn();
+                        //return false;       
+                    }else
+                    {
+                        $("#mensaje4").fadeOut();
+                        if(msj=="")
+                        {
+                            $("#mensaje5").fadeIn();
+                          // return false;       
+                        }else
+                        {
+                            $("#mensaje5").fadeOut();
+                              
+                        }
+                    }
+
+                }
+            }
+        }    
+    });
+                
+            pasar(); 
+            letras=null;      
+            num=null;       
+            nombre=null;
+            apellidoval=null;
+            telefonoval=null;
+            correol=null;
+            msj=null;
+
+}

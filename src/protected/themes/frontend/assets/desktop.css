@@ -123,9 +123,6 @@ header {
   font-weight: bold;
 }
 
-
-
-
 .serv_1 {
 	height: 462px;
   clear:both;
@@ -226,6 +223,10 @@ p.paragraph, p.paragraph_title, p.fancybox {
 }
 
 img.pais {
+
+
+
+
   cursor: pointer;
 }
 
@@ -261,6 +262,8 @@ p.direction {
   min-height: 30px;
   float: left;
   margin-left: 0%;
+  width: 318px;
+
 }
 
 .footer {
@@ -269,7 +272,7 @@ p.direction {
 
 .footer p {
   margin-left: 15px;
-  font-size: 1em !important;
+  font-size: 12px !important;
 }
 
 img.logo {
@@ -559,4 +562,143 @@ img.logo {
 
 #accordion div {
     background: none !important;
+}
+
+.textarea{
+   max-width:395px;
+   min-width:395px;
+   max-height:235px;
+   min-height:235px;
+   margin-top: none;
+
+}
+
+.fondo{
+  width:100%; 
+  background-image: url('/images/background.png'); no-repeat;  
+  height:800px; /* poner aqui auto */ 
+  text-align: center;
+
+}
+
+.titulo
+{
+  padding-top: 1.5em;
+  padding-left: 1em;
+  text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 3em;
+}
+
+.cuadro{
+  background: rgba(61, 97, 167, 0.7);
+  max-width: 900px;
+  height: 500px;
+  /*margin: 20% 20% 20% 10%;*/
+  margin: auto;
+  margin-top: 100px; 
+}
+
+.campos{
+  width: 100%;
+  color: white;
+  font-size: 200%;
+  display: inline-block;
+  line-height: 200%;
+}
+
+.divs{
+    width: 47%;
+    margin-left: 15px; 
+}
+
+/*
+.display {
+    display: inline-block;
+}
+*/
+
+.situar{
+    margin-top: -300px;
+    margin-left: 461px;
+}
+
+
+.boton_enviar {
+    width: 100%; 
+    height: 100px;
+}
+
+.div_submit{
+  background-color: #eb5c29;
+  width: 140px;
+  color: #FFFFFF;
+  font-size: 1.7em;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  margin-left: -100px;
+  margin-top: -200px;
+}
+
+.centrar{
+  margin-top: 45px;
+  margin-left: -50px;
+}
+
+.bajar{
+  padding-top: 40px;
+  /*text-align: left;*/
+
+ } 
+
+.izquierda{
+  text-align: left;
+}
+
+.mas{
+  width: 400px;
+}
+
+.izquierda2{
+  margin-left: -290px;
+}
+
+.errores{
+  display: none;
+  background: #E74646;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0);
+  margin-left:  340px;
+  margin-top: -80px;
+}
+
+.error_msj{
+  display: none;
+  background: #E74646;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0);
+  margin-left:  269px;
+  margin-top: -293px;
+}
+
+.pos{
+  margin-left: 300px;
+}
+
+.exitoso{
+  font-size: 15px;
+  color: green;
+  text-align: center; 
+}
+
+.no_exitoso{
+  font-size: 15px;
+  color: red;
+  text-align: center;
 }
