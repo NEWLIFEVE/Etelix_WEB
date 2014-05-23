@@ -1,5 +1,7 @@
 src/vendor/
 src/web/assets/*
+src/composer.lock
+src/composer.phar
 /docs/
 src/protected/config/db.php
 src/protected/config/gii.php
