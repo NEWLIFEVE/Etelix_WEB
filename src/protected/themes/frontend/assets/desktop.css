@@ -564,6 +564,8 @@ img.logo {
     background: none !important;
 }
 
+
+/*
 .textarea{
    max-width:395px;
    min-width:395px;
@@ -576,7 +578,7 @@ img.logo {
 .fondo{
   width:100%; 
   background-image: url('/images/background.png'); no-repeat;  
-  height:800px; /* poner aqui auto */ 
+  height:800px; 
   text-align: center;
 
 }
@@ -595,7 +597,6 @@ img.logo {
   background: rgba(61, 97, 167, 0.7);
   max-width: 900px;
   height: 500px;
-  /*margin: 20% 20% 20% 10%;*/
   margin: auto;
   margin-top: 100px; 
 }
@@ -618,6 +619,8 @@ img.logo {
     display: inline-block;
 }
 */
+
+/*
 
 .situar{
     margin-top: -300px;
@@ -649,7 +652,7 @@ img.logo {
 
 .bajar{
   padding-top: 40px;
-  /*text-align: left;*/
+
 
  } 
 
