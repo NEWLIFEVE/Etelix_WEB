@@ -41,7 +41,7 @@ div.inbox img
     ul.list_menu, ul.list_menu_ingles
     {
         width: 95%;
-        margin-left: 10%;
+        margin-left: 9%;
     }
     ul.list_menu li, ul.list_menu_ingles li
     {
@@ -59,7 +59,6 @@ div.inbox img
     ul.list_menu li a, ul.list_menu_ingles li a
     {
         padding-left: 2%;
-        font-size: 11px;
     }
     ul.list_menu li:hover a p, ul.list_menu_ingles li:hover a p
     {
@@ -82,9 +81,9 @@ div.inbox img
      ul.list_menu li p, ul.list_menu_ingles li p
     {
         max-width: 65px;
-        padding-left: 15px;
+        padding-left: 15px; /*15px*/
         margin-top: -29px;
-        font-size: 1.2em;
+        font-size: 1.1em;
         text-align: right;
     }
     #ima_1 p, #ima_5 p, #ima_6 p
@@ -107,7 +106,7 @@ div.inbox img
         width: 70px;
     }
     #ima_5 p {
-        padding-left: 5px;
+        padding-left: 20px;
     }
     #ima_6 
     {
@@ -297,8 +296,8 @@ div.inbox img
 {
 display: inline;
 list-style-type: none;
-padding-right: 10px;
-margin-left: 15px;
+padding-right: 0px;
+margin-left: 8px;
 }
 
 #content 
@@ -2070,6 +2069,7 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
+  height: 20px;
   padding: 4px 6px;
   margin-bottom: 10px;
   font-size: 14px;
@@ -2077,9 +2077,8 @@ input[type="color"],
   color: #555555;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  border-radius: 0px;
+  border-radius: 4px;
   vertical-align: middle;
-  size:100px;
 }
 input,
 textarea,

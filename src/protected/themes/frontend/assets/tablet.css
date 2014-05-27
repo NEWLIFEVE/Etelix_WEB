@@ -12,16 +12,15 @@
     min-height: 30px;
     float: left;
     margin-left: 0%;
-    width: 245px;
   }
-  /*
- .fondo{
+
+   .fondo{
 	width: 100%;
 	}
 
 .textarea{
-   max-width:300px;
-   min-width:300px;
+   max-width:330px;
+   min-width:330px;
    max-height:300px;
    min-height:200px;
    margin-top: none;
@@ -32,7 +31,7 @@
 }
 
 .izquierda2{
-  margin-left: -230px;
+  margin-left: 7px;
 }
 
 .situar{
@@ -42,28 +41,37 @@
 
 .errores{
   display: none;
-  background: #E74646;
+  background: #ed5565;
   padding: 7px;
   position: absolute;
   color: #fff;
   box-shadow: 0 0 8px rgba(0,0,0,0);
-  margin-left:  200px;
+  margin-left:  259px;
   margin-top: -80px;
 }
 
 .error_msj{
   display: none;
-  background: #E74646;
+  background: #ed5565;
   padding: 7px;
   position: absolute;
   color: #fff;
   box-shadow: 0 0 8px rgba(0,0,0,0);
-  margin-left:  187px;
+  margin-left:  235px;
   margin-top: -260px;
 }
 
+.map{
+	background-color: #fff6e7;
+	padding-top: 7%;
+	padding-bottom: 10%;
 }
-*/
+
+
+
+
+}
+
 @media (min-width: 257px) and (max-width: 767px){
   .paragraph {
 	margin-top: 15px;
@@ -876,10 +884,7 @@
 		left: 56%;
 	}
 
-	.map_8{
-	  top: 51.6%;
-	left: 26%;
-	}
+
 
 
 }
@@ -1079,40 +1084,40 @@
 	  line-height: 125%;
 	}
 	.pais_1 {
-	  top: 26.5%;
+	  top: 25.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 28.5%;
+	  top: 27.5%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 35.5%;
+	  top: 34.5%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 37.6%;
+	  top: 36.6%;
 	  left: -3.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 39.5%;
+	  top: 38.5%;
 	  left: 0.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 43.8%;
+	  top: 42.8%;
 	  left: 4.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 41.6%;
+	  top: 40.6%;
 	  left: 2%;
 	  text-align: right;
 	}

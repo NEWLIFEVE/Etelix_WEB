@@ -104,13 +104,17 @@ class SiteController extends Controller
 		Null
 		*/
 		/*  PONER EN CORREO EL CORREO DESTINATARIO DE LA EMPRESA */			
-	     if(Yii::app()->mail->enviar($texto, $correo, 'Nuevo Mensaje',null))
+	     if(Yii::app()->mail->enviar($texto, $correo, "Contact from Etelix WEB"))
 	     {
 	     	echo "1";
+	     	
 	     }else
 	     {
 	     	echo "0";
 	     }
+
+
+
 	}
 
 	/**

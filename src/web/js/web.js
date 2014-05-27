@@ -46,15 +46,20 @@ function changeLanguageName()
 
     if(language == 'Ingles')
     {
+        
         $('ul.pull-left.navlist li a').text('Spanish');
+        $("<li ->-</li>").insertBefore("ul.pull-left.navlist li.active");
         $('ul.pull-left.navlist li.active a').text('English');
+        
+
     }
     else
     {
+        $("<li>-</li>").insertAfter("ul.pull-left.navlist li.active");
         $('ul.pull-left.navlist li a').text('Ingles');
         $('ul.pull-left.navlist li.active a').text('Español');
-        //$("<li>-</li>").insertAfter("ul.pull-left.navlist li.active");
-    }
+
+        }
 }
 
 function captureWidth()
@@ -294,143 +299,157 @@ function pasar()
                     $('#ok').modal('show');
                 }else
                 {
-                    alert(data);
+                    $('#error').modal('show');
                 }
             }
         });
 }
 
-
-
-
-/*
-function validar_campo_texto(campo,num)
-{
+function validar_campo(cadena)
+{       
     var letras=/^([0-9])*$/;
-    
-    //alert(campo+msj);
-    if(campo=="" || letras.test(campo))
+    if (cadena =="" || letras.test(cadena))
     {
-        $("#mensaje+num").fadeIn();
-        //return false;
-    }else
-        {
-            //alert('hay algo');
-            $("#mensaje+num").fadeOut();
-        }
-}
-
-
-function validar_campo_numero(campo,num)
-{
-     var num=/^[a-zA-Z]*$/;
-    if(campo==" " || num.test(campo))
-    {
-        $("#num").fadeIn();
         return false;
     }else
-        {
-            $("#num").fadeOut();
-        }
-  }
-
-
-function validar_form()
-{
-    $("#boton_enviar").on('click',function()
     {
-        
-        var nombre=$("#nombre").val();
-        var apellido=$("#apellido").val();
-        var telefono=$("#telefono").val();
-        var correo=$("#correo").val();
-        var msj=$("#msj").val();
-
-        validar_campo_texto($("#nombre").val(),'1');
-   
-    
-    });
-             
-            nombre=null;
-            apellidoval=null;
-            telefonoval=null;
-            correol=null;
-            msj=null;
-
+        return true;
+    }        
 }
 
-*/
 
-
-
-
-
-
-function validar_form()
-{
-    $("#boton_enviar").on('click',function()
+function validar_correo(cadena)
+{       
+    var cc=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
+    if (cadena =="" || !cc.test(cadena))
     {
-        var letras=/^([0-9])*$/;
-        var num=/^[a-zA-Z]*$/;
-        var nombre=$("#nombre").val();
-        var apellido=$("#apellido").val();
-        var telefono=$("#telefono").val();
-        var correo=$("#correo").val();
-        var msj=$("#msj").val();
+        //alert("malo");
+        return false;
+    }else
+    {
+         //alert("bien"); 
+        return true;
+    }        
+}
 
-        //alert(nombre);
+function validar_numero(numero)
+{       
+    var num=/^[a-zA-Z]*$/;
+    if (numero =="" || num.test(numero))
+    {
+            return false;
+    }else
+    {
+        return true;
+    }        
+}
 
-        if (nombre =="" || letras.test(nombre)){
-            //alert("VACIO");
-            $("#mensaje1").fadeIn();
-            //return false;
-        }else
+function mostrar_mensaje(boo,num)
+{    
+    if(boo==true)
+    {
+        $("#mensaje"+num).fadeOut();
+    }else
+    {
+        $("#mensaje"+num).fadeIn();
+    } 
+}
+
+function change(campo,num)
+{
+    console.log('entre');
+        $(campo).on('change',function()
         {
-            $("#mensaje1").fadeOut();
-            if(apellido== "" || letras.test(apellido))
-            {   
-               $("#mensaje2").fadeIn();
-                //return false;    
+            var letras=/^([0-9])*$/;
+            if ($(this) =="" || letras.test($(this).val()))
+            {
+                $("#mensaje"+num).fadeIn();
             }else
             {
-                $("#mensaje2").fadeOut();
-                if(telefono=="" || num.test(telefono) || telefono.length<11)
-                {
-                    $("#mensaje3").fadeIn();
-                    //return false;       
-                }else
-                {
-                    $("#mensaje3").fadeOut();
-                    if(correo=="" || letras.test(correo))
-                    {
-                        $("#mensaje4").fadeIn();
-                        //return false;       
-                    }else
-                    {
-                        $("#mensaje4").fadeOut();
-                        if(msj=="")
-                        {
-                            $("#mensaje5").fadeIn();
-                          // return false;       
-                        }else
-                        {
-                            $("#mensaje5").fadeOut();
-                              
-                        }
-                    }
-
-                }
+                $("#mensaje"+num).fadeOut();
             }
-        }    
-    });
-                
-            pasar(); 
-            letras=null;      
-            num=null;       
-            nombre=null;
-            apellidoval=null;
-            telefonoval=null;
-            correol=null;
-            msj=null;
-
+        });
 }
+
+function change_numero(campo,num)
+{
+    console.log('entre numero');
+        $(campo).on('change',function()
+        {
+            var patron=/^[a-zA-Z]*$/;
+            if ($(this) =="" || patron.test($(this).val()))
+            {
+                $("#mensaje"+num).fadeIn();
+            }else
+            {   
+                $("#mensaje"+num).fadeOut();
+            }
+        });
+}
+
+//function validar_form()
+//{
+        change("#nombre",'1');
+        change("#apellido",'2');
+        change_numero("#telefono",'3');
+        change("#correo",'4');
+        change("#msj",'5');
+        
+    $("#boton_enviar").on('click',function()
+    {   //var num=/^[a-zA-Z]*$/;
+        var nombre=$("#nombre").val();
+        //var letras=/^([0-9])*$/;
+        var apellido=$("#apellido").val();
+        var telefono=$("#telefono").val();
+        var correo=$("#correo").val();
+        var msj=$("#msj").val();
+        var check = true;
+        var arreglo= new Array();
+        //----------------------------
+        arreglo.push(validar_campo(nombre));
+        mostrar_mensaje(arreglo[0],'1');
+        //----------------------------
+        arreglo.push(validar_campo(apellido));
+        mostrar_mensaje(arreglo[1],'2');
+        //----------------------------
+        arreglo.push(validar_numero(telefono));
+        mostrar_mensaje(arreglo[2],'3');
+        //----------------------------
+        arreglo.push(validar_correo(correo));
+        mostrar_mensaje(arreglo[3],'4');
+        //----------------------------
+        arreglo.push(validar_campo(msj));
+        mostrar_mensaje(arreglo[4],'5');
+        //----------------------------  
+        for (var i =0; i <= arreglo.length - 1; i++)
+        {
+            if(arreglo[i]== false)
+            {
+                check = false;
+                console.log('false '+check);
+            }else{
+                console.log('true '+check);
+            }
+        }
+        if(check == true){
+            pasar(); 
+            //console.log("1");
+            $('#formulario').each (function(){
+                 this.reset();
+             });
+            }
+
+    });
+
+     
+
+
+
+            //letras=null;      
+            //num=null;       
+            //nombre=null;
+            //apellidoval=null;
+            //telefonoval=null;
+            //correol=null;
+            //msj=null;
+//}

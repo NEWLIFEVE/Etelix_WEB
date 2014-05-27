@@ -22,7 +22,7 @@ class EnviarEmail extends CApplicationComponent
      * @param string $ruta es la ruta donde esta el archivo adjunto
      * @param array $copia direcciones que seran copiadas al envio del correo
      */
-    public function enviar($html, $user, $asunto, $ruta, $copia=null)
+    public function enviar($html, $user, $asunto, $ruta=null, $copia=null)
     {
         if(isset($html) && isset($user))
         {
@@ -30,13 +30,40 @@ class EnviarEmail extends CApplicationComponent
             $mailer=new PHPMailer();
             $mailer->IsSMTP();
             $mailer->Host='smtp.gmail.com';
-            $mailer->Port='465';
+            $mailer->Port='587';
             $mailer->SMTPSecure='tls';
             $mailer->Username='schizophrenic00@gmail.com';
             $mailer->SMTPAuth=true;
             $mailer->Password="(edwin)010293";
-            $mailer->SetFrom('schizophrenic00@gmail.com','Etelix');
+            $mailer->SetFrom('schizophrenic00@gmail.com','Etelix WEB');
+
+            /*
+            $mailer->Host='mail.etelix.com';
+            $mailer->Port='475';
+            $mailer->SMTPSecure='tls';
+            $mailer->Username='renoc@etelix.com';
+            $mailer->SMTPAuth=true;
+            $mailer->Password="$4c3t.renoc";
+            $mailer->SetFrom('renoc@etelix.com','RENOC');
+            */
+
+
+            $mailer->IsSMTP();
             $mailer->IsHTML(true);
+            $mailer->From = $user;
+            //$mailer->AddReplyTo('schizophrenic00@gmail.com');
+            //a quien envia
+            $mailer->AddAddress('edwing@sacet.biz');
+            $mailer->FromName = 'Etelix WEB';
+            $mailer->CharSet = 'UTF-8';
+            $mailer->Subject = $asunto;
+
+            $mailer->Body = $html;
+            $mailer->Send();
+
+
+            /*
+           $mailer->IsHTML(true);
             $mailer->AddAddress($user);
             if($copia!=null)
             {
@@ -57,7 +84,7 @@ class EnviarEmail extends CApplicationComponent
             else
             {
                 return false;
-            }
+            }*/
         }
     }
 }
