@@ -289,7 +289,7 @@ img.logo {
 .cliente {
   color:#ec6b18;
   font-size: 2em;
-  margin-left: 20px;
+  margin-left: 39px;
 }
 
 .clientes {
@@ -561,9 +561,9 @@ img.logo {
 textarea{
    max-width:395px;
    min-width:395px;
-   max-height:235px;
-   min-height:235px;
-   margin-top: none;
+   max-height:195px;
+   min-height:195px;
+   margin-top: 100px;
 
 }
 
@@ -599,7 +599,7 @@ textarea{
 .campos{
   width: 100%;
   color: white;
-  font-size: 200%;
+  font-size: 160%;
   display: inline-block;
   line-height: 200%;
 }
@@ -616,7 +616,7 @@ textarea{
 */
 
 .situar{
-    margin-top: -300px;
+    margin-top: -250px;
     margin-left: 461px;
 }
 
@@ -683,11 +683,11 @@ textarea{
   color: #fff;
   box-shadow: 0 0 8px rgba(0,0,0,0);
   margin-left:  300px;
-  margin-top: -293px;
+  margin-top: -253px;
 }
 
 .pos{
-  /*margin-left: 300px;*/
+  margin-left: 300px;
 }
 
 .exitoso{
@@ -704,4 +704,27 @@ textarea{
 
 #guion_ingles{
   margin-left: -47px;
+}
+
+.error_msj_ingles{
+  margin-left:  320px;
+  display: none;
+  background: #ed5565;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0);
+  margin-top: -253px;
+}
+
+.errores_ingles{
+  display: none;
+  background: #ed5565;
+  padding: 7px;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0);
+  margin-left:  290px;
+  margin-top: -80px;
+
 }

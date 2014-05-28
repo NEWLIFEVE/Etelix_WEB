@@ -152,11 +152,13 @@
 
 
 /* portrait  */
-@media (min-width:100px) and (max-width: 400px){
+@media (min-width:100px) and (max-width: 399px){
 
 .textarea{
 	min-width: 225px;
 	min-height: 100px;
+	max-height: 100px;
+	max-width: 225px;
 }
 
 .display{
@@ -167,8 +169,6 @@
   background: rgba(61, 97, 167, 0.7);
   max-width: 500px;
   height: 580px;
-  /*margin: 20% 20% 20% 10%;*/
-  /*margin: auto;*/
   margin-top: 60px;
 }
 
@@ -190,21 +190,25 @@
 	margin-top: 30px;
 }
 
+
+/*
 .left{
 	margin-left: -776px;
 	margin-top: 1px;
 	width: auto;
 }
+*/
 
 .izquierda2{
 	margin-left: -650px;
 	margin-top: -300px;
 }
 
+
 .situar{
 	margin-top: 1px;
 	padding-left: -200px;
-	/*width: 100%;*/
+
 }
 
 .posicionar{
@@ -240,6 +244,10 @@
   margin-top: -160px;
 }
 
+.text_izq{
+	margin-left: -776px;
+}
+
 }
 
 @media (min-width: 400px) and (max-width:568px){
@@ -247,6 +255,8 @@
 .textarea{
 	min-width: 402px;
 	min-height: 100px;
+	max-height: 100px;
+	max-width: 402px;
 }
 
 
@@ -266,10 +276,9 @@
 
 .posicionar{
 	margin-left: -430px;
-	margin-top: 290px;
+	margin-top: 257px;
 	text-align: left;
 }
-
 
 .mas{
 	width: none;
@@ -280,10 +289,14 @@
 }
 
 .left{
-	margin-left: -709px;
-	margin-top: -1px;
 	width: auto;
 }
+
+.text_izq{
+	margin-left: -700px;
+}
+
+
 
 .posicionarmovil{
 	margin-left: 14px;
@@ -297,13 +310,13 @@
   color: #fff;
   box-shadow: 1px 1px 8px rgba(0,0,0,0);
   margin-left:  -150px;
-  margin-top: -160px;
+  margin-top: -159px;
 }
 
 .map{
-	padding-top: 1%;
+	padding-top: 7%;
 	}
 
 
-}
 
+}
