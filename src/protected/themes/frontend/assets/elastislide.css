@@ -28,7 +28,7 @@
 }
 
 .elastislide-horizontal {
-	padding: 11px 22px;
+	padding: 11px 36px;
 }
 
 .elastislide-vertical {
@@ -80,7 +80,7 @@
 .elastislide-carousel ul li a img {
 	display: block;
 	/*border: 2px solid white;*/
-	max-width: 85%;
+	max-width: 80%;
 }
 
 /* Navigation Arrows */
