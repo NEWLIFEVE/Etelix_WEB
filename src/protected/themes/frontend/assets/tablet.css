@@ -64,7 +64,7 @@
 
 .map{
 	background-color: #fff6e7;
-	padding-top: 12%;
+	padding-top: 15%;
 	padding-bottom: 16%;
 }
 
@@ -1000,33 +1000,39 @@
 	}
 
 	.map_2 {
-		top: 51%;
-		left: 45%;
+		top: 42%;
+		left: 51%;
+		font-size: 0.7em;
 	}
 
 	.map_3 {
 		top: 43%;
 		left: 53%;
+		font-size: 0.7em;
 	}
 
 	.map_4 {
-		top: 51.5%;
-		left: 56%;
+		top: 42.5%;
+		left: 62%;
+		font-size: 0.7em;
 	}
 
 	.map_5 {
-		top: 57.5%;
-		left: 54%;
+		top: 46.5%;
+		left: 64%;
+		font-size: 0.7em;
 	}
 
 	.map_6 {
 		top: 54%;
 		left: 58%;
+		font-size: 0.7em;
 	}
 
 	.map_7 {
-		top: 55%;
-		left: 56%;
+		top: 46%;
+		left: 63%;
+		font-size: 0.7em;
 	}
 
 }
@@ -1183,49 +1189,49 @@
 	.map_1 {
 		top: 45.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_2 {
-		top: 44%;
+		top: 42%;
 		left: 50%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_3 {
 		top: 44.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_4 {
-		top: 44%;
+		top: 42%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_5 {
-		top: 48%;
+		top: 46%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_6 {
 		top: 46.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_7 {
-		top: 46.5%;
-		left: 58%;
-		font-size: 0.8em;
+		top: 43.5%;
+		left: 64%;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 }
@@ -1277,49 +1283,49 @@
 	.map_1 {
 		top: 43.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6m;
 		line-height: 17px;
 	}
 
 	.map_2 {
-		top: 43%;
+		top: 40%;
 		left: 50%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_3 {
 		top: 43.5%;
 		left: 52%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_4 {
-		top: 43%;
-		left: 58%;
-		font-size: 0.8em;
+		top: 40%;
+		left: 64%;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_5 {
 		top: 45%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_6 {
 		top: 44.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_7 {
 		top: 42.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 }
@@ -1385,49 +1391,49 @@
 	.map_1 {
 		top: 44.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_2 {
-		top: 41.5%;
+		top: 40.5%;
 		left: 43%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_3 {
-		top: 41.5%;
+		top: 39.5%;
 		left: 52%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_4 {
-		top: 42%;
-		left: 58%;
-		font-size: 0.8em;
+		top: 40%;
+		left: 65%;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_5 {
-		top: 46%;
-		left: 58%;
-		font-size: 0.8em;
+		top: 44%;
+		left: 64%;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_6 {
-		top: 44.5%;
+		top: 40.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_7 {
-		top: 44.5%;
+		top: 41.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 }
@@ -1486,7 +1492,7 @@
 
 	.address {
 	  display: inline-block;
-	  line-height: 1;
+	  line-height: 2;
 	}
 
 	#accordion div p {
@@ -1505,30 +1511,30 @@
 	}
 
 	.map_1 {
-		top: 39.5%;
+		top: 40.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_2 {
-		top: 38.5%;
+		top: 36.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_4 {
-		top: 35.5%;
+		top: 33.5%;
 		left: 63%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_5 {
-		top: 42.5%;
+		top: 38.5%;
 		left: 63%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
@@ -1595,3 +1601,10 @@
 	}
 
 }	
+
+@media (min-width: 400px) and (min-width: 400px){
+
+
+
+
+}
