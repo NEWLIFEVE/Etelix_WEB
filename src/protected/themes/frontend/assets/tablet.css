@@ -385,7 +385,7 @@
 
 	.map{
 		background-color: #fff6e7;
-		padding-top: 14%;
+		padding-top: 19%; /* 14 */ 
 		padding-bottom: 10%;
 	}
 
@@ -1236,40 +1236,40 @@
 	  line-height: 125%;
 	}
 	.pais_1 {
-	  top: 27.5%;
+	  top: 26.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 29.4%;
+	  top: 28.4%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 36.5%;
+	  top: 34.5%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 38.7%;
+	  top: 37%;
 	  left: -2.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 40.5%;
-	  left: 0.5%;
+	  top: 39.5%;
+	  left: -1.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 45.2%;
-	  left: 4.5%;
+	  top: 44.2%;
+	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 42.8%;
+	  top: 41.8%;
 	  left: 2.0%;
 	  text-align: right;
 	}
@@ -1317,7 +1317,7 @@
 	}
 
 	.map_7 {
-		top: 45.5%;
+		top: 42.5%;
 		left: 58%;
 		font-size: 0.8em;
 		line-height: 17px;
