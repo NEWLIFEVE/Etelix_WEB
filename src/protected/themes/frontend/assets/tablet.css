@@ -590,6 +590,13 @@
 		color: #f18e22;
 		font-weight: bold;
 	}
+
+
+
+
+
+
+
 }
 
 
@@ -603,17 +610,17 @@
 	  top: 40%;
 	  width: 85%;
 	  padding-left: 5%;
-	  font-size: 1.1em;
+	  font-size: 1.3em;
 	  line-height: 20px;
 	  text-align: justify;
 	}
 
 	.mision_quienes_somos {
 	  position: absolute;
-	  top: 46%;
+	  top: 48%;
 	  width: 85%;
 	  padding-left: 5%;
-	  font-size: 1.1em;
+	  font-size: 1.3em;
 	  line-height: 20px;
 	  text-align: justify;
 	}
@@ -998,7 +1005,7 @@
 	}
 
 	.map_3 {
-		top: 51%;
+		top: 43%;
 		left: 53%;
 	}
 
@@ -1085,45 +1092,50 @@
 	}
 
 	.map_1 {
-		top: 56%;
+		top: 46%;
 		left: 57%;
 	}
 
 	.map_2 {
-		top: 51%;
+		top: 43%;
 		left: 45%;
 	}
 
 	.map_3 {
-		top: 51%;
-		left: 53%;
+		top: 44%;
+		left: 63%;
 	}
 
 	.map_4 {
-		top: 51.5%;
+		top: 43.5%;
 		left: 56%;
 	}
 
 	.map_5 {
-		top: 57.5%;
-		left: 54%;
+		top: 47.5%;
+		left: 63%;
 	}
 
 	.map_6 {
-		top: 54%;
-		left: 58%;
+		top: 45.5%;
+		left: 63%;
 	}
 
 	.map_7 {
-		top: 55%;
-		left: 56%;
+		top: 46%;
+		left: 61%;
 	}
 
 }
 
+@media (min-width: 641px) and (max-width: 684px){
+	
+.map_1 {
+		top: 46%;
+		left: 57%;
+	}
 
-
-
+}
 
 
 
@@ -1169,7 +1181,7 @@
 	}
 
 	.map_1 {
-		top: 46.5%;
+		top: 45.5%;
 		left: 58%;
 		font-size: 0.8em;
 		line-height: 17px;
@@ -1263,7 +1275,7 @@
 	}
 
 	.map_1 {
-		top: 45.5%;
+		top: 43.5%;
 		left: 58%;
 		font-size: 0.8em;
 		line-height: 17px;
@@ -1291,14 +1303,14 @@
 	}
 
 	.map_5 {
-		top: 47%;
+		top: 45%;
 		left: 58%;
 		font-size: 0.8em;
 		line-height: 17px;
 	}
 
 	.map_6 {
-		top: 45.5%;
+		top: 44.5%;
 		left: 58%;
 		font-size: 0.8em;
 		line-height: 17px;
@@ -1309,6 +1321,16 @@
 		left: 58%;
 		font-size: 0.8em;
 		line-height: 17px;
+	}
+}
+
+
+@media (min-width: 641px) and (max-width: 765px){
+	.map_6 {
+		top: 44.5%;
+		left: 58%;
+		font-size: 0.8em;
+		line-height: 15px;
 	}
 }
 
@@ -1411,6 +1433,19 @@
 }
 
 
+
+@media (min-width: 445px) and (max-width: 390px) {
+		.map_1 {
+		top: 35.5%;
+		left: 58%;
+		font-size: 0.8em;
+		line-height: 17px;
+	}
+
+}
+
+
+
 @media (max-width: 550px){
 
 	ul.list_menu li, ul.list_menu_ingles li {
@@ -1468,6 +1503,35 @@
 	  margin-top: -3%;
 
 	}
+
+	.map_1 {
+		top: 39.5%;
+		left: 58%;
+		font-size: 0.8em;
+		line-height: 17px;
+	}
+
+	.map_2 {
+		top: 38.5%;
+		left: 58%;
+		font-size: 0.8em;
+		line-height: 17px;
+	}
+
+	.map_4 {
+		top: 35.5%;
+		left: 63%;
+		font-size: 0.8em;
+		line-height: 17px;
+	}
+
+	.map_5 {
+		top: 42.5%;
+		left: 63%;
+		font-size: 0.8em;
+		line-height: 17px;
+	}
+
 
 	.ui-accordion .ui-accordion-header .ui-icon {
 		position: absolute;
