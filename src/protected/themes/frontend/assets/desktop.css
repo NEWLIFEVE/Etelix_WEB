@@ -490,14 +490,16 @@ img.logo {
   text-align: right;
 }
 
-.map_1, .map_2 {
-  top: 59%;
-  left: 55%;
-}
-
 .map_2 {
-
+  top: 55%;
+  left: 58%;
 }
+
+.map_1{
+  top: 59%;
+  left: 64%;
+}
+
 
 .map_3 {
   top: 57%;
@@ -511,17 +513,17 @@ img.logo {
 
 .map_5 {
   top: 61%;
-  left: 54%;
+  left: 64%;
 }
 
 .map_6 {
-  top: 58%;
-  left: 58%;
+  top: 57%;
+  left: 65%;
 }
 
 .map_7 {
-  top: 60%;
-  left: 56%;
+  top: 58%;
+  left: 66%;
 }
 
 #accordion {
