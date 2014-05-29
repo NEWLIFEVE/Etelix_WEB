@@ -27,11 +27,8 @@ $( document ).on('ready',function() {
 
     $("#accordion").accordion();
 
-
-
     //validar_form();
    
-
     //$(".fancyzoom").on("click", function () {
         //$("a.fancyzoom").fancyzoom();
     //});
@@ -39,7 +36,16 @@ $( document ).on('ready',function() {
 });
 
 
+    /*
+    $("ul.list_menu li#ima_1").mouseover(function(){
+        $("ul.list_menu li#ima_1").css("text-decoration","underline");
+    });
+    */
 
+
+
+
+  
 
 function changeLanguageName()
 {
@@ -439,6 +445,9 @@ function change_numero(campo,num)
             $('#formulario').each (function(){
                  this.reset();
              });
+
+            
+            
             }
 
     });

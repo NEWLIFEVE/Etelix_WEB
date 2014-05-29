@@ -35,8 +35,7 @@ class EnviarEmail extends CApplicationComponent
             $mailer->Username='schizophrenic00@gmail.com';
             $mailer->SMTPAuth=true;
             $mailer->Password="(edwin)010293";
-            $mailer->SetFrom('schizophrenic00@gmail.com','Etelix WEB');
-
+            $mailer->SetFrom('schizophrenic00@gmail.com','Etelix Web.');
             /*
             $mailer->Host='mail.etelix.com';
             $mailer->Port='475';
@@ -46,14 +45,17 @@ class EnviarEmail extends CApplicationComponent
             $mailer->Password="$4c3t.renoc";
             $mailer->SetFrom('renoc@etelix.com','RENOC');
             */
-
-
             $mailer->IsSMTP();
             $mailer->IsHTML(true);
             $mailer->From = $user;
             //$mailer->AddReplyTo('schizophrenic00@gmail.com');
             //a quien envia
-            $mailer->AddAddress('edwing@sacet.biz');
+            
+            //$mailer->AddAddress('edwing@sacet.biz');
+
+            $mailer->AddAddress('schizophrenic00@gmail.com');
+
+
             $mailer->FromName = 'Etelix WEB';
             $mailer->CharSet = 'UTF-8';
             $mailer->Subject = $asunto;
