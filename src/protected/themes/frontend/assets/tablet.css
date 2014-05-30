@@ -1053,9 +1053,6 @@
 }
 
 
-
-
-
 @media (min-width: 685px) and (max-width: 767px){
 
 	.pais_1 {
@@ -1545,7 +1542,7 @@
 		top: 50%;
 		margin-top: -8px;
 	}
-
+	
 	.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl,
 	.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
 		-moz-border-radius-bottomleft: 0px;
@@ -1554,12 +1551,26 @@
 		border-bottom-left-radius: 0px;
 		border-bottom-right-radius: 0px;
 	}
+	
+		.ui-accordion .ui-accordion-content {
+		padding: 1em 2.2em;
+		border-top: 0;
+		margin-top: -2px;
+		position: relative;
+		top: 1px;
+		margin-bottom: 2px;
+		overflow: auto;
+		display: none;
+		zoom: 1;
+		}
+
 
 	.ui-widget-content {
 		border: 1px solid #aaaaaa;
 		/* background: #ffffff url(../img/ui-bg_glass_75_ffffff_1x400.png) 50% 50% repeat-x; */
 		color: #404040;
 	}
+
 
 }
 
