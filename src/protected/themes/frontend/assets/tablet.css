@@ -64,8 +64,8 @@
 
 .map{
 	background-color: #fff6e7;
-	padding-top: 12%;
-	padding-bottom: 10%;
+	padding-top: 15%;
+	padding-bottom: 16%;
 }
 
 .error_msj_ingles{
@@ -220,6 +220,44 @@
 	.vision_quienes_somos {
 	  font-size: 1.3em;
 	}
+
+	.pais_6{
+		top: 53%;
+		left: 1.5%;
+		text-align: right;
+	}
+
+
+	.pais_7{
+		top: 49.5%;
+		left: 1%;
+		text-align: right;
+	}
+
+	.pais_5{
+		top: 45.5%;
+		left: 1%;
+		text-align: right;
+	}
+
+	.pais_4{
+		top: 41.5%;
+		left: -4.5%;
+		text-align: right;
+	}
+
+	.pais_1{
+		top: 20.5%;
+		left: 45%;
+		text-align: right;
+	}
+
+	.pais_2{
+		top: 24.5%;
+		left: 26%;
+		text-align: right;
+	}
+
 }
 
 @media (min-width: 681px) and (max-width: 766px){
@@ -300,7 +338,21 @@
 	  line-height: 20px;
 	  text-align: justify;
 	}
+
+
 }
+
+/*
+@media (min-width: 641) and (max-width:700){
+	.pais_1{
+		top: 24.5;
+		left: 60%;
+	}
+
+}
+*/
+
+
 
 @media (min-width: 601px) and (max-width: 640px){
 	.descripcion_quienes_somos {
@@ -330,6 +382,16 @@
 	  line-height: 18px;
 	  text-align: justify;
 	}
+
+	.map{
+		background-color: #fff6e7;
+		padding-top: 19%; /* 14 */ 
+		padding-bottom: 10%;
+	}
+
+
+
+
 }
 
 @media (min-width: 571px) and (max-width: 600px){
@@ -356,6 +418,16 @@
 	  width: 40%;
 	  line-height: 17px;
 	}
+
+
+	.map{
+		background-color: #fff6e7;
+		padding-top: 14%;
+		padding-bottom: 10%;
+	}
+
+
+
 }
 
 @media (min-width: 534px) and (max-width: 570px){
@@ -397,13 +469,13 @@
 
 	}
 	.mision_quienes_somos {
-	  top: 36%;
+	  top: 33%; /* 36 */
 	  font-size: 0.95em;
 	  width: 50%;
 	  line-height: 17px;
 	}
 	.vision_quienes_somos {
-	  top: 44%;
+	  top: 42%; /*44*/
 	  font-size: 0.95em;
 	  width: 50%;
 	  line-height: 17px;
@@ -518,9 +590,42 @@
 		color: #f18e22;
 		font-weight: bold;
 	}
+
+
+
+
+
+
+
 }
 
 
+
+
+
+@media (min-width: 641px) and (max-width: 768px){
+
+	.vision_quienes_somos {
+	  position: absolute;
+	  top: 40%;
+	  width: 85%;
+	  padding-left: 5%;
+	  font-size: 1.3em;
+	  line-height: 20px;
+	  text-align: justify;
+	}
+
+	.mision_quienes_somos {
+	  position: absolute;
+	  top: 48%;
+	  width: 85%;
+	  padding-left: 5%;
+	  font-size: 1.3em;
+	  line-height: 20px;
+	  text-align: justify;
+	}
+
+}
 
 
 @media (min-width: 770px) and (max-width: 803px){
@@ -602,6 +707,10 @@
 		margin-top: 20px;
 		color: #000000 !important;
 	}
+
+
+
+
 }
 
 @media (min-width: 570px) and (max-width: 614px){
@@ -760,12 +869,12 @@
 
 	
 	.pais_1 {
-	  top: 19.5%;
+	  top: 20.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 22.8%;
+	  top: 24.8%;
 	  left: 37%;
 	}
 
@@ -776,7 +885,7 @@
 
 	.pais_4 {
 	  top: 43.5%;
-	  left: -2.5%;
+	  left: -4.5%;
 	  text-align: right;
 	}
 
@@ -787,13 +896,13 @@
 	}
 
 	.pais_6 {
-	  top: 48.5%;
-	  left: 36.5%;
+	  top: 56.5%;
+	  left: 1.5%;
 	}
 
 	.pais_7 {
 	  top: 52.5%;
-	  left: 2.0%;
+	  left: 0.56%;
 	  text-align: right;
 	}
 
@@ -844,44 +953,44 @@
 }
 
 */
-@media (min-width: 641px) and (max-width: 800px){
+@media (min-width: 641px) and (max-width: 684px){
 
 	.pais_1 {
-	  top: 21.5%;
-	  left: 60%;
+	  top: 25.5%;
+	  left: 61%;
 	}
 
 	.pais_2 {
-	  top: 25.1%;
+	  top: 28.1%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 37.8%;
+	  top: 35.8%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 42.3%;
-	  left: -2.5%;
+	  top: 37.5%;
+	  left: -6.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 45.8%;
-	  left: 0.8%;
+	  top: 39.8%;
+	  left: -1.2%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 54%;
-	  left: 4.5%;
+	  top: 45%;
+	  left: 1.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 49.5%;
-	  left: 2.0%;
+	  top: 42.5%;
+	  left: 0%;
 	  text-align: right;
 	}
 
@@ -891,39 +1000,150 @@
 	}
 
 	.map_2 {
-		top: 51%;
-		left: 45%;
+		top: 42%;
+		left: 51%;
+		font-size: 0.7em;
 	}
 
 	.map_3 {
-		top: 51%;
+		top: 43%;
 		left: 53%;
+		font-size: 0.7em;
 	}
 
 	.map_4 {
-		top: 51.5%;
-		left: 56%;
+		top: 42.5%;
+		left: 62%;
+		font-size: 0.7em;
 	}
 
 	.map_5 {
-		top: 57.5%;
-		left: 54%;
+		top: 46.5%;
+		left: 64%;
+		font-size: 0.7em;
 	}
 
 	.map_6 {
 		top: 54%;
 		left: 58%;
+		font-size: 0.7em;
 	}
 
 	.map_7 {
-		top: 55%;
+		top: 46%;
+		left: 63%;
+		font-size: 0.7em;
+	}
+
+}
+
+/**/
+
+
+@media (min-width: 817px) and (max-width: 863px){
+	.pais_1 {
+	  top: 20.5%;
+	  left: 45%;
+	}
+
+	.pais_2 {
+	  top: 26.1%;
+	  left: 25%;
+	}
+}
+
+
+
+
+
+@media (min-width: 685px) and (max-width: 767px){
+
+	.pais_1 {
+	  top: 23.5%;
+	  left: 61%;
+	}
+
+	.pais_2 {
+	  top: 26.1%;
+	  left: 37%;
+	}
+
+	.pais_3 {
+	  top: 34.8%;
+	  left: 30.5%;
+	}
+
+	.pais_4 {
+	  top: 37.5%;
+	  left: -6.5%;
+	  text-align: right;
+	}
+
+	.pais_5 {
+	  top: 39.8%;
+	  left: -1.2%;
+	  text-align: right;
+	}
+
+	.pais_6 {
+	  top: 45%;
+	  left: 1.5%;
+	  text-align: right;
+	}
+
+	.pais_7 {
+	  top: 42.5%;
+	  left: 0%;
+	  text-align: right;
+	}
+
+	.map_1 {
+		top: 46%;
+		left: 57%;
+	}
+
+	.map_2 {
+		top: 43%;
+		left: 45%;
+	}
+
+	.map_3 {
+		top: 44%;
+		left: 63%;
+	}
+
+	.map_4 {
+		top: 43.5%;
 		left: 56%;
 	}
 
+	.map_5 {
+		top: 47.5%;
+		left: 63%;
+	}
 
+	.map_6 {
+		top: 45.5%;
+		left: 63%;
+	}
 
+	.map_7 {
+		top: 46%;
+		left: 61%;
+	}
 
 }
+
+@media (min-width: 641px) and (max-width: 684px){
+	
+.map_1 {
+		top: 46%;
+		left: 57%;
+	}
+
+}
+
+
 
 @media (min-width: 601px) and (max-width: 640px){
 
@@ -967,51 +1187,51 @@
 	}
 
 	.map_1 {
-		top: 46.5%;
+		top: 45.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_2 {
-		top: 44%;
+		top: 42%;
 		left: 50%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_3 {
 		top: 44.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_4 {
-		top: 44%;
+		top: 42%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_5 {
-		top: 48%;
+		top: 46%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_6 {
 		top: 46.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_7 {
-		top: 46.5%;
-		left: 58%;
-		font-size: 0.8em;
+		top: 43.5%;
+		left: 64%;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 }
@@ -1022,91 +1242,101 @@
 	  line-height: 125%;
 	}
 	.pais_1 {
-	  top: 27.5%;
+	  top: 26.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 29.4%;
+	  top: 28.4%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 36.5%;
+	  top: 34.5%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 38.7%;
+	  top: 37%;
 	  left: -2.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 40.5%;
-	  left: 0.5%;
+	  top: 39.5%;
+	  left: -1.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 45.2%;
-	  left: 4.5%;
+	  top: 44.2%;
+	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 42.8%;
+	  top: 41.8%;
 	  left: 2.0%;
 	  text-align: right;
 	}
 
 	.map_1 {
-		top: 45.5%;
+		top: 43.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6m;
 		line-height: 17px;
 	}
 
 	.map_2 {
-		top: 43%;
+		top: 40%;
 		left: 50%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_3 {
 		top: 43.5%;
 		left: 52%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_4 {
-		top: 43%;
-		left: 58%;
-		font-size: 0.8em;
+		top: 40%;
+		left: 64%;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_5 {
-		top: 47%;
+		top: 45%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_6 {
-		top: 45.5%;
+		top: 44.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_7 {
-		top: 45.5%;
+		top: 42.5%;
+		left: 58%;
+		font-size: 0.6em;
+		line-height: 17px;
+	}
+}
+
+
+@media (min-width: 641px) and (max-width: 765px){
+	.map_6 {
+		top: 44.5%;
 		left: 58%;
 		font-size: 0.8em;
-		line-height: 17px;
+		line-height: 15px;
 	}
 }
 
@@ -1161,52 +1391,65 @@
 	.map_1 {
 		top: 44.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_2 {
-		top: 41.5%;
+		top: 40.5%;
 		left: 43%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_3 {
-		top: 41.5%;
+		top: 39.5%;
 		left: 52%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_4 {
-		top: 42%;
-		left: 58%;
-		font-size: 0.8em;
+		top: 40%;
+		left: 65%;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_5 {
-		top: 46%;
-		left: 58%;
-		font-size: 0.8em;
+		top: 44%;
+		left: 64%;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_6 {
-		top: 44.5%;
+		top: 40.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_7 {
-		top: 44.5%;
+		top: 41.5%;
 		left: 58%;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		line-height: 15px;
 	}
 }
+
+
+
+@media (min-width: 445px) and (max-width: 390px) {
+		.map_1 {
+		top: 35.5%;
+		left: 58%;
+		font-size: 0.8em;
+		line-height: 17px;
+	}
+
+}
+
 
 
 @media (max-width: 550px){
@@ -1249,7 +1492,7 @@
 
 	.address {
 	  display: inline-block;
-	  line-height: 1;
+	  line-height: 2;
 	}
 
 	#accordion div p {
@@ -1266,6 +1509,35 @@
 	  margin-top: -3%;
 
 	}
+
+	.map_1 {
+		top: 40.5%;
+		left: 58%;
+		font-size: 0.6em;
+		line-height: 17px;
+	}
+
+	.map_2 {
+		top: 36.5%;
+		left: 58%;
+		font-size: 0.6em;
+		line-height: 17px;
+	}
+
+	.map_4 {
+		top: 33.5%;
+		left: 63%;
+		font-size: 0.6em;
+		line-height: 17px;
+	}
+
+	.map_5 {
+		top: 38.5%;
+		left: 63%;
+		font-size: 0.6em;
+		line-height: 17px;
+	}
+
 
 	.ui-accordion .ui-accordion-header .ui-icon {
 		position: absolute;
@@ -1329,3 +1601,10 @@
 	}
 
 }	
+
+@media (min-width: 400px) and (min-width: 400px){
+
+
+
+
+}
