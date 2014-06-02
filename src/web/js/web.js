@@ -36,16 +36,19 @@ $( document ).on('ready',function() {
 });
 
 
-    /*
-    $("ul.list_menu li#ima_1").mouseover(function(){
-        $("ul.list_menu li#ima_1").css("text-decoration","underline");
+    
+    $("mmm").mouseover(function(){
+        
+        //$("ul.list_menu li#ima_1").css("text-decoration","underline");
+
+
+        console.log($(this).attr("mmm"));
+        
+
     });
-    */
+    
 
 
-
-
-  
 
 function changeLanguageName()
 {
