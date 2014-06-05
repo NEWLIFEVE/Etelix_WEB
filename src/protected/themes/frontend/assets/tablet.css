@@ -1450,7 +1450,6 @@
 
 
 @media (max-width: 550px){
-
 	ul.list_menu li, ul.list_menu_ingles li {
 		margin-right: 24px !important;
 	}
@@ -1463,14 +1462,14 @@
 	  font-family: 'Open Sans', sans-serif;
 	}
 
-	.accordion_country {
+	.accordion_country{
 	  background-color: #fff6e7;
 	  padding-bottom: 0%;
 	  padding-top: 0%;
 	}
 
 	#accordion h3 {
-		/*
+	/*
 	  max-width: 90%;
 	  margin-left: 5%;
 	  margin-top: 0px;
@@ -1478,13 +1477,11 @@
 	}
 
 	#accordion div {
+		
 		background: none !important;
-		/*
-	  max-width: 74%;
-	  margin-left: 5%;
-	  margin-right: 4.5%;
-	  text-align: center;*/
-	  /*height: 100px !important;*/
+		height: 100px !important;
+	  	text-align: center;
+
 	}
 
 	.address {
@@ -1504,7 +1501,6 @@
 	  float: left;
 	  height: 100px !important;
 	  margin-top: -3%;
-
 	}
 
 	.map_1 {
@@ -1562,6 +1558,7 @@
 		overflow: auto;
 		display: none;
 		zoom: 1;
+		height: 128px;
 		}
 
 	.ui-widget-content {
