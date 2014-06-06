@@ -53,7 +53,7 @@ class EnviarEmail extends CApplicationComponent
             
             //$mailer->AddAddress('edwing@sacet.biz');
 
-            $mailer->AddAddress('schizophrenic00@gmail.com');
+            $mailer->AddAddress('contact@etelix.com');
             $mailer->FromName = 'Etelix WEB';
             $mailer->CharSet = 'UTF-8';
             $mailer->Subject = $asunto;
