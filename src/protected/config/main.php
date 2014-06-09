@@ -24,7 +24,7 @@ $languages = array(
 // main application configuration
 return array(
     'basePath'   => $applicationDirectory,
-    'name'       => 'Etelix Net Communications',
+    'name'       => 'Etelix Group',
     'theme'      => 'frontend', // theme is copied eg. from vendor/p3bootstrap
     'language'   => 'es', // default language, see also components.langHandler
     'timeZone'   =>'America/Caracas',
