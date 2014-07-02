@@ -21,6 +21,8 @@ class SiteController extends Controller
 		);
 	}
 
+
+
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
@@ -30,91 +32,6 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
-	}
-
-	public function actionServices()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('services');
-	}
-   
-    public function actionClient()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('client');
-	}
-
-	public function actionMap()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('map');
-	}
-
-	public function actionCountry()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('country');
-	}
-
-	public function actionOrganization()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('organization');
-	}
-
-	public function actionContact()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('organization');
-
-		//var_dump($_POST);
-	    // $html = "This is my Plain Text Content for those with cheap emailclients ;-)\nThis is my second row of text";
-
-	    // if(Yii::app()->mail->enviar($html, 'edwing@sacet.biz', 'Prueba',null))
-	    // {
-	    // 	echo "exito";
-	    // }else
-	    // {
-	    // 	echo "fallo";
-	    // }
-	}
-
-
-
-	public function actionEmail()
-	{
-		//echo $_POST['correo'];
-		$nombre=$_POST['nombre'];
-		$apellido=$_POST['apellido'];
-		$telefono=$_POST['telefono'];
-		$correo=$_POST['correo'];
-		$msj=$_POST['msj'];
-		$texto=$msj.".<br><br>Datos Personales:<br> Nombre y Apellido: ".$nombre." ".$apellido."<br> Télefono: ".$telefono."<br> Correo: ".$correo;
-
-		/*Parametros
-		$texto=Texto a enviar;
-		$destinatario=$correo;
-		Asunto="Titulo del Correo";	
-		Null
-		*/
-		/*  PONER EN CORREO EL CORREO DESTINATARIO DE LA EMPRESA */			
-	     if(Yii::app()->mail->enviar($texto, $correo, "Etelix Web."))
-	     {
-	     	echo "1";
-
-	     }else
-	     {
-	     	echo "0";
-	     }
-
-
-
 	}
 
 	/**
@@ -128,42 +45,60 @@ class SiteController extends Controller
 				echo $error['message'];
 			else
 				$this->render('error', $error);
-		} else {
-            $error['message'] = "Precondition Failed";
-            $error['code'] = 412;
-            $this->render('error', $error);
-        }
+		}
 	}
 
 	/**
 	 * Displays the contact page
 	 */
-	// public function actionContact()
-	// {
-	// 	$model=new ContactForm;
-	// 	if(isset($_POST['ContactForm']))
-	// 	{
-	// 		$model->attributes=$_POST['ContactForm'];
-	// 		if($model->validate())
-	// 		{
-	// 			$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
-	// 			$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
-	// 			$headers="From: $name <{$model->email}>\r\n".
-	// 				"Reply-To: {$model->email}\r\n".
-	// 				"MIME-Version: 1.0\r\n".
-	// 				"Content-type: text/plain; charset=UTF-8";
+	public function actionContact()
+	{
+		$model=new ContactForm;
+		if(isset($_POST['ContactForm']))
+		{
+			$model->attributes=$_POST['ContactForm'];
+			if($model->validate())
+			{
+				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
+				$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
+				$headers="From: $name <{$model->email}>\r\n".
+					"Reply-To: {$model->email}\r\n".
+					"MIME-Version: 1.0\r\n".
+					"Content-Type: text/plain; charset=UTF-8";
 
-	// 			mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
-	// 			Yii::app()->user->setFlash('contact',Yii::t('app', 'Thank you for contacting us. We will respond to you as soon as possible.'));
-	// 			$this->refresh();
-	// 		}
-	// 	}
-	// 	$this->render('contact',array('model'=>$model));
-	// }
+				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
+				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+				$this->refresh();
+			}
+		}
+		$this->render('contact',array('model'=>$model));
+	}
 
 	/**
-	 * Login page handled via vendor module mishamx.yii-user
+	 * Displays the login page
 	 */
+	public function actionLogin()
+	{
+		$model=new LoginForm;
+
+		// if it is ajax validation request
+		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+		{
+			echo CActiveForm::validate($model);
+			Yii::app()->end();
+		}
+
+		// collect user input data
+		if(isset($_POST['LoginForm']))
+		{
+			$model->attributes=$_POST['LoginForm'];
+			// validate user input and redirect to the previous page if valid
+			if($model->validate() && $model->login())
+				$this->redirect(Yii::app()->user->returnUrl);
+		}
+		// display the login form
+		$this->render('login',array('model'=>$model));
+	}
 
 	/**
 	 * Logs out the current user and redirect to homepage.
@@ -173,4 +108,32 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+	public function actionOrganitation()
+	{
+		$this->render('organitation');
+	}
+
+	public function actionServices()
+	{
+		if(isset($_POST['var'])){
+			if($_POST['var']=='services'){
+        		$this->render('services',array('model'=>$model));
+			}
+		}
+		$this->render('services');
+	}
+
+	public function actionMap()
+	{
+		$this->render('map');
+	}
+
+	public function actionClient()
+	{
+		$this->render('client');
+	}
+
+
+
 }
