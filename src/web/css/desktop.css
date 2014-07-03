@@ -47,7 +47,7 @@ header {
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover; 
-  background-image: url("../../../../images/background_servicios-01.png"); 
+  background-image: url("../../web/images/background_servicios-01.png"); 
   background-size: cover; 
   width: 100%; 
   margin: 0 auto;
@@ -215,8 +215,13 @@ header {
 .paragraph_title {
   height: 35px;
   font-size: 1.3em;
+  margin-top: 8px;
 }
-
+.paragraph2 {
+  margin-top: 15px;
+  height: 50px;
+  margin-left: 5px;
+}
 .paragraph {
   margin-top: 15px;
   height: 120px;
@@ -244,6 +249,21 @@ p.direction {
   width: 140px;
   margin-left: 15px;
 }
+.ver_mapa a{
+  color: #F18E21;
+  text-decoration: none;
+  margin-left: 5px;
+
+}
+.ver_mapa {
+  float: left;
+  background-color: #fff;
+  color: #F18E21;
+  font-size: 1.7em;
+  padding: 5px;
+  width: 140px;
+  margin: -57px 19px 0 15px;
+}
 
 .ima_correo {
   width: 25px !important;
@@ -254,7 +274,7 @@ p.direction {
 }
 
 .cols {
-  width: 33.3333333%;
+  width: 25%;
 }
 
 .row-fluid .cols {

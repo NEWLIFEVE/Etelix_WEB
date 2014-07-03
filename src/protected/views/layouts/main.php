@@ -71,7 +71,7 @@
 								<li id="ima_2">
 									<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>" >
 										<p class="menu2">
-										Quienes Somos?</p></a>
+										¿Quienes Somos?</p></a>
 								</li>
 								<li id="ima_3">
 									<a href="<?php echo Yii::app()->createUrl('/site/services');?>" >

@@ -41,7 +41,7 @@
 					Mensaje Requerido</div>
 			</div>
 			<div class="display divs boton_enviar">
-				<button class="div_submit centrar" id="boton_enviar" onclick="validar_form()" type="button">Enviar &nbsp;&nbsp;<img src="/images/white_sobre.png" style="width: 30px; height: 20px;"></button></div>
+				<button class="div_submit centrar" id="boton_enviar" onclick="validar_form()" type="button">Enviar &nbsp;&nbsp;<img src="../web/images/white_sobre.png" style="width: 30px; height: 20px;"></button></div>
 		</div>
 		<div id="capa_float">
 		</div>

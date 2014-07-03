@@ -68,6 +68,7 @@ div.inbox img
         vertical-align: middle;
         margin-right: 27px;
         width: 87px;
+        text-align: center;
 
     }
     ul.list_menu_ingles li
@@ -82,6 +83,7 @@ div.inbox img
     ul.list_menu li:hover a p, ul.list_menu_ingles li:hover a p
     {
         color: #f39322;
+        font-weight:600;
     }
     ul.list_menu li:hover a img, ul.list_menu_ingles li:hover a img
     {
@@ -100,10 +102,12 @@ div.inbox img
      ul.list_menu li p, ul.list_menu_ingles li p
     {
         max-width: 65px;
-        padding-left: 15px; /*15px*/
+        /*padding-left: 15px; /*15px*/
         margin-top: -29px;
         font-size: 1.1em;
-        text-align: right;
+        text-align: center;
+        color: #708090;
+       font-weight:600;
     }
     #ima_1 p, #ima_5 p, #ima_6 p
     {
@@ -1779,7 +1783,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 10px 0;
+  margin: 0px 0;
   font-family: inherit;
   font-weight: bold;
   line-height: 20px;
@@ -13116,7 +13120,7 @@ img {
 }
 .separator1 
 {
-    background: #556879;
+    background: #fff;
 }
 .separator2 
 {
@@ -13158,4 +13162,44 @@ div.contenedor header
   color: white;
 
 }
+.clients{
+  background-color:#0574BC;
+  color: white;
+  padding: 20px 20px 20px 20px;
 
+}
+.presencia_comercial{
+  background-color:#F18E21;
+  padding: 20px 20px 20px 20px;
+  color: #fff;
+
+}
+.presencia_comcercial_coment{
+  width:80%;
+    background-color:#F18E21;
+}
+
+/*
+span.rollover {
+  opacity: 1;
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition: -webkit-transform 1s;
+  background:url(images/mag.png) center center no-repeat #000;
+  cursor: pointer;
+  height: 346px;
+  width: 347px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+}
+
+span.rollover:hover {
+  opacity: .7;
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-box-shadow: 0px 0px 4px #000;
+  -moz-box-shadow: 0px 0px 4px #000;
+  box-shadow: 0px 0px 4px #000;
+}*/
