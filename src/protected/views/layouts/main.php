@@ -129,9 +129,7 @@
 			<br />
 			<p>
 			</p>
-			<div class="correo">
-				<a href="<?php echo Yii::app()->createUrl('/site/contact');?>" style="color:#FFFFFF;">Escr&iacute;benos &nbsp;<img alt="" src="images/white_sobre.png" style="width: 30px; height: 20px;" /></a>
-			</div>
+			
 			<p>
 			</p>
 			<p>
@@ -196,8 +194,9 @@
 				<a href="/es/site/client" style="color:#FFFFFF">Nuestros Clientes</a></p>
 			<p style="color:#FFFFFF;font-size: 0.8em;">
 				&nbsp; &nbsp;&nbsp;</p>
-			<p style="color:#FFFFFF;font-size: 0.8em;">
-				<a href="/es/site/contact" style="color:#FFFFFF"><strong>Cont&aacute;ctanos</strong></a></p>
+			<div class="correo">
+				<a href="<?php echo Yii::app()->createUrl('/site/contact');?>" style="color:#FFFFFF;">Escr&iacute;benos &nbsp;<img alt="" src="images/white_sobre.png" style="width: 30px; height: 20px;" /></a>
+			</div>
 		</div>
 	</div>
 	<div style="background-color:#343434;color:#FFFFFF;font-size: 1em;padding-top: 2%;">
