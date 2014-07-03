@@ -191,13 +191,13 @@
 		// orientation 'horizontal' || 'vertical'
 		orientation : 'horizontal',
 		// sliding speed
-		speed : 500,
+		speed : 900,
 		// sliding easing
 		easing : 'ease-in-out',
 		// the minimum number of items to show. 
 		// when we resize the window, this will make sure minItems are always shown 
 		// (unless of course minItems is higher than the total number of elements)
-		minItems : 3,
+		minItems : 7,
 		// index of the current item (left most item of the carousel)
 		start : 0,
 		// click item callback

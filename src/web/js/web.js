@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$( document ).on('ready',function() {
 
     //CAMBIA LA DIRECCION DE CONTACTO EN HOME
     cambioDireccion();
@@ -27,11 +27,27 @@ $( document ).ready(function() {
 
     $("#accordion").accordion();
 
+    //validar_form();
+   
     //$(".fancyzoom").on("click", function () {
         //$("a.fancyzoom").fancyzoom();
     //});
 
 });
+
+
+    
+    $("mmm").mouseover(function(){
+        
+        //$("ul.list_menu li#ima_1").css("text-decoration","underline");
+
+
+        console.log($(this).attr("mmm"));
+        
+
+    });
+    
+
 
 
 function changeLanguageName()
@@ -41,17 +57,20 @@ function changeLanguageName()
 
     if(language == 'Ingles')
     {
+        
         $('ul.pull-left.navlist li a').text('Spanish');
+        $("<li ->-</li>").insertBefore("ul.pull-left.navlist li.active");
         $('ul.pull-left.navlist li.active a').text('English');
+        
+
     }
     else
     {
+        $("<li>-</li>").insertAfter("ul.pull-left.navlist li.active");
         $('ul.pull-left.navlist li a').text('Ingles');
         $('ul.pull-left.navlist li.active a').text('Español');
-        //$("<li>-</li>").insertAfter("ul.pull-left.navlist li.active");
 
-    }
-
+        }
 }
 
 function captureWidth()
@@ -190,59 +209,61 @@ function fancybox_window()
 
 function sliderImage(cantidad,pasos)
 {
-
-                $( "#slider" ).rcarousel({
-                    visible: cantidad,
-                    step: pasos
-                });
-                
-                $( "#ui-carousel-next" )
-                    .add( "#ui-carousel-prev" )
-                    .hover(
-                        function() {
-                            $( this ).css( "opacity", 0.7 );
-                        },
-                        function() {
-                            $( this ).css( "opacity", 1.0 );
-                        }
-                    );              
-                
-                $("#slider_small").rcarousel({
-                    visible: 2,
-                    step: 2,
-                    margin: 5,
-                    navigation:{
-                        next: "#ui-carousel-next2",
-                        prev: "#ui-carousel-prev2"
-                    }
-                });
-                
-                $( "#ui-carousel-next2" )
-                    .add( "#ui-carousel-prev2" )
-                    .hover(
-                        function() {
-                            $( this ).css( "opacity", 0.7 );
-                        },
-                        function() {
-                            $( this ).css( "opacity", 1.0 );
-                        }
-                    );
+    $( "#slider" ).rcarousel({
+        visible: cantidad,
+        step: pasos
+    });
+    
+    $( "#ui-carousel-next" )
+        .add( "#ui-carousel-prev" )
+        .hover(
+            function() {
+                $( this ).css( "opacity", 0.7 );
+            },
+            function() {
+                $( this ).css( "opacity", 1.0 );
+            }
+        );              
+    
+    $("#slider_small").rcarousel({
+        visible: 2,
+        step: 2,
+        margin: 5,
+        navigation:{
+            next: "#ui-carousel-next2",
+            prev: "#ui-carousel-prev2"
+        }
+    });
+    
+    $( "#ui-carousel-next2" )
+        .add( "#ui-carousel-prev2" )
+        .hover(
+            function() {
+                $( this ).css( "opacity", 0.7 );
+            },
+            function() {
+                $( this ).css( "opacity", 1.0 );
+            }
+        );
 }
 
 function paginaConstruccion() 
 {
-  $('a[href*=#]:not([href=#]).paralax').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
+    $('a[href*=#]:not([href=#]).paralax').click(function()
+    {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname)
+        {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) 
+            {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
 }
 
 function horizontalLine()
@@ -275,3 +296,176 @@ function horizontalLine()
     });
 }
 
+function pasar()
+{
+        var url = "/site/email";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#formulario").serialize(),
+            success: function(data)
+            {
+               // alert(data);
+                if(data){
+                    $('#ok').modal('show');
+                }else
+                {
+                    $('#error').modal('show');
+                }
+            }
+        });
+}
+
+function validar_campo(cadena)
+{       
+    var letras=/^([0-9])*$/;
+    if (cadena =="" || letras.test(cadena))
+    {
+        return false;
+    }else
+    {
+        return true;
+    }        
+}
+
+
+function validar_correo(cadena)
+{       
+    var cc=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
+    if (cadena =="" || !cc.test(cadena))
+    {
+        //alert("malo");
+        return false;
+    }else
+    {
+         //alert("bien"); 
+        return true;
+    }        
+}
+
+function validar_numero(numero)
+{       
+    var num=/^[a-zA-Z]*$/;
+    if (numero =="" || num.test(numero))
+    {
+            return false;
+    }else
+    {
+        return true;
+    }        
+}
+
+function mostrar_mensaje(boo,num)
+{    
+    if(boo==true)
+    {
+        $("#mensaje"+num).fadeOut();
+    }else
+    {
+        $("#mensaje"+num).fadeIn();
+    } 
+}
+
+function change(campo,num)
+{
+    console.log('entre');
+        $(campo).on('change',function()
+        {
+            var letras=/^([0-9])*$/;
+            if ($(this) =="" || letras.test($(this).val()))
+            {
+                $("#mensaje"+num).fadeIn();
+            }else
+            {
+                $("#mensaje"+num).fadeOut();
+            }
+        });
+}
+
+function change_numero(campo,num)
+{
+    console.log('entre numero');
+        $(campo).on('change',function()
+        {
+            var patron=/^[a-zA-Z]*$/;
+            if ($(this) =="" || patron.test($(this).val()))
+            {
+                $("#mensaje"+num).fadeIn();
+            }else
+            {   
+                $("#mensaje"+num).fadeOut();
+            }
+        });
+}
+
+//function validar_form()
+//{
+        change("#nombre",'1');
+        change("#apellido",'2');
+        change_numero("#telefono",'3');
+        change("#correo",'4');
+        change("#msj",'5');
+        
+    $("#boton_enviar").on('click',function()
+    {   //var num=/^[a-zA-Z]*$/;
+        var nombre=$("#nombre").val();
+        //var letras=/^([0-9])*$/;
+        var apellido=$("#apellido").val();
+        var telefono=$("#telefono").val();
+        var correo=$("#correo").val();
+        var msj=$("#msj").val();
+        var check = true;
+        var arreglo= new Array();
+        //----------------------------
+        arreglo.push(validar_campo(nombre));
+        mostrar_mensaje(arreglo[0],'1');
+        //----------------------------
+        arreglo.push(validar_campo(apellido));
+        mostrar_mensaje(arreglo[1],'2');
+        //----------------------------
+        arreglo.push(validar_numero(telefono));
+        mostrar_mensaje(arreglo[2],'3');
+        //----------------------------
+        arreglo.push(validar_correo(correo));
+        mostrar_mensaje(arreglo[3],'4');
+        //----------------------------
+        arreglo.push(validar_campo(msj));
+        mostrar_mensaje(arreglo[4],'5');
+        //----------------------------  
+        for (var i =0; i <= arreglo.length - 1; i++)
+        {
+            if(arreglo[i]== false)
+            {
+                check = false;
+                console.log('false '+check);
+            }else{
+                console.log('true '+check);
+            }
+        }
+        if(check == true){
+            pasar(); 
+            //console.log("1");
+            $('#formulario').each (function(){
+                 this.reset();
+             });
+
+            
+            
+            }
+
+    });
+
+     
+
+
+
+
+
+            //letras=null;      
+            //num=null;       
+            //nombre=null;
+            //apellidoval=null;
+            //telefonoval=null;
+            //correol=null;
+            //msj=null;
+//}

@@ -240,7 +240,7 @@
 					oldPageIndex: 0,
 					pageIndex: 0,
 					navigation: {},
-					animated: false,
+					animated: true,
 					appended: false,
 					hoveredOver: false
 				}

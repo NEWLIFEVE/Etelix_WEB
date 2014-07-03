@@ -1,8 +1,13 @@
 src/vendor/
 src/web/assets/*
+src/composer.lock
+src/composer.phar
 /docs/
-/app/config/*-local.php
+src/protected/config/db.php
+src/protected/config/gii.php
 /tests/codeception/_log
+composer.phar
+composer.lock
 
 nbproject
 .DS_Store
