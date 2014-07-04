@@ -252,7 +252,7 @@
 										<div class="caption bold_red_text randomrotate"
 											data-x="130"
 											 data-y="100"
-											 data-speed="300"
+											 data-speed="1000"
 											 data-start="1700"
 											 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/empleados3.png" alt="Image 7" ></div>
 
@@ -307,7 +307,7 @@
 									<div class="caption large_text sfr"
 										 data-x="160"
 										 data-y="270"
-										 data-speed="300"
+										 data-speed="1000"
 										 data-start="1100"
 										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_a-01.png" alt="Image 7"></div>
 
@@ -321,7 +321,7 @@
 									<div class="caption  medium_text sfl"
 										 data-x="128"
 										 data-y="78"
-										 data-speed="300"
+										 data-speed="1000"
 										 data-start="1100"
 										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_b-01.png" alt="Image 7"></div>
 

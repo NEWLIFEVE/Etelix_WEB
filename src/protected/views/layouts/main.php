@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="en">
 <!-- blueprint CSS framework -->
-<link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection">
-<link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print">
+<!--<link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print">-->
 <!--[if lt IE 8]>
 <link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection">
 <![endif]
@@ -40,6 +40,8 @@
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.ba-bbq.min.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.cookie.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.fancybox-1.3.4.js"></script>	
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/modernizr.custom.17475.js"></script>
+<link rel='stylesheet' type='text/css' href='<?php echo Yii::app()->request->baseUrl; ?>/css/menu.css' />
 </head>
 <body>
 <div class="container">
@@ -61,39 +63,64 @@
 						<div class="span3">
 							<img alt="etelix" class="logo" src="images/logo_etelix.png" />
 						</div>
+
+
 						<div class="span9">
-							<ul class="list_menu">
+						    <div id='cssmenu'>
+								<ul>
+								   
+								   <li class='active'><span><a href="<?php echo Yii::app()->createUrl('/site/index');?>">
+										
+										Inicio</a></span></li>
+								   <li><span><a href="<?php echo Yii::app()->createUrl('/site/organitation');?>" >
+										
+										¿Quienes Somos?</a></span></li>
+								   <li><span><a href="<?php echo Yii::app()->createUrl('/site/services');?>" >
+										
+										Nuestros Servicios</a></span></li>
+								   <li><span><a href="<?php echo Yii::app()->createUrl('/site/map');?>" >
+										
+										Donde Estamos</a></span></li>
+								   <li><span><a href="<?php echo Yii::app()->createUrl('/site/client');?>" >
+										
+										Clientes</a></span></li>
+								   <li class='last'><span><a href="<?php echo Yii::app()->createUrl('/site/contact');?>" >
+										
+										Contacto</a></span></li>
+								</ul>
+							</div>
+							<!--<ul class="list_menu">
 								<li class="selectedMenuItem" id="ima_1">
-									<a href="<?php echo Yii::app()->createUrl('/site/index');?>">
+									<a href="<?php //echo Yii::app()->createUrl('/site/index');?>">
 										<p  class="menu1">
 										Inicio</p></a>
 								</li>
 								<li id="ima_2">
-									<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>" >
+									<a href="<?php //echo Yii::app()->createUrl('/site/organitation');?>" >
 										<p class="menu2">
 										¿Quienes Somos?</p></a>
 								</li>
 								<li id="ima_3">
-									<a href="<?php echo Yii::app()->createUrl('/site/services');?>" >
+									<a href="<?php //echo Yii::app()->createUrl('/site/services');?>" >
 										<p class="menu3">
 										Nuestros Servicios</p></a>
 								</li>
 								<li id="ima_4">
-									<a href="<?php echo Yii::app()->createUrl('/site/map');?>" >
+									<a href="<?php //echo Yii::app()->createUrl('/site/map');?>" >
 										<p class="menu4">
 										Donde Estamos</p></a>
 								</li>
 								<li id="ima_5">
-									<a href="<?php echo Yii::app()->createUrl('/site/client');?>" >
+									<a href="<?php //echo Yii::app()->createUrl('/site/client');?>" >
 										<p  class="menu5">
 										Clientes</p></a>
 								</li>
 								<li id="ima_6">
-									<a href="<?php echo Yii::app()->createUrl('/site/contact');?>" >
+									<a href="<?php // echo Yii::app()->createUrl('/site/contact');?>" >
 										<p  class="menu6">
 										Contacto</p></a>
 								</li>
-							</ul>
+							</ul>-->
 						</div>
 					</div>
 					<div class="separator0">

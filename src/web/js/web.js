@@ -42,7 +42,7 @@ $( document ).on('ready',function() {
         //$("ul.list_menu li#ima_1").css("text-decoration","underline");
 
 
-        console.log($(this).attr("mmm"));
+      //  console.log($(this).attr("mmm"));
         
 
     });
@@ -100,7 +100,7 @@ function captureWidth()
         {
             sliderImage(7,7);
         }
-        console.log(resolucion);
+        //console.log(resolucion);
 
     });
     
@@ -368,7 +368,7 @@ function mostrar_mensaje(boo,num)
 
 function change(campo,num)
 {
-    console.log('entre');
+    //console.log('entre');
         $(campo).on('change',function()
         {
             var letras=/^([0-9])*$/;
@@ -384,7 +384,7 @@ function change(campo,num)
 
 function change_numero(campo,num)
 {
-    console.log('entre numero');
+    //console.log('entre numero');
         $(campo).on('change',function()
         {
             var patron=/^[a-zA-Z]*$/;
@@ -437,9 +437,9 @@ function change_numero(campo,num)
             if(arreglo[i]== false)
             {
                 check = false;
-                console.log('false '+check);
+               // console.log('false '+check);
             }else{
-                console.log('true '+check);
+               // console.log('true '+check);
             }
         }
         if(check == true){

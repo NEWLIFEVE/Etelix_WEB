@@ -193,84 +193,50 @@
 						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 		</div>
 		<div class="widget display" id="widget-4">
-		    <div class="">
-				<div id="slider_visto">
-					<div class="separator2" style="width:100%;">
-						&nbsp; &nbsp;
-					</div>
-					<div class="row-fluid" id="">
-						<div style="background-color:#e6e6e6;">
-							<p style="color:#ec6b18;font-size: 2em;">
-								&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
-							<p class="cliente">
-								Principales <br>Clientes&nbsp;&nbsp;</p>
-							<p style="color:#ec6b18;font-size: 2em;">
-								&nbsp; &nbsp; &nbsp; &nbsp;</p>
-							<div style="width:100%;;">
-								<!-- Elastislide Carousel -->
-								<div class="elastislide-wrapper elastislide-horizontal">
-									<div class="elastislide-carousel">
-										<ul class="elastislide-list" id="carousel" style="transition: all 0s; -webkit-transition: all 0s; display: block; max-height: 68px;">
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image01" src="<?php echo Yii::app()->request->baseUrl; ?>/images/1-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image02" src="<?php echo Yii::app()->request->baseUrl; ?>/images/2-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image03" src="<?php echo Yii::app()->request->baseUrl; ?>/images/3-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image05" src="<?php echo Yii::app()->request->baseUrl; ?>/images/4-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image06" src="<?php echo Yii::app()->request->baseUrl; ?>/images/5-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image07" src="<?php echo Yii::app()->request->baseUrl; ?>/images/6-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/7-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/8-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/9-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/10-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/11-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/12-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/13-01.png"></a>
-											</li>
-											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/14-01.png"></a>
-											</li>
-										</ul>
-									</div>
-								<nav><span class="elastislide-prev" style="display: none;">Previous</span><span class="elastislide-next">Next</span></nav></div>
-							<!-- End Elastislide Carousel -->
-							</div>
-							<a href="#" id="ui-carousel-next"><span>next</span></a> <a href="#" id="ui-carousel-prev"><span>prev</span></a>
-							<p style="color:#ec6b18;font-size: 2em;">
-								&nbsp; &nbsp; &nbsp; &nbsp;</p>
-							<p style="color:#ec6b18;font-size: 2em;">
-								&nbsp; &nbsp; &nbsp; &nbsp;</p>
-						</div>
-					</div>
-					<div class="separator3">
-						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-					</div>
-				</div>
+    <div class="container">
+	<div id="slider_visto">
+		<div class="separator2" style="width:100%;">
+			&nbsp; &nbsp;</div>
+		<div class="row-fluid" id="">
+			<div style="background-color:#e6e6e6;">
+				<p style="color:#ec6b18;font-size: 2em;">
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+				<p class="cliente">
+					Nuestros Principales Clientes&nbsp;&nbsp;</p>
+				<p style="color:#ec6b18;font-size: 2em;">
+					&nbsp; &nbsp; &nbsp; &nbsp;</p>
+				<div style="width:100%;;">
+					<!-- Elastislide Carousel -->
+					<div class="elastislide-wrapper elastislide-horizontal"><div class="elastislide-carousel"><ul class="elastislide-list" id="carousel" style="transition: all 0s; -webkit-transition: all 0s; display: block; max-height: 68px; -webkit-transform: translateX(-928px);"><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image01" src="<?php echo Yii::app()->request->baseUrl; ?>/images/1-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image02" src="<?php echo Yii::app()->request->baseUrl; ?>/images/2-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image03" src="<?php echo Yii::app()->request->baseUrl; ?>/images/3-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image05" src="<?php echo Yii::app()->request->baseUrl; ?>/images/4-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image06" src="<?php echo Yii::app()->request->baseUrl; ?>/images/5-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image07" src="<?php echo Yii::app()->request->baseUrl; ?>/images/6-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/7-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/8-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/9-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/10-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/11-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/12-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/13-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/14-01.png"></a></li></ul></div><nav><span class="elastislide-prev" style="display: block;">Previous</span><span class="elastislide-next" style="display: none;">Next</span></nav></div>
+					<!-- End Elastislide Carousel --></div>
+				<a href="#" id="ui-carousel-next"><span>next</span></a> <a href="#" id="ui-carousel-prev"><span>prev</span></a>
+				<p style="color:#ec6b18;font-size: 2em;">
+					&nbsp; &nbsp; &nbsp; &nbsp;</p>
+				<p style="color:#ec6b18;font-size: 2em;">
+					&nbsp; &nbsp; &nbsp; &nbsp;</p>
 			</div>
-		<div>
+		</div>
+		<div class="separator3">
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+	</div>
+</div>
+<div>
+</div>
+</div>
 	</div>
 </div>
 <script type="text/javascript">
