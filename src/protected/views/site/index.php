@@ -18,7 +18,7 @@
 						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 					</div>
 					<div class="clients">
-						<h4><img alt="" src="../web/images/icn_clientes_blanco.png">Nuestros Servicios</h4>
+						<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_clientes_blanco.png">Nuestros Servicios</h4>
 						<p>Nos especializamos en brindar a nuestros clientes soluciones integrales de Telecomunicaciones y Tecnolog&iacute;a a nivel global, ente los cuales se encuentran los siguientes: </p>
 					</div>
 					<div class="separator1">
@@ -31,7 +31,7 @@
 								<h1 style="text-align: center;">
 								<a class="image"  href="#">
 									<span class="roll" ></span>
-									<img class="imgborder" alt="" src="../web/images/services1.png" style="width: 240px; height: 147px;">
+									<img class="imgborder" alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services1.png" style="width: 240px; height: 147px;">
 
 								</a>	
 								</h1>
@@ -51,7 +51,7 @@
 							<strong style="color:#0a71b8">
 								<a class="image"  href="#">
 									<span class="roll" ></span>
-									<img alt="" src="../web/images/services2.png" style="width: 240px; height: 147px;">
+									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services2.png" style="width: 240px; height: 147px;">
 								</a>
 								</strong></h1>
 							<div id="content_services2">
@@ -70,7 +70,7 @@
 							<h1 style="text-align: center;">
 							<a class="image"  href="#">
 									<span class="roll" ></span>
-									<img alt="" src="../web/images/services3.png" style="width: 240px; height: 147px;" >
+									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services3.png" style="width: 240px; height: 147px;" >
 							</a></h1>
 							<div id="content_services3">
 								<p class="paragraph_title">
@@ -87,7 +87,7 @@
 							<h1 style="text-align: center;">
 							<a class="image"  href="#">
 									<span class="roll" ></span>
-									<img alt="" src="../web/images/services4.png" style="width: 240px; height: 147px;">
+									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services4.png" style="width: 240px; height: 147px;">
 							</a></h1>
 							<div id="content_services4">
 								<p class="paragraph_title">
@@ -105,7 +105,7 @@
 							<strong style="color:#0a71b8">
 								<a class="image"  href="#">
 									<span class="roll" ></span>
-									<img alt="" src="../web/images/services5.png" style="width: 240px; height: 147px;">
+									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services5.png" style="width: 240px; height: 147px;">
 								</a></strong></h1>
 							<div id="content_services5">
 								<p class="paragraph_title">
@@ -122,7 +122,7 @@
 							<h1 style="text-align: center;">
 							<a class="image"  href="#">
 									<span class="roll" ></span>
-									<img alt="" src="../web/images/services6.png" style="width: 240px; height: 147px;">
+									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services6.png" style="width: 240px; height: 147px;">
 								</a></h1>
 							<div id="content_services6">
 								<p class="paragraph_title">
@@ -139,7 +139,7 @@
 							<h1 style="text-align: center;">
 							<a class="image"  href="#">
 									<span class="roll" ></span>
-									<img alt="" src="../web/images/services7.png" style="width: 240px; height: 147px;">
+									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services7.png" style="width: 240px; height: 147px;">
 							</a></h1>
 							<div id="content_services7">
 								<p class="paragraph_title">
@@ -156,7 +156,7 @@
 							<h1 style="text-align: center;">
 							<a class="image"  href="#">
 									<span class="roll" ></span>
-									<img alt="" src="../web/images/services8.png" style="width: 240px; height: 147px;">
+									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services8.png" style="width: 240px; height: 147px;">
 							</a></h1>
 							<div id="content_services8">
 								<p class="paragraph_title">
@@ -177,14 +177,14 @@
 		</div>
 		
 		<div class="presencia_comercial">
-			<h4><img alt="" src="../web/images/icn_quienes_somos_blanco.png">&nbsp; Presencia Comercial</h4>
+			<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_quienes_somos_blanco.png">&nbsp; Presencia Comercial</h4>
 				<div class="presencia_comcercial_coment">
 					<p>Contamos con oficinas comerciales en Estados Unidos, Inglaterra, Per&uacute; y Venezuela, asi como con ejecutivos
 						regionales que atienden a nuestros clientes a trav&eacute;s de los 5 continentes</p>
 				</div>
 				
 				<div class="ver_mapa" style="float:right;">
-						<a href="/src/web/index.php?r=site/map" >Ver Mapa &nbsp;<img alt="" src="images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;"></a>
+						<a href="<?php echo Yii::app()->createUrl('/site/map');?>" >Ver Mapa &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;"></a>
 				</div>
 				
 		</div>
@@ -212,46 +212,46 @@
 									<div class="elastislide-carousel">
 										<ul class="elastislide-list" id="carousel" style="transition: all 0s; -webkit-transition: all 0s; display: block; max-height: 68px;">
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image01" src="../web/images/1-01.png"></a>
+												<a href="#"><img alt="image01" src="<?php echo Yii::app()->request->baseUrl; ?>/images/1-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image02" src="../web/images/2-01.png"></a>
+												<a href="#"><img alt="image02" src="<?php echo Yii::app()->request->baseUrl; ?>/images/2-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image03" src="../web/images/3-01.png"></a>
+												<a href="#"><img alt="image03" src="<?php echo Yii::app()->request->baseUrl; ?>/images/3-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image05" src="../web/images/4-01.png"></a>
+												<a href="#"><img alt="image05" src="<?php echo Yii::app()->request->baseUrl; ?>/images/4-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image06" src="../web/images/5-01.png"></a>
+												<a href="#"><img alt="image06" src="<?php echo Yii::app()->request->baseUrl; ?>/images/5-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image07" src="../web/images/6-01.png"></a>
+												<a href="#"><img alt="image07" src="<?php echo Yii::app()->request->baseUrl; ?>/images/6-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="../web/images/7-01.png"></a>
+												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/7-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="../web/images/8-01.png"></a>
+												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/8-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="../web/images/9-01.png"></a>
+												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/9-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="../web/images/10-01.png"></a>
+												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/10-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="../web/images/11-01.png"></a>
+												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/11-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="../web/images/12-01.png"></a>
+												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/12-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="../web/images/13-01.png"></a>
+												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/13-01.png"></a>
 											</li>
 											<li style="width: 50%; max-width: 134px; max-height: 68px;">
-												<a href="#"><img alt="image08" src="../web/images/14-01.png"></a>
+												<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/14-01.png"></a>
 											</li>
 										</ul>
 									</div>

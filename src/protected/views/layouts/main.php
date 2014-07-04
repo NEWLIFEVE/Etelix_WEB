@@ -5,7 +5,7 @@
 <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="en">
-<!-- blueprint CSS framework --
+<!-- blueprint CSS framework -->
 <link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection">
 <link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print">
 <!--[if lt IE 8]>
@@ -116,7 +116,7 @@
 				<strong>Cont&aacute;ctanos</strong></p>
 			<br />
 			<p style="color:#FFFFFF;font-size: 1.0em;">
-				<img alt="" class="pais" id="usa" src="images/usa_flag.png" style="width: 50px; height: 20px;" />&nbsp;&nbsp;<img alt="" class="pais" id="peru" src="images/peru_flag.png" style="width: 50px; height: 20px;" />&nbsp;&nbsp;<img alt="" class="pais" id="venezuela" src="images/venezuela_flag.png" style="width: 50px; height: 20px;" /></p>
+				<img alt="" class="pais" id="usa" src="<?php echo Yii::app()->request->baseUrl; ?>/images/usa_flag.png" style="width: 50px; height: 20px;" />&nbsp;&nbsp;<img alt="" class="pais" id="peru" src="<?php echo Yii::app()->request->baseUrl; ?>/images/peru_flag.png" style="width: 50px; height: 20px;" />&nbsp;&nbsp;<img alt="" class="pais" id="venezuela" src="<?php echo Yii::app()->request->baseUrl; ?>/images/venezuela_flag.png" style="width: 50px; height: 20px;" /></p>
 			<br />
 			<p class="direction" style="color:#FFFFFF;font-size: 0.9em;margin-right:5px;">
 				444 Brickell Ave. Suite 51-845,</p>
@@ -143,17 +143,17 @@
 					<p style="color:#FFFFFF;font-size: 0.8em;">
 						<strong>Qui&eacute;nes Somos</strong></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/organization" style="color:#FFFFFF">Nuestra Organizaci&oacute;n</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>" style="color:#FFFFFF">Nuestra Organizaci&oacute;n</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/organization#mision_quienes_somos" style="color:#FFFFFF">Misi&oacute;n</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>#mision_quienes_somos" style="color:#FFFFFF">Misi&oacute;n</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/organization#vision_quienes_somos" style="color:#FFFFFF">Visi&oacute;n</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>#vision_quienes_somos" style="color:#FFFFFF">Visi&oacute;n</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
 						&nbsp; &nbsp;</p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
 						<strong>D&oacute;nde Estamos</strong></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/map" style="color:#FFFFFF">Mapa Interactivo</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/map');?>" style="color:#FFFFFF">Mapa Interactivo</a></p>
 				</div>
 				<div class="span2" style="background-color:#343434;color:#FFFFFF;width:50%;margin-right:5px;">
 					<p style="color:#FFFFFF;font-size: 0.8em;">
@@ -161,23 +161,23 @@
 					<p style="color:#FFFFFF;font-size: 0.8em;">
 						<strong>Nuestros Servicios</strong></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#services" style="color:#FFFFFF">Servicios de Interconexi&oacute;n Internacional de Voz</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#services" style="color:#FFFFFF">Servicios de Interconexi&oacute;n Internacional de Voz</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#sms" style="color:#FFFFFF">SMS</a></p>
+						<a href="/<?php echo Yii::app()->createUrl('/site/services');?>#sms" style="color:#FFFFFF">SMS</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#data" style="color:#FFFFFF">Conectividad Internacional</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#data" style="color:#FFFFFF">Conectividad Internacional</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#contactcenter" style="color:#FFFFFF">Contact Center</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#contactcenter" style="color:#FFFFFF">Contact Center</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#pagos" style="color:#FFFFFF">Plataforma de Pagos</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#pagos" style="color:#FFFFFF">Plataforma de Pagos</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#retail" style="color:#FFFFFF">Puntos de Venta Integrales</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#retail" style="color:#FFFFFF">Puntos de Venta Integrales</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#hosting" style="color:#FFFFFF">Servicios de Hosting</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#hosting" style="color:#FFFFFF">Servicios de Hosting</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#software" style="color:#FFFFFF">Desarrollo de Software</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#software" style="color:#FFFFFF">Desarrollo de Software</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/es/site/services#servprof" style="color:#FFFFFF">Servicios Profesionales</a></p>
+						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#servprof" style="color:#FFFFFF">Servicios Profesionales</a></p>
 					<p style="color:#FFFFFF;font-size: 0.8em;">
 						&nbsp;&nbsp;</p>
 				</div>
@@ -191,11 +191,11 @@
 			<p style="color:#FFFFFF;font-size: 0.8em;">
 				<strong>Clientes</strong></p>
 			<p style="color:#FFFFFF;font-size: 0.8em;">
-				<a href="/es/site/client" style="color:#FFFFFF">Nuestros Clientes</a></p>
+				<a href="<?php echo Yii::app()->createUrl('/site/client');?>" style="color:#FFFFFF">Nuestros Clientes</a></p>
 			<p style="color:#FFFFFF;font-size: 0.8em;">
 				&nbsp; &nbsp;&nbsp;</p>
 			<div class="correo">
-				<a href="<?php echo Yii::app()->createUrl('/site/contact');?>" style="color:#FFFFFF;">Escr&iacute;benos &nbsp;<img alt="" src="images/white_sobre.png" style="width: 30px; height: 20px;" /></a>
+				<a href="<?php echo Yii::app()->createUrl('/site/contact');?>" style="color:#FFFFFF;">Escr&iacute;benos &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/white_sobre.png" style="width: 30px; height: 20px;" /></a>
 			</div>
 		</div>
 	</div>

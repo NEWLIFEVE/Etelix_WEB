@@ -56,7 +56,7 @@
 			<a href="/es/site/country?country=peru_map" title="Ver Dirección en Perú">Lima</a>
 		</p>
 	</div>
-	<img src="../web/images/mapa_completo.png" usemap="#map">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mapa_completo.png" usemap="#map">
 </div>
 <div class="accordion_country">
 	<div id="accordion" class="ui-accordion ui-widget ui-helper-reset" role="tablist">

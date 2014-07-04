@@ -9,7 +9,7 @@
 		<p>
 			Brindar servicios y soluciones de telecomunicaciones adaptando tecnologías e innovación a las necesidades de nuestros clientes, comprometidos con el desarrollo de clientes, empleados, accionistas, proveedores y aliados.</p>
 	</div>
-	<img alt="" src="../web/images/background_quienes_somos.png"><br>
+	<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/background_quienes_somos.png"><br>
 	<div class="vision_quienes_somos" id="vision_quienes_somos">
 		<p class="vision_title">
 			Visión</p>

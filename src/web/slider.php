@@ -10,47 +10,23 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-
-	<title>SLIDER REVOLUTION -  The Responsive Slider jQuery Plugin</title>
-	<link rel="icon" type="image/png" href="images/sitelogo.png" />
-
-
-
-    <!-- commented, remove this line to use IE & iOS favicons -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
-
-
-
-    <!-- get jQuery from the google apis -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type='text/javascript' src='js/jquery-ui.js?ver=3.4.2'></script>
-
-
-    <!-- CSS STYLE -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<!-- get jQuery from the google apis -->
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
+    <script type='text/javascript' src='<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-ui.js?ver=3.4.2'></script>
+	<!-- CSS STYLE -->
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" media="screen" />
 	<!-- <link rel="stylesheet" type="text/css" href="css/preview.css" media="screen" />-->
-
-
-     <!-- jQuery KenBurn Slider  -->
-	<script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
-    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-
-
+    <!-- jQuery KenBurn Slider  -->
+	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.themepunch.revolution.min.js"></script>
 	<!-- MODULES ONLY FOR THE DEMONSTATION 
 	<script type="text/javascript" src="previewjs/preview-normal.js"></script>-->
-
-
 	<!-- REVOLUTION BANNER CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/captions.css" media="screen" />
-
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/captions.css" media="screen" />
 	<!-- GOOGLE FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600' rel='stylesheet' type='text/css'>
-
-
 </head>
-
-
 
 <!--
 #######################################
@@ -71,19 +47,19 @@
 					<div class="fullwidthabnner">
 						<ul>
 							<!-- THE FIRST SLIDE -->
-							<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="images/thumbs/thumb1.jpg">
+							<li data-transition="papercut" data-slotamount="10" data-masterspeed="300" data-thumb="">
 										<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-										<img src="images/slides/wide1.jpg" >
+										<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/fondo_slideshow.png" >
 
 										<!-- THE CAPTIONS IN THIS SLDIE -->
-										<div class="caption large_text sfb"
-											 data-x="176"
-											 data-y="15"
+										<!--<div class="caption large_text sfb"
+											 data-x="570"
+											 data-y="200"
 											 data-speed="300"
 											 data-start="800"
-											 data-easing="easeOutExpo"  >OVER <span style="color: #ffcc00;">1000</span> SATISFIED CUSTOMERS</div>
-
-										<div class="caption randomrotate"
+											 data-easing="easeOutExpo" ><span style="color:#F18E21; text-align:justify;">Atencion <br> las 24 horas <br> todos los dias</span></div>
+											 -->
+										<!--<div class="caption randomrotate"
 											 data-x="189"
 											 data-y="76"
 											 data-speed="600"
@@ -96,43 +72,43 @@
 											 data-speed="600"
 											 data-start="1200"
 											 data-easing="easeOutExpo"  ><img src="images/slides/p2.jpg" alt="Image 3"></div>
-
+											-->
 										<div class="caption randomrotate"
-											 data-x="200"
-											 data-y="209"
+											 data-x="130"
+											 data-y="76"
 											 data-speed="600"
-											 data-start="1300"
-											 data-easing="easeOutExpo"  ><img src="images/slides/p3.jpg" alt="Image 4"></div>
+											 data-start="1100"
+											 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_1_a-01.png" alt="Image 4" ></div>
 
-										<div class="caption randomrotate"
+									<!--<div class="caption randomrotate"
 											 data-x="97"
 											 data-y="117"
 											 data-speed="300"
 											 data-start="1400"
-											 data-easing="easeOutExpo"  ><img src="images/slides/p4.jpg" alt="Image 5"></div>
+											 data-easing="easeOutExpo"  ><img src="images/slides/p4.jpg" alt="Image 5"></div>-->
 
 										<div class="caption randomrotate"
-											 data-x="14"
-											 data-y="222"
-											 data-speed="600"
+											 data-x="550"
+											 data-y="115"
+											 data-speed="1500"
 											 data-start="1500"
-											 data-easing="easeOutExpo"  ><img src="images/slides/p5.jpg" alt="Image 6"></div>
+											 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/atencion.png" alt="Image 6"></div>
 
 										<div class="caption randomrotate"
-											 data-x="638"
-											 data-y="201"
-											 data-speed="300"
+											 data-x="550"
+											 data-y="115"
+											 data-speed="1600"
 											 data-start="1600"
-											 data-easing="easeOutExpo"  ><img src="images/slides/p6.jpg" alt="Image 7"></div>
+											 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/24.png" alt="Image 7" ></div>
 
 										<div class="caption randomrotate"
-											 data-x="717"
-											 data-y="294"
-											 data-speed="300"
+											 data-x="550"
+											 data-y="115"
+											 data-speed="1700"
 											 data-start="1700"
-											 data-easing="easeOutExpo"  ><img src="images/slides/p7.jpg" alt="Image 8"></div>
+											 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/dias.png" alt="Image 8"></div>
 
-										<div class="caption randomrotate"
+										<!--<div class="caption randomrotate"
 											 data-x="682"
 											 data-y="79"
 											 data-speed="300"
@@ -165,11 +141,11 @@
 											 data-y="165"
 											 data-speed="300"
 											 data-start="2200"
-											 data-easing="easeOutExpo"  ><img src="images/slides/p12.jpg" alt="Image 13"></div>
+											 data-easing="easeOutExpo"  ><img src="images/slides/p12.jpg" alt="Image 13"></div>-->
 																		</li>
 
 							<!-- THE SECOND SLIDE -->
-							<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="images/thumbs/thumb2.jpg">
+							<!--<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="images/thumbs/thumb2.jpg">
 										<img src="images/slides/slide2_wide1.jpg" >
 
 										<div class="caption very_big_white lfl stl"
@@ -248,56 +224,56 @@
 											 data-speed="300"
 											 data-start="6700"
 											 data-easing="easeOutExpo" data-end="8200" data-endspeed="300" data-endeasing="easeInSine" >$ 6.79</div>
-																		</li>
-							<li data-transition="turnoff" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb3.jpg">
-												<img src="images/slides/slide3_wide1.jpg" >
+								-->										</li>
+							<li data-transition="turnoff" data-slotamount="1" data-masterspeed="300" data-thumb="">
+											<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/fondo_slideshow.png" >
 
-										<div class="caption large_text fade"
+										<!--<div class="caption large_text fade"
 											 data-x="509"
 											 data-y="290"
 											 data-speed="300"
 											 data-start="800"
-											 data-easing="easeOutExpo"  ></div>
+											 data-easing="easeOutExpo"  >sdfsdfsdfsdfsd</div>-->
 
 										<div class="caption very_large_black_text randomrotate"
-											 data-x="641"
-											 data-y="95"
+											 data-x="130"
+											 data-y="100"
 											 data-speed="300"
 											 data-start="1100"
-											 data-easing="easeOutExpo"  >SLIDER</div>
+											 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/empleados.png" alt="Image 7" ></div>
 
 										<div class="caption large_black_text randomrotate"
-											 data-x="642"
-											 data-y="161"
+											 data-x="130"
+											 data-y="100"
 											 data-speed="300"
 											 data-start="1400"
-											 data-easing="easeOutExpo"  >REVOLUTION</div>
+											 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/empleados2.png" alt="Image 7" ></div>
 
 										<div class="caption bold_red_text randomrotate"
-											 data-x="645"
-											 data-y="201"
+											data-x="130"
+											 data-y="100"
 											 data-speed="300"
 											 data-start="1700"
-											 data-easing="easeOutExpo"  >GOT FULLSCREEN VIDEO</div>
+											 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/empleados3.png" alt="Image 7" ></div>
 
 										<div class="caption sfb"
-											 data-x="640"
-											 data-y="223"
+											data-x="550"
+											 data-y="100"
 											 data-speed="300"
 											 data-start="2000"
-											 data-easing="easeOutBack"  ><img src="images/slides/video.jpg" alt="Image 7"></div>
+											 data-easing="easeOutBack"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_3_b-01.png" alt="Image 7"></div>
 
-										<div class="caption sft"
+										<!--<div class="caption sft"
 											 data-x="639"
 											 data-y="383"
 											 data-speed="300"
 											 data-start="2300"
-											 data-easing="easeOutExpo"  data-linktoslide="4" ><img src="images/slides/videobutton.jpg" alt="Image 8"></div>
+											 data-easing="easeOutExpo"  data-linktoslide="4" ><img src="images/slides/videobutton.jpg" alt="Image 8"></div>-->
 							</li>
 
 							<!-- THE THIRD SLIDE -->
-							<li data-transition="slideup" data-slotamount="7" data-masterspeed="300" data-thumb="images/thumbs/thumb4.jpg">
-									<img src="images/slides/black.jpg" >
+							<!--<li data-transition="slideup" data-slotamount="7" data-masterspeed="300" data-thumb="images/thumbs/thumb4.jpg">
+									<img src="images/slides/fondo_slideshow.jpg" >
 
 									<div class="caption fade fullscreenvideo" data-autoplay="false" data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="easeOutBack"><iframe src="http://player.vimeo.com/video/22775048?title=0&amp;byline=0&amp;portrait=0;api=1" width="100%" height="100%"></iframe></div>
 
@@ -307,14 +283,14 @@
 										 data-speed="300"
 										 data-start="500"
 										 data-easing="easeOutExpo" data-end="4000" data-endspeed="300" data-endeasing="easeInSine" >Have Fun Watching the Video</div>
-							</li>
+							</li>-->
 
 							<!-- THE FOURTH SLIDE -->
-							<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb5.jpg">
+							<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="">
 
-									<img src="images/slides/slide4_wide1.jpg" >
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/fondo_slideshow.png" >
 
-									<div class="caption large_text sft"
+									<!--<div class="caption large_text sft"
 										 data-x="50"
 										 data-y="44"
 										 data-speed="300"
@@ -326,40 +302,40 @@
 										 data-y="82"
 										 data-speed="300"
 										 data-start="1100"
-										 data-easing="easeOutExpo"  >AND</div>
+										 data-easing="easeOutExpo"  >AND</div>--> 
 
 									<div class="caption large_text sfr"
-										 data-x="128"
-										 data-y="78"
+										 data-x="160"
+										 data-y="270"
 										 data-speed="300"
 										 data-start="1100"
-										 data-easing="easeOutExpo"  ><span style="color: #ffc600;">RESPONSIVE</span></div>
+										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_a-01.png" alt="Image 7"></div>
 
-									<div class="caption lfl"
+									<!--<div class="caption lfl"
 										 data-x="53"
 										 data-y="192"
 										 data-speed="300"
 										 data-start="1400"
-										 data-easing="easeOutExpo"  ><img src="images/slides/imac.png" alt="Image 4"></div>
+										 data-easing="easeOutExpo"  ><img src="images/slides/slideshow_2_b-01.png" alt="Image 4"></div>-->
 
-									<div class="caption lfl"
-										 data-x="253"
-										 data-y="282"
+									<div class="caption  medium_text sfl"
+										 data-x="128"
+										 data-y="78"
 										 data-speed="300"
-										 data-start="1500"
-										 data-easing="easeOutExpo"  ><img src="images/slides/ipad.png" alt="Image 5"></div>
+										 data-start="1100"
+										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_b-01.png" alt="Image 7"></div>
 
-									<div class="caption lfl"
+									<!--<div class="caption lfl"
 										 data-x="322"
 										 data-y="313"
 										 data-speed="300"
 										 data-start="1600"
-										 data-easing="easeOutExpo"  ><img src="images/slides/iphone.png" alt="Image 6"></div>
+										 data-easing="easeOutExpo"  ><img src="images/slides/iphone.png" alt="Image 6"></div>-->
 							</li>
 
 
 							<!-- THE FIFTH SLIDE -->
-							<li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+							<!--<li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
 									<img src="images/slides/slide5_wide.jpg" >
 
 									<div class="caption large_text sfl"
@@ -381,8 +357,8 @@
 										 data-y="174"
 										 data-speed="800"
 										 data-start="1600"
-										 data-easing="easeOutExpo"  ><img src="images/slides/TP_logo.png" alt="Image 4"></div>
-							</li>
+										 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_b-01.png" alt="Image 4"></div>
+							</li>-->
 						</ul>
 
 
@@ -397,7 +373,7 @@
 			jQuery(document).ready(function() {
 				 api =  jQuery('.fullwidthabnner').revolution(
 								{
-									delay:9000,
+									delay:5000,
 									startheight:500,
 									startwidth:960,
 
@@ -425,9 +401,9 @@
 								});
 			});
 			
-			function loadVideo(){
+			/*function loadVideo(){
 				jQuery("#video_link").html('<iframe id="video_frame" width="960" height="540" src="http://www.youtube.com/embed/t9N36YbFS4c?autoplay=1&fmt=22" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>');
-			}
+			}*/
 		</script>
 
 	</body>
