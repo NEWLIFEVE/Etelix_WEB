@@ -48,6 +48,10 @@ div.inbox img
 {
     margin-top: 1.5em;
 }
+.menu1
+{
+    vertical-align: middle;
+}
     /*Logo de etelix en el menu*/
     /*#logo
     {
@@ -64,7 +68,7 @@ div.inbox img
     {
         margin-top: 40px;
         display: inline-table;
-        min-height: 20px;
+        min-height: 48px;
         vertical-align: middle;
         margin-right: 27px;
         width: 87px;
@@ -329,8 +333,19 @@ margin-left: 8px;
   -moz-background-size: cover; 
   -o-background-size: cover;
   background-image:url('../images/building_background-01.png');
-
+    padding-left: 0px;
+    padding-right: 0px;
 }
+#content2 
+{
+   -webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover;
+   /*background-image:url('../images/building_background-01.png');*/
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 
 #slideContainer2
 {
@@ -9258,8 +9273,7 @@ a.badge:focus {
 
   #content 
   {
-    padding-left: 0px;
-    padding-right: 0px;
+   
 
   }
 

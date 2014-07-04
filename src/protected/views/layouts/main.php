@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+<!--<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>-->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="en">
 <!-- blueprint CSS framework -->
@@ -67,24 +67,24 @@
 
 						<div class="span9">
 						    <div id='cssmenu'>
-								<ul>
+								<ul class="list_menu">
 								   
-								   <li class='active'><span><a href="<?php echo Yii::app()->createUrl('/site/index');?>">
+								   <li class='menu1'><span><a href="<?php echo Yii::app()->createUrl('/site/index');?>">
 										
 										Inicio</a></span></li>
-								   <li><span><a href="<?php echo Yii::app()->createUrl('/site/organitation');?>" >
+								   <li class="menu2"><span><a href="<?php echo Yii::app()->createUrl('/site/organitation');?>" >
 										
 										¿Quienes Somos?</a></span></li>
-								   <li><span><a href="<?php echo Yii::app()->createUrl('/site/services');?>" >
+								   <li class="menu3"><span><a href="<?php echo Yii::app()->createUrl('/site/services');?>" >
 										
 										Nuestros Servicios</a></span></li>
-								   <li><span><a href="<?php echo Yii::app()->createUrl('/site/map');?>" >
+								   <li class="menu4"><span><a href="<?php echo Yii::app()->createUrl('/site/map');?>" >
 										
 										Donde Estamos</a></span></li>
-								   <li><span><a href="<?php echo Yii::app()->createUrl('/site/client');?>" >
+								   <li class="menu5"><span><a href="<?php echo Yii::app()->createUrl('/site/client');?>" >
 										
 										Clientes</a></span></li>
-								   <li class='last'><span><a href="<?php echo Yii::app()->createUrl('/site/contact');?>" >
+								   <li class='menu6'><span><a href="<?php echo Yii::app()->createUrl('/site/contact');?>" >
 										
 										Contacto</a></span></li>
 								</ul>
@@ -130,7 +130,8 @@
 			<div>
 		</div>
 	</header>
-	<div id="content"> <!-- content view-->
+	<div id="content">
+	 <!-- content view-->
 		<?php echo $content; ?>
 	</div><!-- content -->
 	<div class="clear"></div>
@@ -253,72 +254,34 @@
         var client = href.indexOf("site/client");
         var contact = href.indexOf("site/contact");
         if(index>0){
-           $(".menu1").css("color","#eb5c29");
-  		   $(".menu1").css("border-bottom-style","solid");
-           $(".menu1").css("border-bottom-width","1px");
-           $(".menu1").css("border-bottom-color","#eb5c29");
+         $(".menu1").addClass("active");
+  		 
         
          }else if(organitation>0){
-           $(".menu2").css("color","#eb5c29");
-           $(".menu2").css("border-bottom-style","solid");
-           $(".menu2").css("border-bottom-width","1px");
-           $(".menu2").css("border-bottom-color","#eb5c29");
+          
+            $(".menu2").addClass("active");
 		  
         }else if(services>0){
-           $(".menu3").css("color","#eb5c29");
-           $(".menu3").css("border-bottom-style","solid");
-           $(".menu3").css("border-bottom-width","1px");
-           $(".menu3").css("border-bottom-color","#eb5c29");
+         
+            $(".menu3").addClass("active");
 		   
         }else if(map>0){
-           $(".menu4").css("color","#eb5c29");
-           $(".menu4").css("border-bottom-style","solid");
-           $(".menu4").css("border-bottom-width","1px");
-           $(".menu4").css("border-bottom-color","#eb5c29");
+         
+           $(".menu4").addClass("active");
 		   
         }else if(client>0){
-           $(".menu5").css("color","#eb5c29");
-           $(".menu5").css("border-bottom-style","solid");
-           $(".menu5").css("border-bottom-width","1px");
-           $(".menu5").css("border-bottom-color","#eb5c29");
+          
+            $(".menu5").addClass("active");
 		   
         }else if(contact>0){
-           $(".menu6").css("color","#eb5c29");
-           $(".menu6").css("border-bottom-style","solid");
-           $(".menu6").css("border-bottom-width","1px");
-           $(".menu6").css("border-bottom-color","#eb5c29");
+           $(".menu6").addClass("active");
+          
 		  
         }
         });
       </script>
 	<script type="text/javascript">
-        var href = $(location).attr('href');
-        var index = href.indexOf("site/index");
-        var organitation = href.indexOf("site/organitation");
-        var services = href.indexOf("site/services");
-        var map = href.indexOf("site/map");
-        var client = href.indexOf("site/client");
-        var contact = href.indexOf("site/contact");
-        if(index>0){
-           $(".menu1").css("color","#eb5c29");
-		  
-        }else if(organitation>0){
-           $(".menu2").css("color","#eb5c29");
-		  
-        }else if(services>0){
-           $(".menu3").css("color","#eb5c29");
-		   
-        }else if(map>0){
-           $(".menu4").css("color","#eb5c29");
-		   
-        }else if(client>0){
-           $(".menu5").css("color","#eb5c29");
-		   
-        }else if(contact>0){
-           $(".menu6").css("color","#eb5c29");
-		  
-        }
-		 
+       	 
 
 		$( '#carousel' ).elastislide( {
 		    minItems : 2
