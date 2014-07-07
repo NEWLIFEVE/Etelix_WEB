@@ -1,4 +1,4 @@
-<div class="widget display" id="widget-25">
+<div id="content2"><div class="widget display" id="widget-25">
     <div align="center" class="client">
 		<p class="clientes">
 			Nuestros Principales Clientes</p>
@@ -36,4 +36,5 @@
 		<div>
 	</div>
 <div>		
+</div>
 </div>

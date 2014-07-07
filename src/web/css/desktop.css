@@ -2,10 +2,12 @@
 header {
   background-color: #fff;
   margin-top: 10px;
+
 }
 
 .container {
   padding-left: -20px !important;
+  max-width: 1020px;
 }
 
 .row_scroller {
@@ -215,12 +217,14 @@ header {
 .paragraph_title {
   height: 35px;
   font-size: 1.3em;
-  margin-top: 8px;
+
+  padding: 10px 0 0 4px;
 }
 .paragraph2 {
   margin-top: 15px;
   height: 50px;
   margin-left: 5px;
+  padding: 0 0 0 7px
 }
 .paragraph {
   margin-top: 15px;
@@ -256,7 +260,7 @@ p.direction {
 
 }
 .ver_mapa {
-  float: left;
+ float: right;
   background-color: #fff;
   color: #F18E21;
   font-size: 1.7em;
@@ -276,13 +280,182 @@ p.direction {
 .cols {
   width: 25%;
 }
+.cols2 {
+  width: 20%;
+}
+.cols3 {
+  width: 40%;
+}
+.cols4 {
+  width: 50%;
+}
+/*footer*/
+@media screen and (max-width: 935px) { 
 
-.row-fluid .cols {
+    .cols2 {
+      width: 30%;
+    }
+    .cols3 {
+      width: 40%;
+    }
+    .cols4 {
+      width: 50%;
+    }
+    .row-fluid .cols,.row-fluid .cols2 ,.row-fluid .cols3 ,.row-fluid .cols4 {
+        display: block;
+        min-height: 211px;
+
+        margin-left: 0%;
+    
+    }
+
+}
+@media screen and (max-width: 240px) { 
+
+    .cols2 {
+      width: 100%;
+    }
+    .cols3 {
+      width: 100%;
+    }
+    .cols4 {
+      width: 100%;
+    }
+    .row-fluid .cols,.row-fluid .cols2 ,.row-fluid .cols3 ,.row-fluid .cols4 {
+        display: block;
+        margin-left: 0%;
+    
+    }
+
+}
+@media screen and (max-width: 320px) { 
+
+    .cols2 {
+      width: 100%;
+    }
+    .cols3 {
+      width: 100%;
+    }
+    .cols4 {
+      width: 100%;
+    }
+    .row-fluid .cols,.row-fluid .cols2 ,.row-fluid .cols3 ,.row-fluid .cols4 {
+        display: block;
+        margin-left: 0%;
+    
+    }
+
+}
+@media screen and (max-width: 360px) { 
+
+    .cols2 {
+      width: 100%;
+    }
+    .cols3 {
+      width: 100%;
+    }
+    .cols4 {
+      width: 100%;
+    }
+    .row-fluid .cols,.row-fluid .cols2 ,.row-fluid .cols3 ,.row-fluid .cols4 {
+        display: block;
+        margin-left: 0%;
+    
+    }
+
+}
+/* presencia comercial*/
+@media screen and (max-width: 799px) { 
+
+    .ver_mapa {
+      display: block;
+      background-color: #fff;
+      color: #F18E21;
+      font-size: 1.7em;
+      padding: 5px;
+      width: 140px;
+      margin: 0;
+      float: none;
+    }
+    .presencia_comcercial_coment{
+      width:100%;
+      background-color:#F18E21;
+       display: block;
+  }
+      
+
+}
+@media screen and (max-width: 738px) { 
+
+    .ver_mapa {
+      display: block;
+      background-color: #fff;
+      color: #F18E21;
+      font-size: 1.7em;
+      padding: 5px;
+      width: 140px;
+      margin: 0;
+      clear: both;
+      float: none;
+    }
+    .presencia_comcercial_coment{
+      width:100%;
+      background-color:#F18E21;
+       display: block;
+       clear: both;
+  }
+      
+
+}
+@media screen and (max-width: 866px) { 
+
+    .ver_mapa {
+      display: block;
+      background-color: #fff;
+      color: #F18E21;
+      font-size: 1.7em;
+      padding: 5px;
+      width: 140px;
+      margin: 0;
+      clear: both;
+      float: none;
+    }
+    .presencia_comcercial_coment{
+      width:100%;
+      background-color:#F18E21;
+       display: block;
+       clear: both;
+  }
+      
+
+}
+@media screen and (min-width: 866px) { 
+
+
+    .presencia_comcercial_coment{
+      width:80%;
+      background-color:#F18E21;
+       display: block;
+       clear: both;
+  }
+      
+
+}
+
+
+
+
+
+
+
+
+.row-fluid .cols,.row-fluid .cols2 ,.row-fluid .cols3 ,.row-fluid .cols4 {
   display: inline;
-  min-height: 30px;
+  min-height: 211px;
   float: left;
   margin-left: 0%;
 }
+
 
 .footer {
   background-color: #343434;
@@ -305,12 +478,21 @@ img.logo {
 
 .client img{
   max-width: 90%;
+  float: left;
+}
+.cliente_name{
+  width: 10%;
+  float: left;
+}
+.cliente_img{
+  width: 80%;
+  float: left;
 }
 
 .cliente {
   color:#ec6b18;
   font-size: 2em;
-  margin-left: 55px;
+  padding: 0 0 0 5px;
 }
 
 .clientes {
@@ -324,7 +506,7 @@ img.logo {
 
 .client_1, .client_2, .client_3, .client_4, .client_5, .client_6, .client_7, .client_8, .client_9, .client_10,
 .client_11, .client_12, .client_13, .client_14, .client_15 {
-  background: url(../images/cliente_imagen.png) center center no-repeat;
+ /* background: url(../images/cliente_imagen.png) center center no-repeat;*/
   display: inline-table;
   margin: 1%;
   width: 210px !important

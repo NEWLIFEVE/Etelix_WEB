@@ -1,5 +1,5 @@
 
-<div class="row-fluid">
+<div id="content"><div class="row-fluid">
 	<div class="">
 		<div id="container-main" class="widget-container display">
 			<div class="widget display" id="widget-2">
@@ -30,13 +30,13 @@
 						<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 							<div style="padding:5px;"  id="services1">
 								<h1 style="text-align: center;">
-								<a class="image"  href="#">
-									<span class="roll" ></span>
+								<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#services">
+									<span class="rollover" ></span>
 									<img class="imgborder" alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services1.png" style="width: 240px; height: 147px;">
 
 								</a>	
 								</h1>
-								<div id="content_services1">
+								<div id="content_services1" style="margin:0 auto; max-width:240px;">
 									<p class="paragraph_title">
 									<strong>Servicios de Interconexion Internacional de Voz</strong></p>
 									<p class="paragraph2">
@@ -50,12 +50,12 @@
 						<div style="padding:5px;" id="services2">
 							<h1 style="text-align: center;">
 							<strong style="color:#0a71b8">
-								<a class="image"  href="#">
-									<span class="roll" ></span>
+								<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#retail">
+									<span class="rollover" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services2.png" style="width: 240px; height: 147px;">
 								</a>
 								</strong></h1>
-							<div id="content_services2">
+							<div id="content_services2" style="margin:0 auto; max-width:240px;">
 								<p class="paragraph_title">
 									<strong>Puntos &nbsp;de Venta Integrales</strong></p>
 								<p class="paragraph2">
@@ -69,11 +69,11 @@
 					<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 						<div style="padding:5px;" id="services3">
 							<h1 style="text-align: center;">
-							<a class="image"  href="#">
-									<span class="roll" ></span>
+							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#sms">
+									<span class="rollover" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services3.png" style="width: 240px; height: 147px;" >
 							</a></h1>
-							<div id="content_services3">
+							<div id="content_services3" style="margin:0 auto; max-width:240px;">
 								<p class="paragraph_title">
 								<strong>SMS</strong></p>
 								<p class="paragraph2">
@@ -86,11 +86,11 @@
 					<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 						<div style="padding:5px;" id="services4">
 							<h1 style="text-align: center;">
-							<a class="image"  href="#">
-									<span class="roll" ></span>
+							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#contactcenter">
+									<span class="rollover" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services4.png" style="width: 240px; height: 147px;">
 							</a></h1>
-							<div id="content_services4">
+							<div id="content_services4" style="margin:0 auto; max-width:240px;">
 								<p class="paragraph_title">
 								<strong>Contac Center</strong></p>
 								<p class="paragraph2">
@@ -104,11 +104,11 @@
 						<div style="padding:5px;" id="services5">
 							<h1 style="text-align: center;">
 							<strong style="color:#0a71b8">
-								<a class="image"  href="#">
-									<span class="roll" ></span>
+								<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#data">
+									<span class="rollover" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services5.png" style="width: 240px; height: 147px;">
 								</a></strong></h1>
-							<div id="content_services5">
+							<div id="content_services5" style="margin:0 auto; max-width:240px;">
 								<p class="paragraph_title">
 									<strong>Conectividad Internacional</strong></p>
 								<p class="paragraph2">
@@ -121,11 +121,11 @@
 					<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 						<div style="padding:5px;" id="services6">
 							<h1 style="text-align: center;">
-							<a class="image"  href="#">
-									<span class="roll" ></span>
+							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#pagos">
+									<span class="rollover" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services6.png" style="width: 240px; height: 147px;">
 								</a></h1>
-							<div id="content_services6">
+							<div id="content_services6" style="margin:0 auto; max-width:240px;">
 								<p class="paragraph_title">
 								<strong>Plataforma de Pagos</strong></p>
 								<p class="paragraph2">
@@ -138,11 +138,11 @@
 					<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 						<div style="padding:5px;" id="services7">
 							<h1 style="text-align: center;">
-							<a class="image"  href="#">
-									<span class="roll" ></span>
+							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#hosting">
+									<span class="rollover" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services7.png" style="width: 240px; height: 147px;">
 							</a></h1>
-							<div id="content_services7">
+							<div id="content_services7" style="margin:0 auto; max-width:240px;">
 								<p class="paragraph_title">
 								<strong>Servicios de Hosting</strong></p>
 								<p class="paragraph2">
@@ -155,11 +155,11 @@
 					<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 						<div style="padding:5px;" id="services8">
 							<h1 style="text-align: center;">
-							<a class="image"  href="#">
-									<span class="roll" ></span>
+							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#software">
+									<span class="rollover" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services8.png" style="width: 240px; height: 147px;">
 							</a></h1>
-							<div id="content_services8">
+							<div id="content_services8" style="margin:0 auto; max-width:240px;">
 								<p class="paragraph_title">
 								<strong>Desarrollo de Software</strong></p>
 								<p class="paragraph2">
@@ -184,23 +184,20 @@
 						regionales que atienden a nuestros clientes a trav&eacute;s de los 5 continentes</p>
 				</div>
 				
-				<div class="ver_mapa" style="float:right;">
+				<div class="ver_mapa">
 						<a href="<?php echo Yii::app()->createUrl('/site/map');?>" >Ver Mapa &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;"></a>
 				</div>
 				
 		</div>
 
-		<div class="separator1">
-						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-		</div>
-		<div class="widget display" id="widget-4">
+	
+	<div class="widget display" id="widget-4">
     <div class="container">
 	<div id="slider_visto">
-		<div class="separator2" style="width:100%;">
-			&nbsp; &nbsp;</div>
+
 		<div class="row-fluid" id="">
-			<div style="background-color:#e6e6e6;">
-				<p style="color:#ec6b18;font-size: 2em;">
+			<div style="background-color:#fff;">
+				<p style="color:#fff;font-size: 2em;">
 					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
 				<p class="cliente">
 					Nuestros Principales Clientes&nbsp;&nbsp;</p>
@@ -209,20 +206,20 @@
 				<div style="width:100%;;">
 					<!-- Elastislide Carousel -->
 					<div class="elastislide-wrapper elastislide-horizontal"><div class="elastislide-carousel"><ul class="elastislide-list" id="carousel" style="transition: all 0s; -webkit-transition: all 0s; display: block; max-height: 68px; -webkit-transform: translateX(-928px);"><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image01" src="<?php echo Yii::app()->request->baseUrl; ?>/images/1-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image02" src="<?php echo Yii::app()->request->baseUrl; ?>/images/2-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image03" src="<?php echo Yii::app()->request->baseUrl; ?>/images/3-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image05" src="<?php echo Yii::app()->request->baseUrl; ?>/images/4-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image06" src="<?php echo Yii::app()->request->baseUrl; ?>/images/5-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image07" src="<?php echo Yii::app()->request->baseUrl; ?>/images/6-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/7-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/8-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/9-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/10-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/11-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/12-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/13-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
-							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>/images/14-01.png"></a></li></ul></div><nav><span class="elastislide-prev" style="display: block;">Previous</span><span class="elastislide-next" style="display: none;">Next</span></nav></div>
+							<a href="#"><img alt="image01" src="<?php echo Yii::app()->request->baseUrl; ?>//images/1-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image02" src="<?php echo Yii::app()->request->baseUrl; ?>//images/2-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image03" src="<?php echo Yii::app()->request->baseUrl; ?>//images/3-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image05" src="<?php echo Yii::app()->request->baseUrl; ?>//images/4-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image06" src="<?php echo Yii::app()->request->baseUrl; ?>//images/5-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image07" src="<?php echo Yii::app()->request->baseUrl; ?>//images/6-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>//images/7-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>//images/8-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>//images/9-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>//images/10-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>//images/11-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>//images/12-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>//images/13-01.png"></a></li><li style="width: 50%; max-width: 134px; max-height: 68px;">
+							<a href="#"><img alt="image08" src="<?php echo Yii::app()->request->baseUrl; ?>//images/14-01.png"></a></li></ul></div><nav><span class="elastislide-prev" style="display: block;">Previous</span><span class="elastislide-next" style="display: none;">Next</span></nav></div>
 					<!-- End Elastislide Carousel --></div>
 				<a href="#" id="ui-carousel-next"><span>next</span></a> <a href="#" id="ui-carousel-prev"><span>prev</span></a>
 				<p style="color:#ec6b18;font-size: 2em;">
@@ -231,14 +228,21 @@
 					&nbsp; &nbsp; &nbsp; &nbsp;</p>
 			</div>
 		</div>
-		<div class="separator3">
-			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
-	</div>
+	
+</div>
+<div>
+</div>
+</div>
+<div>
+</div>
+</div>
+
 </div>
 <div>
 </div>
 </div>
 	</div>
+</div>
 </div>
 <script type="text/javascript">
 
@@ -246,9 +250,73 @@
 		$( "#services1" ).mouseover(function() {
 			$("#content_services1").css("background","#F18E21");
 			$("#content_services1").css("color","#FFF");
+
 		});
 		$( "#services1" ).mouseout(function() {
 			$("#content_services1").css("background","#fff");
 			$("#content_services1").css("color","#708090");
+		});
+		$( "#services2" ).mouseover(function() {
+			$("#content_services2").css("background","#F18E21");
+			$("#content_services2").css("color","#FFF");
+			
+		});
+		$( "#services2" ).mouseout(function() {
+			$("#content_services2").css("background","#fff");
+			$("#content_services2").css("color","#708090");
+		});
+		$( "#services3" ).mouseover(function() {
+			$("#content_services3").css("background","#F18E21");
+			$("#content_services3").css("color","#FFF");
+			
+		});
+		$( "#services3" ).mouseout(function() {
+			$("#content_services3").css("background","#fff");
+			$("#content_services3").css("color","#708090");
+		});
+		$( "#services4" ).mouseover(function() {
+			$("#content_services4").css("background","#F18E21");
+			$("#content_services4").css("color","#FFF");
+			
+		});
+		$( "#services4" ).mouseout(function() {
+			$("#content_services4").css("background","#fff");
+			$("#content_services4").css("color","#708090");
+		});
+		$( "#services5" ).mouseover(function() {
+			$("#content_services5").css("background","#F18E21");
+			$("#content_services5").css("color","#FFF");
+			
+		});
+		$( "#services5" ).mouseout(function() {
+			$("#content_services5").css("background","#fff");
+			$("#content_services5").css("color","#708090");
+		});
+		$( "#services6" ).mouseover(function() {
+			$("#content_services6").css("background","#F18E21");
+			$("#content_services6").css("color","#FFF");
+			
+		});
+		$( "#services6" ).mouseout(function() {
+			$("#content_services6").css("background","#fff");
+			$("#content_services6").css("color","#708090");
+		});
+		$( "#services7" ).mouseover(function() {
+			$("#content_services7").css("background","#F18E21");
+			$("#content_services7").css("color","#FFF");
+			
+		});
+		$( "#services7" ).mouseout(function() {
+			$("#content_services7").css("background","#fff");
+			$("#content_services7").css("color","#708090");
+		});
+		$( "#services8" ).mouseover(function() {
+			$("#content_services8").css("background","#F18E21");
+			$("#content_services8").css("color","#FFF");
+			
+		});
+		$( "#services8" ).mouseout(function() {
+			$("#content_services8").css("background","#fff");
+			$("#content_services8").css("color","#708090");
 		});
 </script>

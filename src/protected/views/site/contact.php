@@ -1,4 +1,4 @@
-<div class="widget display" id="widget-38">
+<div id="content2"><div class="widget display" id="widget-38">
     <div class="fondo">
 	<div class="titulo">
 		Contáctanos</div>
@@ -87,3 +87,4 @@
 		<!-- /.modal-content --></div>
 	<!-- /.modal-dialog --></div>
 <!-- /.modal --></div>
+</div>

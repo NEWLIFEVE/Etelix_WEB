@@ -332,18 +332,20 @@ margin-left: 8px;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover;
-  background-image:url('../images/building_background-01.png');
+  /*background-image:url('../images/building_background-01.png');
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 0px;*/
+    width: 100%;
 }
 #content2 
 {
    -webkit-background-size: cover; 
    -moz-background-size: cover; 
    -o-background-size: cover;
-   /*background-image:url('../images/building_background-01.png');*/
-    padding-left: 0px;
-    padding-right: 0px;
+   background-image:url('../images/building_background-01.png');
+   /* padding-left: 0px;
+    padding-right: 0px;*/
+      width: 100%;
 }
 
 
@@ -485,6 +487,7 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+
 }
 a
 {
@@ -1026,8 +1029,9 @@ a:focus {
   margin-left: 100px;
 }
 .row-fluid {
-  width: 100%;
+  max-width: 1020px;
   *zoom: 1;
+  margin: 0 auto;
 }
 .row-fluid:before,
 .row-fluid:after {
@@ -4781,7 +4785,7 @@ input[type="submit"].btn.btn-mini {
 }
 .nav {
   margin-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   list-style: none;
 }
 .nav > li > a {
@@ -13189,31 +13193,31 @@ div.contenedor header
 
 }
 .presencia_comcercial_coment{
-  width:80%;
+    width:80%;
     background-color:#F18E21;
 }
 
-/*
 span.rollover {
-  opacity: 1;
+  opacity: 0;
   -o-transition-duration: 1s;
   -moz-transition-duration: 1s;
   -webkit-transition: -webkit-transform 1s;
-  background:url(images/mag.png) center center no-repeat #000;
+  background:url(../images/mag.png) center 50px no-repeat #000;
+  background-color: #fff;
   cursor: pointer;
-  height: 346px;
-  width: 347px;
+  height: 257px;
+  width: 242px;
   position: absolute;
   z-index: 10;
-  opacity: 0;
+
 }
 
 span.rollover:hover {
-  opacity: .7;
+  opacity: .5;
   -o-transition-duration: 1s;
   -moz-transition-duration: 1s;
   -webkit-transition: -webkit-transform 1s;
   -webkit-box-shadow: 0px 0px 4px #000;
   -moz-box-shadow: 0px 0px 4px #000;
   box-shadow: 0px 0px 4px #000;
-}*/
+}

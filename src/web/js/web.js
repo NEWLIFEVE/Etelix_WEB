@@ -1,39 +1,3 @@
-$( document ).on('ready',function() {
-
-    //CAMBIA LA DIRECCION DE CONTACTO EN HOME
-    cambioDireccion();
-
-	//IMAGEN: ¿QUIENES SOMOS?
-	changeIcon(1,'/images/icn_quienes_somos');
-    //IMAGEN: NUESTROS SERVICIOS
-    changeIcon(2,'/images/icn_nuestros_servicios');
-    //IMAGEN: DONDE ESTAMOS
-    changeIcon(3,'/images/icn_donde_estamos');
-    //IMAGEN: CLIENTES
-    changeIcon(4,'/images/icn_clientes');
-    //IMAGEN: CONTACTO
-    changeIcon(5,'/images/icn_contacto');
-
-    fancybox_window();
-
-    changeCarousel();
-    //sliderImage(7,7);
-    paginaConstruccion();
-
-    //captureWidth();
-
-    changeLanguageName();
-    //horizontalLine();
-
-    $("#accordion").accordion();
-
-    //validar_form();
-   
-    //$(".fancyzoom").on("click", function () {
-        //$("a.fancyzoom").fancyzoom();
-    //});
-
-});
 
 
     
@@ -469,3 +433,4 @@ function change_numero(campo,num)
             //correol=null;
             //msj=null;
 //}
+

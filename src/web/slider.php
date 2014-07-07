@@ -1,39 +1,4 @@
-<!DOCTYPE html>
 
-
-<!--
-#######################################
-	- THE HEAD PART -
-######################################
--->
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<!-- get jQuery from the google apis -->
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
-    <script type='text/javascript' src='<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-ui.js?ver=3.4.2'></script>
-	<!-- CSS STYLE -->
-    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" media="screen" />
-	<!-- <link rel="stylesheet" type="text/css" href="css/preview.css" media="screen" />-->
-    <!-- jQuery KenBurn Slider  -->
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.themepunch.plugins.min.js"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.themepunch.revolution.min.js"></script>
-	<!-- MODULES ONLY FOR THE DEMONSTATION 
-	<script type="text/javascript" src="previewjs/preview-normal.js"></script>-->
-	<!-- REVOLUTION BANNER CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/settings.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/captions.css" media="screen" />
-	<!-- GOOGLE FONTS -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600' rel='stylesheet' type='text/css'>
-</head>
-
-<!--
-#######################################
-	- THE BODY PART -
-######################################
--->
-<body class="body-dark">
 
 
 		<div class="space30"></div>
@@ -405,6 +370,3 @@
 				jQuery("#video_link").html('<iframe id="video_frame" width="960" height="540" src="http://www.youtube.com/embed/t9N36YbFS4c?autoplay=1&fmt=22" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>');
 			}*/
 		</script>
-
-	</body>
-</html>
