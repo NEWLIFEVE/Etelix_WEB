@@ -31,7 +31,7 @@
 							<div style="padding:5px;"  id="services1">
 								<h1 style="text-align: center;">
 								<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#services">
-									<span class="rollover" ></span>
+									<span class="rollover1" ></span>
 									<img class="imgborder" alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services1.png" style="width: 240px; height: 147px;">
 
 								</a>	
@@ -51,7 +51,7 @@
 							<h1 style="text-align: center;">
 							<strong style="color:#0a71b8">
 								<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#retail">
-									<span class="rollover" ></span>
+									<span class="rollover2" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services2.png" style="width: 240px; height: 147px;">
 								</a>
 								</strong></h1>
@@ -70,7 +70,7 @@
 						<div style="padding:5px;" id="services3">
 							<h1 style="text-align: center;">
 							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#sms">
-									<span class="rollover" ></span>
+									<span class="rollover3" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services3.png" style="width: 240px; height: 147px;" >
 							</a></h1>
 							<div id="content_services3" style="margin:0 auto; max-width:240px;">
@@ -87,7 +87,7 @@
 						<div style="padding:5px;" id="services4">
 							<h1 style="text-align: center;">
 							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#contactcenter">
-									<span class="rollover" ></span>
+									<span class="rollover4" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services4.png" style="width: 240px; height: 147px;">
 							</a></h1>
 							<div id="content_services4" style="margin:0 auto; max-width:240px;">
@@ -105,7 +105,7 @@
 							<h1 style="text-align: center;">
 							<strong style="color:#0a71b8">
 								<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#data">
-									<span class="rollover" ></span>
+									<span class="rollover5" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services5.png" style="width: 240px; height: 147px;">
 								</a></strong></h1>
 							<div id="content_services5" style="margin:0 auto; max-width:240px;">
@@ -122,7 +122,7 @@
 						<div style="padding:5px;" id="services6">
 							<h1 style="text-align: center;">
 							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#pagos">
-									<span class="rollover" ></span>
+									<span class="rollover6" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services6.png" style="width: 240px; height: 147px;">
 								</a></h1>
 							<div id="content_services6" style="margin:0 auto; max-width:240px;">
@@ -139,7 +139,7 @@
 						<div style="padding:5px;" id="services7">
 							<h1 style="text-align: center;">
 							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#hosting">
-									<span class="rollover" ></span>
+									<span class="rollover7" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services7.png" style="width: 240px; height: 147px;">
 							</a></h1>
 							<div id="content_services7" style="margin:0 auto; max-width:240px;">
@@ -156,7 +156,7 @@
 						<div style="padding:5px;" id="services8">
 							<h1 style="text-align: center;">
 							<a class="image"  href="<?php echo Yii::app()->createUrl('/site/services');?>#software">
-									<span class="rollover" ></span>
+									<span class="rollover8" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services8.png" style="width: 240px; height: 147px;">
 							</a></h1>
 							<div id="content_services8" style="margin:0 auto; max-width:240px;">
@@ -247,75 +247,75 @@
 <script type="text/javascript">
 
 
-		$( "#services1" ).mouseover(function() {
+		$( ".rollover1" ).mouseover(function() {
 			$("#content_services1").css("background","#F18E21");
 			$("#content_services1").css("color","#FFF");
 
 		});
-		$( "#services1" ).mouseout(function() {
+		$( ".rollover1" ).mouseout(function() {
 			$("#content_services1").css("background","#fff");
 			$("#content_services1").css("color","#708090");
 		});
-		$( "#services2" ).mouseover(function() {
+		$( ".rollover2" ).mouseover(function() {
 			$("#content_services2").css("background","#F18E21");
 			$("#content_services2").css("color","#FFF");
 			
 		});
-		$( "#services2" ).mouseout(function() {
+		$( ".rollover2" ).mouseout(function() {
 			$("#content_services2").css("background","#fff");
 			$("#content_services2").css("color","#708090");
 		});
-		$( "#services3" ).mouseover(function() {
+		$( ".rollover3" ).mouseover(function() {
 			$("#content_services3").css("background","#F18E21");
 			$("#content_services3").css("color","#FFF");
 			
 		});
-		$( "#services3" ).mouseout(function() {
+		$( ".rollover3" ).mouseout(function() {
 			$("#content_services3").css("background","#fff");
 			$("#content_services3").css("color","#708090");
 		});
-		$( "#services4" ).mouseover(function() {
+		$( ".rollover4" ).mouseover(function() {
 			$("#content_services4").css("background","#F18E21");
 			$("#content_services4").css("color","#FFF");
 			
 		});
-		$( "#services4" ).mouseout(function() {
+		$( ".rollover4" ).mouseout(function() {
 			$("#content_services4").css("background","#fff");
 			$("#content_services4").css("color","#708090");
 		});
-		$( "#services5" ).mouseover(function() {
+		$( ".rollover5" ).mouseover(function() {
 			$("#content_services5").css("background","#F18E21");
 			$("#content_services5").css("color","#FFF");
 			
 		});
-		$( "#services5" ).mouseout(function() {
+		$( ".rollover5" ).mouseout(function() {
 			$("#content_services5").css("background","#fff");
 			$("#content_services5").css("color","#708090");
 		});
-		$( "#services6" ).mouseover(function() {
+		$( ".rollover6" ).mouseover(function() {
 			$("#content_services6").css("background","#F18E21");
 			$("#content_services6").css("color","#FFF");
 			
 		});
-		$( "#services6" ).mouseout(function() {
+		$( ".rollover6" ).mouseout(function() {
 			$("#content_services6").css("background","#fff");
 			$("#content_services6").css("color","#708090");
 		});
-		$( "#services7" ).mouseover(function() {
+		$( ".rollover7" ).mouseover(function() {
 			$("#content_services7").css("background","#F18E21");
 			$("#content_services7").css("color","#FFF");
 			
 		});
-		$( "#services7" ).mouseout(function() {
+		$( ".rollover7" ).mouseout(function() {
 			$("#content_services7").css("background","#fff");
 			$("#content_services7").css("color","#708090");
 		});
-		$( "#services8" ).mouseover(function() {
+		$( ".rollover8" ).mouseover(function() {
 			$("#content_services8").css("background","#F18E21");
 			$("#content_services8").css("color","#FFF");
 			
 		});
-		$( "#services8" ).mouseout(function() {
+		$( ".rollover8" ).mouseout(function() {
 			$("#content_services8").css("background","#fff");
 			$("#content_services8").css("color","#708090");
 		});

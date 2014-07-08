@@ -283,7 +283,7 @@ p.direction {
 
 @media (max-width: 559px){
 
-  .cols {
+  .row-fluid .cols {
     width: 100%;
   }
 }
@@ -380,89 +380,117 @@ p.direction {
 
 }
 /* presencia comercial*/
-@media screen and (max-width: 799px) { 
+.presencia_comercial{
+  background-color:#F18E21;
+  padding: 20px 20px 20px 20px;
+  color: #fff;
 
-    .ver_mapa {
+}
+.presencia_comcercial_coment{
+    width:80%;
+    background-color:#F18E21;
+}
+@media (max-width: 866px) { 
+
+.ver_mapa {
       display: block;
       background-color: #fff;
       color: #F18E21;
       font-size: 1.7em;
       padding: 5px;
       width: 140px;
-      margin: 0;
-      float: none;
+      margin:-57px 21px 0px 0px;
+      float: right;
     }
-    .presencia_comcercial_coment{
-      width:100%;
-      background-color:#F18E21;
-       display: block;
-  }
-      
-
-}
-@media screen and (max-width: 738px) { 
-
-    .ver_mapa {
-      display: block;
-      background-color: #fff;
-      color: #F18E21;
-      font-size: 1.7em;
-      padding: 5px;
-      width: 140px;
-      margin: 0;
-      clear: both;
-      float: none;
-    }
-    .presencia_comcercial_coment{
-      width:100%;
-      background-color:#F18E21;
-       display: block;
-       clear: both;
-  }
-      
-
-}
-@media screen and (max-width: 866px) { 
-
-    .ver_mapa {
-      display: block;
-      background-color: #fff;
-      color: #F18E21;
-      font-size: 1.7em;
-      padding: 5px;
-      width: 140px;
-      margin: 0;
-      clear: both;
-      float: none;
-    }
-    .presencia_comcercial_coment{
-      width:100%;
-      background-color:#F18E21;
-       display: block;
-       clear: both;
-  }
-      
-
-}
-@media screen and (min-width: 866px) { 
-
-
     .presencia_comcercial_coment{
       width:80%;
+
+
+    }
+      
+
+}
+@media (max-width: 790px) and (min-width: 760px) { 
+
+.ver_mapa {
+      display: block;
+      background-color: #fff;
+      color: #F18E21;
+      font-size: 1.7em;
+      padding: 5px;
+      width: 140px;
+      margin:-57px 21px 0px 0px;
+      float: right;
+    }
+    .presencia_comcercial_coment{
+      width:70%;
+
+
+    }
+      
+
+}
+@media (max-width: 759px) and (min-width: 721px) { 
+
+.ver_mapa {
+      display: block;
+      background-color: #fff;
+      color: #F18E21;
+      font-size: 1.7em;
+      padding: 5px;
+      width: 140px;
+      margin:-57px 21px 0px 0px;
+      float: right;
+    }
+    .presencia_comcercial_coment{
+      width:70%;
+
+
+    }
+      
+
+}
+@media (max-width: 720px) { 
+
+.ver_mapa {
+      display: block;
+      background-color: #fff;
+      color: #F18E21;
+      font-size: 1.7em;
+      padding: 5px;
+      width: 140px;
+      margin:-57px 21px 0px 0px;
+      float: right;
+    }
+    .presencia_comcercial_coment{
+      width:65%;
+
+
+    }
+      
+
+}
+@media (max-width: 540px) { 
+
+ .ver_mapa {
+      display: block;
+      background-color: #fff;
+      color: #F18E21;
+      font-size: 1.7em;
+      padding: 5px;
+      width: 140px;
+      margin: 0 auto;
+      clear: both;
+      float: none;
+    }
+    .presencia_comcercial_coment{
+      width:100%;
       background-color:#F18E21;
        display: block;
        clear: both;
   }
-      
 
 }
-
-
-
-
-
-
-
 
 .row-fluid .cols,.row-fluid .cols2 ,.row-fluid .cols3 ,.row-fluid .cols4 {
   display: inline;
@@ -521,7 +549,7 @@ img.logo {
 
 .client_1, .client_2, .client_3, .client_4, .client_5, .client_6, .client_7, .client_8, .client_9, .client_10,
 .client_11, .client_12, .client_13, .client_14, .client_15 {
- /* background: url(../images/cliente_imagen.png) center center no-repeat;*/
+ background: url(../images/cliente_imagen.png) center center no-repeat;
   display: inline-table;
   margin: 1%;
   width: 210px !important
