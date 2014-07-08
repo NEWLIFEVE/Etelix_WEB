@@ -139,7 +139,7 @@
 	<!--footer -->
 	<div class="row-fluid footer" id="footer">
 		<div class="cols2 footer" style="background-color:#343434;">
-			<div style="background-color:#343434; border-right: 3px solid;border-right-color:#FFF;margin: 16px 0 0 8px;min-height: 211px;padding-top:10px;">
+			<div class="cols11">
 				
 				<p style="color:#FFFFFF;font-size: 1.5em !important;">
 					<strong>Nuestras Oficinas</strong></p>
@@ -159,7 +159,7 @@
 			</div>
 		</div>
 		<div class="cols2 footer" style="background-color:#343434;">
-			<div style="background-color:#343434; border-right: 3px solid;border-right-color:#FFF;margin: 16px 0 0 8px; min-height: 211px;padding-top:10px;">
+			<div class="cols22">
 				
 					<p style="color:#FFFFFF;font-size: 0.8em;">
 						<strong>Qui&eacute;nes Somos</strong></p>
@@ -180,7 +180,7 @@
 			</div>
 		</div>
 		<div class="cols3 footer" style="background-color:#343434;">
-			<div style="background-color:#343434; border-right: 3px solid;border-right-color:#FFF;margin: 16px 0 0 8px;min-height: 211px;padding-top:10px;">
+			<div class="cols33">
 
 				<div class="cols4">
 

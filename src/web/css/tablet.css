@@ -115,7 +115,7 @@
 @media (max-width: 767px){
     .footer
     {
-        height: 290px;
+        height: auto;
     } 
 }
 
