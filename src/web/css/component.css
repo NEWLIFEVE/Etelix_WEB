@@ -27,7 +27,7 @@
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
     background-image: url("../images/glyphicons-halflings.png");
-    background-position: -256px 14px;
+    background-position: -252px 8px;
     background-repeat: no-repeat;
 
 }
@@ -69,10 +69,10 @@ a, li {
 
 .nav ul {
 	max-width: 1240px;
-	margin-top: 1.2em;
+	margin-top: 0em;
 	padding: 0;
 	list-style: none;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: 300; 
 	
 }
@@ -143,6 +143,45 @@ color:#F18E21;
 	background: rgb(21, 40, 54);
 }
 
+*/
+@media (min-width: 800px) and (max-width: 980px){
+
+	.nav ul {
+		max-width: 1240px;
+		margin-top: 3.1em;
+		padding: 0;
+		list-style: none;
+		font-size: 1.2em;
+		font-weight: 300; 
+	
+}	
+}
+@media (min-width: 981px) and (max-width: 1199px){
+
+	.nav ul {
+		max-width: 1240px;
+		margin-top: 2.3em;
+		padding: 0;
+		list-style: none;
+		font-size: 1.2em;
+		font-weight: 300; 
+	
+}
+
+}
+@media (min-width: 1200px){
+
+	.nav ul {
+		max-width: 1240px;
+		margin-top: 1.2em;
+		padding: 0;
+		list-style: none;
+		font-size: 1.2em;
+		font-weight: 300; 
+		
+	}
+
+}
 /* For screen bigger than 800px */
 @media (min-width: 50em) {
 	.nav li.active {

@@ -145,7 +145,7 @@
 					<strong>Nuestras Oficinas</strong></p>
 				<br>
 				<p style="color:#FFFFFF;font-size: 1.0em;">
-					<img alt="" class="pais" id="usa" src="/src/web/images/usa_flag.png" style="width: 50px; height: 20px;">&nbsp;&nbsp;<img alt="" class="pais" id="peru" src="/src/web/images/peru_flag.png" style="width: 50px; height: 20px;">&nbsp;&nbsp;<img alt="" class="pais" id="venezuela" src="/src/web/images/venezuela_flag.png" style="width: 50px; height: 20px;"></p>
+					<img alt="" class="pais" id="usa" src="<?php echo Yii::app()->request->baseUrl; ?>/images/usa_flag.png" style="width: 50px; height: 20px;">&nbsp;&nbsp;<img alt="" class="pais" id="peru" src="<?php echo Yii::app()->request->baseUrl; ?>/images/peru_flag.png" style="width: 50px; height: 20px;">&nbsp;&nbsp;<img alt="" class="pais" id="venezuela" src="<?php echo Yii::app()->request->baseUrl; ?>/images/venezuela_flag.png" style="width: 50px; height: 20px;"></p>
 				<br>
 				<p class="direction" style="color:#FFFFFF;font-size: 0.9em;margin-right:5px;">
 					444 Brickell Ave. Suite 51-845,</p>

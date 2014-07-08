@@ -221,7 +221,7 @@ header {
   padding: 10px 0 0 4px;
 }
 .paragraph2 {
-  margin-top: 15px;
+  margin-top: 5px;
   height: 50px;
   margin-left: 5px;
   padding: 0 0 0 7px
@@ -279,6 +279,21 @@ p.direction {
 
 .cols {
   width: 25%;
+}
+
+@media (max-width: 559px){
+
+  .cols {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+
+  .row-fluid .cols {
+    width: 50%;
+  }
+
+
 }
 .cols2 {
   width: 20%;
