@@ -419,7 +419,14 @@ p.direction {
  
 
 }
-div.presencia_comercial h4, div.clients h4 { 
+div.principales_clientes h4 { 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+   font-size: 2.1em;
+   padding-bottom: 11px;
+   color: #F18E21;
+}
+div.presencia_comercial h4{ 
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; 
    font-size: 2.1em;
@@ -429,6 +436,9 @@ div.presencia_comercial h4, div.clients h4 {
     width:80%;
     background-color:#F18E21;
 }
+
+
+
 @media (max-width: 866px) { 
 
 .ver_mapa {
@@ -530,6 +540,22 @@ div.presencia_comercial h4, div.clients h4 {
   }
 
 }
+
+ /*carusel 2*/
+
+.col-md-3{
+
+  float: left;
+  width: 20%;
+}
+.col-md-9{
+width: 80%;
+  float: left;
+}
+
+
+
+
 
 .row-fluid .cols,.row-fluid .cols2 ,.row-fluid .cols3 ,.row-fluid .cols4 {
   display: inline;
