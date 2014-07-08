@@ -6,7 +6,7 @@ header {
 }
 body{
   font-family: 'Open Sans', sans-serif;
-  
+
 }
 .container {
   padding-left: -20px !important;
@@ -283,12 +283,19 @@ p.direction {
 .cols {
   width: 25%;
 }
+.content_serv{
+  margin:0 auto; width:240px;
+}
+@media (max-width: 599px){
 
-@media (max-width: 559px){
-
-  .row-fluid .cols {
+  .row-fluid .cols,.cols,
+  .content_serv{
     width: 100%;
   }
+
+
+
+
 }
 @media (min-width: 600px) and (max-width: 767px) {
 

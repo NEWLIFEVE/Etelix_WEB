@@ -36,7 +36,7 @@
 
 								</a>	
 								</h1>
-								<div id="content_services1" style="margin:0 auto; max-width:240px;">
+								<div id="content_services1" class="content_serv">
 									<p class="paragraph_title">
 									<strong>Servicios de Interconexion Internacional de Voz</strong></p>
 									<p class="paragraph2">
@@ -55,7 +55,7 @@
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services2.png" style="width: 240px; height: 147px;">
 								</a>
 								</strong></h1>
-							<div id="content_services2" style="margin:0 auto; max-width:240px;">
+							<div id="content_services2" class="content_serv">
 								<p class="paragraph_title">
 									<strong>Puntos &nbsp;de Venta Integrales</strong></p>
 								<p class="paragraph2">
@@ -73,7 +73,7 @@
 									<span class="rollover3" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services3.png" style="width: 240px; height: 147px;" >
 							</a></h1>
-							<div id="content_services3" style="margin:0 auto; max-width:240px;">
+							<div id="content_services3" class="content_serv">
 								<p class="paragraph_title">
 								<strong>SMS</strong></p>
 								<p class="paragraph2">
@@ -90,7 +90,7 @@
 									<span class="rollover4" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services4.png" style="width: 240px; height: 147px;">
 							</a></h1>
-							<div id="content_services4" style="margin:0 auto; max-width:240px;">
+							<div id="content_services4" class="content_serv">
 								<p class="paragraph_title">
 								<strong>Contac Center</strong></p>
 								<p class="paragraph2">
@@ -108,7 +108,7 @@
 									<span class="rollover5" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services5.png" style="width: 240px; height: 147px;">
 								</a></strong></h1>
-							<div id="content_services5" style="margin:0 auto; max-width:240px;">
+							<div id="content_services5" class="content_serv">
 								<p class="paragraph_title">
 									<strong>Conectividad Internacional</strong></p>
 								<p class="paragraph2">
@@ -125,7 +125,7 @@
 									<span class="rollover6" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services6.png" style="width: 240px; height: 147px;">
 								</a></h1>
-							<div id="content_services6" style="margin:0 auto; max-width:240px;">
+							<div id="content_services6" class="content_serv">
 								<p class="paragraph_title">
 								<strong>Plataforma de Pagos</strong></p>
 								<p class="paragraph2">
@@ -142,7 +142,7 @@
 									<span class="rollover7" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services7.png" style="width: 240px; height: 147px;">
 							</a></h1>
-							<div id="content_services7" style="margin:0 auto; max-width:240px;">
+							<div id="content_services7" class="content_serv">
 								<p class="paragraph_title">
 								<strong>Servicios de Hosting</strong></p>
 								<p class="paragraph2">
@@ -159,7 +159,7 @@
 									<span class="rollover8" ></span>
 									<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services8.png" style="width: 240px; height: 147px;">
 							</a></h1>
-							<div id="content_services8" style="margin:0 auto; max-width:240px;">
+							<div id="content_services8" class="content_serv">
 								<p class="paragraph_title">
 								<strong>Desarrollo de Software</strong></p>
 								<p class="paragraph2">
