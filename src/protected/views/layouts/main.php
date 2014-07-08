@@ -48,7 +48,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/captions.css" media="screen" />
 	<!-- GOOGLE FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600' rel='stylesheet' type='text/css'>
-
+	
 </head>
 <body>
 <div class="container">
@@ -235,7 +235,7 @@
 		<p>
 		</p>
 		<center>
-			<strong>Derechos Reservados Etelix Group 2014</strong></center>
+			2014 Etelix Group - Todos los derechos reservados </center>
 		<p>
 		</p>
 	</div>
