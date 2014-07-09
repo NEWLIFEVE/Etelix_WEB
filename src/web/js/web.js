@@ -262,14 +262,15 @@ function horizontalLine()
 
 function pasar()
 {
-        var url = "/site/email";
+        var url = "index.php?r=site/mensaje";
         $.ajax({
             type: "POST",
             url: url,
             data: $("#formulario").serialize(),
             success: function(data)
             {
-               // alert(data);
+                
+               alert(data);
                 if(data){
                     $('#ok').modal('show');
                 }else

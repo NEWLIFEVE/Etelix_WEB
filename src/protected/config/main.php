@@ -44,6 +44,9 @@ return array(
 	    'class' => 'ext.bootstrap.components.Bootstrap',
 	    'responsiveCss' => true,
 		),
+		 'mail'=>array(
+            'class'=>"application.components.EnviarEmail",
+        ),
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
@@ -93,6 +96,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'abelardol@sacet.biz',
 	),
 );

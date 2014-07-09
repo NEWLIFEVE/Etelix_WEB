@@ -134,6 +134,82 @@ class SiteController extends Controller
 		$this->render('client');
 	}
 
+	public function actionMensaje() 
+	{
+		
+	
+		$apellido=mb_strtoupper($_POST['apellido'], 'UTF-8');
+		$nombre=mb_strtoupper($_POST['nombre'], 'UTF-8');
+		$telefono=mb_strtoupper($_POST['telefono'], 'UTF-8');
+		$msj=mb_strtoupper($_POST['msj'], 'UTF-8');
+		$correo=$_POST['correo'];
+		$mensaje='<table border="0">
+				  
+				  <tr>
+					<td><p>
+					
+					  <h4>El Sr(a) '.$nombre.' '.$apellido.', ha enviado un mensaje desde el sitio web Etelix.com.</h4>
+					  <br />
+					    <b>Telefono de contacto</b>: '.$telefono.'<br />
+					    <b>Mensaje</b>: '.$msj.'<br />
+					    <br />
+					      2014 Etelix Group - Todos los derechos reservados<br />
+					   
+				    </td>
+				  </tr>
+				</table>';
+		$nombres=$nombre." ".$apellido;
+		//print_r("<br>".$mensaje ." correo: ".$correo);
+		
+
+		if(Yii::app()->mail->enviar($mensaje, $correo, 'Mensaje de contacto de la pag')){
+			echo "ensaje enviado";
+		}
+		else{
+			echo "error";
+		}
+		//$this->render('contact');
+
+		//Yii::app()->user->setFlash('contact', 'Thank you for contacting us. We will respond to you as soon as possible.');
+        
+
+
+		
+
+
+			
+				
+		
+	
+	}
+	
+	/*public function correo($aquien,$aquiennombre,$mensaje,$tlf)
+	{
+		Yii::import('application.extensions.phpmailer.JPhpMailer');
+		$mail = new JPhpMailer;
+		$mail->IsSMTP();
+		$mail->Host = Yii::app()->params['mailHost'];/*'172.16.0.20';*
+		$mail->Port = Yii::app()->params['mailPortSsl'];
+		$mail->SMTPAuth = true;
+		$mail->SMTPSecure = 'ssl';
+		$mail->Username = Yii::app()->params['mailUsername'];/*'xmolina';*
+		$mail->Password = Yii::app()->params['mailUserPassw'];
+		$mail->SetFrom(Yii::app()->params['mailRemitente'], Yii::app()->params['nombreRemitente']);
+		
+		$mail->Subject = Yii::app()->params['mailAsunto'];
+		//$mail->AltBody = 'To view the message, please use an HTML compatible email viewer!';
+		$mail->MsgHTML($mensaje);
+		$mail->AddAddress($aquien, $aquiennombre);
+		
+		if(!$mail->Send()) {
+		   throw new CHttpException(500,'EL servidor de correo esta inhabilitado temporalmente intentelo mas tarde.',500);
+		}
+		else {
+		   //echo 'Mail enviado!';
+		}
+		
+
+	}*/
 
 
 }

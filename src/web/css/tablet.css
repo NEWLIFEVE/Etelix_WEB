@@ -865,43 +865,43 @@
 
 }
 
-@media (min-width: 818px) and (max-width: 955px){
+@media (min-width: 864px) and (max-width: 935px){
 
 	
 	.pais_1 {
-	  top: 20.5%;
+	  top: 18.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 24.8%;
+	  top: 21.8%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 38.8%;
+	  top: 36.8%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 43.5%;
+	  top: 37.5%;
 	  left: -4.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 47.5%;
+	  top: 40.5%;
 	  left: 0.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 56.5%;
-	  left: 1.5%;
+	  top: 49.5%;
+	  left: 17.5%;
 	}
 
 	.pais_7 {
-	  top: 52.5%;
+	  top: 44.5%;
 	  left: 0.56%;
 	  text-align: right;
 	}
@@ -1042,26 +1042,133 @@
 
 @media (min-width: 817px) and (max-width: 863px){
 	.pais_1 {
-	  top: 20.5%;
+	  top: 17.5%;
 	  left: 45%;
 	}
 
 	.pais_2 {
-	  top: 26.1%;
+	  top: 21.1%;
 	  left: 25%;
 	}
+	.pais_3 {
+	  top: 34.8%;
+	  left: 30.5%;
+	}
+
+	.pais_4 {
+	  top: 37.5%;
+	  left: -6.5%;
+	  text-align: right;
+	}
+
+	.pais_5 {
+	  top: 39.8%;
+	  left: -1.2%;
+	  text-align: right;
+	}
+
+	.pais_6 {
+	  top: 48%;
+	  left: 1.5%;
+	  text-align: right;
+	}
+
+	.pais_7 {
+	  top: 43.5%;
+	  left: 0%;
+	  text-align: right;
+	}
 }
+@media (min-width: 800px) and (max-width: 816px){
+	.pais_1 {
+	  top: 19.5%;
+	  left: 45%;
+	}
+
+	.pais_2 {
+	  top: 22.1%;
+	  left: 25%;
+	}
+	.pais_3 {
+	  top: 34.8%;
+	  left: 30.5%;
+	}
+
+	.pais_4 {
+	  top: 37.5%;
+	  left: -6.5%;
+	  text-align: right;
+	}
+
+	.pais_5 {
+	  top: 39.8%;
+	  left: -1.2%;
+	  text-align: right;
+	}
+
+	.pais_6 {
+	  top: 48%;
+	  left: 1.5%;
+	  text-align: right;
+	}
+
+	.pais_7 {
+	  top: 43.5%;
+	  left: 0%;
+	  text-align: right;
+	}
+}
+@media (min-width: 551px) and (max-width: 767px){
+	.pais_1 {
+	  top: 19.5%;
+	  left: 45%;
+	}
+
+	.pais_2 {
+	  top: 22.1%;
+	  left: 25%;
+	}
+	.pais_3 {
+	  top: 34.8%;
+	  left: 30.5%;
+	}
+
+	.pais_4 {
+	  top: 37.5%;
+	  left: -6.5%;
+	  text-align: right;
+	}
+
+	.pais_5 {
+	  top: 39.8%;
+	  left: -1.2%;
+	  text-align: right;
+	}
+
+	.pais_6 {
+	  top: 48%;
+	  left: 1.5%;
+	  text-align: right;
+	}
+
+	.pais_7 {
+	  top: 43.5%;
+	  left: 0%;
+	  text-align: right;
+	}
+}
+
 
 
 @media (min-width: 685px) and (max-width: 767px){
 
 	.pais_1 {
-	  top: 23.5%;
+	  top: 17.5%;
 	  left: 61%;
 	}
 
 	.pais_2 {
-	  top: 26.1%;
+	  top: 21.1%;
 	  left: 37%;
 	}
 

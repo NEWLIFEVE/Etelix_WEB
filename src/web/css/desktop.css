@@ -767,11 +767,6 @@ img.logo {
   padding-bottom: 15%;
 }
 
-@media (max-width: 759px) and (min-width: 721px) { 
-
-
-
-}
 
 
 
@@ -810,7 +805,7 @@ img.logo {
   text-align: left;
   position: absolute;
 }
-
+/*
 .pais_1 {
   top: 17.5%;
   left: 60%;
@@ -884,7 +879,264 @@ img.logo {
 .map_7 {
   top: 57%;
   left: 66%;
+}*/
+@media (min-width: 1200px)   { 
+
+    .pais_1 {
+      top: 20.5%;
+      left: 59%;
+    }
+
+    .pais_2 {
+      top: 25.5%;
+      left: 37%;
+    }
+
+    .pais_3 {
+      top: 41.5%;
+      left: 30.5%;
+    }
+
+    .pais_4 {
+      top: 45.5%;
+      left: -2.5%;
+      text-align: right;
+    }
+
+    .pais_5 {
+      top: 50.5%;
+      left: 1.5%;
+      text-align: right;
+    }
+
+    .pais_6 {
+      top: 61%;
+      left: 3.5%;
+      text-align: right;
+    }
+
+    .pais_7 {
+      top: 55.5%;
+      left: 2.0%;
+      text-align: right;
+    }
+
 }
+@media  (min-width: 1021px) and  (max-width: 1199px)   { 
+
+    .pais_1 {
+      top: 18.5%;
+      left: 59%;
+    }
+
+    .pais_2 {
+      top: 23.5%;
+      left: 37%;
+    }
+
+    .pais_3 {
+      top: 40.5%;
+      left: 30.5%;
+    }
+
+    .pais_4 {
+      top: 44.5%;
+      left: -2.5%;
+      text-align: right;
+    }
+
+    .pais_5 {
+      top: 48.5%;
+      left: 1.5%;
+      text-align: right;
+    }
+
+    .pais_6 {
+      top: 60%;
+      left: 3.5%;
+      text-align: right;
+    }
+
+    .pais_7 {
+      top: 53.5%;
+      left: 2%;
+      text-align: right;
+    }
+
+}
+@media  (min-width: 1003px) and  (max-width: 1020px)   { 
+
+    .pais_1 {
+      top: 22.5%;
+      left: 59%;
+    }
+
+    .pais_2 {
+      top: 27.5%;
+      left: 37%;
+    }
+
+    .pais_3 {
+      top: 42.5%;
+      left: 30.5%;
+    }
+
+    .pais_4 {
+      top: 45.5%;
+      left: -3.5%;
+      text-align: right;
+    }
+
+    .pais_5 {
+      top: 50.5%;
+      left: 0.5%;
+      text-align: right;
+    }
+
+    .pais_6 {
+      top: 60%;
+      left: 3.5%;
+      text-align: right;
+    }
+
+    .pais_7 {
+      top: 54.5%;
+      left: 1%;
+      text-align: right;
+    }
+
+}
+@media  (min-width: 980px) and  (max-width: 1002px)   { 
+
+    .pais_1 {
+      top: 23.5%;
+      left: 59%;
+    }
+
+    .pais_2 {
+      top: 28.5%;
+      left: 37%;
+    }
+
+    .pais_3 {
+      top: 43.5%;
+      left: 30.5%;
+    }
+
+    .pais_4 {
+      top: 46.5%;
+      left: -3.5%;
+      text-align: right;
+    }
+
+    .pais_5 {
+      top: 51.5%;
+      left: 0.5%;
+      text-align: right;
+    }
+
+    .pais_6 {
+      top: 61%;
+      left: 3.5%;
+      text-align: right;
+    }
+
+    .pais_7 {
+      top: 55.5%;
+      left: 1%;
+      text-align: right;
+    }
+
+}
+@media  (min-width: 956px) and  (max-width: 979px)   { 
+
+    .pais_1 {
+      top: 22.5%;
+      left: 59%;
+    }
+
+    .pais_2 {
+      top: 27.5%;
+      left: 37%;
+    }
+
+    .pais_3 {
+      top: 42.5%;
+      left: 30.5%;
+    }
+
+    .pais_4 {
+      top: 45.5%;
+      left: -3.5%;
+      text-align: right;
+    }
+
+    .pais_5 {
+      top: 50.5%;
+      left: 0.5%;
+      text-align: right;
+    }
+
+    .pais_6 {
+      top: 60%;
+      left: 3.5%;
+      text-align: right;
+    }
+
+    .pais_7 {
+      top: 54.5%;
+      left: 1%;
+      text-align: right;
+    }
+
+}
+@media  (min-width: 936px) and  (max-width: 955px)   { 
+
+    .pais_1 {
+      top: 22.5%;
+      left: 59%;
+    }
+
+    .pais_2 {
+      top: 27.5%;
+      left: 37%;
+    }
+
+    .pais_3 {
+      top: 42.5%;
+      left: 30.5%;
+    }
+
+    .pais_4 {
+      top: 45.5%;
+      left: -3.5%;
+      text-align: right;
+    }
+
+    .pais_5 {
+      top: 50.5%;
+      left: 0.5%;
+      text-align: right;
+    }
+
+    .pais_6 {
+      top: 60%;
+      left: 3.5%;
+      text-align: right;
+    }
+
+    .pais_7 {
+      top: 54.5%;
+      left: 1%;
+      text-align: right;
+    }
+
+}
+
+
+
+
+
 
 #accordion {
   display: none;

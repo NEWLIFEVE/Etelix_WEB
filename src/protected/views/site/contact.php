@@ -2,7 +2,17 @@
     <div class="fondo">
 	<div class="titulo">
 		Contáctanos</div>
-	<form action="/Site/Email" id="formulario" method="POST">
+
+	 <?php
+    	foreach(Yii::app()->user->getFlashes() as $key => $message) {
+//        echo '<div class="alert alert-success">
+		echo '<div style="margin:25px 0px 0px 0px;"><div class="alert alert-warnig">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        ' . $message . "</div></div>";
+    }
+    
+	?>
+	<form action="<?php echo Yii::app()->createUrl('/site/Mensaje');?>" id="formulario" method="POST">
 		<div class="cuadro">
 			<div class="display divs bajar">
 				<div class="campos">
