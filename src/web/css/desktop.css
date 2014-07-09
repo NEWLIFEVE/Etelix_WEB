@@ -291,6 +291,7 @@ p.direction {
   .row-fluid .cols,.cols,
   .content_serv{
     width: 100%;
+
   }
 
 
@@ -378,7 +379,7 @@ p.direction {
     }
 
 }
-@media (min-width: 200px) and (max-width: 500px) { 
+@media (min-width: 100px) and (max-width: 500px) { 
 
 
    .cols2,.cols3{
@@ -386,6 +387,10 @@ p.direction {
     }
     .cols4 {
       width: 50%;
+    }
+    .paragraph_title{
+    font-size: 1.1em;
+
     }
   
     .row-fluid .cols,.row-fluid .cols2 ,.row-fluid .cols3 ,.row-fluid .cols4 {
@@ -425,6 +430,8 @@ div.principales_clientes h4 {
    font-size: 2.1em;
    padding-bottom: 11px;
    color: #F18E21;
+   text-align: justify;
+   margin-left: 10px;
 }
 div.presencia_comercial h4{ 
   font-family: 'Open Sans', sans-serif;
@@ -453,6 +460,26 @@ div.presencia_comercial h4{
     }
     .presencia_comcercial_coment{
       width:80%;
+
+
+    }
+      
+
+}
+@media (min-width: 791px) and (max-width: 865px) { 
+
+.ver_mapa {
+      display: block;
+      background-color: #fff;
+      color: #F18E21;
+      font-size: 1.7em;
+      padding: 5px;
+      width: 140px;
+      margin:-57px 21px 0px 0px;
+      float: right;
+    }
+    .presencia_comcercial_coment{
+      width:75%;
 
 
     }
@@ -549,11 +576,25 @@ div.presencia_comercial h4{
   width: 20%;
 }
 .col-md-9{
-width: 80%;
-  float: left;
+width: 73%;
+  float: right;
+  margin:0 20px 0 0;
 }
 
+@media (max-width: 1020px) { 
+    .col-md-3{
 
+    float: none;
+    width: 100%;
+  }
+  .col-md-9{
+  width: 80%;
+  margin: 0 auto;
+  float: none;
+  padding:0px 0px 0px 80px;
+  }
+
+}
 
 
 
@@ -725,6 +766,14 @@ img.logo {
   padding-left: 10%;
   padding-bottom: 15%;
 }
+
+@media (max-width: 759px) and (min-width: 721px) { 
+
+
+
+}
+
+
 
 .address {
   display: inline-block;

@@ -78,8 +78,8 @@
 							<div class="main clearfix">
 								<nav id="menu" class="nav">					
 									<ul>
-										<li class='menu1'>
-											<a href="<?php echo Yii::app()->createUrl('/site/index');?>"  class="active">
+										<li class='menu1 active'>
+											<a href="<?php echo Yii::app()->createUrl('/site/index');?>">
 												
 												<span>Inicio</span>
 											</a>
@@ -261,26 +261,27 @@
         var client = href.indexOf("site/client");
         var contact = href.indexOf("site/contact");
         if(index>0){
-         $(".menu1").addClass("active");
+         	$(".menu1").addClass("active");
   		 
         
          }else if(organitation>0){
-          
+            $(".menu1").removeClass("active");
             $(".menu2").addClass("active");
 		  
         }else if(services>0){
-         
+            $(".menu1").removeClass("active");
             $(".menu3").addClass("active");
 		   
         }else if(map>0){
-         
+         	$(".menu1").removeClass("active");
            $(".menu4").addClass("active");
 		   
         }else if(client>0){
-          
+          	$(".menu1").removeClass("active");
             $(".menu5").addClass("active");
 		   
         }else if(contact>0){
+        	$(".menu1").removeClass("active");
            $(".menu6").addClass("active");
           
 		  

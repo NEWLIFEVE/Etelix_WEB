@@ -10,7 +10,7 @@
             <div class="row margin-bottom-40 our-clients" style="margin:0 auto;">
                 <div class="col-md-3">
                     <div class="principales_clientes">
-                       <h4>Principales <br>Clientes</h4>    
+                       <h4>Principales Clientes</h4>    
                     </div>
                     
                 </div>

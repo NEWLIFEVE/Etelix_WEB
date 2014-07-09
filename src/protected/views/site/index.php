@@ -19,7 +19,7 @@
 				</div>
 				<div class="clients">
 					<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_clientes_blanco.png">Nuestros Servicios</h4>
-					<p>Nos especializamos en brindar a nuestros clientes soluciones integrales de Telecomunicaciones y Tecnolog&iacute;a a nivel global, ente los cuales se encuentran los siguientes: </p>
+					<p style="text-align: justify;">Nos especializamos en brindar a nuestros clientes soluciones integrales de Telecomunicaciones y Tecnolog&iacute;a a nivel global, ente los cuales se encuentran los siguientes: </p>
 				</div>
 				<div class="separator1">
 					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -178,7 +178,7 @@
 		<div class="presencia_comercial">
 			<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_quienes_somos_blanco.png">&nbsp; Presencia Comercial</h4>
 				<div class="presencia_comcercial_coment">
-					<p>Contamos con oficinas comerciales en Estados Unidos, Inglaterra, Per&uacute; y Venezuela, asi como con ejecutivos
+					<p style="text-align: justify;">Contamos con oficinas comerciales en Estados Unidos, Inglaterra, Per&uacute; y Venezuela, asi como con ejecutivos
 						regionales que atienden a nuestros clientes a trav&eacute;s de los 5 continentes</p>
 				</div>
 				

@@ -37,7 +37,7 @@ Colors
 
 /***
 Apply fix for font awesome icons.
-***/
+***
 [class^="icon-"],
 [class*=" icon-"],
 [class^="icon-"]:hover, 
@@ -47,7 +47,7 @@ Apply fix for font awesome icons.
 
 /***
 Make font awesome icons fixed width(latest version issue)
-***/
+***
 li [class^="icon-"],
 li [class*=" icon-"] {
   display: inline-block;
@@ -56,7 +56,7 @@ li [class*=" icon-"] {
 }
 li [class^="icon-"].icon-large,
 li [class*=" icon-"].icon-large {
-  /* increased font size for icon-large */
+  /* increased font size for icon-large *
   width: 1.5625em;
 }
 
@@ -97,7 +97,7 @@ ie8 & ie9 modes
 
 /***
 General More Link
-***/
+***
 a.more {
   font-size: 13px;
   font-weight: 400 !important;
@@ -110,7 +110,7 @@ a.more i {
 
 /***
 Fix link outlines after click
-***/
+***
 a,a:focus, a:hover, a:active {
   outline: 0;
 }
@@ -291,7 +291,7 @@ hr {
 	width: auto !important;
 }
 
-/*Global classes*/
+/*Global classes*
 .container {
 	padding: 0 10px;
 }
@@ -859,7 +859,7 @@ Content and content elements.
 	margin-left: 10px;
 	display: inline-block;
 }
-
+/*
 .service-box .service-box-heading [class^="icon-"],
 .service-box [class*=" icon-"] {
   display: inline-block;
@@ -868,7 +868,7 @@ Content and content elements.
 
 .service-box .service-box-heading [class^="icon-"].icon-large,
 .service-box .service-box-heading [class*=" icon-"].icon-large {
-  /* increased font size for icon-large */
+  /* increased font size for icon-large *
   width: 1.5625em;
 }
 
@@ -1040,7 +1040,7 @@ Content and content elements.
 	position: absolute;
 	display: inline-block;
 }
-
+/*
 .testimonials-v1 .left-btn {
 	right: 25px;
 	background: url(../img/icons/left.png) no-repeat;
@@ -1719,7 +1719,7 @@ a.social-icon {
 .social-icons-color li a:hover {
   opacity: 1;
 }
-
+/*
 .social-icons .social_amazon {background: url(../img/icons/social/amazon.png) no-repeat;}
 .social-icons .social_behance {background: url(../img/icons/social/behance.png) no-repeat;}
 .social-icons .social_blogger {background: url(../img/icons/social/blogger.png) no-repeat;}
@@ -1772,19 +1772,19 @@ Styler Panel
   cursor:pointer;
   position:absolute;
 }
-
+/*
 .color-panel .icon-color {
   background:#c9c9c9 url(../img/icon-color.png) center no-repeat !important;
-}
+}*/
 
 .color-panel .icon-color:hover {
   background-color:#3d3d3d !important;
 }
-
+/*
 .color-panel .icon-color-close {
   display:none;
   background:#3d3d3d url(../img/icon-color-close.png) center no-repeat !important;
-}
+}*/
 
 .color-panel .icon-color-close:hover {
   background-color:#222 !important;
@@ -1898,7 +1898,7 @@ BXSlider
 .buttons-page .btn {
 	margin-bottom: 5px !important;
 }
-
+/*
 [class^="icon-"], [class*=" icon-"] {
     display: inline-block;
     font-size: 14px;
@@ -1907,7 +1907,7 @@ BXSlider
 }
 /***
 Custom icon buttons
-***/
+***
 .icon-btn {
   height: 60px;
   min-width: 80px;
