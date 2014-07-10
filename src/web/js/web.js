@@ -262,6 +262,7 @@ function horizontalLine()
 
 function pasar()
 {
+        
         var url = "index.php?r=site/mensaje";
         $.ajax({
             type: "POST",
@@ -270,14 +271,23 @@ function pasar()
             success: function(data)
             {
                 
-               alert(data);
+                 
+               
                 if(data){
-                    $('#ok').modal('show');
+                     
+                     modal.open({content: "<h3>Su mensaje ha sido enviado exitosamente</h3>"});
+                    //$('#ok').modal('show');
+                     $("#mensaje6").fadeOut();
+                     $('#formulario').each (function(){
+                         this.reset();
+                     });
+                      $("#boton_enviar").fadeIn();
                 }else
                 {
-                    $('#error').modal('show');
+                   // $('#error').modal('show');
                 }
             }
+
         });
 }
 
@@ -408,11 +418,11 @@ function change_numero(campo,num)
             }
         }
         if(check == true){
+            $("#boton_enviar").fadeOut();
+             $("#mensaje6").fadeIn();
             pasar(); 
             //console.log("1");
-            $('#formulario').each (function(){
-                 this.reset();
-             });
+          
 
             
             

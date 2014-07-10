@@ -24,7 +24,7 @@ class EnviarEmail extends CApplicationComponent
      */
     public function enviar($html, $user, $asunto)
     {
-        
+        print_r("entro a enviar");
         if(isset($html) && isset($user))
         {
             $mailer=Yii::createComponent('application.extensions.mailer.EMailer');
@@ -43,6 +43,14 @@ class EnviarEmail extends CApplicationComponent
             $mailer->CharSet='UTF-8';
             $mailer->Subject=Yii::t('', $asunto);
            
+            print_r(Yii::app()->params['host']."<br>");
+            print_r(Yii::app()->params['port']."<br>");
+           
+            print_r(Yii::app()->params['username']."<br>");
+            
+            print_r(Yii::app()->params['password']."<br>");
+
+
             $message=$html;
             $mailer->Body=$message;
             if($mailer->Send())

@@ -70,7 +70,7 @@
 		    	<div class="container">
 					<div class="row-fluid">
 						<div class="span3">
-							<a href="<?php echo Yii::app()->createUrl('/site/index');?>"><img alt="etelix" class="logo" src="images/logo_etelix.png" /></a>
+							<a href="<?php echo Yii::app()->createUrl('/site/index');?>"><img alt="etelix" class="logo" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo_etelix.png" /></a>
 						</div>
 
 

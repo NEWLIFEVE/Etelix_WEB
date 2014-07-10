@@ -48,16 +48,16 @@ return array(
             'class'=>"application.components.EnviarEmail",
         ),
 		// uncomment the following to enable URLs in path-format
-		/*
-		'urlManager'=>array(
+		
+		/*'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),
-		*/
+		),*/
+		
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
@@ -94,8 +94,16 @@ return array(
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
-	'params'=>array(
+	/*'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'abelardol@sacet.biz',
-	),
+	),*/
+	'params'=>array(
+	//usados para la conexion del servidor de correos electronicos
+		'adminEmail'=>'abelardol@sacet.biz',
+		'host'=>'mail.etelix.com',
+		'port'=>'475',
+		'username'=>'renoc@etelix.com',
+		'password'=>"$4c3t.renoc"
+		),
 );
