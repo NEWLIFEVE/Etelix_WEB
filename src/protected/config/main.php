@@ -22,7 +22,7 @@ return array(
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		
+		'en',
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'123456',
@@ -31,7 +31,7 @@ return array(
 	        'generatorPaths' => array(
              'bootstrap.gii'
               ),
-		),
+	    ),
 	),
 
 	// application components
@@ -49,14 +49,16 @@ return array(
         ),
 		// uncomment the following to enable URLs in path-format
 		
-		/*'urlManager'=>array(
+		'urlManager'=>array(
 			'urlFormat'=>'path',
+			'showScriptName'=>false,
+     		'caseSensitive'=>false, 
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),*/
+		),
 		
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

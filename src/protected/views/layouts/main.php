@@ -55,9 +55,10 @@
 <body>
 <div class="container">
 	<header>
+		
         <ul class="pull-right navlist" id="yw1">
-			<li class="flag spanish"><a href="/es/site/index">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
-			<li class="flag english"><a href="/en/site/index">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
+			<li class="flag spanish"><a rel="Español" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+			<li class="flag english"><a rel="English" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/en/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
 		</ul>
 		              
 		<div class="span2 offset9 inbox">
@@ -76,46 +77,14 @@
 
 						<div class="span9">
 							<div class="main clearfix">
-								<nav id="menu" class="nav">					
-									<ul>
-										<li class='menu1 active'>
-											<a href="<?php echo Yii::app()->createUrl('/site/index');?>">
-												
-												<span>Inicio</span>
-											</a>
-										</li>
-										<li class='menu2'>
-											<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>">
-												
-												<span>¿Quienes Somos?</span>
-											</a>
-										</li>
-										<li class='menu3'>
-											<a href="<?php echo Yii::app()->createUrl('/site/services');?>">
-												
-												<span>Nuestros Servicios</span>
-											</a>
-										</li>
-										<li class='menu4'>
-											<a href="<?php echo Yii::app()->createUrl('/site/map');?>">
-												
-												<span>Donde Estamos</span>
-											</a>
-										</li>
-										<li class='menu5'>
-											<a href="<?php echo Yii::app()->createUrl('/site/client');?>">
-												
-												<span>Clientes</span>
-											</a>
-										</li>
-										<li class='menu6'>
-											<a href="<?php echo Yii::app()->createUrl('/site/contact');?>">
-												
-												<span>Contacto</span>
-											</a>
-										</li>
-									</ul>
-								</nav>
+								<?php
+								  $url =$_SERVER['REQUEST_URI'];
+									 if(stripos($url,"en")){
+										include("menu_en.php");
+									}else{
+										include("menu.php");
+									 }
+								?>
 							</div>
 						</div>
 					</div>
@@ -139,108 +108,20 @@
 
 	<div class="clear"></div>
 	<!--footer -->
-	<div class="row-fluid footer" id="footer">
-		<div class="cols2 footer" style="background-color:#343434;">
-			<div class="cols11">
-				
-				<p style="color:#FFFFFF;font-size: 1.5em !important;">
-					<strong>Nuestras Oficinas</strong></p>
-				<br>
-				<p style="color:#FFFFFF;font-size: 1.0em;">
-					<img alt="" class="pais" id="usa" src="<?php echo Yii::app()->request->baseUrl; ?>/images/usa_flag.png" style="width: 50px; height: 20px;">&nbsp;&nbsp;<img alt="" class="pais" id="peru" src="<?php echo Yii::app()->request->baseUrl; ?>/images/peru_flag.png" style="width: 50px; height: 20px;">&nbsp;&nbsp;<img alt="" class="pais" id="venezuela" src="<?php echo Yii::app()->request->baseUrl; ?>/images/venezuela_flag.png" style="width: 50px; height: 20px;"></p>
-				<br>
-				<p class="direction" style="color:#FFFFFF;font-size: 0.9em;margin-right:5px;">
-					444 Brickell Ave. Suite 51-845,</p>
-				<p class="direction2" style="color:#FFFFFF;font-size: 0.9em;margin-right:5px;">
-					Miami FL 33131, USA.</p>
-				<p class="telefono" style="color:#FFFFFF;font-size: 0.9em">
-					Phone: +1 (305) 722.1112</p>
-				<p class="fax" style="color:#FFFFFF;font-size: 0.9em">
-					Fax: +1 (305) 722.1117&nbsp;</p>
-			
-			</div>
-		</div>
-		<div class="cols2 footer" style="background-color:#343434;">
-			<div class="cols22">
-				
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<strong>Qui&eacute;nes Somos</strong></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>" style="color:#FFFFFF">Nuestra Organizaci&oacute;n</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>#mision_quienes_somos" style="color:#FFFFFF">Misi&oacute;n</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/organitation');?>#vision_quienes_somos" style="color:#FFFFFF">Visi&oacute;n</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="#" style="color:#FFFFFF">Equipo Directivo</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						&nbsp; &nbsp;</p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<strong>Presencia Comercial</strong></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/map');?>" style="color:#FFFFFF">Mapa Interactivo</a></p>
-			</div>
-		</div>
-		<div class="cols3 footer" style="background-color:#343434;">
-			<div class="cols33">
-
-				<div class="cols4">
-
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<strong>Nuestros Servicios</strong></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#services" style="color:#FFFFFF">Servicios de Interconexi&oacute;n Internacional de Voz</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="/<?php echo Yii::app()->createUrl('/site/services');?>#sms" style="color:#FFFFFF">SMS</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#data" style="color:#FFFFFF">Conectividad Internacional</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#contactcenter" style="color:#FFFFFF">Contact Center</a></p>
-				</div>	
-				<div class="cols4">
-
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#pagos" style="color:#FFFFFF">Plataforma de Pagos</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#retail" style="color:#FFFFFF">Puntos de Venta Integrales</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#hosting" style="color:#FFFFFF">Servicios de Hosting</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#software" style="color:#FFFFFF">Desarrollo de Software</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						<a href="<?php echo Yii::app()->createUrl('/site/services');?>#servprof" style="color:#FFFFFF">Servicios Profesionales</a></p>
-					<p style="color:#FFFFFF;font-size: 0.8em;">
-						&nbsp;&nbsp;</p>
-				</div>	
-			</div>
-		</div>
-		<div class="cols2 footer">
-			<div style="background-color:#343434;margin: 16px 0 0 8px;min-height: 211px; padding-top:10px;">
-				
-				<p style="color:#FFFFFF;font-size: 0.8em;">
-				</p>
-				<p style="color:#FFFFFF;font-size: 0.8em;">
-					<strong>Clientes</strong></p>
-				<p style="color:#FFFFFF;font-size: 0.8em;">
-					<a href="<?php echo Yii::app()->createUrl('/site/client');?>" style="color:#FFFFFF">Nuestros Clientes</a></p>
-				<p style="color:#FFFFFF;font-size: 0.8em;">
-					&nbsp; &nbsp;&nbsp;</p>
-				<div class="correo">
-					<a href="<?php echo Yii::app()->createUrl('/site/contact');?>" style="color:#FFFFFF;">Escr&iacute;benos &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/white_sobre.png" style="width: 30px; height: 20px;" /></a>
-				</div>
-			</div>
-		</div>
+		<?php
+		 // $url =$_SERVER['REQUEST_URI'];
+			 if(stripos($url,"en")){
+				include("footer_en.php");
+			}else{
+				include("footer.php");
+			 }
+		?>
 
 
-	</div>
-	<div style="background-color:#343434;color:#FFFFFF;font-size: 1em;padding-top: 2%;" class="row-fluid">
-		<p>
-		</p>
-		<center>
-			2014 Etelix Group - Todos los derechos reservados </center>
-		<p>
-		</p>
-	</div>
+	
+
+
+
 </div><!-- container -->
  	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.menuSlider.min.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.ui.core.js"></script>
@@ -253,6 +134,45 @@
 	<!-- menu -->
 	<script type="text/javascript">
 	$( document ).ready(function() {
+
+		   //CAMBIA LA DIRECCION DE CONTACTO EN HOME
+    cambioDireccion();
+
+   /* //IMAGEN: ¿QUIENES SOMOS?
+    changeIcon(1,'/images/icn_quienes_somos');
+    //IMAGEN: NUESTROS SERVICIOS
+    changeIcon(2,'/images/icn_nuestros_servicios');
+    //IMAGEN: DONDE ESTAMOS
+    changeIcon(3,'/images/icn_donde_estamos');
+    //IMAGEN: CLIENTES
+    changeIcon(4,'/images/icn_clientes');
+    //IMAGEN: CONTACTO
+    changeIcon(5,'/images/icn_contacto');*/
+
+    fancybox_window();
+
+    changeCarousel();
+    //sliderImage(7,7);
+    paginaConstruccion();
+
+    //captureWidth();
+
+    changeLanguageName();
+    //horizontalLine();
+
+    $("#accordion").accordion();
+
+    //validar_form();
+   
+    //$(".fancyzoom").on("click", function () {
+        //$("a.fancyzoom").fancyzoom();
+    //});
+
+
+
+
+
+
         var href = $(location).attr('href');
         var index = href.indexOf("site/index");
         var organitation = href.indexOf("site/organitation");
@@ -345,6 +265,7 @@ jQuery(function($) {
 jQuery('[data-toggle=popover]').popover();
 jQuery('body').tooltip({"selector":"[data-toggle=tooltip]"});
 });
+jQuery('#yw0').carousel();
 /*]]>*/
 </script>
 <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"34c6875537","applicationID":"3705949","transactionName":"MgZRYBNQV0FZBUZcCwtMclcVWFZcFzVbQQEmDF1AE15VXl0UHVwKAQZL","queueTime":0,"applicationTime":137,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script>

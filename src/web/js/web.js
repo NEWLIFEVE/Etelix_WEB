@@ -1,5 +1,4 @@
 
-
     
     $("mmm").mouseover(function(){
         
@@ -173,6 +172,7 @@ function fancybox_window()
 
 function sliderImage(cantidad,pasos)
 {
+    
     $( "#slider" ).rcarousel({
         visible: cantidad,
         step: pasos
