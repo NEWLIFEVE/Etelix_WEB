@@ -175,7 +175,7 @@
 			</div>
 			<div class="display divs boton_enviar">
 				<div class="erroress" id="mensaje6">
-					<img alt="etelix" src="<?php echo Yii::app()->request->baseUrl; ?>/images/gif-load.gif" />Enviando mensaje
+					<img alt="etelix" src="<?php echo Yii::app()->request->baseUrl; ?>/images/ajax-loader.gif" />Enviando mensaje
 				</div>
 
 

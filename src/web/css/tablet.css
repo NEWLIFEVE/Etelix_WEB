@@ -224,39 +224,44 @@
 	}
 
 	.pais_6{
-		top: 53%;
-		left: 1.5%;
+		top: 50%;
+		left: 2.5%;
 		text-align: right;
 	}
 
 
 	.pais_7{
-		top: 49.5%;
+		top: 46.5%;
 		left: 1%;
 		text-align: right;
 	}
 
 	.pais_5{
-		top: 45.5%;
-		left: 1%;
+		top: 43.5%;
+		left: 0%;
 		text-align: right;
 	}
 
 	.pais_4{
-		top: 41.5%;
-		left: -4.5%;
+		top: 40.5%;
+		left: -3.5%;
+		text-align: right;
+	}
+	.pais_3{
+		top: 37.5%;
+		left: 17.5%;
 		text-align: right;
 	}
 
 	.pais_1{
-		top: 20.5%;
-		left: 45%;
+		top: 23.5%;
+		left: 48%;
 		text-align: right;
 	}
 
 	.pais_2{
-		top: 24.5%;
-		left: 26%;
+		top: 26.5%;
+		left: 27%;
 		text-align: right;
 	}
 
@@ -484,6 +489,8 @@
 	}
 }
 
+
+
 @media (min-width: 371px) and (max-width: 480px){
 	.container_quienes_somos {
 		height: 500px;
@@ -592,13 +599,6 @@
 		color: #f18e22;
 		font-weight: bold;
 	}
-
-
-
-
-
-
-
 }
 
 
@@ -1040,7 +1040,84 @@
 }
 
 /**/
+@media (max-width: 768px){
+	.pais_1 {
+	  top: 22.5%;
+	  left: 46%;
+	}
 
+	.pais_2 {
+	  top: 26.1%;
+	  left: 26%;
+	}
+	.pais_3 {
+	  top: 36.8%;
+	  left: 16.5%;
+	}
+
+	.pais_4 {
+	  top: 39.5%;
+	  left: -4.5%;
+	  text-align: right;
+	}
+
+	.pais_5 {
+	  top: 42.8%;
+	  left: -0.2%;
+	  text-align: right;
+	}
+
+	.pais_6 {
+	  top: 50%;
+	  left: 2.5%;
+	  text-align: right;
+	}
+
+	.pais_7 {
+	  top: 46.5%;
+	  left: 1%;
+	  text-align: right;
+	}
+}
+@media (min-width: 790px) and (max-width: 800px){
+	.pais_1 {
+	  top: 19.5%;
+	  left: 46%;
+	}
+
+	.pais_2 {
+	  top: 23.1%;
+	  left: 26%;
+	}
+	.pais_3 {
+	  top: 34.8%;
+	  left: 16.5%;
+	}
+
+	.pais_4 {
+	  top: 37.5%;
+	  left: -4.5%;
+	  text-align: right;
+	}
+
+	.pais_5 {
+	  top: 40.8%;
+	  left: -0.2%;
+	  text-align: right;
+	}
+
+	.pais_6 {
+	  top: 48%;
+	  left: 2.5%;
+	  text-align: right;
+	}
+
+	.pais_7 {
+	  top: 44.5%;
+	  left: 1%;
+	  text-align: right;
+	}
+}
 
 @media (min-width: 817px) and (max-width: 863px){
 	.pais_1 {
@@ -1053,8 +1130,8 @@
 	  left: 25%;
 	}
 	.pais_3 {
-	  top: 34.8%;
-	  left: 30.5%;
+	  top: 33.8%;
+	  left: 16.5%;
 	}
 
 	.pais_4 {
@@ -1081,7 +1158,7 @@
 	  text-align: right;
 	}
 }
-@media (min-width: 800px) and (max-width: 816px){
+@media (min-width: 801px) and (max-width: 816px){
 	.pais_1 {
 	  top: 19.5%;
 	  left: 45%;
@@ -1348,40 +1425,40 @@
 	  line-height: 125%;
 	}
 	.pais_1 {
-	  top: 26.5%;
+	  top: 36.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 28.4%;
+	  top: 38.4%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 34.5%;
+	  top: 46.5%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 37%;
+	  top: 49%;
 	  left: -2.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 39.5%;
+	  top: 51.5%;
 	  left: -1.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 44.2%;
+	  top: 56.2%;
 	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 41.8%;
+	  top: 53.8%;
 	  left: 2.0%;
 	  text-align: right;
 	}
@@ -1935,7 +2012,7 @@
 		
 	}
 }
-@media (max-width: 480px) {
+@media  (max-width: 480px) {
 	.descripcion_quienes_somos {
 		
 		position: absolute;
@@ -1974,11 +2051,50 @@
 		
 	}
 }
-@media (min-width: 240x) {
+@media (min-width: 240px) and (max-width: 358px) {
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 19%;
+		top: 17%;
+		width: 80%;
+		padding-left: 5%;
+		font-size: 1em;
+		line-height: 20px;
+		text-align: justify;
+		margin: 0 auto;
+
+	}
+	.mision_quienes_somos {
+		
+		position: absolute;
+		top: 24%;
+		width: 80%;
+		padding-left: 5%;
+		font-size: 1em;
+		line-height: 20px;
+		text-align: justify;
+		margin: 0 auto;
+
+	}
+
+	.vision_quienes_somos {
+
+		position: absolute;
+		top: 34%;
+		width: 80%;
+		padding-left: 5%;
+		font-size: 1em;
+		line-height: 20px;
+		text-align: justify;
+		margin: 0 auto;
+		
+	}
+}
+@media  (max-width: 240px) {
+	.descripcion_quienes_somos {
+		
+		position: absolute;
+		top: 17%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: .7em;
@@ -1990,7 +2106,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 26%;
+		top: 24%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: .7em;
@@ -2003,7 +2119,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 36%;
+		top: 34%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: .7em;

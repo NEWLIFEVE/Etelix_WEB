@@ -1132,6 +1132,48 @@ img.logo {
     }
 
 }
+@media (max-width: 600px)   { 
+
+    .pais_1 {
+      top: 34.5%;
+      left: 61%;
+    }
+
+    .pais_2 {
+      top: 25.5%;
+      left: 37%;
+    }
+
+    .pais_3 {
+      top: 41.5%;
+      left: 30.5%;
+    }
+
+    .pais_4 {
+      top: 45.5%;
+      left: -2.5%;
+      text-align: right;
+    }
+
+    .pais_5 {
+      top: 50.5%;
+      left: 1.5%;
+      text-align: right;
+    }
+
+    .pais_6 {
+      top: 61%;
+      left: 3.5%;
+      text-align: right;
+    }
+
+    .pais_7 {
+      top: 55.5%;
+      left: 2.0%;
+      text-align: right;
+    }
+
+}
 
 
 
@@ -1307,14 +1349,17 @@ textarea{
 }
 .erroress{
   display: none;
-  background: none;
+  background: #fff;
   padding: 7px;
-  position: absolute;
-  color: #fff;
+  /*position: absolute;*/
+  color: #eb5c29;
   box-shadow: 0 0 8px rgba(0,0,0,0);
-  margin-left:  320px;
-  margin-top: -80px;
-
+ /* margin-left:  358px;
+  margin-top: 42px;*/
+  margin: 0 auto;
+  width: 200px;
+  font-size: 1.7em;
+  margin-top: 6%;
 }
 .error_msj{
   display: none;

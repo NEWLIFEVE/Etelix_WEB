@@ -340,10 +340,10 @@
         </script>
     <script type="text/javascript">
 /*<![CDATA[*/
+/*<![CDATA[*/
 jQuery(function($) {
 jQuery('[data-toggle=popover]').popover();
 jQuery('body').tooltip({"selector":"[data-toggle=tooltip]"});
-jQuery('#yw0').carousel();
 });
 /*]]>*/
 </script>
