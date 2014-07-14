@@ -843,7 +843,7 @@ img.logo {
   top: 52.5%;
   left: 2.0%;
   text-align: right;
-}
+}*/
 
 .map_2 {
   top: 55%;
@@ -879,7 +879,7 @@ img.logo {
 .map_7 {
   top: 57%;
   left: 66%;
-}*/
+}
 @media (min-width: 1200px)   { 
 
     .pais_1 {
@@ -1417,6 +1417,22 @@ textarea{
 #all_country_div{
 
 }
-.inglaterra_view{
+.inglaterra_view,.usa_view, .vzla_view,
+.chile_view,.peru_view,.colombia_view,.panama_view{
 display: none;
+}
+@media (max-width: 550px) { 
+      .inglaterra_view,.usa_view, .vzla_view,
+      .chile_view,.peru_view,.colombia_view,.panama_view{
+      display: none;
+      }
+  }
+
+.world {
+  background-color: #eb5c29;
+  color: #FFFFFF;
+  font-size: 1.7em;
+  padding: 10px;
+  width: auto;
+ margin-right: 10%;
 }
