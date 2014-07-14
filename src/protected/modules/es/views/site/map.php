@@ -1,62 +1,65 @@
 <div class="widget display" id="widget-26">
     <div align="center" class="map">
-	<div class="pais_1">
-		<p class="pais_titulo">
-			<a href="/es/site/country?country=inglaterra_map" title="Ver Dirección en Inglaterra">Inglaterra</a>
-		</p>
-		<p class="pais_capital">
-			<a href="/es/site/country?country=inglaterra_map" title="Ver Dirección en Inglaterra">Londres</a>
-		</p>
-	</div>
-	<div class="pais_2">
-		<p class="pais_titulo">
-			<a href="/es/site/country?country=eeuu_map" title="Ver Dirección en Estado Unidos">Estados Unidos</a>
-		</p>
-		<p class="pais_capital">
-			<a href="/es/site/country?country=eeuu_map" title="Ver Dirección en Estado Unidos">Miami/New York</a>
-		</p>
-	</div>
-	<div class="pais_3">
-		<p class="pais_titulo">
-			<a href="/es/site/country?country=venezuela_map" title="Ver Dirección en Venezuela">Venezuela</a>
-		</p>
-		<p class="pais_capital">
-			<a href="/es/site/country?country=venezuela_map" title="Ver Dirección en Venezuela">Caracas</a>
-		</p>
-	</div>
-	<div class="pais_4">
-		<p class="pais_titulo">
-			<a href="/es/site/country?country=panama_map" title="Ver Dirección en Panamá">Panamá</a>
-		</p>
-		<p class="pais_capital">
-			<a href="/es/site/country?country=panama_map" title="Ver Dirección en Panamá">Panamá</a>
-		</p>
-	</div>
-	<div class="pais_5">
-		<p class="pais_titulo">
-			<a href="/es/site/country?country=colombia_map" title="Ver Dirección en Colombia">Colombia</a>
-		</p>
-		<p class="pais_capital">
-			<a href="/es/site/country?country=colombia_map" title="Ver Dirección en Colombia">Bogotá/Barranquilla</a>
-		</p>
-	</div>
-	<div class="pais_6">
-		<p class="pais_titulo">
-			<a href="/es/site/country?country=chile_map" title="Ver Dirección en Chile">Chile</a>
-		</p>
-		<p class="pais_capital">
-			<a href="/es/site/country?country=chile_map" title="Ver Dirección en Chile">Santiago de Chile</a>
-		</p>
-	</div>
-	<div class="pais_7">
-		<p class="pais_titulo">
-			<a href="/es/site/country?country=peru_map" title="Ver Dirección en Perú">Perú</a>
-		</p>
-		<p class="pais_capital">
-			<a href="/es/site/country?country=peru_map" title="Ver Dirección en Perú">Lima</a>
-		</p>
-	</div>
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mapa_completo.png" usemap="#map">
+	    <div id="all_country_div">
+			<div class="pais_1">
+				<p class="pais_titulo">
+					<a href="#" id="inglaterra" title="Ver Dirección en Inglaterra">Inglaterra</a>
+					<!--<a href="/es/site/country?country=inglaterra_map" title="Ver Dirección en Inglaterra">Inglaterra</a>-->
+				</p>
+				<p class="pais_capital">
+					<a href="/es/site/country?country=inglaterra_map" title="Ver Dirección en Inglaterra">Londres</a>
+				</p>
+			</div>
+			<div class="pais_2">
+				<p class="pais_titulo">
+					<a href="/es/site/country?country=eeuu_map" title="Ver Dirección en Estado Unidos">Estados Unidos</a>
+				</p>
+				<p class="pais_capital">
+					<a href="/es/site/country?country=eeuu_map" title="Ver Dirección en Estado Unidos">Miami/New York</a>
+				</p>
+			</div>
+			<div class="pais_3">
+				<p class="pais_titulo">
+					<a href="/es/site/country?country=venezuela_map" title="Ver Dirección en Venezuela">Venezuela</a>
+				</p>
+				<p class="pais_capital">
+					<a href="/es/site/country?country=venezuela_map" title="Ver Dirección en Venezuela">Caracas</a>
+				</p>
+			</div>
+			<div class="pais_4">
+				<p class="pais_titulo">
+					<a href="/es/site/country?country=panama_map" title="Ver Dirección en Panamá">Panamá</a>
+				</p>
+				<p class="pais_capital">
+					<a href="/es/site/country?country=panama_map" title="Ver Dirección en Panamá">Panamá</a>
+				</p>
+			</div>
+			<div class="pais_5">
+				<p class="pais_titulo">
+					<a href="/es/site/country?country=colombia_map" title="Ver Dirección en Colombia">Colombia</a>
+				</p>
+				<p class="pais_capital">
+					<a href="/es/site/country?country=colombia_map" title="Ver Dirección en Colombia">Bogotá/Barranquilla</a>
+				</p>
+			</div>
+			<div class="pais_6">
+				<p class="pais_titulo">
+					<a href="/es/site/country?country=chile_map" title="Ver Dirección en Chile">Chile</a>
+				</p>
+				<p class="pais_capital">
+					<a href="/es/site/country?country=chile_map" title="Ver Dirección en Chile">Santiago de Chile</a>
+				</p>
+			</div>
+			<div class="pais_7">
+				<p class="pais_titulo">
+					<a href="/es/site/country?country=peru_map" title="Ver Dirección en Perú">Perú</a>
+				</p>
+				<p class="pais_capital">
+					<a href="/es/site/country?country=peru_map" title="Ver Dirección en Perú">Lima</a>
+				</p>
+			</div>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mapa_completo.png" usemap="#map">
+		</div>
 </div>
 <div class="accordion_country">
 	<div id="accordion" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
@@ -119,3 +122,17 @@
 	</div>
 </div>
 
+<div id="inglaterra_view" class="inglaterra_view">
+		<div class="">
+		
+		<div align="left" class="all_country">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/inglaterra_map.png">
+				<div class="address map_1">
+									<p>Augusto Cárdenas</p>
+									<p>Sales Director London</p>
+									<p>+51 (94)510-75.65</p>
+									<p>augustoc@etelix.com</p>
+								  </div>
+			  </div>	</div>
+
+</div>

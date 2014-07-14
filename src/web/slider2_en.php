@@ -19,85 +19,85 @@
                         <li>
                             <a href="#">
                                 <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/1-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_1.png" class="color-img" alt="" />
+                            <!--    <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_1.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/2-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_2.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_2.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/3-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_3.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_3.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/4-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_4.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_4.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/5-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_5.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_5.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                         <li>
                             <a href="#">                        
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/6-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_6.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_6.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/7-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_7.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_7.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                         <li>
                             <a href="#">                        
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/8-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                          <li>
                             <a href="#">                        
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/9-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                          <li>
                             <a href="#">                        
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/10-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                          <li>
                             <a href="#">                        
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/11-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />
+                            <!--    <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                          <li>
                             <a href="#">                        
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/12-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                          <li>
                             <a href="#">                        
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/13-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />
+                            <!--    <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                          <li>
                             <a href="#">                        
                                  <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/14-01.png">
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />
+                             <!--   <img src="<?php //echo Yii::app()->request->baseUrl; ?>/slider2/img/clients/client_8.png" class="color-img" alt="" />-->
                             </a>
                         </li>
                     </ul>                        
