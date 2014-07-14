@@ -57,7 +57,7 @@
 	<header>
 		
         <ul class="pull-right navlist" id="yw1">
-			<li class="flag spanish"><a rel="Español" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+			<li class="flag spanish"><a rel="Español" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/es/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
 			<li class="flag english"><a rel="English" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/en/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
 		</ul>
 		              
@@ -71,14 +71,23 @@
 		    	<div class="container">
 					<div class="row-fluid">
 						<div class="span3">
-							<a href="<?php echo Yii::app()->createUrl('/site/index');?>"><img alt="etelix" class="logo" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo_etelix.png" /></a>
+								<?php
+								  $url =$_SERVER['REQUEST_URI'];
+									 if(stripos($url,"en")){
+									echo '<a href="'.Yii::app()->createUrl('/en/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
+									}else{
+									echo '<a href="'.Yii::app()->createUrl('/es/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
+									 }
+								?>
+							
+					
 						</div>
 
 
 						<div class="span9">
 							<div class="main clearfix">
 								<?php
-								  $url =$_SERVER['REQUEST_URI'];
+								  //$url =$_SERVER['REQUEST_URI'];
 									 if(stripos($url,"en")){
 										include("menu_en.php");
 									}else{
@@ -109,7 +118,7 @@
 	<div class="clear"></div>
 	<!--footer -->
 		<?php
-		 // $url =$_SERVER['REQUEST_URI'];
+		  $url =$_SERVER['REQUEST_URI'];
 			 if(stripos($url,"en")){
 				include("footer_en.php");
 			}else{

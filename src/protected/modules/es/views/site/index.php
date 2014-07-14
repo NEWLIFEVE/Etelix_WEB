@@ -18,8 +18,8 @@
 					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 				</div>
 				<div class="clients">
-					<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_clientes_blanco.png">Our Services</h4>
-					<p style="text-align: justify;font-size:1.2em;padding-top:10px;">We specialize in providing our customers integrated solutions for Telecommunications and technology globally, among which are the following: </p>
+					<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_clientes_blanco.png">Nuestros Servicios</h4>
+					<p style="text-align: justify;font-size:1.2em;padding-top:10px;">Nos especializamos en brindar a nuestros clientes soluciones integrales de Telecomunicaciones y Tecnolog&iacute;a a nivel global, ente los cuales se encuentran los siguientes: </p>
 				</div>
 				<div class="separator1">
 					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -29,7 +29,7 @@
 					<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 						<div style="padding:5px;"  id="services1">
 							<h1 style="text-align: center;">
-							<a class="image"  href="<?php echo Yii::app()->createUrl('/en/site/services');?>#services">
+							<a class="image"  href="<?php echo Yii::app()->createUrl('/es/site/services');?>#services">
 								<span class="rollover1" ></span>
 								<img class="imgborder" alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services1.png" style="width: 240px; height: 147px;">
 
@@ -37,9 +37,9 @@
 							</h1>
 							<div id="content_services1" class="content_serv">
 								<p class="paragraph_title">
-								<strong>Interconnection Services International Voice</strong></p>
+								<strong>Servicios de Interconexion Internacional de Voz</strong></p>
 								<p class="paragraph2">
-								Through our interconnections over 400 worldwide</p>
+								A trav&eacute;s de nuestras m&aacute;s de 400 interconexiones a nivel mundial</p>
 								<p class="fancybox">
 								<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 							</div>
@@ -49,16 +49,16 @@
 					<div style="padding:5px;" id="services2">
 						<h1 style="text-align: center;">
 						<strong style="color:#0a71b8">
-							<a class="image"  href="<?php echo Yii::app()->createUrl('/en/site/services');?>#retail">
+							<a class="image"  href="<?php echo Yii::app()->createUrl('/es/site/services');?>#retail">
 								<span class="rollover2" ></span>
 								<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services2.png" style="width: 240px; height: 147px;">
 							</a>
 							</strong></h1>
 						<div id="content_services2" class="content_serv">
 							<p class="paragraph_title">
-								<strong>Point of Sale Integrated</strong></p>
+								<strong>Puntos &nbsp;de Venta Integrales</strong></p>
 							<p class="paragraph2">
-								Calls, refills balance and banking agent</p>
+								Lamadas, recargas de saldo, agente bancario y m&aacute;s</p>
 							<p class="fancybox">
 								<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#retail"></a></p>
 						</div>
@@ -68,7 +68,7 @@
 				<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 					<div style="padding:5px;" id="services3">
 						<h1 style="text-align: center;">
-						<a class="image"  href="<?php echo Yii::app()->createUrl('/en/site/services');?>#sms">
+						<a class="image"  href="<?php echo Yii::app()->createUrl('/es/site/services');?>#sms">
 								<span class="rollover3" ></span>
 								<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services3.png" style="width: 240px; height: 147px;" >
 						</a></h1>
@@ -76,7 +76,7 @@
 							<p class="paragraph_title">
 							<strong>SMS</strong></p>
 							<p class="paragraph2">
-							Origination and termination of international SMS</p>
+							Originaci&oacute; y terminaci&oacute;n de SMS internacionales</p>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 						</div>
@@ -85,7 +85,7 @@
 				<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 					<div style="padding:5px;" id="services4">
 						<h1 style="text-align: center;">
-						<a class="image"  href="<?php echo Yii::app()->createUrl('/en/site/services');?>#contactcenter">
+						<a class="image"  href="<?php echo Yii::app()->createUrl('/es/site/services');?>#contactcenter">
 								<span class="rollover4" ></span>
 								<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services4.png" style="width: 240px; height: 147px;">
 						</a></h1>
@@ -93,7 +93,7 @@
 							<p class="paragraph_title">
 							<strong>Contac Center</strong></p>
 							<p class="paragraph2">
-							Telemarketers for bilingual services Telemarketing and Telesales</p>
+							Teleoperadores bilingues para servicios de Telemercadeo y Televentas</p>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 						</div>
@@ -103,15 +103,15 @@
 					<div style="padding:5px;" id="services5">
 						<h1 style="text-align: center;">
 						<strong style="color:#0a71b8">
-							<a class="image"  href="<?php echo Yii::app()->createUrl('/en/site/services');?>#data">
+							<a class="image"  href="<?php echo Yii::app()->createUrl('/es/site/services');?>#data">
 								<span class="rollover5" ></span>
 								<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services5.png" style="width: 240px; height: 147px;">
 							</a></strong></h1>
 						<div id="content_services5" class="content_serv">
 							<p class="paragraph_title">
-								<strong>International connectivity</strong></p>
+								<strong>Conectividad Internacional</strong></p>
 							<p class="paragraph2">
-							Offer capacity submarine cable systems</p>
+							Ofrecemos capacidad en sistemas de cable submarino</p>
 							<p class="fancybox">
 								<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#data"></a></p>
 						</div>
@@ -120,15 +120,15 @@
 				<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 					<div style="padding:5px;" id="services6">
 						<h1 style="text-align: center;">
-						<a class="image"  href="<?php echo Yii::app()->createUrl('/en/site/services');?>#pagos">
+						<a class="image"  href="<?php echo Yii::app()->createUrl('/es/site/services');?>#pagos">
 								<span class="rollover6" ></span>
 								<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services6.png" style="width: 240px; height: 147px;">
 							</a></h1>
 						<div id="content_services6" class="content_serv">
 							<p class="paragraph_title">
-							<strong>Payments Platform</strong></p>
+							<strong>Plataforma de Pagos</strong></p>
 							<p class="paragraph2">
-							Transactions in Cash and Credit Card or Debit</p>
+							Transacciones en Efectivo y con Tarjeta de Cr&eacute;dito o D&eacute;bito</p>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 						</div>
@@ -137,15 +137,15 @@
 				<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 					<div style="padding:5px;" id="services7">
 						<h1 style="text-align: center;">
-						<a class="image"  href="<?php echo Yii::app()->createUrl('/en/site/services');?>#hosting">
+						<a class="image"  href="<?php echo Yii::app()->createUrl('/es/site/services');?>#hosting">
 								<span class="rollover7" ></span>
 								<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services7.png" style="width: 240px; height: 147px;">
 						</a></h1>
 						<div id="content_services7" class="content_serv">
 							<p class="paragraph_title">
-							<strong>Hosting Services</strong></p>
+							<strong>Servicios de Hosting</strong></p>
 							<p class="paragraph2">
-							The NAP of the Americas in Downtown Miami, FL</p>
+							En el NAP de las Am&eacute;ricas y en Downtown Miami, FL</p>
 						</div>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
@@ -154,15 +154,15 @@
 				<div class="cols" data-intro="Hello step one!" data-step="2" id="login" style="background:#fff;border-radius:0px;margin-bottom:0px; color:slategray;">
 					<div style="padding:5px;" id="services8">
 						<h1 style="text-align: center;">
-						<a class="image"  href="<?php echo Yii::app()->createUrl('/en/site/services');?>#software">
+						<a class="image"  href="<?php echo Yii::app()->createUrl('/es/site/services');?>#software">
 								<span class="rollover8" ></span>
 								<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/services8.png" style="width: 240px; height: 147px;">
 						</a></h1>
 						<div id="content_services8" class="content_serv">
 							<p class="paragraph_title">
-							<strong>Software Development</strong></p>
+							<strong>Desarrollo de Software</strong></p>
 							<p class="paragraph2">
-							Transaction Solutions to Management Information Systems
+							Soluciones Transaccionales hasta Sistemas de Informaci&oacute;n Gerencial
 							</p>
 							<p class="fancybox">
 							</p>
@@ -176,13 +176,14 @@
 		</div>
 	
 		<div class="presencia_comercial">
-			<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_quienes_somos_blanco.png">&nbsp; Commercial Presence</h4>
+			<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_quienes_somos_blanco.png">&nbsp; Presencia Comercial</h4>
 				<div class="presencia_comcercial_coment">
-					<p style="text-align: justify;font-size:1.2em;padding-top:6px;padding-bottom:5px;">We have sales offices in the United States, England, Peru and Venezuela, as well as with regional executives serving our customers across 5 continents</p>
+					<p style="text-align: justify;font-size:1.2em;padding-top:6px;padding-bottom:5px;">Contamos con oficinas comerciales en Estados Unidos, Inglaterra, Per&uacute; y Venezuela, asi como con ejecutivos
+						regionales que atienden a nuestros clientes a trav&eacute;s de los 5 continentes</p>
 				</div>
 				
 				<div class="ver_mapa">
-						<a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" >View Map &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;"></a>
+						<a href="<?php echo Yii::app()->createUrl('/es/site/map');?>" >Ver Mapa &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;"></a>
 				</div>
 				
 		</div>
@@ -194,7 +195,7 @@
 		</div>
 		<!-- ***************************************** -->
 		<?php 
-			 include("slider2_en.php")
+			 include("slider2.php")
 
 		?>
 

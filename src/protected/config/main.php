@@ -9,6 +9,7 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Etelix Group',
 	'language'=>'es',
+	'defaultController'=>'es/site/index',
 
 	// preloading 'log' component
 	'preload'=>array('log', 'bootstrap'),
@@ -23,6 +24,7 @@ return array(
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		'en',
+		'es',
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'123456',
