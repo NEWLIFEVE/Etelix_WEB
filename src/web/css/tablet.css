@@ -1640,6 +1640,11 @@
 	ul.list_menu li, ul.list_menu_ingles li {
 		margin-right: 24px !important;
 	}
+	.inglaterra_view,.usa_view, .vzla_view,
+	.chile_view,.peru_view,.colombia_view,.panama_view,
+	.all_country{
+	display: none;
+	}
 
 	.map {
 	  display: none;
@@ -1755,6 +1760,8 @@
 		/* background: #ffffff url(../img/ui-bg_glass_75_ffffff_1x400.png) 50% 50% repeat-x; */
 		color: #404040;
 	}
+
+
 
 
 }

@@ -1421,12 +1421,7 @@ textarea{
 .chile_view,.peru_view,.colombia_view,.panama_view{
 display: none;
 }
-@media (max-width: 550px) { 
-      .inglaterra_view,.usa_view, .vzla_view,
-      .chile_view,.peru_view,.colombia_view,.panama_view{
-      display: none;
-      }
-  }
+
 
 .world {
   background-color: #eb5c29;

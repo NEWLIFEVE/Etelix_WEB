@@ -10,9 +10,9 @@
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 	<!-- extensiones de utiliadad-->
-	<?php $this->widget('application.extensions.blockui.JuiBlockUI');?>
+	<?php //$this->widget('application.extensions.blockui.JuiBlockUI');?>
 	<!--  bootstrap  -->
-	<?php Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap'); ?>
+	<?php //Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap'); ?>
 	<!--  bootstrap  -->
 	<link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/font-awesome.min.css" />
@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jquery-ui-bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jquery.fancybox-1.3.4.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/p3.css" />
-		<!--<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css" />-->
+	<!--<link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css" />-->
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script> 
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqui-tb-noconflict.js"></script>

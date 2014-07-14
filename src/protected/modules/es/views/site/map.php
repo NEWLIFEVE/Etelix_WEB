@@ -1,3 +1,13 @@
+
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jquery-ui.css">
+	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+	<script>
+	$(function() {
+		$( "#accordion" ).accordion({
+			collapsible: true
+		});
+	});
+	</script>
 <div class="widget display" id="widget-26">
     <div align="center" class="map">
 	    <div id="all_country_div">
@@ -61,64 +71,64 @@
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mapa_completo.png" usemap="#map">
 		</div>
 </div>
-<div class="accordion_country">
-	<div id="accordion" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
-		<h3 id="azul" class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-0" aria-selected="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Inglaterra</h3>
-		<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-accordion-accordion-panel-0" aria-labelledby="azul" role="tabpanel" aria-expanded="true" aria-hidden="false" style="height: 0px;">
-			<p>Augusto Cárdenas</p>
-			<p>Sales Director London</p>
-			<p>+51 (94)510-75.65</p>
-			<p>augustoc@etelix.com</p>
-		</div>
-		<h3 id="naranja" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-1" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Estados Unidos</h3>
-		<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-1" aria-labelledby="naranja" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none; height: 0px;">
-			<p>444 Brickell Ave. Suite 51-845</p>
-			<p>Miami FL 33131, USA</p>
-			<p>Teléfono: +1 (305)722.1112</p>
-			<p>Fax: +1 (305)722.1117</p>
-		</div>
-		<h3 id="azul" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-2" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Venezuela</h3>
-		<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-2" aria-labelledby="azul" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none; height: 0px;">
-			<p>Av. Francisco de Miranda,</p>
-			<p>Torre Delta, piso 10,</p>
-			<p>of. 10 A-B. Altamira,</p>
-			<p>Caracas, Venezuela</p>
-			<p>Teléfono: +58 (212)740.1112</p>
-			<p>Fax: +58 (212)742.1117</p>
-		</div>
-		<h3 id="naranja" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-3" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Panamá</h3>
-		<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-3" aria-labelledby="naranja" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none; height: 0px;">
-			<p>Diana Mirakyan</p>
-			<p>Business Manager, Asia &amp; CIS</p>
-			<p>dianam@etelix.com</p>
-			<p>+507 (6) 683-7924</p>
-			<p></p>
-			<p>Carlos Piñango</p>
-			<p>Business Development Director</p>
-			<p>carlosp@etelix.com</p>
-			<p>+507 (6) 219-69.17</p>
-		</div>
-		<h3 id="azul" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-4" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Colombia</h3>
-		<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-4" aria-labelledby="azul" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none; height: 0px;">
-			<p>Juan Carlos López Silva</p>
-			<p>Sales Vice President/CCO</p>
-			<p>jclopezsilva@etelix.com</p>
-			<p>+57 (313)777-73.68</p>
-		</div>
-		<h3 id="naranja" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-5" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Chile</h3>
-		<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-5" aria-labelledby="naranja" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none; height: 0px;">
-			<p>Raúl Monsalve</p>
-			<p>Sales Director Chile</p>
-			<p>RaulMonsalve@etelix.com</p>
-			<p>+56 (9)9743-0523</p>
-		</div>
-		<h3 id="azul" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-6" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Perú</h3>
-		<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-6" aria-labelledby="azul" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none; height: 0px;">
-			<p>Jr. Dante 966 Surquillo,</p>
-			<p>Lima, Perú</p>
-			<p>Teléfono: +51 (1)641.9550</p>
-			<p>Fax: +51 (1)641.9549</p>
-		</div>
+
+<div id="accordion">
+	<h3>Inglaterra <!--<span class="flag_country flag_ingla">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>--></h3>
+	<div>
+		<p>Augusto Cárdenas</p>
+		<p>Sales Director London</p>
+		<p>+51 (94)510-75.65</p>
+		<p>augustoc@etelix.com</p>
+	</div>
+	
+	<h3>Estados Unidos</h3>
+	<div>
+		<p>444 Brickell Ave. Suite 51-845</p>
+		<p>Miami FL 33131, USA</p>
+		<p>Teléfono: +1 (305)722.1112</p>
+		<p>Fax: +1 (305)722.1117</p>
+	</div>
+	<h3>Venezuela</h3>
+	<div>
+		<p>Av. Francisco de Miranda,</p>
+		<p>Torre Delta, piso 10,</p>
+		<p>of. 10 A-B. Altamira,</p>
+		<p>Caracas, Venezuela</p>
+		<p>Teléfono: +58 (212)740.1112</p>
+		<p>Fax: +58 (212)742.1117</p>
+	</div>
+	<h3>Panamá</h3>
+	<div>
+		<p>Diana Mirakyan</p>
+		<p>Business Manager, Asia &amp; CIS</p>
+		<p>dianam@etelix.com</p>
+		<p>+507 (6) 683-7924</p>
+		<p></p>
+		<p>Carlos Piñango</p>
+		<p>Business Development Director</p>
+		<p>carlosp@etelix.com</p>
+		<p>+507 (6) 219-69.17</p>
+	</div>
+	<h3>Colombia</h3>
+	<div>
+		<p>Juan Carlos López Silva</p>
+		<p>Sales Vice President/CCO</p>
+		<p>jclopezsilva@etelix.com</p>
+		<p>+57 (313)777-73.68</p>
+	</div>
+	<h3>Chile</h3>
+	<div>
+		<p>Raúl Monsalve</p>
+		<p>Sales Director Chile</p>
+		<p>RaulMonsalve@etelix.com</p>
+		<p>+56 (9)9743-0523</p>
+	</div>
+	<h3>Perú</h3>
+	<div>
+		<p>Jr. Dante 966 Surquillo,</p>
+		<p>Lima, Perú</p>
+		<p>Teléfono: +51 (1)641.9550</p>
+		<p>Fax: +51 (1)641.9549</p>
 	</div>
 </div>
 
@@ -246,6 +256,20 @@
 </div>
 
 <script type="text/javascript">
+		
+		$(document).ready(function(){
+			$("#accordian h3").click(function(){
+				//slide up all the link lists
+				$("#accordian ul ul").slideUp();
+				//slide down the link list below the h3 clicked - only if its closed
+				if(!$(this).next().is(":visible"))
+				{
+					
+				}
+			});
+		});
+
+
 
 		$( "a#link_all_country" ).click(function() {
 
