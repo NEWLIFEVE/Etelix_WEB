@@ -57,8 +57,8 @@
 	<header>
 		
         <ul class="pull-right navlist" id="yw1">
-			<li class="flag spanish"><a rel="Español" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/es/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
-			<li class="flag english"><a rel="English" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/en/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
+			<li class="flag spanish"><a rel="Español" title="Español" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/es/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+			<li class="flag english"><a rel="English" title="English" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/en/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
 		</ul>
 		              
 		<div class="span2 offset9 inbox">
@@ -74,9 +74,9 @@
 								<?php
 								  $url =$_SERVER['REQUEST_URI'];
 									 if(stripos($url,"en")){
-									echo '<a href="'.Yii::app()->createUrl('/en/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
+									echo '<a title="Etelix home" href="'.Yii::app()->createUrl('/en/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
 									}else{
-									echo '<a href="'.Yii::app()->createUrl('/es/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
+									echo '<a title="Etelix inicio" href="'.Yii::app()->createUrl('/es/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
 									 }
 								?>
 							
@@ -116,7 +116,15 @@
 
 
 	<div class="clear"></div>
-	<!--footer -->
+	
+
+	
+
+
+
+</div><!-- container -->
+<!--footer -->
+</div></div></div></div>
 		<?php
 		  $url =$_SERVER['REQUEST_URI'];
 			 if(stripos($url,"en")){
@@ -126,12 +134,6 @@
 			 }
 		?>
 
-
-	
-
-
-
-</div><!-- container -->
  	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.menuSlider.min.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.ui.core.js"></script>
     <!-- EFECTO DE CAROUSEL SLIDER IMAGE DEL HOME -->

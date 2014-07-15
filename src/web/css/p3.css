@@ -34,15 +34,43 @@
 .english{ 
     background-position: -393px -48px;
 }
-@media (max-width: 767px){
+@media (min-width: 601px) and (max-width: 767px){
   .navlist li
   {
     width: 45px;
   }
-  .english{
+ .spanish{
       background-position: -480px -48px;
   }
+  .english{ 
+      background-position: -393px -48px;
+  }
+
+
+}
+@media (max-width: 600px){
+  .navlist li
+  {
+    width: 45px;
+  }
   .spanish{
+      background-position: -480px -48px;
+  }
+  .english{ 
+      background-position: -393px -48px;
+  }
+
+
+}
+@media (min-width: 800px) and (max-width: 1199px){
+  .navlist li
+  {
+    width: 45px;
+  }
+  .spanish{
+      background-position: -480px -48px;
+  }
+  .english{ 
       background-position: -393px -48px;
   }
 

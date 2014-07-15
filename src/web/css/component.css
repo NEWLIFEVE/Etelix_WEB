@@ -413,7 +413,8 @@ color:#F18E21;
 	.nav li {
 		display: block;
 		float: left;
-		width: 50%;
+		width: 16%;
+		font-size: medium;
 	}
 	.nav li.active {
 	border-bottom: 4px solid #F18E21;
@@ -591,6 +592,41 @@ color:#F18E21;
 
 	.nav li:nth-child(6n+6) {
 		border-left: 8px solid rgb(9, 18, 25);
+	}
+	.no-touch .nav ul li:nth-child(6n+1) a:hover,
+	.no-touch .nav ul li:nth-child(6n+1) a:active,
+	.no-touch .nav ul li:nth-child(6n+1) a:focus {
+		border-bottom: 4px solid #F18E21;
+	}
+
+	.no-touch .nav ul li:nth-child(6n+2) a:hover,
+	.no-touch .nav ul li:nth-child(6n+2) a:active,
+	.no-touch .nav ul li:nth-child(6n+2) a:focus {
+		border-bottom: 4px solid #F9C188;
+	}
+
+	.no-touch .nav ul li:nth-child(6n+3) a:hover,
+	.no-touch .nav ul li:nth-child(6n+3) a:active,
+	.no-touch .nav ul li:nth-child(6n+3) a:focus {
+		border-bottom: 4px solid #8485BF;
+	}
+
+	.no-touch .nav ul li:nth-child(6n+4) a:hover,
+	.no-touch .nav ul li:nth-child(6n+4) a:active,
+	.no-touch .nav ul li:nth-child(6n+4) a:focus {
+		border-bottom: 4px solid #325DA5;
+	}
+
+	.no-touch .nav ul li:nth-child(6n+5) a:hover,
+	.no-touch .nav ul li:nth-child(6n+5) a:active,
+	.no-touch .nav ul li:nth-child(6n+5) a:focus {
+		border-bottom: 4px solid #134290;
+	}
+
+	.no-touch .nav ul li:nth-child(6n+6) a:hover,
+	.no-touch .nav ul li:nth-child(6n+6) a:active,
+	.no-touch .nav ul li:nth-child(6n+6) a:focus {
+		border-bottom: 4px solid rgb(9, 18, 25);
 	}
 
 /**********/

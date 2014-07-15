@@ -224,43 +224,43 @@
 	}
 
 	.pais_6{
-		top: 50%;
+		top: 77%;
 		left: 2.5%;
 		text-align: right;
 	}
 
 
 	.pais_7{
-		top: 46.5%;
+		top: 71.5%;
 		left: 1%;
 		text-align: right;
 	}
 
 	.pais_5{
-		top: 43.5%;
+		top: 66.5%;
 		left: 0%;
 		text-align: right;
 	}
 
 	.pais_4{
-		top: 40.5%;
+		top: 61.5%;
 		left: -3.5%;
 		text-align: right;
 	}
 	.pais_3{
-		top: 37.5%;
+		top: 57.5%;
 		left: 17.5%;
 		text-align: right;
 	}
 
 	.pais_1{
-		top: 23.5%;
-		left: 48%;
+		top: 33.5%;
+		left: 46%;
 		text-align: right;
 	}
 
 	.pais_2{
-		top: 26.5%;
+		top: 38.5%;
 		left: 27%;
 		text-align: right;
 	}
@@ -871,39 +871,39 @@
 
 	
 	.pais_1 {
-	  top: 18.5%;
+	  top: 28.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 21.8%;
+	  top: 33.8%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 36.8%;
-	  left: 30.5%;
+	  top: 54.8%;
+	  left: 29.5%;
 	}
 
 	.pais_4 {
-	  top: 37.5%;
+	  top: 58.5%;
 	  left: -4.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 40.5%;
+	  top: 63.5%;
 	  left: 0.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 49.5%;
+	  top: 76.5%;
 	  left: 17.5%;
 	}
 
 	.pais_7 {
-	  top: 44.5%;
+	  top: 69.5%;
 	  left: 0.56%;
 	  text-align: right;
 	}
@@ -1002,25 +1002,25 @@
 	}
 
 	.map_2 {
-		top: 42%;
+		top: 84%;
 		left: 51%;
 		font-size: 0.7em;
 	}
 
 	.map_3 {
-		top: 43%;
+		top: 81%;
 		left: 53%;
 		font-size: 0.7em;
 	}
 
 	.map_4 {
-		top: 42.5%;
+		top: 84.5%;
 		left: 62%;
 		font-size: 0.7em;
 	}
 
 	.map_5 {
-		top: 46.5%;
+		top: 86.5%;
 		left: 64%;
 		font-size: 0.7em;
 	}
@@ -1032,7 +1032,7 @@
 	}
 
 	.map_7 {
-		top: 46%;
+		top: 86%;
 		left: 63%;
 		font-size: 0.7em;
 	}
@@ -1081,39 +1081,39 @@
 }
 @media (min-width: 790px) and (max-width: 800px){
 	.pais_1 {
-	  top: 19.5%;
+	  top: 32.5%;
 	  left: 46%;
 	}
 
 	.pais_2 {
-	  top: 23.1%;
+	  top: 38.1%;
 	  left: 26%;
 	}
 	.pais_3 {
-	  top: 34.8%;
+	  top: 56.8%;
 	  left: 16.5%;
 	}
 
 	.pais_4 {
-	  top: 37.5%;
+	  top: 61.5%;
 	  left: -4.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 40.8%;
+	  top: 65.8%;
 	  left: -0.2%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 48%;
+	  top: 77%;
 	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 44.5%;
+	  top: 70.5%;
 	  left: 1%;
 	  text-align: right;
 	}
@@ -1121,118 +1121,118 @@
 
 @media (min-width: 817px) and (max-width: 863px){
 	.pais_1 {
-	  top: 17.5%;
-	  left: 45%;
+	  top: 29.5%;
+	  left: 46%;
 	}
 
 	.pais_2 {
-	  top: 21.1%;
+	  top: 34.1%;
 	  left: 25%;
 	}
 	.pais_3 {
-	  top: 33.8%;
+	  top: 54.8%;
 	  left: 16.5%;
 	}
 
 	.pais_4 {
-	  top: 37.5%;
-	  left: -6.5%;
+	  top: 59.5%;
+	  left: -3.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 39.8%;
-	  left: -1.2%;
+	  top: 63.8%;
+	  left: -0.2%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 48%;
-	  left: 1.5%;
+	  top: 76%;
+	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 43.5%;
-	  left: 0%;
+	  top: 69.5%;
+	  left: 1%;
 	  text-align: right;
 	}
 }
 @media (min-width: 801px) and (max-width: 816px){
 	.pais_1 {
-	  top: 19.5%;
-	  left: 45%;
+	  top: 28.5%;
+	  left: 46%;
 	}
 
 	.pais_2 {
-	  top: 22.1%;
+	  top: 35.1%;
 	  left: 25%;
 	}
 	.pais_3 {
-	  top: 34.8%;
-	  left: 30.5%;
+	  top: 54.8%;
+	  left: 17.5%;
 	}
 
 	.pais_4 {
-	  top: 37.5%;
-	  left: -6.5%;
+	  top: 59.5%;
+	  left: -3.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 39.8%;
-	  left: -1.2%;
+	  top: 63.8%;
+	  left: 0.8%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 48%;
-	  left: 1.5%;
+	  top: 76%;
+	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 43.5%;
-	  left: 0%;
+	  top: 69.5%;
+	  left: 1%;
 	  text-align: right;
 	}
 }
 @media (min-width: 551px) and (max-width: 767px){
 	.pais_1 {
-	  top: 19.5%;
-	  left: 45%;
+	  top: 50.5%;
+	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 22.1%;
-	  left: 25%;
+	  top: 54.1%;
+	  left: 37%;
 	}
 	.pais_3 {
-	  top: 34.8%;
+	  top: 70%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 37.5%;
-	  left: -6.5%;
+	  top: 73.5%;
+	  left: -3.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 39.8%;
-	  left: -1.2%;
+	  top: 76.8%;
+	  left: -0.2%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 48%;
-	  left: 1.5%;
+	  top: 81%;
+	  left: 0.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 43.5%;
-	  left: 0%;
+	  top: 85.5%;
+	  left: 2%;
 	  text-align: right;
 	}
 }
@@ -1242,67 +1242,67 @@
 @media (min-width: 685px) and (max-width: 767px){
 
 	.pais_1 {
-	  top: 17.5%;
-	  left: 61%;
+	  top: 49.5%;
+	  left: 59%;
 	}
 
 	.pais_2 {
-	  top: 21.1%;
+	  top: 53.1%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 34.8%;
+	  top: 68.8%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 37.5%;
-	  left: -6.5%;
+	  top: 72.5%;
+	  left: -3.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 39.8%;
-	  left: -1.2%;
+	  top: 76.8%;
+	  left: -0.2%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 45%;
-	  left: 1.5%;
+	  top: 86%;
+	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 42.5%;
+	  top: 80.5%;
 	  left: 0%;
 	  text-align: right;
 	}
 
 	.map_1 {
-		top: 46%;
-		left: 57%;
+		top: 85%;
+		left: 64%;
 	}
 
 	.map_2 {
-		top: 43%;
+		top: 84%;
 		left: 45%;
 	}
 
 	.map_3 {
-		top: 44%;
-		left: 63%;
+		top: 80%;
+		left: 57%;
 	}
 
 	.map_4 {
-		top: 43.5%;
-		left: 56%;
+		top: 84.5%;
+		left: 63%;
 	}
 
 	.map_5 {
-		top: 47.5%;
-		left: 63%;
+		top: 86.5%;
+		left: 65%;
 	}
 
 	.map_6 {
@@ -1311,7 +1311,7 @@
 	}
 
 	.map_7 {
-		top: 46%;
+		top: 85%;
 		left: 61%;
 	}
 
@@ -1320,7 +1320,7 @@
 @media (min-width: 641px) and (max-width: 684px){
 	
 .map_1 {
-		top: 46%;
+		top: 86%;
 		left: 57%;
 	}
 
@@ -1331,88 +1331,88 @@
 @media (min-width: 601px) and (max-width: 640px){
 
 	.pais_1 {
-	  top: 27.8%;
+	  top: 54.8%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 29.5%;
+	  top: 57.5%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 36.8%;
+	  top: 71.8%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 39.3%;
+	  top: 75.3%;
 	  left: -3.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 41.4%;
+	  top: 78.4%;
 	  left: 0.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 46.1%;
-	  left: 4.5%;
+	  top: 87.1%;
+	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 43.5%;
-	  left: 2.0%;
+	  top: 82.5%;
+	  left: 1.0%;
 	  text-align: right;
 	}
 
 	.map_1 {
-		top: 45.5%;
+		top: 86.5%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_2 {
-		top: 42%;
+		top: 85%;
 		left: 50%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_3 {
-		top: 44.5%;
+		top: 80.5%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_4 {
-		top: 42%;
+		top: 85%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_5 {
-		top: 46%;
+		top: 87%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_6 {
-		top: 46.5%;
+		top: 81.5%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_7 {
-		top: 43.5%;
+		top: 86.5%;
 		left: 64%;
 		font-size: 0.6em;
 		line-height: 17px;
@@ -1425,53 +1425,53 @@
 	  line-height: 125%;
 	}
 	.pais_1 {
-	  top: 36.5%;
+	  top: 53.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 38.4%;
+	  top: 57.4%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 46.5%;
+	  top: 71.5%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 49%;
-	  left: -2.5%;
+	  top: 75%;
+	  left: -4.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 51.5%;
-	  left: -1.5%;
+	  top: 78.5%;
+	  left: -0.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 56.2%;
-	  left: 2.5%;
+	  top: 82.2%;
+	  left: 0.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 53.8%;
+	  top: 86.8%;
 	  left: 2.0%;
 	  text-align: right;
 	}
 
 	.map_1 {
-		top: 43.5%;
+		top: 86.5%;
 		left: 58%;
 		font-size: 0.6m;
 		line-height: 17px;
 	}
 
 	.map_2 {
-		top: 40%;
+		top: 85%;
 		left: 50%;
 		font-size: 0.6em;
 		line-height: 17px;
@@ -1485,28 +1485,28 @@
 	}
 
 	.map_4 {
-		top: 40%;
+		top: 85%;
 		left: 64%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_5 {
-		top: 45%;
+		top: 87%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_6 {
-		top: 44.5%;
+		top: 82.5%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 17px;
 	}
 
 	.map_7 {
-		top: 42.5%;
+		top: 86.5%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 17px;
@@ -1516,8 +1516,8 @@
 
 @media (min-width: 641px) and (max-width: 765px){
 	.map_6 {
-		top: 44.5%;
-		left: 58%;
+		top: 80.5%;
+		left: 64%;
 		font-size: 0.8em;
 		line-height: 15px;
 	}
@@ -1533,88 +1533,88 @@
 	  line-height: 125%;
 	}
 	.pais_1 {
-	  top: 25.5%;
+	  top: 53.5%;
 	  left: 60%;
 	}
 
 	.pais_2 {
-	  top: 27.5%;
+	  top: 56.5%;
 	  left: 37%;
 	}
 
 	.pais_3 {
-	  top: 34.5%;
+	  top: 71.5%;
 	  left: 30.5%;
 	}
 
 	.pais_4 {
-	  top: 36.6%;
+	  top: 74.6%;
 	  left: -3.5%;
 	  text-align: right;
 	}
 
 	.pais_5 {
-	  top: 38.5%;
+	  top: 77.5%;
 	  left: 0.5%;
 	  text-align: right;
 	}
 
 	.pais_6 {
-	  top: 42.8%;
-	  left: 4.5%;
+	  top: 86.8%;
+	  left: 2.5%;
 	  text-align: right;
 	}
 
 	.pais_7 {
-	  top: 40.6%;
-	  left: 2%;
+	  top: 82.6%;
+	  left: 1%;
 	  text-align: right;
 	}
 
 	.map_1 {
-		top: 44.5%;
+		top: 86.5%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_2 {
-		top: 40.5%;
+		top: 85.5%;
 		left: 43%;
 		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_3 {
-		top: 39.5%;
+		top: 81.5%;
 		left: 52%;
 		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_4 {
-		top: 40%;
+		top: 85%;
 		left: 65%;
 		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_5 {
-		top: 44%;
+		top: 87%;
 		left: 64%;
 		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_6 {
-		top: 40.5%;
+		top: 82.5%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 15px;
 	}
 
 	.map_7 {
-		top: 41.5%;
+		top: 86.5%;
 		left: 58%;
 		font-size: 0.6em;
 		line-height: 15px;
@@ -1769,7 +1769,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 20%;
+		top: 26%;
 		width: 43%;
 		padding-left: 5%;
 		font-size: 1.3em;
@@ -1793,7 +1793,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 41%;
+		top: 43%;
 		width: 44%;
 		padding-left: 5%;
 		font-size: 1.3em;
@@ -1830,7 +1830,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 51%;
+		top: 60%;
 		width: 44%;
 		padding-left: 5%;
 		font-size: 1.3em;
@@ -1843,7 +1843,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 32%;
+		top: 41%;
 		width: 43%;
 		padding-left: 5%;
 		font-size: 1.3em;
@@ -1854,7 +1854,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 47%;
+		top: 56%;
 		width: 44%;
 		padding-left: 5%;
 		font-size: 1.3em;
@@ -1866,7 +1866,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 57%;
+		top: 73%;
 		width: 45%;
 		padding-left: 5%;
 		font-size: 1.3em;
@@ -1879,7 +1879,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 32%;
+		top: 44%;
 		width: 43%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1890,7 +1890,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 47%;
+		top: 57%;
 		width: 44%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1902,7 +1902,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 57%;
+		top: 73%;
 		width: 45%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1915,7 +1915,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 31%;
+		top: 42%;
 		width: 43%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1926,7 +1926,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 45%;
+		top: 58%;
 		width: 44%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1938,7 +1938,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 55%;
+		top: 74%;
 		width: 45%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1951,7 +1951,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 26%;
+		top: 40%;
 		width: 43%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1962,7 +1962,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 37%;
+		top: 57%;
 		width: 44%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1974,7 +1974,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 50%;
+		top: 77%;
 		width: 45%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1987,7 +1987,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 19%;
+		top: 40%;
 		width: 43%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -1998,7 +1998,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 27%;
+		top: 58%;
 		width: 44%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -2010,7 +2010,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 37%;
+		top: 78%;
 		width: 45%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -2023,7 +2023,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 19%;
+		top: 40%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -2035,7 +2035,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 26%;
+		top: 56%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -2048,7 +2048,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 36%;
+		top: 76%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -2062,7 +2062,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 17%;
+		top: 37%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -2074,7 +2074,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 24%;
+		top: 54%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -2087,7 +2087,7 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 34%;
+		top: 75%;
 		width: 80%;
 		padding-left: 5%;
 		font-size: 1em;
@@ -2101,10 +2101,10 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 17%;
+		top: 37%;
 		width: 80%;
 		padding-left: 5%;
-		font-size: .7em;
+		font-size: .8em;
 		line-height: 20px;
 		text-align: justify;
 		margin: 0 auto;
@@ -2113,10 +2113,10 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 24%;
+		top: 54%;
 		width: 80%;
 		padding-left: 5%;
-		font-size: .7em;
+		font-size: .8em;
 		line-height: 20px;
 		text-align: justify;
 		margin: 0 auto;
@@ -2126,10 +2126,10 @@
 	.vision_quienes_somos {
 
 		position: absolute;
-		top: 34%;
+		top: 75%;
 		width: 80%;
 		padding-left: 5%;
-		font-size: .7em;
+		font-size: .8em;
 		line-height: 20px;
 		text-align: justify;
 		margin: 0 auto;
@@ -2140,7 +2140,7 @@
 	.descripcion_quienes_somos {
 		
 		position: absolute;
-		top: 16%;
+		top: 22%;
 		width: 43%;
 		padding-left: 5%;
 		font-size: 1.3em;
@@ -2152,7 +2152,7 @@
 	.mision_quienes_somos {
 		
 		position: absolute;
-		top: 40%;
+		top: 39%;
 		width: 44%;
 		padding-left: 5%;
 		font-size: 1.3em;

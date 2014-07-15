@@ -1,4 +1,4 @@
-<div class="row-fluid footer" id="footer">
+<div class="row-fluid footer" id="footer" style="max-width:100%;">
         <div class="cols2 footer" style="background-color:#343434;">
             <div class="cols11">
                 
@@ -90,13 +90,9 @@
             </div>
         </div>
 
+  <center><p></p><p style="color:#fff;">
+            2014 Etelix Group - Todos los derechos reservados</p> 
+        <p></p></center>
 
     </div>
-    <div style="background-color:#343434;color:#FFFFFF;font-size: 1em;padding-top: 2%;" class="row-fluid">
-        <p>
-        </p>
-        <center>
-            2014 Etelix Group - All rights reserved. </center>
-        <p>
-        </p>
-    </div>
+
