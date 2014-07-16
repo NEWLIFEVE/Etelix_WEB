@@ -58,7 +58,7 @@
 							<p class="paragraph_title">
 								<strong>Puntos &nbsp;de Venta Integrales</strong></p>
 							<p class="paragraph2">
-								Lamadas, recargas de saldo, agente bancario y m&aacute;s</p>
+								Llamadas, recargas de saldo, agente bancario y m&aacute;s</p>
 							<p class="fancybox">
 								<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#retail"></a></p>
 						</div>
@@ -76,7 +76,7 @@
 							<p class="paragraph_title">
 							<strong>SMS</strong></p>
 							<p class="paragraph2">
-							Originaci&oacute; y terminaci&oacute;n de SMS internacionales</p>
+							Originaci&oacute;n y terminaci&oacute;n de SMS internacionales</p>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 						</div>
@@ -91,7 +91,7 @@
 						</a></h1>
 						<div id="content_services4" class="content_serv">
 							<p class="paragraph_title">
-							<strong>Contac Center</strong></p>
+							<strong>Contact Center</strong></p>
 							<p class="paragraph2">
 							Teleoperadores bilingues para servicios de Telemercadeo y Televentas</p>
 							<p class="fancybox">

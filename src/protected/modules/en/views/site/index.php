@@ -91,7 +91,7 @@
 						</a></h1>
 						<div id="content_services4" class="content_serv">
 							<p class="paragraph_title">
-							<strong>Contac Center</strong></p>
+							<strong>Contact Center</strong></p>
 							<p class="paragraph2">
 							Telemarketers for bilingual services Telemarketing and Telesales</p>
 							<p class="fancybox">
