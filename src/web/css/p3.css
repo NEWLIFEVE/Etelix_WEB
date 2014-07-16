@@ -35,6 +35,12 @@
  a.orange:hover{
    color: #F18E21;
 }
+ a.orange{
+   color: #9A9A9A;
+}
+.pais_titulo a:hover,.pais_capital a:hover{
+   color: #F18E21;
+}
 .spanish{
     background-position: -478px -48px;
 }

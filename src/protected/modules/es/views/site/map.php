@@ -136,9 +136,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/inglaterra_map.png">
 				<div class="address map_1">
 									<p>Augusto Cárdenas</p>
@@ -155,9 +157,11 @@
 		
 		<div align="left" class="all_country">
 			
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/eeuu_map.png">
 				<div class="address map_2">
 									<p>444 Brickell Ave. Suite 51-845, Miami FL 33131, USA</p>
@@ -175,9 +179,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/venezuela_map.png">
 				<div class="address map_3">
 									<p>Av. Francisco de Miranda, Torre Delta, piso 10,</p>
@@ -192,9 +198,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/panama_map.png">
 				<div class="address map_4">
 									<p>Carlos Piñango</p>
@@ -209,9 +217,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/colombia_map.png">
 				<div class="address map_5">
 									<p>Juan Carlos López Silva</p>
@@ -226,9 +236,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chile_map.png">
 				<div class="address map_6">
 									<p>Raúl Monsalve</p>
@@ -243,9 +255,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/peru_map.png">
 				<div class="address map_7">
 									<p>Jr. Dante 966 Surquillo, Lima, Perú</p>
@@ -286,43 +300,43 @@
 		});
  		 
 
-		$( "#inglaterra" ).click(function() {
+		$( "a#inglaterra" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#inglaterra_view").fadeIn();
 		});
 
-		$( "#usa" ).click(function() {
+		$( "a#usa" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#usa_view").fadeIn();
 		});
 
-		$( "#panama" ).click(function() {
+		$( "a#panama" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#panama_view").fadeIn();
 		});
 
-		$( "#vzla" ).click(function() {
+		$( "a#vzla" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#vzla_view").fadeIn();
 		});
 
-		$( "#chile" ).click(function() {
+		$( "a#chile" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#chile_view").fadeIn();
 		});
 
-		$( "#colombia" ).click(function() {
+		$( "a#colombia" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#colombia_view").fadeIn();
 		});
 
-		$( "#peru" ).click(function() {
+		$( "a#peru" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#peru_view").fadeIn();

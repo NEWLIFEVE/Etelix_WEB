@@ -13,59 +13,59 @@
 	    <div id="all_country_div">
 			<div class="pais_1">
 				<p class="pais_titulo">
-					<a href="#" id="inglaterra" title="Ver Dirección en Inglaterra">Inglaterra</a>
+					<a href="#" id="inglaterra" title="View Direction of England">England</a>
 					<!--<a href="/es/site/country?country=inglaterra_map" title="Ver Dirección en Inglaterra">Inglaterra</a>-->
 				</p>
 				<p class="pais_capital">
-					<a href="#" id="inglaterra" title="Ver Dirección en Inglaterra">Londres</a>
+					<a href="#" id="inglaterra" title="View Direction of London">London</a>
 				</p>
 			</div>
 			<div class="pais_2">
 				<p class="pais_titulo">
-					<a href="#" id="usa" title="Ver Dirección en Estado Unidos">Estados Unidos</a>
+					<a href="#" id="usa" title="View Direction of EEUU">EEUU</a>
 				</p>
 				<p class="pais_capital">
-					<a href="#" id="usa" title="Ver Dirección en Estado Unidos">Miami/New York</a>
+					<a href="#" id="usa" title="View Direction of Miami/New York">Miami/New York</a>
 				</p>
 			</div>
 			<div class="pais_3">
 				<p class="pais_titulo">
-					<a href="#" id="vzla" title="Ver Dirección en Venezuela">Venezuela</a>
+					<a href="#" id="vzla" title="View Direction of Venezuela">Venezuela</a>
 				</p>
 				<p class="pais_capital">
-					<a href="#" id="vzla" title="Ver Dirección en Venezuela">Caracas</a>
+					<a href="#" id="vzla" title="View Direction of Venezuela">Caracas</a>
 				</p>
 			</div>
 			<div class="pais_4">
 				<p class="pais_titulo">
-					<a href="#" id="panama" title="Ver Dirección en Panamá">Panamá</a>
+					<a href="#" id="panama" title="View Direction of Panamá">Panamá</a>
 				</p>
 				<p class="pais_capital">
-					<a href="#" id="panama" title="Ver Dirección en Panamá">Panamá</a>
+					<a href="#" id="panama" title="View Direction of Panamá">Panamá</a>
 				</p>
 			</div>
 			<div class="pais_5">
 				<p class="pais_titulo">
-					<a href="#" id="colombia" title="Ver Dirección en Colombia">Colombia</a>
+					<a href="#" id="colombia" title="View Direction ofColombia">Colombia</a>
 				</p>
 				<p class="pais_capital">
-					<a href="#" id="colombia" title="Ver Dirección en Colombia">Bogotá/Barranquilla</a>
+					<a href="#" id="colombia" title="View Direction of Colombia">Bogotá/Barranquilla</a>
 				</p>
 			</div>
 			<div class="pais_6">
 				<p class="pais_titulo">
-					<a href="#" id="chile" title="Ver Dirección en Chile">Chile</a>
+					<a href="#" id="chile" title="View Direction of Chile">Chile</a>
 				</p>
 				<p class="pais_capital">
-					<a href="#" id="chile" title="Ver Dirección en Chile">Santiago de Chile</a>
+					<a href="#" id="chile" title="View Direction of Chile">Santiago de Chile</a>
 				</p>
 			</div>
 			<div class="pais_7">
 				<p class="pais_titulo">
-					<a href="#" id="peru" title="Ver Dirección en Perú">Perú</a>
+					<a href="#" id="peru" title="View Direction of Perú">Perú</a>
 				</p>
 				<p class="pais_capital">
-					<a href="#" id="peru" itle="Ver Dirección en Perú">Lima</a>
+					<a href="#" id="peru" itle="View Direction ofPerú">Lima</a>
 				</p>
 			</div>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mapa_completo.png" usemap="#map">
@@ -73,7 +73,7 @@
 </div>
 
 <div id="accordion">
-	<h3>Inglaterra <!--<span class="flag_country flag_ingla">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>--></h3>
+	<h3>England <!--<span class="flag_country flag_ingla">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>--></h3>
 	<div>
 		<p>Augusto Cárdenas</p>
 		<p>Sales Director London</p>
@@ -81,7 +81,7 @@
 		<p>augustoc@etelix.com</p>
 	</div>
 	
-	<h3>Estados Unidos</h3>
+	<h3>EEUU</h3>
 	<div>
 		<p>444 Brickell Ave. Suite 51-845</p>
 		<p>Miami FL 33131, USA</p>
@@ -136,9 +136,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/inglaterra_map.png">
 				<div class="address map_1">
 									<p>Augusto Cárdenas</p>
@@ -155,9 +157,11 @@
 		
 		<div align="left" class="all_country">
 			
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/eeuu_map.png">
 				<div class="address map_2">
 									<p>444 Brickell Ave. Suite 51-845, Miami FL 33131, USA</p>
@@ -175,9 +179,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/venezuela_map.png">
 				<div class="address map_3">
 									<p>Av. Francisco de Miranda, Torre Delta, piso 10,</p>
@@ -192,9 +198,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/panama_map.png">
 				<div class="address map_4">
 									<p>Carlos Piñango</p>
@@ -209,9 +217,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/colombia_map.png">
 				<div class="address map_5">
 									<p>Juan Carlos López Silva</p>
@@ -226,9 +236,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chile_map.png">
 				<div class="address map_6">
 									<p>Raúl Monsalve</p>
@@ -243,9 +255,11 @@
 		<div class="">
 		
 		<div align="left" class="all_country">
+			<a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;">
 			<div class="world" style="float:right;">
-                <a href="#" id="link_all_country" title="Ver todos los paises" style="color:#FFFFFF;"><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" /></a>
+                <img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;" />
             </div>
+            </a>
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/peru_map.png">
 				<div class="address map_7">
 									<p>Jr. Dante 966 Surquillo, Lima, Perú</p>
@@ -286,43 +300,43 @@
 		});
  		 
 
-		$( "#inglaterra" ).click(function() {
+		$( "a#inglaterra" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#inglaterra_view").fadeIn();
 		});
 
-		$( "#usa" ).click(function() {
+		$( "a#usa" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#usa_view").fadeIn();
 		});
 
-		$( "#panama" ).click(function() {
+		$( "a#panama" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#panama_view").fadeIn();
 		});
 
-		$( "#vzla" ).click(function() {
+		$( "a#vzla" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#vzla_view").fadeIn();
 		});
 
-		$( "#chile" ).click(function() {
+		$( "a#chile" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#chile_view").fadeIn();
 		});
 
-		$( "#colombia" ).click(function() {
+		$( "a#colombia" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#colombia_view").fadeIn();
 		});
 
-		$( "#peru" ).click(function() {
+		$( "a#peru" ).click(function() {
 			$(".map").css("display","none");
 			$("#all_country_div").fadeOut();
 			$("#peru_view").fadeIn();
