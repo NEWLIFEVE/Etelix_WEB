@@ -90,9 +90,10 @@
                 </div>
             </div>
         </div>
-  <center><p></p><p style="color:#fff;">
-            2014 Etelix Group - Todos los derechos reservados</p> 
-        <p></p></center>
 
     </div>
+      <div style="color: #fff;margin: 0 auto;width: 100%;text-align: center;margin-top: 2%;margin-bottom:2%;">
+            2014 Etelix Group - Todos los derechos reservados</p> 
+   </div>
+
 </div>
