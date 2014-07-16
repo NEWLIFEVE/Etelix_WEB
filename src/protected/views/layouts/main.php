@@ -73,9 +73,9 @@
 						<div class="span3">
 								<?php
 								  $url =$_SERVER['REQUEST_URI'];
-									 if(stripos($url,"en")){
+									 if(stripos($url,"en/")){
 									echo '<a title="Etelix home" href="'.Yii::app()->createUrl('/en/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
-									}elseif(stripos($url,"es")){
+									}else{
 									echo '<a title="Etelix inicio" href="'.Yii::app()->createUrl('/es/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
 									 }
 								?>
@@ -90,7 +90,7 @@
 								  $url =$_SERVER['REQUEST_URI'];
 									 if(stripos($url,"en/")){
 										include("menu_en.php");
-									}elseif(stripos($url,"es/")){
+									}else{
 										include("menu.php");
 									 }
 								?>
@@ -129,7 +129,7 @@
 		  $url =$_SERVER['REQUEST_URI'];
 			 if(stripos($url,"en/")){
 				include("footer_en.php");
-			}elseif(stripos($url,"es/")){
+			}else{
 				include("footer.php");
 			 }
 		?>
