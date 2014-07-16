@@ -1,4 +1,5 @@
 <div class="row-fluid footer" id="footer" style="max-width:100%;">
+    <div class="row-fluid footer" id="footer" style="max-width:1024px;">
         <div class="cols2 footer" style="background-color:#343434;">
             <div class="cols11">
                 
@@ -94,3 +95,4 @@
         <p></p></center>
 
     </div>
+</div>

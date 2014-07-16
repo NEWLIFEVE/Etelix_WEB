@@ -57,8 +57,8 @@
 	<header>
 		
         <ul class="pull-right navlist" id="yw1">
-			<li class="flag spanish"><a rel="Español" title="Español" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/es/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
-			<li class="flag english"><a rel="English" title="English" style="padding:30px;" href="<?php echo Yii::app()->createUrl('/en/site/index');?>">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
+			<li><a rel="Español" title="Español" class="orange" href="<?php echo Yii::app()->createUrl('/es/site/index');?>">Español</a></li>
+			<li><a rel="English" title="English" class="orange" href="<?php echo Yii::app()->createUrl('/en/site/index');?>">English</a></li>
 		</ul>
 		              
 		<div class="span2 offset9 inbox">

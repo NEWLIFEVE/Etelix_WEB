@@ -24,9 +24,16 @@
 
 .flag{
    width:45px;
-   background:url(../images/sprite_etelix_web-01.png);
-   background-repeat: no-repeat;
+   /*background:url(../images/sprite_etelix_web-01.png);*/
+   /*background-repeat: no-repeat;*/
    float: right;  
+}
+.flag li a:hover{
+  color: #F18E21;
+
+}
+ a.orange:hover{
+   color: #F18E21;
 }
 .spanish{
     background-position: -478px -48px;
