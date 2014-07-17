@@ -194,7 +194,7 @@
 		</div>
 		<!-- ***************************************** -->
 		<?php 
-			 include("slider2_en.php")
+			 include("slider4/index_en.php")
 
 		?>
 

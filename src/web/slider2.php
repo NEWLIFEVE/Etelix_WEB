@@ -2,7 +2,7 @@
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/slider2/plugins/bxslider/jquery.bxslider.css" rel="stylesheet" />                
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/slider2/css/style.css" rel="stylesheet" type="text/css"/>
 
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/plugins/bxslider/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/plugins/bxslider/jquery.bxslider.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/slider2/scripts/app.js"></script>
 
 

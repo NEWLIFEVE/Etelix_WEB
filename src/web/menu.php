@@ -9,7 +9,7 @@
         <li class='menu2'>
             <a href="<?php echo Yii::app()->createUrl('/es/site/organitation');?>">
                 
-                <span>¿Quienes Somos?</span>
+                <span>¿Qui&eacute;nes Somos?</span>
             </a>
         </li>
         <li class='menu3'>
@@ -21,7 +21,7 @@
         <li class='menu4'>
             <a href="<?php echo Yii::app()->createUrl('/es/site/map');?>">
                 
-                <span>Donde Estamos</span>
+                <span>Presencia Comercial</span>
             </a>
         </li>
         <li class='menu5'>

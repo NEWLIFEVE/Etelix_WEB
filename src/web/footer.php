@@ -49,7 +49,7 @@
                     <p style="color:#FFFFFF;font-size: 0.8em;">
                         <strong>Nuestros Servicios</strong></p>
                     <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/es/site/services');?>#services" style="color:#FFFFFF">Servicios de Interconexi&oacute;n Internacional de Voz</a></p>
+                        <a href="<?php echo Yii::app()->createUrl('/es/site/services');?>#services" style="color:#FFFFFF">Interconexi&oacute;n Internacional de Voz</a></p>
                     <p style="color:#FFFFFF;font-size: 0.8em;">
                         <a href="/<?php echo Yii::app()->createUrl('/es/site/services');?>#sms" style="color:#FFFFFF">SMS</a></p>
                     <p style="color:#FFFFFF;font-size: 0.8em;">
@@ -79,10 +79,9 @@
                 
                 <p style="color:#FFFFFF;font-size: 0.8em;">
                 </p>
+                
                 <p style="color:#FFFFFF;font-size: 0.8em;">
-                    <strong>Clientes</strong></p>
-                <p style="color:#FFFFFF;font-size: 0.8em;">
-                    <a href="<?php echo Yii::app()->createUrl('/es/site/client');?>" style="color:#FFFFFF">Nuestros Clientes</a></p>
+                    <a href="<?php echo Yii::app()->createUrl('/es/site/client');?>" style="color:#FFFFFF"><strong>Nuestros Clientes</strong></a></p>
                 <p style="color:#FFFFFF;font-size: 0.8em;">
                     &nbsp; &nbsp;&nbsp;</p>
                 <div class="correo">

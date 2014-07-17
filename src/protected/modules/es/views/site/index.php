@@ -19,7 +19,7 @@
 				</div>
 				<div class="clients">
 					<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_clientes_blanco.png">Nuestros Servicios</h4>
-					<p style="text-align: justify;font-size:1.2em;padding-top:10px;">Nos especializamos en brindar a nuestros clientes soluciones integrales de Telecomunicaciones y Tecnolog&iacute;a a nivel global, ente los cuales se encuentran los siguientes: </p>
+					<p style="text-align: justify;font-size:1.2em;padding-top:10px;">Nos especializamos en brindar a nuestros clientes soluciones integrales de Telecomunicaciones y Tecnolog&iacute;a a nivel global, entre los cuales se encuentran los siguientes: </p>
 				</div>
 				<div class="separator1">
 					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -37,7 +37,7 @@
 							</h1>
 							<div id="content_services1" class="content_serv">
 								<p class="paragraph_title">
-								<strong>Servicios de Interconexion Internacional de Voz</strong></p>
+								<strong>Servicios de Interconexi&oacute;n Internacional de Voz</strong></p>
 								<p class="paragraph2">
 								A trav&eacute;s de nuestras m&aacute;s de 400 interconexiones a nivel mundial</p>
 								<p class="fancybox">
@@ -93,7 +93,7 @@
 							<p class="paragraph_title">
 							<strong>Contact Center</strong></p>
 							<p class="paragraph2">
-							Teleoperadores bilingues para servicios de Telemercadeo y Televentas</p>
+							Teleoperadores biling&uuml;es para servicios de Telemercadeo y Televentas</p>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 						</div>
@@ -178,7 +178,7 @@
 		<div class="presencia_comercial">
 			<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_quienes_somos_blanco.png">&nbsp; Presencia Comercial</h4>
 				<div class="presencia_comcercial_coment">
-					<p style="text-align: justify;font-size:1.2em;padding-top:6px;padding-bottom:5px;">Contamos con oficinas comerciales en Estados Unidos, Inglaterra, Per&uacute; y Venezuela, asi como con ejecutivos
+					<p style="text-align: justify;font-size:1.2em;padding-top:6px;padding-bottom:5px;">Contamos con oficinas comerciales en Estados Unidos, Inglaterra, Per&uacute; y Venezuela, as&iacute; como con ejecutivos
 						regionales que atienden a nuestros clientes a trav&eacute;s de los 5 continentes</p>
 				</div>
 				
@@ -195,7 +195,7 @@
 		</div>
 		<!-- ***************************************** -->
 		<?php 
-			 include("slider2.php")
+			 include("slider4/index.php")
 
 		?>
 

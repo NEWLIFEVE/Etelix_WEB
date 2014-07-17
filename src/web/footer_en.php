@@ -49,7 +49,7 @@
                     <p style="color:#FFFFFF;font-size: 0.8em;">
                         <strong>Our Services</strong></p>
                     <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#services" style="color:#FFFFFF">Interconnection Services International Voice</a></p>
+                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#services" style="color:#FFFFFF">Interconnection International Voice</a></p>
                     <p style="color:#FFFFFF;font-size: 0.8em;">
                         <a href="/<?php echo Yii::app()->createUrl('/en/site/services');?>#sms" style="color:#FFFFFF">SMS</a></p>
                     <p style="color:#FFFFFF;font-size: 0.8em;">
@@ -79,10 +79,9 @@
                 
                 <p style="color:#FFFFFF;font-size: 0.8em;">
                 </p>
+                
                 <p style="color:#FFFFFF;font-size: 0.8em;">
-                    <strong>Customers</strong></p>
-                <p style="color:#FFFFFF;font-size: 0.8em;">
-                    <a href="<?php echo Yii::app()->createUrl('/en/site/client');?>" style="color:#FFFFFF">Our Customers</a></p>
+                    <a href="<?php echo Yii::app()->createUrl('/en/site/client');?>" style="color:#FFFFFF"><strong>Our Customers</strong></a></p>
                 <p style="color:#FFFFFF;font-size: 0.8em;">
                     &nbsp; &nbsp;&nbsp;</p>
                 <div class="correo">
