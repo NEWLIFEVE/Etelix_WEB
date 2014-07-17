@@ -1,4 +1,53 @@
-@media (min-width: 380px) and (max-width: 600px){
+@media (max-width: 240px){
+
+/** Carousel Controls **/
+
+    .jcarousel-control-prev,
+    .jcarousel-control-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background: #E6E6E6;
+        color: #6E6E6E;
+        font-weight: bold;
+        text-decoration: none;
+        /*text-shadow: 0 0 1px #000;*/
+        font: 24px/27px Arial, sans-serif;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 0 0 4px #F0EFE7;
+        -moz-box-shadow: 0 0 4px #F0EFE7;
+        box-shadow: 0 0 4px #F0EFE7;
+    }
+    .jcarousel-control-prev:hover,
+    .jcarousel-control-next:hover {
+     
+        background: #0080FF;
+        color: #fff;
+       
+    }
+
+    .jcarousel-control-prev {
+        left: 157px;
+          top: -7px;
+    }
+
+    .jcarousel-control-next {
+        left: 186px;
+          top: -7px;
+    }
+    .jcarousel-wrapper {
+        margin: 0 auto;
+        position: relative;
+        width: 95%;
+        top: 17px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px){
 
 /** Carousel Controls **/
 
