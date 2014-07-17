@@ -1436,3 +1436,15 @@ display: none;
   border: 1px solid #eb5c29;
 
 }
+li.foot a{
+  color: #fff;
+
+}
+li.foot span{
+  color: #fff;
+  font-weight: bold;
+}
+li.none{
+  color: #fff;
+  /*list-style:none;*/
+}

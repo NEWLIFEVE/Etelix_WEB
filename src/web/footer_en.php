@@ -22,55 +22,36 @@
         </div>
         <div class="cols2 footer" style="background-color:#343434;">
             <div class="cols22">
-                
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <strong>About US</strong></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>" style="color:#FFFFFF">Our Organization</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>#mision_quienes_somos" style="color:#FFFFFF">Mission</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>#vision_quienes_somos" style="color:#FFFFFF">Vision</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="#" style="color:#FFFFFF">Management team</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        &nbsp; &nbsp;</p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <strong>Commercial Presence</strong></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" style="color:#FFFFFF">Interactive Map</a></p>
+                <ul>
+                    <li class="foot"> <span>About US</span></li>
+                    <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>" style="color:#FFFFFF">Our Organization</a></li>
+                    <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>#mision_quienes_somos" style="color:#FFFFFF">Mission</a></li>
+                    <li class="none">    <a href="#" style="color:#FFFFFF">Management team</a></li>
+                    <li class="foot"><span>&nbsp; &nbsp;</span></li>
+                    <li class="foot"> <span>Commercial Presence</span></li>
+                    <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" style="color:#FFFFFF">Interactive Map</a></li>
+                </ul>
             </div>
         </div>
         <div class="cols3 footer" style="background-color:#343434;">
             <div class="cols33">
-
                 <div class="cols4">
-
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <strong>Our Services</strong></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#services" style="color:#FFFFFF">Interconnection International Voice</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="/<?php echo Yii::app()->createUrl('/en/site/services');?>#sms" style="color:#FFFFFF">SMS</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#data" style="color:#FFFFFF">International connectivity</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#contactcenter" style="color:#FFFFFF">Contact Center</a></p>
+                    <ul>
+                        <li class="foot"> <span>Our Services</span></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#services" style="color:#FFFFFF">Interconnection International Voice</a></li>
+                        <li class="none">     <a href="/<?php echo Yii::app()->createUrl('/en/site/services');?>#sms" style="color:#FFFFFF">SMS</a></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#data" style="color:#FFFFFF">International connectivity</a></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#contactcenter" style="color:#FFFFFF">Contact Center</a></li>
+                    </ul>
                 </div>  
                 <div class="cols4">
-
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#pagos" style="color:#FFFFFF">Payments Platform</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#retail" style="color:#FFFFFF">Point of Sale Integrated</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#hosting" style="color:#FFFFFF">Hosting Services</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#software" style="color:#FFFFFF">Software Development</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#servprof" style="color:#FFFFFF">Professional Services</a></p>
-                    <p style="color:#FFFFFF;font-size: 0.8em;">
-                        &nbsp;&nbsp;</p>
+                    <ul>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#pagos" style="color:#FFFFFF">Payments Platform</a></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#retail" style="color:#FFFFFF">Point of Sale Integrated</a></li>
+                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#hosting" style="color:#FFFFFF">Hosting Services</a></li>
+                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#software" style="color:#FFFFFF">Software Development</a></li>
+                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#servprof" style="color:#FFFFFF">Professional Services</a></li>
+                   </ul>
                 </div>  
             </div>
         </div>
