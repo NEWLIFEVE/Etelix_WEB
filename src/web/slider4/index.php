@@ -14,20 +14,11 @@
             <div class="jcarousel-wrapper">
                 <div class="jcarousel">
                     <ul>
-                        <li><img alt="Image 1" src="<?php echo Yii::app()->request->baseUrl; ?>/images/1-01.png"></li>
-                        <li><img alt="Image 2" src="<?php echo Yii::app()->request->baseUrl; ?>/images/2-01.png"></li>
-                        <li><img alt="Image 3" src="<?php echo Yii::app()->request->baseUrl; ?>/images/3-01.png"></li>
-                        <li><img alt="Image 4" src="<?php echo Yii::app()->request->baseUrl; ?>/images/4-01.png"></li>
-                        <li><img alt="Image 5" src="<?php echo Yii::app()->request->baseUrl; ?>/images/5-01.png"></li>
-                        <li><img alt="Image 6" src="<?php echo Yii::app()->request->baseUrl; ?>/images/6-01.png"></li>
-                        <li><img alt="Image 7" src="<?php echo Yii::app()->request->baseUrl; ?>/images/7-01.png"></li>
-                        <li><img alt="Image 8" src="<?php echo Yii::app()->request->baseUrl; ?>/images/8-01.png"></li>
-                        <li><img alt="Image 9" src="<?php echo Yii::app()->request->baseUrl; ?>/images/9-01.png"></li>
-                        <li><img alt="Image 10" src="<?php echo Yii::app()->request->baseUrl; ?>/images/10-01.png"></li>
-                        <li><img alt="Image 11" src="<?php echo Yii::app()->request->baseUrl; ?>/images/11-01.png"></li>
-                        <li><img alt="Image 12" src="<?php echo Yii::app()->request->baseUrl; ?>/images/12-01.png"></li>
-                        <li><img alt="Image 13" src="<?php echo Yii::app()->request->baseUrl; ?>/images/13-01.png"></li>
-                        <li><img alt="Image 14" src="<?php echo Yii::app()->request->baseUrl; ?>/images/14-01.png"></li>
+                        <?php
+                        for ($i=1;$i<=14;$i++){
+                            echo "<li><img alt='Image ".$i."' src='".Yii::app()->request->baseUrl."/images/".$i."-01.png'></li>";
+                        }
+                        ?>
                     </ul>
                 </div>
 
