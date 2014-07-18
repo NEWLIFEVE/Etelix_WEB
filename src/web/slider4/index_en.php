@@ -8,7 +8,6 @@
 		
             <div class="col-md-3">
                 <div class="principales_clientes" >
-
                    <h4 style="text-align: left;font-size: 1.6em;">Our Principal Customers</h4>    
                 </div>
             </div>
