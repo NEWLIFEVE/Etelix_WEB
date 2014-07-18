@@ -31,7 +31,7 @@
 
 			#close {
 				position:absolute;
-				background:url(../web/images/close.png) 0 0 no-repeat;
+				background:url(../../../images/close.png) 0 0 no-repeat;
 				width:24px;
 				height:27px;
 				display:block;

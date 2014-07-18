@@ -263,7 +263,7 @@ function horizontalLine()
 function pasar()
 {
         
-        var url = "index.php?r=site/mensaje";
+        var url = "mensaje";
         $.ajax({
             type: "POST",
             url: url,

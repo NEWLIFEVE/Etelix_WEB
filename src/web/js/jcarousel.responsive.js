@@ -60,7 +60,7 @@
                 target: '+=3'
             });*/
 
-        $('.jcarousel-pagination')
+        /*$('.jcarousel-pagination')
             .on('jcarouselpagination:active', 'a', function() {
                 $(this).addClass('active');
             })
@@ -72,10 +72,9 @@
             })
             .jcarouselPagination({
                 perPage: 1,
-               
                 item: function(page) {
                     return '<a href="#' + page + '">' + page + '</a>';
                 }
-            });
+            });*/
     });
 })(jQuery);

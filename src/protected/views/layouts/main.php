@@ -72,10 +72,10 @@
 					<div class="row-fluid">
 						<div class="span3">
 								<?php
-								  $url =$_SERVER['REQUEST_URI'];
-									 if(stripos($url,"en/")){
+								  $url =Yii::app()->controller->module->id;
+									 if($url=="en"){
 									echo '<a title="Etelix home" href="'.Yii::app()->createUrl('/en/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
-									}elseif(stripos($url,"es/")){
+									}elseif($url=="es"){
 									echo '<a title="Etelix inicio" href="'.Yii::app()->createUrl('/es/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
 									 }else{
 									echo '<a title="Etelix inicio" href="'.Yii::app()->createUrl('/es/site/index').'"><img alt="etelix" class="logo" src="'.Yii::app()->request->baseUrl.'/images/logo_etelix.png" /></a>';
@@ -89,10 +89,10 @@
 						<div class="span9">
 							<div class="main clearfix">
 								<?php
-								  $url =$_SERVER['REQUEST_URI'];
-									 if(stripos($url,"en/")){
+								 $url =Yii::app()->controller->module->id;
+									 if($url=="en"){
 										include("menu_en.php");
-									}elseif(stripos($url,"es/")){
+									}elseif($url=="es"){
 										include("menu.php");
 									 }else{
 									   include("menu.php");
@@ -112,6 +112,7 @@
 
 
 	<div id="content">
+
 	 <!-- content view-->
 		<?php echo $content; ?>
 	</div><!-- content -->
@@ -130,22 +131,22 @@
 <!--footer -->
 </div></div></div></div>
 		<?php
-		  $url =$_SERVER['REQUEST_URI'];
-			 if(stripos($url,"en/")){
+		  $url =Yii::app()->controller->module->id;
+			 if($url=="en"){
 				include("footer_en.php");
-			}elseif(stripos($url,"es/")){
+			}elseif($url=="es"){
 				include("footer.php");
 			 }else{
 				include("footer.php");
 			 }
 		?>
 
- 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.menuSlider.min.js"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.ui.core.js"></script>
+ 	<!--<script src="<?php //echo Yii::app()->request->baseUrl; ?>/js/jquery.menuSlider.min.js"></script>-->
+    <!--<script type="text/javascript" src="<?php //echo Yii::app()->request->baseUrl; ?>/js/jquery.ui.core.js"></script>-->
     <!-- EFECTO DE CAROUSEL SLIDER IMAGE DEL HOME -->
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.ui.rcarousel.js"></script>
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquerypp.custom.js"></script>
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.elastislide.js"></script>
+	<!--<script type="text/javascript" src="<?php //echo Yii::app()->request->baseUrl; ?>/js/jquery.ui.rcarousel.js"></script>-->
+	<!--<script type="text/javascript" src="<?php //echo Yii::app()->request->baseUrl; ?>/js/jquerypp.custom.js"></script>-->
+	<!--<script type="text/javascript" src="<?php //echo Yii::app()->request->baseUrl; ?>/js/jquery.elastislide.js"></script>-->
 	<!--  JS DESARROLLADO  -->
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/web.js"></script>
 	<!-- menu -->
@@ -259,32 +260,32 @@
 		</script>
 
   		<!-- slider-->      
- <script type="text/javascript">
+ 		<!--<script type="text/javascript">
             
-            $( '#carousel' ).elastislide( {
+           /* $( '#carousel' ).elastislide( {
                 minItems : 2
-            } );
+            } );*/
             
         </script>   
         <script>
-            $("#slideContainer2").menuSlider({thickness:"2px", speed:0.5, tStyle:"ease-out"});
+         /*   $("#slideContainer2").menuSlider({thickness:"2px", speed:0.5, tStyle:"ease-out"});*/
         </script>
         <script>
-            var _gaq=[['_setAccount','UA-42261367-1'],['_trackPageview']];
+            /*var _gaq=[['_setAccount','UA-42261367-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+            s.parentNode.insertBefore(g,s)}(document,'script'));*/
         </script>
-    <script type="text/javascript">
-/*<![CDATA[*/
-/*<![CDATA[*/
-jQuery(function($) {
-jQuery('[data-toggle=popover]').popover();
-jQuery('body').tooltip({"selector":"[data-toggle=tooltip]"});
-});
-jQuery('#yw0').carousel();
-/*]]>*/
-</script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"34c6875537","applicationID":"3705949","transactionName":"MgZRYBNQV0FZBUZcCwtMclcVWFZcFzVbQQEmDF1AE15VXl0UHVwKAQZL","queueTime":0,"applicationTime":137,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script>
-</body>
+    	<script type="text/javascript">
+		/*<![CDATA[*/
+		/*<![CDATA[*/
+		jQuery(function($) {
+		jQuery('[data-toggle=popover]').popover();
+		jQuery('body').tooltip({"selector":"[data-toggle=tooltip]"});
+		});
+		jQuery('#yw0').carousel();
+		/*]]>*/
+		</script>
+		<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"34c6875537","applicationID":"3705949","transactionName":"MgZRYBNQV0FZBUZcCwtMclcVWFZcFzVbQQEmDF1AE15VXl0UHVwKAQZL","queueTime":0,"applicationTime":137,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script>
+--></body>
 </html>
