@@ -6937,6 +6937,7 @@ a.badge:focus {
 }
 .pull-right {
   float: right;
+  margin-right: 3.5%;
 }
 .pull-left {
   float: left;

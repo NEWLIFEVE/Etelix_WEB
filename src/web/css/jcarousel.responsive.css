@@ -22,6 +22,10 @@
         -webkit-box-shadow: 0 0 4px #F0EFE7;
         -moz-box-shadow: 0 0 4px #F0EFE7;
         box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
     }
     .jcarousel-control-prev:hover,
     .jcarousel-control-next:hover {
@@ -71,6 +75,10 @@
         -webkit-box-shadow: 0 0 4px #F0EFE7;
         -moz-box-shadow: 0 0 4px #F0EFE7;
         box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
     }
     .jcarousel-control-prev:hover,
     .jcarousel-control-next:hover {
@@ -120,6 +128,10 @@
         -webkit-box-shadow: 0 0 4px #F0EFE7;
         -moz-box-shadow: 0 0 4px #F0EFE7;
         box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
     }
     .jcarousel-control-prev:hover,
     .jcarousel-control-next:hover {
@@ -169,6 +181,10 @@
         -webkit-box-shadow: 0 0 4px #F0EFE7;
         -moz-box-shadow: 0 0 4px #F0EFE7;
         box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
     }
     .jcarousel-control-prev:hover,
     .jcarousel-control-next:hover {
@@ -219,6 +235,13 @@
         -webkit-box-shadow: 0 0 4px #F0EFE7;
         -moz-box-shadow: 0 0 4px #F0EFE7;
         box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+
+    
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     }
     .jcarousel-control-prev:hover,
     .jcarousel-control-next:hover {

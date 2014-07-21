@@ -322,7 +322,7 @@
 										 data-y="174"
 										 data-speed="800"
 										 data-start="1600"
-										 data-easing="easeOutExpo"  ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_b-01.png" alt="Image 4"></div>
+										 data-easing="easeOutExpo"  ><img src="<?php //echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_b-01.png" alt="Image 4"></div>
 							</li>-->
 						</ul>
 
@@ -331,7 +331,11 @@
 						<div class="tp-bannertimer"></div>
 					</div>
 				</div>
-		<div class="clear"></div>
+		<div class="clear">
+			<?php
+
+echo Yii::app()->request->baseUrl;
+			?></div>
 
 		<script>
 			var api;
