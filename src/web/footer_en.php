@@ -23,12 +23,12 @@
         <div class="cols2 footer" style="background-color:#343434;">
             <div class="cols22">
                 <ul>
-                    <li class="foot"> <span>About US</span></li>
+                    <li class="foot"> <span style="font-size: 1.2em">About US</span></li>
                     <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>" style="color:#FFFFFF">Our Organization</a></li>
                     <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>#mision_quienes_somos" style="color:#FFFFFF">Mission</a></li>
                     <li class="none">    <a href="#" style="color:#FFFFFF">Management team</a></li>
                     <li class="foot"><span>&nbsp; &nbsp;</span></li>
-                    <li class="foot"> <span>Commercial Presence</span></li>
+                    <li class="foot"> <span style="font-size: 1.2em">Commercial Presence</span></li>
                     <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" style="color:#FFFFFF">Interactive Map</a></li>
                 </ul>
             </div>
@@ -37,7 +37,7 @@
             <div class="cols33">
                 <div class="cols4">
                     <ul>
-                        <li class="foot"> <span>Our Services</span></li>
+                        <li class="foot"> <span style="font-size: 1.2em">Our Services</span></li>
                         <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#services" style="color:#FFFFFF">Interconnection International Voice</a></li>
                         <li class="none">     <a href="/<?php echo Yii::app()->createUrl('/en/site/services');?>#sms" style="color:#FFFFFF">SMS</a></li>
                         <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#data" style="color:#FFFFFF">International connectivity</a></li>
@@ -46,6 +46,7 @@
                 </div>  
                 <div class="cols4">
                     <ul>
+                         <li class="foot"><span>&nbsp; &nbsp;</span></li>
                         <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#pagos" style="color:#FFFFFF">Payments Platform</a></li>
                         <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#retail" style="color:#FFFFFF">Point of Sale Integrated</a></li>
                         <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#hosting" style="color:#FFFFFF">Hosting Services</a></li>
@@ -62,7 +63,7 @@
                 </p>
                 
                 <p style="color:#FFFFFF;font-size: 0.8em;">
-                    <a href="<?php echo Yii::app()->createUrl('/en/site/client');?>" style="color:#FFFFFF"><strong>Our Customers</strong></a></p>
+                    <a href="<?php echo Yii::app()->createUrl('/en/site/client');?>" style="color:#FFFFFF"><strong style="font-size: 1.2em">Our Customers</strong></a></p>
                 <p style="color:#FFFFFF;font-size: 0.8em;">
                     &nbsp; &nbsp;&nbsp;</p>
                 <div class="correo">

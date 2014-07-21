@@ -1,12 +1,12 @@
 (function($) {
     $(function() {
         var jcarousel = $('.jcarousel');
-        jcarousel.on('jcarousel:reload jcarousel:create', function () {
+       /* jcarousel.on('jcarousel:reload jcarousel:create', function () {
             jcarousel.jcarouselAutoscroll({
-                autostart: true
+                autostart: true,  target: '+=6'
             })
            
-        });
+        });*/
         jcarousel
             .on('jcarousel:reload jcarousel:create', function () {
                 var width = jcarousel.innerWidth();

@@ -246,6 +246,7 @@
         circular:    false,
         underflow:   false,
         relative:    false,
+         autostart: true,
 		
 
         _options: {
@@ -261,6 +262,7 @@
             vertical:    true,
             rtl:         null,
             center:      false,
+             autostart: true,
 
         },
 
@@ -272,6 +274,7 @@
         _last:         null,
         _visible:      null,
         _fullyvisible: null,
+         _autostart: true,
         _init: function() {
             var self = this;
 

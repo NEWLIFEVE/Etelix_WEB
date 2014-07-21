@@ -23,12 +23,12 @@
         <div class="cols2 footer" style="background-color:#343434;">
             <div class="cols22">
                 <ul>
-                    <li class="foot"> <span>Qui&eacute;nes Somos</span></li>
+                    <li class="foot"> <span style="font-size: 1.2em">Qui&eacute;nes Somos</span></li>
                     <li class="none"><a href="<?php echo Yii::app()->createUrl('/es/site/organitation');?>" style="color:#FFFFFF">Nuestra Organizaci&oacute;n</a></li>
                     <li class="none"><a href="<?php echo Yii::app()->createUrl('/es/site/organitation');?>#mision_quienes_somos" style="color:#FFFFFF">Misi&oacute;n</a></li>
                     <li class="none"><a href="<?php echo Yii::app()->createUrl('/es/site/organitation');?>#vision_quienes_somos" style="color:#FFFFFF">Visi&oacute;n</a></li>
                     <li class="foot"><span>&nbsp; &nbsp;</span></li>
-                    <li class="foot"> <span>Presencia Comercial</span></li>
+                    <li class="foot"> <span style="font-size: 1.2em">Presencia Comercial</span></li>
                     <li class="none"><a href="<?php echo Yii::app()->createUrl('/es/site/map');?>" style="color:#FFFFFF">Mapa Interactivo</a></li>
                 </ul> 
                    
@@ -38,7 +38,7 @@
             <div class="cols33">
                 <div class="cols4">
                     <ul>
-                        <li class="foot"> <span>Nuestros Servicios</span></li>
+                        <li class="foot"> <span style="font-size: 1.2em">Nuestros Servicios</span></li>
                         <li class="none"> <a href="<?php echo Yii::app()->createUrl('/es/site/services');?>#services" style="color:#FFFFFF">Interconexi&oacute;n Internacional de Voz</a></li>
                         <li class="none"> <a href="/<?php echo Yii::app()->createUrl('/es/site/services');?>#sms" style="color:#FFFFFF">SMS</a></li>
                         <li class="none"> <a href="<?php echo Yii::app()->createUrl('/es/site/services');?>#data" style="color:#FFFFFF">Conectividad Internacional</a></li>
@@ -47,6 +47,7 @@
                 </div>  
                 <div class="cols4">
                     <ul>
+                         <li class="foot"><span>&nbsp; &nbsp;</span></li>
                         <li class="none">  <a href="<?php echo Yii::app()->createUrl('/es/site/services');?>#pagos" style="color:#FFFFFF">Plataforma de Pagos</a></li>
                         <li class="none"> <a href="<?php echo Yii::app()->createUrl('/es/site/services');?>#retail" style="color:#FFFFFF">Puntos de Venta Integrales</a></li>
                         <li class="none"> <a href="<?php echo Yii::app()->createUrl('/es/site/services');?>#hosting" style="color:#FFFFFF">Servicios de Hosting</a></li>
@@ -63,7 +64,7 @@
                 </p>
                 
                 <p style="color:#FFFFFF;font-size: 0.8em;">
-                    <a href="<?php echo Yii::app()->createUrl('/es/site/client');?>" style="color:#FFFFFF"><strong>Nuestros Clientes</strong></a></p>
+                    <a href="<?php echo Yii::app()->createUrl('/es/site/client');?>" style="color:#FFFFFF"><strong style="font-size: 1.2em">Nuestros Clientes</strong></a></p>
                 <p style="color:#FFFFFF;font-size: 0.8em;">
                     &nbsp; &nbsp;&nbsp;</p>
                 <div class="correo">
