@@ -182,10 +182,11 @@
 					<p style="text-align: justify;font-size:1.2em;padding-top:6px;padding-bottom:5px;">Contamos con oficinas comerciales en Estados Unidos, Inglaterra, Per&uacute; y Venezuela, as&iacute; como con ejecutivos
 						regionales que atienden a nuestros clientes a trav&eacute;s de los 5 continentes</p>
 				</div>
-				
+				<a href="<?php echo Yii::app()->createUrl('/es/site/map');?>" >
 				<div class="ver_mapa">
-						<a href="<?php echo Yii::app()->createUrl('/es/site/map');?>" >Ver Mapa &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;"></a>
+						Ver Mapa &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;">
 				</div>
+				</a>
 				
 		</div>
 		<div class="separator1">

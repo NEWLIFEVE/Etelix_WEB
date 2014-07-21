@@ -66,9 +66,11 @@
                     <a href="<?php echo Yii::app()->createUrl('/en/site/client');?>" style="color:#FFFFFF"><strong style="font-size: 1.2em">Our Customers</strong></a></p>
                 <p style="color:#FFFFFF;font-size: 0.8em;">
                     &nbsp; &nbsp;&nbsp;</p>
+                <a href="<?php echo Yii::app()->createUrl('/en/site/contact');?>" style="color:#FFFFFF;">
                 <div class="correo">
-                    <a href="<?php echo Yii::app()->createUrl('/en/site/contact');?>" style="color:#FFFFFF;">Write Us &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/white_sobre.png" style="width: 30px; height: 20px;" /></a>
+                    Write Us &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/white_sobre.png" style="width: 30px; height: 20px;" />
                 </div>
+                </a>
             </div>
         </div>
     </div>

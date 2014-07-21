@@ -180,10 +180,11 @@
 				<div class="presencia_comcercial_coment">
 					<p style="text-align: justify;font-size:1.2em;padding-top:6px;padding-bottom:5px;">We have sales offices in the United States, England, Peru and Venezuela, as well as with regional executives serving our customers across 5 continents</p>
 				</div>
-				
+				<a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" >
 				<div class="ver_mapa">
-						<a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" >View Map &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;"></a>
+						View Map &nbsp;<img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_donde_estamos_orange.png" style="width: 30px; height: 20px;">
 				</div>
+				</a>
 				
 		</div>
 		<div class="separator1">
