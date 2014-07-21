@@ -9,13 +9,13 @@
                 <p style="color:#FFFFFF;font-size: 1.0em;">
                     <img alt="" class="pais" id="usa" src="<?php echo Yii::app()->request->baseUrl; ?>/images/usa_flag.png" style="width: 50px; height: 20px;">&nbsp;&nbsp;<img alt="" class="pais" id="peru" src="<?php echo Yii::app()->request->baseUrl; ?>/images/peru_flag.png" style="width: 50px; height: 20px;">&nbsp;&nbsp;<img alt="" class="pais" id="venezuela" src="<?php echo Yii::app()->request->baseUrl; ?>/images/venezuela_flag.png" style="width: 50px; height: 20px;"></p>
                 <br>
-                <p class="direction" style="color:#FFFFFF;font-size: 0.9em;margin-right:5px;">
+                <p class="direction" style="font-size: 0.9em;margin-right:5px;">
                     444 Brickell Ave. Suite 51-845,</p>
-                <p class="direction2" style="color:#FFFFFF;font-size: 0.9em;margin-right:5px;">
+                <p class="direction2" style="font-size: 0.9em;margin-right:5px;">
                     Miami FL 33131, USA.</p>
-                <p class="telefono" style="color:#FFFFFF;font-size: 0.9em">
+                <p class="telefono" style="font-size: 0.9em">
                     Phone: +1 (305) 722.1112</p>
-                <p class="fax" style="color:#FFFFFF;font-size: 0.9em">
+                <p class="fax" style="font-size: 0.9em">
                     Fax: +1 (305) 722.1117&nbsp;</p>
             
             </div>
@@ -24,12 +24,12 @@
             <div class="cols22">
                 <ul>
                     <li class="foot"> <span style="font-size: 1.2em">About US</span></li>
-                    <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>" style="color:#FFFFFF">Our Organization</a></li>
-                    <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>#mision_quienes_somos" style="color:#FFFFFF">Mission</a></li>
-                    <li class="none">    <a href="#" style="color:#FFFFFF">Management team</a></li>
+                    <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>" >Our Organization</a></li>
+                    <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>#mision_quienes_somos" >Mission</a></li>
+                    <li class="none">    <a href="#" >Management team</a></li>
                     <li class="foot"><span>&nbsp; &nbsp;</span></li>
                     <li class="foot"> <span style="font-size: 1.2em">Commercial Presence</span></li>
-                    <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" style="color:#FFFFFF">Interactive Map</a></li>
+                    <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" >Interactive Map</a></li>
                 </ul>
             </div>
         </div>
@@ -38,20 +38,20 @@
                 <div class="cols4">
                     <ul>
                         <li class="foot"> <span style="font-size: 1.2em">Our Services</span></li>
-                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#services" style="color:#FFFFFF">Interconnection International Voice</a></li>
-                        <li class="none">     <a href="/<?php echo Yii::app()->createUrl('/en/site/services');?>#sms" style="color:#FFFFFF">SMS</a></li>
-                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#data" style="color:#FFFFFF">International connectivity</a></li>
-                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#contactcenter" style="color:#FFFFFF">Contact Center</a></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#services" >Interconnection International Voice</a></li>
+                        <li class="none">     <a href="/<?php echo Yii::app()->createUrl('/en/site/services');?>#sms" >SMS</a></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#data" >International connectivity</a></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#contactcenter">Contact Center</a></li>
                     </ul>
                 </div>  
                 <div class="cols4">
                     <ul>
                          <li class="foot"><span>&nbsp; &nbsp;</span></li>
-                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#pagos" style="color:#FFFFFF">Payments Platform</a></li>
-                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#retail" style="color:#FFFFFF">Point of Sale Integrated</a></li>
-                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#hosting" style="color:#FFFFFF">Hosting Services</a></li>
-                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#software" style="color:#FFFFFF">Software Development</a></li>
-                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#servprof" style="color:#FFFFFF">Professional Services</a></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#pagos" >Payments Platform</a></li>
+                        <li class="none">    <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#retail" >Point of Sale Integrated</a></li>
+                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#hosting" >Hosting Services</a></li>
+                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#software" >Software Development</a></li>
+                        <li class="none">   <a href="<?php echo Yii::app()->createUrl('/en/site/services');?>#servprof" >Professional Services</a></li>
                    </ul>
                 </div>  
             </div>

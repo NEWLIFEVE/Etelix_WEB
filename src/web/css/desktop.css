@@ -1445,6 +1445,22 @@ li.foot span{
   font-weight: bold;
 }
 li.none{
+  color: #888;
+  /*list-style:none;*/
+}
+li.none a{
+  color: #888;
+  /*list-style:none;*/
+}
+li.none a:hover{
   color: #fff;
   /*list-style:none;*/
+}
+div.cols11 p{
+ color: #888;
+
+}
+div.cols11 p:hover{
+ color: #fff;
+  
 }
