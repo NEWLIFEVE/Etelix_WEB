@@ -11615,7 +11615,7 @@ div.form INPUT[type="submit"] .caret {
   }
   [class*="span"] {
     float: left;
-    min-height: 1px;
+    min-height: 35px;
     margin-left: 70px;
   }
   .container,
