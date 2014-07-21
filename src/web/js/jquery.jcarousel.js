@@ -255,13 +255,13 @@
             items: function() {
                 return this.list().children();
             },
-            animation:   400,
+            animation:   600,
             transitions: false,
             wrap:        null,
             vertical:    true,
             rtl:         null,
             center:      false,
-			pager: false
+
         },
 
         // Protected, don't access directly

@@ -1,20 +1,28 @@
 (function($) {
     $(function() {
         var jcarousel = $('.jcarousel');
-
+        jcarousel.on('jcarousel:reload jcarousel:create', function () {
+            jcarousel.jcarouselAutoscroll({
+                autostart: true
+            })
+           
+        });
         jcarousel
             .on('jcarousel:reload jcarousel:create', function () {
                 var width = jcarousel.innerWidth();
 
                 if (width >= 600) {
+
                     width = width / 6;
                       $('.jcarousel-control-prev')
                         .jcarouselControl({
+                          
                             target: '-=6'
                         });
 
                         $('.jcarousel-control-next')
                             .jcarouselControl({
+
                                 target: '+=6'
                         });
 
@@ -47,7 +55,8 @@
                 jcarousel.jcarousel('items').css('width', width + 'px');
             })
             .jcarousel({
-                wrap: 'circular'
+                wrap: 'circular',
+                
             });
 
         /*$('.jcarousel-control-prev')

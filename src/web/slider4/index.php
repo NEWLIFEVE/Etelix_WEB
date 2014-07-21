@@ -1,3 +1,4 @@
+
         <!-- Example assets -->
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jcarousel.responsive.css">
 
