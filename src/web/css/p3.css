@@ -6936,8 +6936,9 @@ a.badge:focus {
   line-height: 30px;
 }
 .pull-right {
-  float: right;
-  margin-right: 3.5%;
+  right: 3%;
+  position: absolute;
+  z-index: 10;
 }
 .pull-left {
   float: left;
