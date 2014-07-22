@@ -1,12 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Shared assets -->
+        
 
         <!-- Example assets -->
-        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jcarousel.responsive.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl;?>/slider4/jcarousel.responsive.css">
 
-        <!--<script type="text/javascript" src="<?php //echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>-->
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.jcarousel.js"></script>
+        <!--<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/slider4/jquery.js"></script>-->
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/slider4/jquery.jcarousel.min.js"></script>
 
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jcarousel.responsive.js"></script>
-		
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/slider4/jcarousel.responsive.js"></script>
+
+    </head>
+    <body>
+
+        
             <div class="col-md-3">
                 <div class="principales_clientes">
                    <h4>Principales Clientes</h4>    
@@ -26,6 +38,8 @@
                 <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
                 <a href="#" class="jcarousel-control-next">&rsaquo;</a>
 
-               <!-- <p class="jcarousel-pagination"></p>-->
+             <!--   <p class="jcarousel-pagination"></p>-->
             </div>
-        </div>
+
+    </body>
+</html>

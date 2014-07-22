@@ -197,7 +197,7 @@
 		</div>
 		<!-- ***************************************** -->
 		<?php 
-			 include("slider4/index.php")
+			 include(Yii::app()->request->baseUrl."/slider4/index.php")
 
 		?>
 

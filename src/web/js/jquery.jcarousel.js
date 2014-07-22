@@ -1366,9 +1366,9 @@
 
     $.jCarousel.plugin('jcarouselAutoscroll', {
         _options: {
-            target:    '+=1',
+            target:    '+=6',
             interval:  3000,
-            autostart: true,
+            //autostart: true
         },
         _timer: null,
         _init: function () {

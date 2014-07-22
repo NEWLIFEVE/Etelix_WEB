@@ -1,0 +1,347 @@
+@media (max-width: 240px){
+
+/** Carousel Controls **/
+
+    .jcarousel-control-prev,
+    .jcarousel-control-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background: #E6E6E6;
+        color: #6E6E6E;
+        font-weight: bold;
+        text-decoration: none;
+        /*text-shadow: 0 0 1px #000;*/
+        font: 24px/27px Arial, sans-serif;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 0 0 4px #F0EFE7;
+        -moz-box-shadow: 0 0 4px #F0EFE7;
+        box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+    }
+    .jcarousel-control-prev:hover,
+    .jcarousel-control-next:hover {
+     
+        background: #0080FF;
+        color: #fff;
+       
+    }
+
+    .jcarousel-control-prev {
+        left: 157px;
+          top: -7px;
+    }
+
+    .jcarousel-control-next {
+        left: 186px;
+          top: -7px;
+    }
+    .jcarousel-wrapper {
+        margin: 0 auto;
+        position: relative;
+        width: 95%;
+        top: 17px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px){
+
+/** Carousel Controls **/
+
+    .jcarousel-control-prev,
+    .jcarousel-control-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background: #E6E6E6;
+        color: #6E6E6E;
+        font-weight: bold;
+        text-decoration: none;
+        /*text-shadow: 0 0 1px #000;*/
+        font: 24px/27px Arial, sans-serif;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 0 0 4px #F0EFE7;
+        -moz-box-shadow: 0 0 4px #F0EFE7;
+        box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+    }
+    .jcarousel-control-prev:hover,
+    .jcarousel-control-next:hover {
+     
+        background: #0080FF;
+        color: #fff;
+       
+    }
+
+    .jcarousel-control-prev {
+        left: 230px;
+          top: -17px;
+    }
+
+    .jcarousel-control-next {
+        left: 260px;
+          top: -17px;
+    }
+    .jcarousel-wrapper {
+        margin: 0 auto;
+        position: relative;
+        width: 95%;
+        top: -3px;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px){
+
+/** Carousel Controls **/
+
+    .jcarousel-control-prev,
+    .jcarousel-control-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background: #E6E6E6;
+        color: #6E6E6E;
+        font-weight: bold;
+        text-decoration: none;
+        /*text-shadow: 0 0 1px #000;*/
+        font: 24px/27px Arial, sans-serif;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 0 0 4px #F0EFE7;
+        -moz-box-shadow: 0 0 4px #F0EFE7;
+        box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+    }
+    .jcarousel-control-prev:hover,
+    .jcarousel-control-next:hover {
+     
+        background: #0080FF;
+        color: #fff;
+       
+    }
+
+    .jcarousel-control-prev {
+        left: 210px;
+          top: -17px;
+    }
+
+    .jcarousel-control-next {
+        left: 241px;
+          top: -17px;
+    }
+    .jcarousel-wrapper {
+        margin: 0 auto;
+        position: relative;
+        width: 95%;
+        top: -3px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1020px){
+
+/** Carousel Controls **/
+
+    .jcarousel-control-prev,
+    .jcarousel-control-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background: #E6E6E6;
+        color: #6E6E6E;
+        font-weight: bold;
+        text-decoration: none;
+        /*text-shadow: 0 0 1px #000;*/
+        font: 24px/27px Arial, sans-serif;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 0 0 4px #F0EFE7;
+        -moz-box-shadow: 0 0 4px #F0EFE7;
+        box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+    }
+    .jcarousel-control-prev:hover,
+    .jcarousel-control-next:hover {
+     
+        background: #0080FF;
+        color: #fff;
+       
+    }
+
+    .jcarousel-control-prev {
+        left: 203px;
+          top: -17px;
+    }
+
+    .jcarousel-control-next {
+        left: 234px;
+          top: -17px;
+    }
+    .jcarousel-wrapper {
+        margin: 0 auto;
+        position: relative;
+        width: 95%;
+        top: -3px;
+    }
+}
+
+@media (min-width: 1021px){
+
+/** Carousel Controls **/
+
+    .jcarousel-control-prev,
+    .jcarousel-control-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background: #E6E6E6;
+        color: #6E6E6E;
+        font-weight: bold;
+        text-decoration: none;
+        /*text-shadow: 0 0 1px #000;*/
+        font: 24px/27px Arial, sans-serif;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 0 0 4px #F0EFE7;
+        -moz-box-shadow: 0 0 4px #F0EFE7;
+        box-shadow: 0 0 4px #F0EFE7;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+
+    
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    }
+    .jcarousel-control-prev:hover,
+    .jcarousel-control-next:hover {
+     
+        background: #0080FF;
+        color: #fff;
+       
+    }
+
+    .jcarousel-control-prev {
+        left: -59px;
+        top: 0px;
+    }
+
+    .jcarousel-control-next {
+        left: -27px;
+          top: 0px;
+    }
+    .jcarousel-wrapper {
+        margin: 10px 10px 30px 0px;
+        position: relative;
+        width: 80%;
+        float: right;
+        top: -45px;
+    }
+}
+
+
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    width: 200px;
+    float: left;
+    border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 0;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 11px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+
+    background: #fff;
+    color: #4E443C;
+    border-radius: 10px;
+    text-indent: -9999px;
+
+    margin-right: 7px;
+
+
+    -webkit-box-shadow: 0 0 2px #4E443C;
+    -moz-box-shadow: 0 0 2px #4E443C;
+    box-shadow: 0 0 2px #4E443C;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+
+    -webkit-box-shadow: 0 0 2px #F0EFE7;
+    -moz-box-shadow: 0 0 2px #F0EFE7;
+    box-shadow: 0 0 2px #F0EFE7;
+}

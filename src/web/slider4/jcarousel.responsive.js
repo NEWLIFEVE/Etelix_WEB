@@ -12,7 +12,7 @@
 
                 if (width >= 600) {
                       jcarousel.jcarouselAutoscroll({
-                        autostart: true,  target: '+=6'
+                       // autostart: true,  target: '+=6'
                      });
 
                     width = width / 6;
@@ -32,7 +32,7 @@
                 } else if ((width > 350)&&(width < 600) ) {
                     width = width / 4;
                     jcarousel.jcarouselAutoscroll({
-                        autostart: true,  target: '+=4'
+                      //  autostart: true,  target: '+=4'
                      });
                      $('.jcarousel-control-prev')
                         .jcarouselControl({
@@ -47,7 +47,7 @@
                 }else if (width <= 390) {
                     width = width /2;
                     jcarousel.jcarouselAutoscroll({
-                        autostart: true,  target: '+=2'
+                      //  autostart: true,  target: '+=2'
                      });
                      $('.jcarousel-control-prev')
                         .jcarouselControl({
