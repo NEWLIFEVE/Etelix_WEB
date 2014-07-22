@@ -1,18 +1,18 @@
 (function($) {
     $(function() {
         var jcarousel = $('.jcarousel');
-       /* jcarousel.on('jcarousel:reload jcarousel:create', function () {
-            jcarousel.jcarouselAutoscroll({
-                autostart: true,  target: '+=6'
-            })
-           
-        });*/
-        jcarousel
-            .on('jcarousel:reload jcarousel:create', function () {
+        jcarousel.jcarousel({
+                        autostart: true,
+                        vertical: true
+                    });
+        jcarousel.jcarouselAutoscroll({
+                        autostart: true,  target: '+=6'
+                     });
+        jcarousel.on('jcarousel:reload jcarousel:create', function () {
                 var width = jcarousel.innerWidth();
 
                 if (width >= 600) {
-
+                    
                     width = width / 6;
                       $('.jcarousel-control-prev')
                         .jcarouselControl({
@@ -29,6 +29,7 @@
 
                 } else if ((width > 350)&&(width < 600) ) {
                     width = width / 4;
+                    
                      $('.jcarousel-control-prev')
                         .jcarouselControl({
                             target: '-=4'
@@ -41,6 +42,7 @@
                 
                 }else if (width <= 390) {
                     width = width /2;
+                    
                      $('.jcarousel-control-prev')
                         .jcarouselControl({
                             target: '-=2'
@@ -69,7 +71,7 @@
                 target: '+=3'
             });*/
 
-        /*$('.jcarousel-pagination')
+        $('.jcarousel-pagination')
             .on('jcarouselpagination:active', 'a', function() {
                 $(this).addClass('active');
             })
@@ -84,6 +86,6 @@
                 item: function(page) {
                     return '<a href="#' + page + '">' + page + '</a>';
                 }
-            });*/
+            });
     });
 })(jQuery);

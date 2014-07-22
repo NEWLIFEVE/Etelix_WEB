@@ -9,7 +9,7 @@
         <li class='menu2'>
             <a href="<?php echo Yii::app()->createUrl('/en/site/organitation');?>">
                 
-                <span>¿Who Are We?</span>
+                <span>About Us</span>
             </a>
         </li>
         <li class='menu3'>

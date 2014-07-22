@@ -241,12 +241,12 @@
         inTail:      false,
         resizeTimer: null,
         lt:          null,
-        vertical:    true,
+        vertical:    false,
         rtl:         false,
         circular:    false,
         underflow:   false,
         relative:    false,
-         autostart: true,
+        
 		
 
         _options: {
@@ -259,10 +259,10 @@
             animation:   600,
             transitions: false,
             wrap:        null,
-            vertical:    true,
+            vertical:    false,
             rtl:         null,
             center:      false,
-             autostart: true,
+           
 
         },
 
@@ -274,7 +274,7 @@
         _last:         null,
         _visible:      null,
         _fullyvisible: null,
-         _autostart: true,
+         
         _init: function() {
             var self = this;
 
@@ -1095,6 +1095,8 @@
             event:  'click',
             method: 'scroll',
 			size: 3,
+            
+
         },
         _active: null,
         _init: function() {
@@ -1366,7 +1368,7 @@
         _options: {
             target:    '+=1',
             interval:  3000,
-            autostart: true
+            autostart: true,
         },
         _timer: null,
         _init: function () {

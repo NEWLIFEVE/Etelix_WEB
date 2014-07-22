@@ -268,13 +268,19 @@
 										 data-speed="300"
 										 data-start="1100"
 										 data-easing="easeOutExpo"  >AND</div>--> 
-
+ <div class="caption large_text sfr"
+										 data-x="160"
+										 data-y="50"
+										 data-speed="1000"
+										 data-start="550"
+										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_3_e-02.png" alt="Image 7"></div>
 									<div class="caption large_text sfr"
 										 data-x="160"
-										 data-y="270"
+										 data-y="50"
 										 data-speed="1000"
 										 data-start="1100"
-										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_a-01.png" alt="Image 7"></div>
+										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_3_d-02.png" alt="Image 7"></div>
+										
 
 									<!--<div class="caption lfl"
 										 data-x="53"
@@ -283,19 +289,19 @@
 										 data-start="1400"
 										 data-easing="easeOutExpo"  ><img src="images/slides/slideshow_2_b-01.png" alt="Image 4"></div>-->
 
-									<div class="caption  medium_text sfl"
-										 data-x="128"
-										 data-y="78"
+									<div class="caption bold_red_text randomrotate sfb stb"
+										 data-x="175"
+										 data-y="380"
 										 data-speed="1000"
 										 data-start="1100"
-										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_2_b-01.png" alt="Image 7"></div>
+										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_3_b-02.png" alt="Image 7"></div>
 
-									<!--<div class="caption lfl"
-										 data-x="322"
-										 data-y="313"
-										 data-speed="300"
-										 data-start="1600"
-										 data-easing="easeOutExpo"  ><img src="images/slides/iphone.png" alt="Image 6"></div>-->
+									<div class="caption randomrotate"
+										 data-x="175"
+										 data-y="380"
+										 data-speed="1000"
+										 data-start="1100"
+										 data-easing="easeOutExpo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slides/slideshow_3_c-02.png" alt="Image 7"></div>
 							</li>
 
 

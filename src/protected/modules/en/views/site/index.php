@@ -19,7 +19,7 @@
 				</div>
 				<div class="clients">
 					<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_clientes_blanco.png">Our Services</h4>
-					<p style="text-align: justify;font-size:1.2em;padding-top:10px;">We specialize in providing our customers integrated solutions for Telecommunications and technology globally, among which are the following: </p>
+					<p style="text-align: justify;font-size:1.2em;padding-top:10px;">We specialize in providing our customers integrated Telecommunications and Technology solutions globally, among which are the following: </p>
 				</div>
 				<div class="separator1">
 					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -37,7 +37,7 @@
 							</h1>
 							<div id="content_services1" class="content_serv">
 								<p class="paragraph_title">
-								<strong>Interconnection Services International Voice</strong></p>
+								<strong>Interconnection International Voice Services</strong></p>
 								<p class="paragraph2">
 								Through our interconnections over 400 worldwide</p>
 								<p class="fancybox">
@@ -76,7 +76,7 @@
 							<p class="paragraph_title">
 							<strong>SMS</strong></p>
 							<p class="paragraph2">
-							Origination and termination of international SMS</p>
+							International SMS origination and termination</p>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 						</div>
@@ -93,7 +93,7 @@
 							<p class="paragraph_title">
 							<strong>Contact Center</strong></p>
 							<p class="paragraph2">
-							Telemarketers for bilingual services Telemarketing and Telesales</p>
+							Bilingual (spanish-english) telemarketing and telesales services</p>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 						</div>
@@ -111,7 +111,7 @@
 							<p class="paragraph_title">
 								<strong>International connectivity</strong></p>
 							<p class="paragraph2">
-							Offer capacity submarine cable systems</p>
+							Available capacity in submarine cable systems</p>
 							<p class="fancybox">
 								<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#data"></a></p>
 						</div>
@@ -128,7 +128,7 @@
 							<p class="paragraph_title">
 							<strong>Payments Platform</strong></p>
 							<p class="paragraph2">
-							Transactions in Cash and Credit Card or Debit</p>
+							Cash transactions or by Credit/Debit Cards</p>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
 						</div>
@@ -145,7 +145,7 @@
 							<p class="paragraph_title">
 							<strong>Hosting Services</strong></p>
 							<p class="paragraph2">
-							The NAP of the Americas in Downtown Miami, FL</p>
+							At the NAP of the Americas, and at Downtown Miami, FL</p>
 						</div>
 							<p class="fancybox">
 							<a href="<?php //echo Yii::app()->createUrl('/site/services');?>#services"></a></p>
@@ -162,7 +162,7 @@
 							<p class="paragraph_title">
 							<strong>Software Development</strong></p>
 							<p class="paragraph2">
-							Transaction Solutions to Management Information Systems
+							From Transactional Solutions to Management Information Systems
 							</p>
 							<p class="fancybox">
 							</p>
@@ -178,7 +178,7 @@
 		<div class="presencia_comercial">
 			<h4><img alt="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/icn_quienes_somos_blanco.png">&nbsp; Commercial Presence</h4>
 				<div class="presencia_comcercial_coment">
-					<p style="text-align: justify;font-size:1.2em;padding-top:6px;padding-bottom:5px;">We have sales offices in the United States, England, Peru and Venezuela, as well as with regional executives serving our customers across 5 continents</p>
+					<p style="text-align: justify;font-size:1.2em;padding-top:6px;padding-bottom:5px;">We have sales offices in the United States, England, Peru and Venezuela, as well as regional executives that serve our customers across 5 continents</p>
 				</div>
 				<a href="<?php echo Yii::app()->createUrl('/en/site/map');?>" >
 				<div class="ver_mapa">
