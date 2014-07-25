@@ -25,6 +25,8 @@
  <!--   <p class="jcarousel-pagination"></p>-->
 </div>
 <script type="text/javascript">
+
+   //para el responsive calculo cuantas imagenes cargaré dependiendo del ancho de la ventana del navegador
     var valor;
     var width;
     var jcarousel = $('.jcarousel');

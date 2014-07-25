@@ -9,18 +9,79 @@
             </div>
             <div class="jcarousel-wrapper">
                 <div class="jcarousel">
-                    <ul>
+                      <ul id="ul_clientes">
                         <?php
-                        for ($i=1;$i<=25;$i++){
-                            echo "<li><img alt='Image ".$i."' src='".Yii::app()->request->baseUrl."/images/clientes/".$i."-01.png'></li>";
+                        for ($i=1;$i<=6;$i++){
+                            echo "<li  class='li_clientes' title='".$i."'><img alt='Image ".$i."' src='".Yii::app()->request->baseUrl."/images/clientes/".$i."-01.png'></li>";
                         }
                         ?>
                     </ul>
                 </div>
-
-                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+ <a href="#" id="prev" class="jcarousel-control-prev">&lsaquo;</a>
+    <a href="#" id="next" class="jcarousel-control-next">&rsaquo;</a>
 
                <!-- <p class="jcarousel-pagination"></p>-->
             </div>
         </div>
+<script type="text/javascript">
+
+   //para el responsive calculo cuantas imagenes cargaré dependiendo del ancho de la ventana del navegador
+    var valor;
+    var width;
+    var jcarousel = $('.jcarousel');
+    jcarousel.on('jcarousel:reload jcarousel:create', function () {
+        var width = jcarousel.innerWidth();
+        if (width >= 600) {
+            width = width / 6;
+            valor=6;
+        }else if ((width > 350)&&(width < 600) ) {
+            width = width / 4;
+             valor=4;
+        }else if (width <= 390) {
+            width = width /2;
+            valor=2;
+        }
+    });
+
+    /*
+        elimina las img cargadas y las sustituye por las siguientes para que el carousel funcione
+    */
+    $('#next').on('click', function(){
+        var ultimo = $('ul#ul_clientes li:last').attr("title");
+        ultimo = parseInt(ultimo);
+        $('#ul_clientes > li:nth-child(n)').remove();
+        var primero=ultimo+1;
+        var ultimo=primero+valor;
+        if(ultimo>=25){
+            ultimo=25;
+            primero=19;
+        }
+        var text_html;
+        console.log("primero: "+primero+" ultimo: "+ultimo);
+        for (var i=primero;i<=ultimo;i++){
+            text_html+="<li class='li_clientes' style='width: "+width+"px;' title='"+i+"'><img alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
+        }
+        $( "#ul_clientes" ).html(text_html);   
+    });
+     /*
+        elimina las img cargadas y las sustituye por las anteriores para que el carousel funcione
+    */
+    $('#prev').on('click', function(){
+        var primero = $('ul#ul_clientes li:first').attr("title");
+        primero = parseInt(primero);
+        $('#ul_clientes > li:nth-child(n)').remove();
+        var ultimo=primero-1;
+        var primero=ultimo-valor;
+        if(primero<=0){
+            ultimo=6;
+            primero=1;
+        }
+        var text_html;
+        console.log("primero: "+primero+" ultimo: "+ultimo);
+        for (var i=primero;i<=ultimo;i++){
+            text_html+="<li class='li_clientes' style='width: "+width+"px;'  title='"+i+"'><img alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
+        }
+        $( "#ul_clientes" ).html(text_html);   
+    });
+
+</script>
