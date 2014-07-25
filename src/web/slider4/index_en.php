@@ -1,11 +1,7 @@
-        <!-- Example assets -->
-        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jcarousel.responsive.css">
-
-        <!--<script type="text/javascript" src="<?php //echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>-->
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.jcarousel.js"></script>
-
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jcarousel.responsive.js"></script>
-		
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl;?>/slider4/jcarousel.responsive.css">
+<!--<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/slider4/jquery.js"></script>-->
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/slider4/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/slider4/jcarousel.responsive.js"></script>
             <div class="col-md-3">
                 <div class="principales_clientes" >
                    <h4 style="text-align: left;font-size: 1.6em;">Our Principal Customers</h4>    
