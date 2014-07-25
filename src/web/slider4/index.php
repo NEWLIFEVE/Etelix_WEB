@@ -12,7 +12,7 @@
     <div class="jcarousel">
         <ul>
             <?php
-            for ($i=1;$i<=5;$i++){
+            for ($i=1;$i<=25;$i++){
                 echo "<li><img alt='Image ".$i."' src='".Yii::app()->request->baseUrl."/images/clientes/".$i."-01.png'></li>";
             }
             ?>
