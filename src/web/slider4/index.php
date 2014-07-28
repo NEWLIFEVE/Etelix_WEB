@@ -32,16 +32,14 @@
     jcarousel.on('jcarousel:reload jcarousel:create', function () {
         var width = jcarousel.innerWidth();
         if (width >= 600) {
-            width = 136;
-            width2 = 134;
+            width = width/6;
+            
             valor=6;
         }else if ((width > 350)&&(width < 600) ) {
-            width = 141;
-            width2 = 139;
+             width = width/4;
              valor=4;
         }else if (width <= 390) {
-          width = 164;
-            width2 = 162;
+           width = width/2;
             valor=2;
         }
     });
@@ -62,7 +60,7 @@
         var text_html;
         console.log("primero: "+primero+" ultimo: "+ultimo);
         for (var i=primero;i<=ultimo;i++){
-            text_html+="<li class='li_clientes' style='width: "+width+"px;' title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
+            text_html+="<li class='li_clientes' style='width: "+width+"px;' title='"+i+"'><img style='width: "+width+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
         $( "#ul_clientes" ).html(text_html).fadeIn();  
     });
@@ -83,7 +81,7 @@
         var text_html;
         console.log("primero: "+primero+" ultimo: "+ultimo);
         for (var i=primero;i<=ultimo;i++){
-            text_html+="<li class='li_clientes' style='width: "+width+"px;'  title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
+            text_html+="<li class='li_clientes' style='width: "+width+"px;'  title='"+i+"'><img style='width: "+width+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
         $( "#ul_clientes" ).html(text_html).fadeIn();  
     });
