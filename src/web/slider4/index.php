@@ -51,6 +51,7 @@
     $('#next').on('click', function(){
         var ultimo = $('ul#ul_clientes li:last').attr("title");
         ultimo = parseInt(ultimo);
+         $('#ul_clientes > li:nth-child(n)').fadeOut();
         $('#ul_clientes > li:nth-child(n)').remove();
         var primero=ultimo+1;
         var ultimo=primero+valor;
@@ -63,7 +64,7 @@
         for (var i=primero;i<=ultimo;i++){
             text_html+="<li class='li_clientes' style='width: 134x;' title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
-        $( "#ul_clientes" ).html(text_html);   
+        $( "#ul_clientes" ).html(text_html).fadeIn();  
     });
      /*
         elimina las img cargadas y las sustituye por las anteriores para que el carousel funcione
@@ -71,6 +72,7 @@
     $('#prev').on('click', function(){
         var primero = $('ul#ul_clientes li:first').attr("title");
         primero = parseInt(primero);
+        $('#ul_clientes > li:nth-child(n)').fadeOut();
         $('#ul_clientes > li:nth-child(n)').remove();
         var ultimo=primero-1;
         var primero=ultimo-valor;
@@ -83,7 +85,7 @@
         for (var i=primero;i<=ultimo;i++){
             text_html+="<li class='li_clientes' style='width: "+width+"px;'  title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
-        $( "#ul_clientes" ).html(text_html);   
+        $( "#ul_clientes" ).html(text_html).fadeIn();  
     });
 
 </script>
