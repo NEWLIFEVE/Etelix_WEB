@@ -39,7 +39,7 @@
             width = 141;
             width2 = 139;
              valor=4;
-        }else if (width <= 390) {
+        }else if (width <= 349) {
           width = 164;
             width2 = 162;
             valor=2;
