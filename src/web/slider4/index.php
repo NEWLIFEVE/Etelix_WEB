@@ -87,5 +87,4 @@
         }
         $( "#ul_clientes" ).html(text_html).fadeIn();  
     });
-
 </script>
