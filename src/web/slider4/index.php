@@ -25,7 +25,6 @@
  <!--   <p class="jcarousel-pagination"></p>-->
 </div>
 <script type="text/javascript">
-
    //para el responsive calculo cuantas imagenes cargaré dependiendo del ancho de la ventana del navegador
     var valor;
     var width;
@@ -33,17 +32,19 @@
     jcarousel.on('jcarousel:reload jcarousel:create', function () {
         var width = jcarousel.innerWidth();
         if (width >= 600) {
-            width = width / 6;
+            width = 136;
+            width2 = 134;
             valor=6;
         }else if ((width > 350)&&(width < 600) ) {
-            width = width / 4;
+            width = 141;
+            width2 = 139;
              valor=4;
         }else if (width <= 390) {
-            width = width /2;
+          width = 164;
+            width2 = 162;
             valor=2;
         }
     });
-
     /*
         elimina las img cargadas y las sustituye por las siguientes para que el carousel funcione
     */
@@ -60,7 +61,7 @@
         var text_html;
         console.log("primero: "+primero+" ultimo: "+ultimo);
         for (var i=primero;i<=ultimo;i++){
-            text_html+="<li class='li_clientes' style='width: "+width+"px;' title='"+i+"'><img alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
+            text_html+="<li class='li_clientes' style='width: 134x;' title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
         $( "#ul_clientes" ).html(text_html);   
     });
@@ -80,7 +81,7 @@
         var text_html;
         console.log("primero: "+primero+" ultimo: "+ultimo);
         for (var i=primero;i<=ultimo;i++){
-            text_html+="<li class='li_clientes' style='width: "+width+"px;'  title='"+i+"'><img alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
+            text_html+="<li class='li_clientes' style='width: "+width+"px;'  title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
         $( "#ul_clientes" ).html(text_html);   
     });

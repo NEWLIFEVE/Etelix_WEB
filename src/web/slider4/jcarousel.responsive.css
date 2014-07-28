@@ -288,7 +288,7 @@
 }
 
 .jcarousel li {
-    width: 200px;
+    width: auto;
     float: left;
     border: 1px solid #fff;
     -moz-box-sizing: border-box;
