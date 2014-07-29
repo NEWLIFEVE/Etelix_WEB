@@ -47,7 +47,7 @@
         var ultimo = $('ul#ul_clientes li:last').attr("title");
         ultimo = parseInt(ultimo);
          $('#ul_clientes > li:nth-child(n)').fadeOut(500);
-        $('#ul_clientes > li:nth-child(n)').remove();
+        $('#ul_clientes > li:nth-child(n)').empty();
         var primero=ultimo+1;
         var ultimo=primero+valor;
         if(ultimo>=25){
@@ -83,7 +83,7 @@
         var primero = $('ul#ul_clientes li:first').attr("title");
         primero = parseInt(primero);
         $('#ul_clientes > li:nth-child(n)').fadeOut(500);
-        $('#ul_clientes > li:nth-child(n)').remove();
+        $('#ul_clientes > li:nth-child(n)').empty();
         var ultimo=primero-1;
         var primero=ultimo-valor;
         if(primero<=0){
