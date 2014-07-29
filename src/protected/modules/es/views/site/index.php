@@ -7,7 +7,7 @@
 					<!--<div id="yw0" class="carousel slide"><ol class="carousel-indicators"><li data-target="#yw0" data-slide-to="0" class=""></li><li data-target="#yw0" data-slide-to="1" class=""></li><li data-target="#yw0" data-slide-to="2" class=""></li></ol><div class="carousel-inner"><div class="item"><img src="../web/images/carrusel_img_1-01.png" alt=""></div><div class="item"><img src="../web/images/carrusel_img_2-01.png" alt=""></div><div class="item active"><img src="../web/images/carrusel_img_3-01.png" alt=""></div></div><a class="carousel-control left" href="#yw0" data-slide="prev"><img src="../web/images/left_arrow.png"></a><a class="carousel-control right" href="#yw0" data-slide="next"><img src="../web/images/right_arrow.png"></a>
 					</div>-->
 					<?php
-						include("slider.php");
+						include(Yii::app()->request->baseUrl."slider.php");
 					?>
 				</center>
 			</div>
