@@ -129,7 +129,9 @@
 
 </div><!-- container -->
 <!--footer -->
-</div></div></div></div>
+</div></div></div>
+<a id="top" style="display: none; cursor:pointer" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Up.png"  style="position: fixed; bottom: 10px; right: 2%;" /></a>
+</div>
 		<?php
 		  $url =Yii::app()->controller->module->id;
 			 if($url=="en"){
@@ -152,6 +154,32 @@
 	<!-- menu -->
 	<script type="text/javascript">
 	$( document ).ready(function() {
+
+		$(function() {
+            $.fn.scrollToTop = function() {
+            $(this).hide().removeAttr("href");
+            if ($(window).scrollTop() != "0") {
+                $(this).fadeIn("slow")
+            }
+            var scrollDiv = $(this);
+            $(window).scroll(function() {
+                if ($(window).scrollTop() == "0") {
+                    $(scrollDiv).fadeOut("slow")
+                } else {
+                    $(scrollDiv).fadeIn("slow")
+                }
+            });
+            $(this).click(function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, "slow")
+            })
+        }
+    });
+    $(function() {
+        $("#top").scrollToTop();
+    });
+
 
 		   //CAMBIA LA DIRECCION DE CONTACTO EN HOME
     cambioDireccion();
