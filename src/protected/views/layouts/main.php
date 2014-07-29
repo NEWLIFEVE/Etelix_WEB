@@ -130,7 +130,7 @@
 </div><!-- container -->
 <!--footer -->
 </div></div></div>
-<a id="top" style="display: none; cursor:pointer" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Up.png"  style="position: fixed; bottom: 10px; right: 2%;" /></a>
+<a id="top" style="display: none; cursor:pointer;" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Up.png"  style="position: fixed; bottom: 10px; right: 2%;z-index: 10;" /></a>
 </div>
 		<?php
 		  $url =Yii::app()->controller->module->id;
