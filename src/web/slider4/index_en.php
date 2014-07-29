@@ -24,12 +24,12 @@
             </div>
         </div>
 <script type="text/javascript">
-   //para el responsive calculo cuantas imagenes cargaré dependiendo del ancho de la ventana del navegador
-    var valor;
-    var width;
-    var jcarousel = $('.jcarousel');
-    jcarousel.on('jcarousel:reload jcarousel:create', function () {
-        var width = jcarousel.innerWidth();
+        //elimina las img cargadas y las sustituye por las siguientes para que el carousel funcione
+    $('#next').on('click', function(){
+        var valor;
+        var width;
+        var jcarousel = $('.jcarousel');
+         var width = jcarousel.innerWidth();
         if (width >= 600) {
             width = 136;
             width2 = 134;
@@ -43,14 +43,9 @@
             width2 = 162;
             valor=2;
         }
-    });
-    /*
-        elimina las img cargadas y las sustituye por las siguientes para que el carousel funcione
-    */
-    $('#next').on('click', function(){
         var ultimo = $('ul#ul_clientes li:last').attr("title");
         ultimo = parseInt(ultimo);
-         $('#ul_clientes > li:nth-child(n)').fadeOut();
+         $('#ul_clientes > li:nth-child(n)').fadeOut(500);
         $('#ul_clientes > li:nth-child(n)').remove();
         var primero=ultimo+1;
         var ultimo=primero+valor;
@@ -63,15 +58,30 @@
         for (var i=primero;i<=ultimo;i++){
             text_html+="<li class='li_clientes' style='width: "+width+"px;' title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
-        $( "#ul_clientes" ).html(text_html).fadeIn();  
+        $( "#ul_clientes" ).html(text_html).fadeIn(500);  
     });
-     /*
-        elimina las img cargadas y las sustituye por las anteriores para que el carousel funcione
-    */
+     //elimina las img cargadas y las sustituye por las anteriores para que el carousel funcione
     $('#prev').on('click', function(){
+        var valor;
+        var width;
+        var jcarousel = $('.jcarousel');
+         var width = jcarousel.innerWidth();
+        if (width >= 600) {
+            width = 136;
+            width2 = 134;
+            valor=6;
+        }else if ((width > 350)&&(width < 600) ) {
+            width = 141;
+            width2 = 139;
+             valor=4;
+        }else if (width <= 349) {
+          width = 164;
+            width2 = 162;
+            valor=2;
+        }
         var primero = $('ul#ul_clientes li:first').attr("title");
         primero = parseInt(primero);
-        $('#ul_clientes > li:nth-child(n)').fadeOut();
+        $('#ul_clientes > li:nth-child(n)').fadeOut(500);
         $('#ul_clientes > li:nth-child(n)').remove();
         var ultimo=primero-1;
         var primero=ultimo-valor;
@@ -84,6 +94,6 @@
         for (var i=primero;i<=ultimo;i++){
             text_html+="<li class='li_clientes' style='width: "+width+"px;'  title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
-        $( "#ul_clientes" ).html(text_html).fadeIn();  
+        $( "#ul_clientes" ).html(text_html).fadeIn(500);  
     });
 </script>
