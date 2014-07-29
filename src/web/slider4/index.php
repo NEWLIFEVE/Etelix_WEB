@@ -57,7 +57,7 @@
         var text_html;
         console.log("primero: "+primero+" ultimo: "+ultimo);
         for (var i=primero;i<=ultimo;i++){
-            text_html+="<li class='li_clientes' style='width: "+width+"px;' title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
+            text_html+="<li class='li_clientes' style='width: "+width+"px;height:68px;' title='"+i+"'><img style='width: "+width2+"px;height:68px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
         $( "#ul_clientes" ).html(text_html).fadeIn(500);  
     });
@@ -93,7 +93,7 @@
         var text_html;
         console.log("primero: "+primero+" ultimo: "+ultimo);
         for (var i=primero;i<=ultimo;i++){
-            text_html+="<li class='li_clientes' style='width: "+width+"px;'  title='"+i+"'><img style='width: "+width2+"px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
+            text_html+="<li class='li_clientes' style='width: "+width+"px;height:68px;'  title='"+i+"'><img style='width: "+width2+"px;height:68px;' alt='Image "+i+"' src='<?php echo Yii::app()->request->baseUrl; ?>/images/clientes/"+i+"-01.png'></li>";        
         }
         $( "#ul_clientes" ).html(text_html).fadeIn(500);  
     });
