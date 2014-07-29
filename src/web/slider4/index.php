@@ -51,8 +51,8 @@
         var primero=ultimo+1;
         var ultimo=primero+valor;
         if(ultimo>=25){
-            ultimo=25;
-            primero=19;
+            ultimo=6;
+            primero=1;
         }
         var text_html;
         console.log("primero: "+primero+" ultimo: "+ultimo);
@@ -87,8 +87,8 @@
         var ultimo=primero-1;
         var primero=ultimo-valor;
         if(primero<=0){
-            ultimo=6;
-            primero=1;
+            ultimo=25;
+            primero=19;
         }
         var text_html;
         console.log("primero: "+primero+" ultimo: "+ultimo);
